@@ -189,7 +189,7 @@ export function renderResults(container, params = {}) {
                         </div>
                         
                         <div class="form-group" style="margin-bottom: 1.25rem;">
-                            <label class="form-label text-muted" style="display:block; margin-bottom:0.5rem; font-size:0.875rem;">Min Category Seats</label>
+                            <label class="form-label text-muted" style="display:block; margin-bottom:0.5rem; font-size:0.875rem;">Min Seats (Category / Total)</label>
                             <select id="sidebar-seats" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color); border-radius:8px;">
                                 <option value="">No Preference</option>
                                 <option value="1" ${params.seats === '1' ? 'selected' : ''}>≥ 1 Seat</option>

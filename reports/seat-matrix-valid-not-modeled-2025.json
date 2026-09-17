@@ -1,0 +1,2718 @@
+[
+  {
+    "sourceRowId": 57,
+    "instituteName": "All India Institute of Hygiene and Public Health(700404)",
+    "program": "M.P.H. (EPIDEMIOLOGY)",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 193,
+    "instituteName": "Baba Raghav Das Medical College(700329)",
+    "program": "DIP.IN GYNAE. and OBST.",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 274,
+    "instituteName": "BPS Govt. Medical College for Women, Khanpur Kalan Sonepat(700378)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 275,
+    "instituteName": "BPS Govt. Medical College for Women, Khanpur Kalan Sonepat(700378)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 276,
+    "instituteName": "BPS Govt. Medical College for Women, Khanpur Kalan Sonepat(700378)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 277,
+    "instituteName": "BPS Govt. Medical College for Women, Khanpur Kalan Sonepat(700378)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 278,
+    "instituteName": "BPS Govt. Medical College for Women, Khanpur Kalan Sonepat(700378)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 279,
+    "instituteName": "BPS Govt. Medical College for Women, Khanpur Kalan Sonepat(700378)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 280,
+    "instituteName": "BPS Govt. Medical College for Women, Khanpur Kalan Sonepat(700378)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 281,
+    "instituteName": "Burdwan Medical College, West Bengal(700388)",
+    "program": "DIP.IN GYNAE. and OBST.",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 478,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 479,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 480,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 481,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 482,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 483,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 484,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 485,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 486,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 487,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 488,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 489,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 490,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 491,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 492,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 493,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 494,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. GERIATRICS",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 495,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 496,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 497,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 498,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 499,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 500,
+    "instituteName": "Dr. Sampurnanand Medical College (SNMC), JODHPUR(700308)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 583,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 584,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 585,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 586,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (Emergency and Critical Care)/M.D. (Emergency Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 587,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 588,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 589,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 590,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 591,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 592,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 593,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 594,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (PHYSICAL MED. and REHABILITATION)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 595,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 596,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 597,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 598,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 599,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 600,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 601,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 602,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 603,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 604,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 605,
+    "instituteName": "ESIC Medical College & Hospital, Faridabad(701500)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 606,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 607,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 608,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (Emergency and Critical Care)/M.D. (Emergency Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 609,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 610,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 611,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 612,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 613,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 614,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 615,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 616,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 617,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 618,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 619,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 620,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 621,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 622,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 623,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 624,
+    "instituteName": "ESIC Medical College and PGIMSR(700353)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 625,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 626,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 627,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 628,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (Emergency and Critical Care)/M.D. (Emergency Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 629,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 630,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 631,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 632,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 633,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 634,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 635,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (PHYSICAL MED. and REHABILITATION)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 636,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 637,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 638,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 639,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 640,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 641,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 642,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 643,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 644,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 645,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 646,
+    "instituteName": "ESIC Medical College, Hyderbad(701504)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 647,
+    "instituteName": "ESIC MEDICAL COLLEGE, JOKA(700543)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 648,
+    "instituteName": "ESIC MEDICAL COLLEGE, JOKA(700543)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 649,
+    "instituteName": "ESIC MEDICAL COLLEGE, JOKA(700543)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 650,
+    "instituteName": "ESIC MEDICAL COLLEGE, JOKA(700543)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 651,
+    "instituteName": "ESIC MEDICAL COLLEGE, JOKA(700543)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 652,
+    "instituteName": "ESIC MEDICAL COLLEGE, JOKA(700543)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 653,
+    "instituteName": "ESIC MEDICAL COLLEGE, JOKA(700543)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 654,
+    "instituteName": "ESIC MEDICAL COLLEGE, JOKA(700543)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 665,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 666,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 667,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 668,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 669,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 670,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 671,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 672,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 673,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 674,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 675,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 676,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 677,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 678,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 679,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 680,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 681,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 682,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 683,
+    "instituteName": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG(701350)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1071,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "DIP.IN GYNAE. and OBST.",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1072,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "DIPLOMA IN ANAESTHESIOLOGY",
+    "quota": "All India",
+    "subtype": "DIPLOMA"
+  },
+  {
+    "sourceRowId": 1073,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "DIPLOMA IN CHILD HEALTH/ PAEDIATRICS",
+    "quota": "All India",
+    "subtype": "DIPLOMA"
+  },
+  {
+    "sourceRowId": 1074,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "DIPLOMA IN ORTHOPAEDICS",
+    "quota": "All India",
+    "subtype": "DIPLOMA"
+  },
+  {
+    "sourceRowId": 1075,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1076,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1077,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1078,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (Emergency and Critical Care)/M.D. (Emergency Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1079,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1080,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1081,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1082,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1083,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1084,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1085,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1086,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1087,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1088,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1089,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1090,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1091,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1092,
+    "instituteName": "Government Medical College, Cuddalore District(700544)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1316,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1317,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1318,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1319,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1320,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1321,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1322,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1323,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1324,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1325,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1326,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1327,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1328,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1329,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1330,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1331,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1332,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1333,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1334,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1335,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1336,
+    "instituteName": "Government T D Medical College, Vandanm , Alappuzha(700285)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1391,
+    "instituteName": "Govt Medical college Shivpuri(902838)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1392,
+    "instituteName": "Govt Medical college Shivpuri(902838)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1393,
+    "instituteName": "Govt Medical college Shivpuri(902838)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1394,
+    "instituteName": "Govt Medical college Shivpuri(902838)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1395,
+    "instituteName": "Govt Medical college Shivpuri(902838)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1396,
+    "instituteName": "Govt Medical college Shivpuri(902838)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1397,
+    "instituteName": "Govt Medical college Shivpuri(902838)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1398,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1399,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1400,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1401,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1402,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1403,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1404,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1405,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1406,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1407,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1408,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1409,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1410,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1411,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1412,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1413,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1414,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1415,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1416,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1417,
+    "instituteName": "GOVT MEDICAL COLLEGE, ANANTAPURAMU(700473)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1493,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1494,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1495,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1496,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1497,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1498,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1499,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1500,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1501,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1502,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1503,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1504,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1505,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1506,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1507,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1508,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1509,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1510,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1511,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1512,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1513,
+    "instituteName": "GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH(700468)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1901,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "DIPLOMA IN OPHTHALMOLOGY/DOMS",
+    "quota": "All India",
+    "subtype": "DIPLOMA"
+  },
+  {
+    "sourceRowId": 1902,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1903,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1904,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1905,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1906,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1907,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1908,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1909,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1910,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1911,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1912,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1913,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1914,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1915,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1916,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1917,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1918,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1919,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1920,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1921,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1922,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR(700362)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1972,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1973,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1974,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1975,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (Emergency and Critical Care)/M.D. (Emergency Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1976,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1977,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1978,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1979,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1980,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1981,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1982,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1983,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1984,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1985,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1986,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1987,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 1988,
+    "instituteName": "K.A.P.Viswanatham Government Medical College, Tiruchirapalli(700352)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2199,
+    "instituteName": "LOKMANYA TILAK MEDICAL COLLEGE MUMBAI(700307)",
+    "program": "DIP.IN GYNAE. and OBST.",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 2228,
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "DIP.IN GYNAE. and OBST.",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 2299,
+    "instituteName": "MahaMaya Rajkiya Allopathic Medical College (902833)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2300,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2301,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2302,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2303,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2304,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2305,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2306,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2307,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2308,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2309,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2310,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2311,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2312,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2313,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2314,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2315,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2316,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2317,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2318,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2319,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2320,
+    "instituteName": "Maharaja Krushna Chandra Gajapati Medical College , Brahmapur(700335)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2403,
+    "instituteName": "Mahatma Gandhi Memorial Medical College, Jamshedpur(700417)",
+    "program": "DIP.IN GYNAE. and OBST.",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 2459,
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "DIP.IN GYNAE. and OBST.",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 2564,
+    "instituteName": "NAMO Medical Education and Research Institute, Dadra & Nagar Haveli & Daman & Diu(903366)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2565,
+    "instituteName": "NAMO Medical Education and Research Institute, Dadra & Nagar Haveli & Daman & Diu(903366)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2566,
+    "instituteName": "NAMO Medical Education and Research Institute, Dadra & Nagar Haveli & Daman & Diu(903366)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2567,
+    "instituteName": "NAMO Medical Education and Research Institute, Dadra & Nagar Haveli & Daman & Diu(903366)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2568,
+    "instituteName": "NAMO Medical Education and Research Institute, Dadra & Nagar Haveli & Daman & Diu(903366)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2569,
+    "instituteName": "NAMO Medical Education and Research Institute, Dadra & Nagar Haveli & Daman & Diu(903366)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2570,
+    "instituteName": "NAMO Medical Education and Research Institute, Dadra & Nagar Haveli & Daman & Diu(903366)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2638,
+    "instituteName": "NSC Government Medical College, Khandwa (MP)(901861)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2639,
+    "instituteName": "NSC Government Medical College, Khandwa (MP)(901861)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2640,
+    "instituteName": "NSC Government Medical College, Khandwa (MP)(901861)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2641,
+    "instituteName": "NSC Government Medical College, Khandwa (MP)(901861)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2642,
+    "instituteName": "NSC Government Medical College, Khandwa (MP)(901861)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2643,
+    "instituteName": "NSC Government Medical College, Khandwa (MP)(901861)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2644,
+    "instituteName": "NSC Government Medical College, Khandwa (MP)(901861)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2669,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2670,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2671,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2672,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2673,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2674,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2675,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2676,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2677,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2678,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2679,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2680,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2681,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2682,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2683,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2684,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2685,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.D. Sports Medicine",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2686,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2687,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2688,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2689,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2690,
+    "instituteName": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak(700374)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2691,
+    "instituteName": "Pandit Dindayal Upadhyay Medical College, RAJKOT(700368)",
+    "program": "DIP.IN GYNAE. and OBST.",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 2716,
+    "instituteName": "PATNA MEDICAL COLLEGE, PATNA(700480)",
+    "program": "DIP. IN PHY. MEDICINE and REHAB.",
+    "quota": "All India",
+    "subtype": "OTHER"
+  },
+  {
+    "sourceRowId": 2741,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2742,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2743,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2744,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2745,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2746,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2747,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2748,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2749,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2750,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (PHYSICAL MED. and REHABILITATION)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2751,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2752,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2753,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2754,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2755,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2756,
+    "instituteName": "PGIMER, DR. RML Hospital, Cannaught Place, New Delhi(700357)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2771,
+    "instituteName": "Post Graduate Institute of Child Health, Noida.(700527)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2772,
+    "instituteName": "Post Graduate Institute of Child Health, Noida.(700527)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2829,
+    "instituteName": "Radiation Medicine Centre (RMC), Bhabha Atomic Research Centre (BARC)(700501)",
+    "program": "M.D. IN NUCLEAR MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2977,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2978,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2979,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2980,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2981,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2982,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2983,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2984,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2985,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2986,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2987,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2988,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2989,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2990,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2991,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2992,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2993,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2994,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2995,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2996,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2997,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 2998,
+    "instituteName": "Ravindra Nath Tagore Medical College, Udaipur(700332)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3026,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3027,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3028,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3029,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3030,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3031,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3032,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3033,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3034,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3035,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3036,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3037,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3038,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3039,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3040,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3041,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3042,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3043,
+    "instituteName": "Rims Medical College, Ongole, (700487)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3293,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3294,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (Emergency and Critical Care)/M.D. (Emergency Medicine)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3295,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3296,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3297,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3298,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3299,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3300,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3301,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3302,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.D. IN NUCLEAR MEDICINE",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  },
+  {
+    "sourceRowId": 3303,
+    "instituteName": "Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.(700499)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "subtype": "NOT_IN_CANONICAL_DATABASE"
+  }
+]

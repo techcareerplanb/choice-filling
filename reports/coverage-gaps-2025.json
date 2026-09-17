@@ -1,0 +1,2193 @@
+[
+  {
+    "sourceRowId": 7,
+    "instituteName": "Seth Gordhandas Sunderdas Medical College, MUMBAI(700310)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 17,
+    "instituteName": "Seth Gordhandas Sunderdas Medical College, MUMBAI(700310)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 27,
+    "instituteName": "ACSR GOVERNMENT MEDICAL COLLEGE,NELLORE(701720)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 41,
+    "instituteName": "Agartala Government Medical College(700359)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 51,
+    "instituteName": "Agartala Government Medical College(700359)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 65,
+    "instituteName": "Andhra Medical College(700475)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 75,
+    "instituteName": "Andhra Medical College(700475)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 84,
+    "instituteName": "ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE(700272)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 89,
+    "instituteName": "ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE(700272)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 100,
+    "instituteName": "Assam Medical College(700282)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 108,
+    "instituteName": "Assam Medical College(700282)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 116,
+    "instituteName": "Atal Bihari Vajpayee Government Medical College, Vidisha(901807)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 121,
+    "instituteName": "Atal Bihari Vajpayee Government Medical College, Vidisha(901807)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 155,
+    "instituteName": "B. J. MEDICAL COLLEGE, Ahmedabad(700363)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 167,
+    "instituteName": "B. J. MEDICAL COLLEGE, Ahmedabad(700363)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 179,
+    "instituteName": "B.J.Government Medical College, Pune(700301)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 188,
+    "instituteName": "B.J.Government Medical College, Pune(700301)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 200,
+    "instituteName": "Baba Raghav Das Medical College(700329)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 208,
+    "instituteName": "Baba Raghav Das Medical College(700329)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 219,
+    "instituteName": "Bangalore Medical College and Research Institute(700391)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 232,
+    "instituteName": "Bangalore Medical College and Research Institute(700391)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 242,
+    "instituteName": "Bankura Sammilani Medical College(700402)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 250,
+    "instituteName": "Bankura Sammilani Medical College(700402)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 264,
+    "instituteName": "BIDAR INSTITUTE OF MEDICAL SCIENCES, BIDAR(700408)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 289,
+    "instituteName": "Burdwan Medical College, West Bengal(700388)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 299,
+    "instituteName": "Burdwan Medical College, West Bengal(700388)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 310,
+    "instituteName": "CALCUTTA NATIONAL MEDICAL COLLEGE(700398)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 318,
+    "instituteName": "CALCUTTA NATIONAL MEDICAL COLLEGE(700398)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 334,
+    "instituteName": "Chamarajanagar Institute of Medical Sciences, Karnataka(701512)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 347,
+    "instituteName": "CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU(700351)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 356,
+    "instituteName": "CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU(700351)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 366,
+    "instituteName": "CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES(700319)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 371,
+    "instituteName": "CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES(700319)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 379,
+    "instituteName": "Chittaranjan National Cancer Institute, 37- (701258)",
+    "program": "M.D.Laboratory Medicine Course",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 380,
+    "instituteName": "Chittaranjan Seva Sadan Hospital(700406)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 389,
+    "instituteName": "COIMBATORE MEDICAL COLLEGE(700340)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 397,
+    "instituteName": "COIMBATORE MEDICAL COLLEGE(700340)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 405,
+    "instituteName": "College of Medicine & Sagore Dutta Hospital(700521)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 415,
+    "instituteName": "College of Medicine and JNM Hospital, WBUHS(701353)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 420,
+    "instituteName": "College of Medicine and JNM Hospital, WBUHS(701353)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 429,
+    "instituteName": "DARBHANGA MEDICAL COLLEGE(700107)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 437,
+    "instituteName": "DARBHANGA MEDICAL COLLEGE(700107)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 447,
+    "instituteName": "Dr Ram Manohar Lohia Institute of Medical Sciences, Lucknow(700385)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 455,
+    "instituteName": "Dr Ram Manohar Lohia Institute of Medical Sciences, Lucknow(700385)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 466,
+    "instituteName": "Dr. Rajendra Prasad Government Medical College, Tanda(700380)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 473,
+    "instituteName": "Dr. Rajendra Prasad Government Medical College, Tanda(700380)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 507,
+    "instituteName": "DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED(700314)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 516,
+    "instituteName": "DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED(700314)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 529,
+    "instituteName": "Dr.V.M.Govt.Medical College,Solapur, Maharasthtra(700302)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 537,
+    "instituteName": "Dr.V.M.Govt.Medical College,Solapur, Maharasthtra(700302)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 547,
+    "instituteName": "EMPLOYEES STATE INSURANCE CORPORATION MEDICAL COLLEGE AND PGIMSR(700405)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 562,
+    "instituteName": "Employees' State Insurance Corporation Medical College & Hospital, Gulbarga(701411)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 568,
+    "instituteName": "Employees' State Insurance Corporation Medical College & Hospital, Gulbarga(701411)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 577,
+    "instituteName": "ESI-POST GRADUATE INSTITUTE OF MEDICAL SCIENCES AND RESEARCH, BASAIDARAPUR, NEW DELHI(700360)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 659,
+    "instituteName": "Fakhruddin Ali Ahmed Medical College(700522)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 690,
+    "instituteName": "GAJRA RAJA MEDICAL COLLEGE GWALIOR(700297)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 699,
+    "instituteName": "GAJRA RAJA MEDICAL COLLEGE GWALIOR(700297)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 711,
+    "instituteName": "GANDHI MEDICAL COLLEGE(700481)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 721,
+    "instituteName": "GANDHI MEDICAL COLLEGE(700481)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 732,
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 742,
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 753,
+    "instituteName": "Ganesh Shankar Vidyarthi Memorial Medical College(700361)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 762,
+    "instituteName": "Ganesh Shankar Vidyarthi Memorial Medical College(700361)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 777,
+    "instituteName": "Gauhati Medical College, Guwahati(700283)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 787,
+    "instituteName": "Gauhati Medical College, Guwahati(700283)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 794,
+    "instituteName": "GMC Bharat Ratna Late Shri Atal Bihari Vajpayee Memorial Medical College, Chhattisgarh (701498)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 802,
+    "instituteName": "GOA MEDICAL COLLEGE(700479)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 813,
+    "instituteName": "GOA MEDICAL COLLEGE(700479)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 821,
+    "instituteName": "GOVERNMENT DHARMAPURI MEDICAL COLLEGE, DHARMAPURI, TAMIL NADU(700503)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 838,
+    "instituteName": "Government Institute of Medical Sciences, Greater Noida, Uttar Pradesh(902839)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 849,
+    "instituteName": "Government Kilpauk Medical College(700343)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 859,
+    "instituteName": "Government Kilpauk Medical College(700343)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 870,
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 878,
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 889,
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE CHANDRAPUR, MAHARASHTRA(701717)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 896,
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE CHANDRAPUR, MAHARASHTRA(701717)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 902,
+    "instituteName": "Government Medical College Hospital, Manjeri(701401)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 907,
+    "instituteName": "Government Medical College Hospital, Omandurar(701402)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 918,
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE KADAPA (FORMERLY RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES, KADAPA)(700486)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 927,
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE KADAPA (FORMERLY RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES, KADAPA)(700486)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 935,
+    "instituteName": "Government Medical College Kannauj , Uttar Pradesh(701694)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 941,
+    "instituteName": "Government Medical College Kannauj , Uttar Pradesh(701694)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 952,
+    "instituteName": "Government Medical College Kota(700334)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 962,
+    "instituteName": "Government Medical College Kota(700334)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 975,
+    "instituteName": "Government Medical College Kozhikode(700287)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 986,
+    "instituteName": "Government Medical College Kozhikode(700287)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 997,
+    "instituteName": "Government medical college patiala.(700339)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1007,
+    "instituteName": "Government medical college patiala.(700339)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1019,
+    "instituteName": "Government Medical College Srinagar(701703)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1029,
+    "instituteName": "Government Medical College Srinagar(701703)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1036,
+    "instituteName": "Government Medical College Suryapet Telangana(701716)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1039,
+    "instituteName": "Government Medical College Suryapet Telangana(701716)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1047,
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1058,
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1066,
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE, AZAMGARH(701510)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1097,
+    "instituteName": "Government Medical College, Datia(701709)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1112,
+    "instituteName": "Government Medical College, Gondia(701705)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1118,
+    "instituteName": "Government Medical College, Gondia(701705)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1125,
+    "instituteName": "Government Medical College, Jalgaon(701704)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1131,
+    "instituteName": "Government Medical College, Jalgaon(701704)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1144,
+    "instituteName": "Government Medical College, Latur(700322)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1151,
+    "instituteName": "Government Medical College, Latur(700322)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1163,
+    "instituteName": "Government Medical College, Miraj(700309)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1171,
+    "instituteName": "Government Medical College, Miraj(700309)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1182,
+    "instituteName": "Government Medical College, Nagpur(700303)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1192,
+    "instituteName": "Government Medical College, Nagpur(700303)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1208,
+    "instituteName": "Government Medical College, Nizamabad, Telangana State(700518)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1216,
+    "instituteName": "Government Medical College, Nizamabad, Telangana State(700518)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1223,
+    "instituteName": "Government Medical College, Pali Rajasthan.(901805)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1235,
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1241,
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1251,
+    "instituteName": "Government Medical College, Siddipet(701700)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1258,
+    "instituteName": "Government Medical College, Siddipet(701700)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1269,
+    "instituteName": "Government Medical College, Surat(700364)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1279,
+    "instituteName": "Government Medical College, Surat(700364)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1289,
+    "instituteName": "Government Medical College,Theni (700354)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1301,
+    "instituteName": "Government Mohan Kumaramangalam Medical College, Salem(700350)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1306,
+    "instituteName": "Government Mohan Kumaramangalam Medical College, Salem(700350)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1313,
+    "instituteName": "Government Sivagangai Medical College and Hospital, Tamil Nadu(701497)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1339,
+    "instituteName": "Government Thiruvannamalai Medical College, Thiruvannamalai, Tamil Nadu(701412)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1346,
+    "instituteName": "GOVERNMENT THOOTHUKUDI MEDICAL COLLEGE, THOOTHUKUDI(700504)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1348,
+    "instituteName": "GOVERNMENT THOOTHUKUDI MEDICAL COLLEGE, THOOTHUKUDI(700504)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1355,
+    "instituteName": "GOVERNMENT VELLORE MEDICAL COLLEGE(700355)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1357,
+    "instituteName": "GOVERNMENT VELLORE MEDICAL COLLEGE(700355)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1364,
+    "instituteName": "GOVERNMENT VILLUPURAM MEDICAL COLLEGE, VILLUPURAM(700519)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1375,
+    "instituteName": "GOVT MEDICAL COLLEGE KOTTAYAM(700289)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1386,
+    "instituteName": "GOVT MEDICAL COLLEGE KOTTAYAM(700289)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1429,
+    "instituteName": "GOVT MEDICAL COLLEGE,THRISSUR(700290)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1439,
+    "instituteName": "GOVT MEDICAL COLLEGE,THRISSUR(700290)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1450,
+    "instituteName": "Govt. Bundelkhand Medical College Sagar M.P.(700520)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1456,
+    "instituteName": "Govt. Bundelkhand Medical College Sagar M.P.(700520)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1466,
+    "instituteName": "Govt. Doon Medical College, Dehradun(701352)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1472,
+    "instituteName": "Govt. Doon Medical College, Dehradun(701352)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1482,
+    "instituteName": "Govt. Medical College Akola(700328)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1490,
+    "instituteName": "Govt. Medical College Akola(700328)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1523,
+    "instituteName": "GOVT. MEDICAL COLLEGE, AMRITSAR(700341)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1533,
+    "instituteName": "GOVT. MEDICAL COLLEGE, AMRITSAR(700341)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1544,
+    "instituteName": "Govt. Medical College, Baroda(700365)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1555,
+    "instituteName": "Govt. Medical College, Baroda(700365)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1567,
+    "instituteName": "Govt. Medical College, Bhavnagar(700369)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1574,
+    "instituteName": "Govt. Medical College, Bhavnagar(700369)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1583,
+    "instituteName": "Govt. Medical College, Jammu(701706)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1591,
+    "instituteName": "Govt. Medical College, Jammu(701706)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1603,
+    "instituteName": "GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM(700291)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1615,
+    "instituteName": "GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM(700291)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1627,
+    "instituteName": "Grant Medical College, Maharashtra(700305)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1638,
+    "instituteName": "Grant Medical College, Maharashtra(700305)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1648,
+    "instituteName": "Gulbarga Institute Of Medical Sciences, Kalaburagi(701400)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1666,
+    "instituteName": "GUNTUR MEDICAL COLLEGE(700469)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1676,
+    "instituteName": "GUNTUR MEDICAL COLLEGE(700469)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1688,
+    "instituteName": "Guru Gobind Singh Medical College(700342)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1698,
+    "instituteName": "Guru Gobind Singh Medical College(700342)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1706,
+    "instituteName": "Gvernment Medical College,Haldwani(700386)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1712,
+    "instituteName": "Gvernment Medical College,Haldwani(700386)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1723,
+    "instituteName": "HASSAN INSTITUTE OF MEDICAL SCIENCES, HASSAN(700413)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1731,
+    "instituteName": "HASSAN INSTITUTE OF MEDICAL SCIENCES, HASSAN(700413)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1745,
+    "instituteName": "Hinduhridayasamrat Balasaheb Thackeray Medical College and Dr. R. N. Cooper Municipal General Hospital, Maharashtra(700540)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1758,
+    "instituteName": "INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR(700306)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1767,
+    "instituteName": "INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR(700306)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1778,
+    "instituteName": "Indira Gandhi Institute of Medical Sciences, Patna(700111)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1788,
+    "instituteName": "Indira Gandhi Institute of Medical Sciences, Patna(700111)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1798,
+    "instituteName": "INDIRA GANDHI MEDICAL COLLEGE AND RESEARCH INSTITUTE, PUDUCHERRY(700490)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1802,
+    "instituteName": "INDIRA GANDHI MEDICAL COLLEGE AND RESEARCH INSTITUTE, PUDUCHERRY(700490)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1811,
+    "instituteName": "Indira Gandhi Medical College Shimla(700379)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1821,
+    "instituteName": "Indira Gandhi Medical College Shimla(700379)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1837,
+    "instituteName": "INSTITUTE OF MEDICAL SCIENCES, BANARAS HINDU UNIVERSITY(700323)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1848,
+    "instituteName": "INSTITUTE OF MEDICAL SCIENCES, BANARAS HINDU UNIVERSITY(700323)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1861,
+    "instituteName": "IPGME&R and SSKM Hospital Kolkata(700387)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1872,
+    "instituteName": "IPGME&R and SSKM Hospital Kolkata(700387)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1884,
+    "instituteName": "JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER(700311)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1896,
+    "instituteName": "JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER(700311)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1926,
+    "instituteName": "JAWAHARLAL NEHRU MEDICAL COLLEGE, BHAGALPUR(700112)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1944,
+    "instituteName": "JHALAWAR MEDICAL COLLEGE(700337)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1949,
+    "instituteName": "JHALAWAR MEDICAL COLLEGE(700337)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1959,
+    "instituteName": "Jorhat Medical College & Hospital(700294)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1967,
+    "instituteName": "Jorhat Medical College & Hospital(700294)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 1998,
+    "instituteName": "Kakatiya Medical College(700482)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2007,
+    "instituteName": "Kakatiya Medical College(700482)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2022,
+    "instituteName": "KANYAKUMARI GOVERNMENT MEDICAL COLLEGE(700356)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2024,
+    "instituteName": "KANYAKUMARI GOVERNMENT MEDICAL COLLEGE(700356)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2034,
+    "instituteName": "Karnataka Medical College and Research Institute, Hubballi(700394)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2043,
+    "instituteName": "Karnataka Medical College and Research Institute, Hubballi(700394)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2053,
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2059,
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2076,
+    "instituteName": "KING GEORGES MEDICAL UNIVERSITY(700366)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2089,
+    "instituteName": "KING GEORGES MEDICAL UNIVERSITY(700366)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2098,
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2104,
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2114,
+    "instituteName": "Koppal Institute of Medical Sciences Koppal, Karnataka(701403)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2129,
+    "instituteName": "KURNOOL MEDICAL COLLEGE(700474)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2138,
+    "instituteName": "KURNOOL MEDICAL COLLEGE(700474)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2149,
+    "instituteName": "Lady Hardinge Medical College(700118)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2158,
+    "instituteName": "Lady Hardinge Medical College(700118)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2172,
+    "instituteName": "Lala Lajpat Rai Memorial Medical College, MEERUT(700370)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2179,
+    "instituteName": "Lala Lajpat Rai Memorial Medical College, MEERUT(700370)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2196,
+    "instituteName": "LATE SHRI LAKHI RAM AGRAWAL MEMORIAL GOVT.MEDICAL COLLEGE(700534)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2211,
+    "instituteName": "LOKMANYA TILAK MEDICAL COLLEGE MUMBAI(700307)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2220,
+    "instituteName": "LOKMANYA TILAK MEDICAL COLLEGE MUMBAI(700307)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2236,
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2246,
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2259,
+    "instituteName": "MADRAS MEDICAL COLLEGE(700345)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2272,
+    "instituteName": "MADRAS MEDICAL COLLEGE(700345)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2284,
+    "instituteName": "MADURAI MEDICAL COLLEGE(700346)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2294,
+    "instituteName": "MADURAI MEDICAL COLLEGE(700346)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2331,
+    "instituteName": "MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI(700372)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2338,
+    "instituteName": "MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI(700372)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2347,
+    "instituteName": "Maharashtra Post Graduate Institute of Medical Education and Research, Nashik(701701)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2351,
+    "instituteName": "Maharashtra Post Graduate Institute of Medical Education and Research, Nashik(701701)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2366,
+    "instituteName": "Mahatma Gandhi Institute of Medical Sciences, Wardha(700466)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2375,
+    "instituteName": "Mahatma Gandhi Institute of Medical Sciences, Wardha(700466)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2387,
+    "instituteName": "Mahatma Gandhi Memorial Medical College, Indore(700298)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2398,
+    "instituteName": "Mahatma Gandhi Memorial Medical College, Indore(700298)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2408,
+    "instituteName": "Mahatma Gandhi Memorial Medical College, Jamshedpur(700417)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2412,
+    "instituteName": "Mahatma Gandhi Memorial Medical College, Jamshedpur(700417)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2418,
+    "instituteName": "MALDA MEDICAL COLLEGE(700542)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2425,
+    "instituteName": "MANDYA INSTITUTE OF MEDICAL SCIENCES(700414)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2433,
+    "instituteName": "MANDYA INSTITUTE OF MEDICAL SCIENCES(700414)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2445,
+    "instituteName": "Maulana Azad Medical College(700119)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2454,
+    "instituteName": "Maulana Azad Medical College(700119)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2470,
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2482,
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2490,
+    "instituteName": "Midnapore Medical College and Hospital(700412)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2493,
+    "instituteName": "Midnapore Medical College and Hospital(700412)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2501,
+    "instituteName": "Moti Lal Nehru Medical College(700373)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2512,
+    "instituteName": "Moti Lal Nehru Medical College(700373)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2519,
+    "instituteName": "Murshidabad Medical College and Hospital(700537)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2531,
+    "instituteName": "MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE(700399)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2540,
+    "instituteName": "MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE(700399)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2551,
+    "instituteName": "NALANDA MEDICAL COLLEGE,PATNA(700109)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2559,
+    "instituteName": "NALANDA MEDICAL COLLEGE,PATNA(700109)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2577,
+    "instituteName": "NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, JABALPUR (700299)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2587,
+    "instituteName": "NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, JABALPUR (700299)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2598,
+    "instituteName": "NIL RATAN SIRCAR MEDICAL COLLEGE(700400)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2608,
+    "instituteName": "NIL RATAN SIRCAR MEDICAL COLLEGE(700400)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2629,
+    "instituteName": "North Eastern Indira Gandhi Regional Institute of Health & Medical Sciences, Shillong(700531)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2634,
+    "instituteName": "North Eastern Indira Gandhi Regional Institute of Health & Medical Sciences, Shillong(700531)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2654,
+    "instituteName": "Osmania Medical Collge(700483)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2664,
+    "instituteName": "Osmania Medical Collge(700483)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2701,
+    "instituteName": "Pandit Dindayal Upadhyay Medical College, RAJKOT(700368)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2711,
+    "instituteName": "Pandit Dindayal Upadhyay Medical College, RAJKOT(700368)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2726,
+    "instituteName": "PATNA MEDICAL COLLEGE, PATNA(700480)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2736,
+    "instituteName": "PATNA MEDICAL COLLEGE, PATNA(700480)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2761,
+    "instituteName": "Pimpri Chichwad Municipal Corporation Postgraduate Institute Y.C.M.Hospital Pimpri,Pune 18(700523)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2767,
+    "instituteName": "Pimpri Chichwad Municipal Corporation Postgraduate Institute Y.C.M.Hospital Pimpri,Pune 18(700523)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2775,
+    "instituteName": "Post Graduate Institute of Medical Education & Research and Capital Hospital ( PGIMER & CH), Odisha(701713)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2782,
+    "instituteName": "Post Graduate Institute of Medical Sciences (PGIMS),Navi Mumbai(903367)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2792,
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2802,
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2814,
+    "instituteName": "R G KAR MEDICAL COLLEGE, West Bengal(700395)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2824,
+    "instituteName": "R G KAR MEDICAL COLLEGE, West Bengal(700395)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2836,
+    "instituteName": "RAICHUR INSTITUTE OF MEDICAL SCIENCES(700411)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2850,
+    "instituteName": "Rajarshee Chhatrapati Shahu Maharaj Government Medical College, Kolhapur(701496)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2859,
+    "instituteName": "Rajarshee Chhatrapati Shahu Maharaj Government Medical College, Kolhapur(701496)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2870,
+    "instituteName": "Rajendra Institute of Medical Sciences, Ranchi(700418)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2877,
+    "instituteName": "Rajendra Institute of Medical Sciences, Ranchi(700418)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2889,
+    "instituteName": "Rajiv Gandhi Institute of Medical Sciences Srikakulam(700485)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2897,
+    "instituteName": "Rajiv Gandhi Institute of Medical Sciences Srikakulam(700485)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2907,
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2913,
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2927,
+    "instituteName": "Rajkiya Medical College, Jalaun(701514)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2938,
+    "instituteName": "Rajmata Shrimati Devendra Kumari Singhdeo Government Medical College, Ambikapur(701708)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2944,
+    "instituteName": "Rajmata Shrimati Devendra Kumari Singhdeo Government Medical College, Ambikapur(701708)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2956,
+    "instituteName": "Rangaraya Medical College(700470)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2965,
+    "instituteName": "Rangaraya Medical College(700470)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 2974,
+    "instituteName": "Rani Durgavati Medical College, Banda (701515)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3008,
+    "instituteName": "Regional Institute of Medical Sciences, Imphal(700331)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3020,
+    "instituteName": "Regional Institute of Medical Sciences, Imphal(700331)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3057,
+    "instituteName": "S.V. Medical College, Tirupathi (700471)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3066,
+    "instituteName": "S.V. Medical College, Tirupathi (700471)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3087,
+    "instituteName": "Sardar Patel Medical College, Bikaner(700317)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3098,
+    "instituteName": "Sardar Patel Medical College, Bikaner(700317)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3113,
+    "instituteName": "Sarojini Naidu Medical College, AGRA(700375)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3123,
+    "instituteName": "Sarojini Naidu Medical College, AGRA(700375)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3135,
+    "instituteName": "Sawai Man Singh Medical College, JAIPUR(700327)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3149,
+    "instituteName": "Sawai Man Singh Medical College, JAIPUR(700327)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3168,
+    "instituteName": "Shaikh-Ul-Hind Maulana Mahmood Hasan Medical College, Saharanpur(701503)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3180,
+    "instituteName": "Sher-i-Kashmir Institute of Medical Sciences, Srinagar,J&K (701711)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3194,
+    "instituteName": "SHIMOGA INSTITUTE OF MEDICAL SCIENCES(700415)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3201,
+    "instituteName": "SHIMOGA INSTITUTE OF MEDICAL SCIENCES(700415)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3220,
+    "instituteName": "Shri Vasantrao Naik Govt Medical College Yavatmal(700315)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3225,
+    "instituteName": "Shri Vasantrao Naik Govt Medical College Yavatmal(700315)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3230,
+    "instituteName": "Shrikrishna Medical College & Hospital, Muzaffarpur(700113)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3241,
+    "instituteName": "Siddhartha Medical College, Vijayawada(700472)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3250,
+    "instituteName": "Siddhartha Medical College, Vijayawada(700472)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3261,
+    "instituteName": "Silchar Medical College, Silchar(700286)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3268,
+    "instituteName": "Silchar Medical College, Silchar(700286)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3285,
+    "instituteName": "Sri Bhausaheb Hire Government Medical College(700532)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3289,
+    "instituteName": "Sri Bhausaheb Hire Government Medical College(700532)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3310,
+    "instituteName": "Srirama Chandra Bhanja Medical College, CUTTACK(700336)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3321,
+    "instituteName": "Srirama Chandra Bhanja Medical College, CUTTACK(700336)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3333,
+    "instituteName": "STANLEY MEDICAL COLLEGE(700347)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3342,
+    "instituteName": "STANLEY MEDICAL COLLEGE(700347)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3352,
+    "instituteName": "SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI(700312)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3359,
+    "instituteName": "SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI(700312)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3376,
+    "instituteName": "Tezpur Medical College(700511)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3383,
+    "instituteName": "Tezpur Medical College(700511)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3393,
+    "instituteName": "THANJAVUR MEDICAL COLLEGE, THANJAVUR(700348)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3400,
+    "instituteName": "THANJAVUR MEDICAL COLLEGE, THANJAVUR(700348)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3408,
+    "instituteName": "Thiruvarur Govt.Medical College(700530)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3419,
+    "instituteName": "Tirunelveli Medical College(700349)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3429,
+    "instituteName": "Tirunelveli Medical College(700349)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3438,
+    "instituteName": "TOPIWALA NATIONAL MEDICAL COLLEGE(700313)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3447,
+    "instituteName": "TOPIWALA NATIONAL MEDICAL COLLEGE(700313)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3460,
+    "instituteName": "University College of Medical Sciences(700123)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3468,
+    "instituteName": "University College of Medical Sciences(700123)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3476,
+    "instituteName": "Uttar Pradesh University of Medical Sciences, Saifai, Etawah(700377)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3483,
+    "instituteName": "Uttar Pradesh University of Medical Sciences, Saifai, Etawah(700377)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3503,
+    "instituteName": "Vardhman Mahavir Medical College, , New Delhi(700122)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3514,
+    "instituteName": "Vardhman Mahavir Medical College, , New Delhi(700122)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3532,
+    "instituteName": "VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI(700396)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3538,
+    "instituteName": "VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI(700396)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3549,
+    "instituteName": "VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH,BURLA(700338)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  },
+  {
+    "sourceRowId": 3557,
+    "instituteName": "VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH,BURLA(700338)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "subtype": "COVERAGE_GAP"
+  }
+]

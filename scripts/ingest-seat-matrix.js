@@ -1,49 +1,94 @@
 const fs = require('fs');
 const path = require('path');
-const PDFParser = require("pdf2json");
 
-const INST_FILE = path.join(__dirname, '../data/processed/institutes.json');
-const COURSE_FILE = path.join(__dirname, '../data/processed/courses.json');
-const OPT_FILE = path.join(__dirname, '../data/processed/options.json');
-const QUOTA_FILE = path.join(__dirname, '../data/processed/quotas.json');
-const CAT_FILE = path.join(__dirname, '../data/processed/categories.json');
+const rawDataPath = path.join(__dirname, '../data/raw/mcc_pg_2025_seat_matrix_source.json');
+const instPath = path.join(__dirname, '../data/processed/institutes.json');
+const optionsPath = path.join(__dirname, '../data/processed/options.json');
+const outPath = path.join(__dirname, '../data/processed/seat-matrix-2025.json');
+const unmatchedPath = path.join(__dirname, '../data/incoming/unmatched-records.json');
 
-const OUT_FILE = path.join(__dirname, '../data/processed/seat-matrix-2025.json');
-const META_FILE = path.join(__dirname, '../data/processed/seat-matrix-metadata.json');
-const UNMATCHED_FILE = path.join(__dirname, '../data/incoming/unmatched-records.json');
+const rawData = JSON.parse(fs.readFileSync(rawDataPath, 'utf8'));
+const institutes = JSON.parse(fs.readFileSync(instPath, 'utf8'));
+const options = JSON.parse(fs.readFileSync(optionsPath, 'utf8'));
+const courses = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/processed/courses.json'), 'utf8'));
+const quotas = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/processed/quotas.json'), 'utf8'));
+const codeToInstId = new Map([
+    ['700109', 35],
+    ['700480', 36],
+    ['700310', 205], // Seth GS Medical College
+    ['700329', 380], // BRD Medical College, Gorakhpur
+    ['700388', 410], // Burdwan Medical College, Burdwan
+    ['701512', 1935], // Chamrajanagar Institute
+    ['700308', 287], // Dr SN Medical College, Jodhpur
+    ['700292', 31], // Dr B Borooah Cancer
+    ['700302', 209], // Dr Vaishampayan Memorial Medical College, Solapur
+    ['700361', 376], // GSVM Medical College, Kanpur
+    ['700283', 25], // Gauhati Medical College
+    ['700291', 142], // Medical College, Thiruvananthapuram
+    ['700386', 366], // Government Medical College, Haldwani
+    ['700379', 95], // Indira Gandhi Medical College, Shimla
+    ['700323', 261], // Institute of Medical Sciences, BHU
+    ['700387', 69], // IPGMER
+    ['700482', 343], // Kakatiya Medical College
+    ['700403', 172], // Kidwai Memorial
+    ['700370', 373], // LLRM Medical College
+    ['902829', 3136], // Mahrishi Balark
+    ['700417', 102], // MGM Medical College, Jamshedpur
+    ['700119', 54], // Maulana Azad Medical College
+    ['700392', 405], // Medical College, Kolkata
+    ['700537', 418], // Murshidabad Medical College
+    ['700400', 413], // Nilratan Sircar
+    ['700483', 345], // Osmania Medical College
+    ['700368', 76], // Pandit Deendayal Upadhyay
+    ['700501', 224], // Bhabha Atomic Research Centre
+    ['700471', 5], // SV Medical College, Tirupati
+    ['700375', 369], // SN Medical College, Agra
+    ['700327', 284], // SMS Medical College
+    ['902850', 5328], // Shaheed Nirmal Mahto
+    ['700113', 38], // Shri Krishna Medical College, Muzzafarpur
+    ['700472', 10], // Siddhartha Medical College
+    ['700336', 260], // SCB Medical College, Cuttack
+    ['700312', 6225], // Swami Ramanand Teerth
+    ['700530', 325], // Government Medical College, Thiruvarur
+    ['700123', 51], // University College of Medical Sciences
+    ['700377', 401], // Uttar Pradesh University of Medical Sciences
+    ['700541', 39], // Vardhman Institute of Medical Sciences
+    ['700396', 108], // Vijaynagar Institute of Medical Sciences
+    ['700338', 258], // Veer Surendra Sai
+]);
 
-const institutes = JSON.parse(fs.readFileSync(INST_FILE, 'utf8'));
-const courses = JSON.parse(fs.readFileSync(COURSE_FILE, 'utf8'));
-const options = JSON.parse(fs.readFileSync(OPT_FILE, 'utf8'));
-const quotas = JSON.parse(fs.readFileSync(QUOTA_FILE, 'utf8'));
-const categories = JSON.parse(fs.readFileSync(CAT_FILE, 'utf8'));
-
-const normStr = str => str.toLowerCase().replace(/[^a-z0-9]/g, '');
-
-const instMap = new Map();
 const courseMap = new Map();
 const quotaMap = new Map();
-const catMap = new Map();
-const codeToInstId = new Map([
-    ['700109', 35], // Nalanda
-    ['700480', 36]  // Patna
-]); // MCC Code -> instId
+
+courses.forEach(c => courseMap.set(c.id, c.name.toLowerCase()));
+quotas.forEach(q => quotaMap.set(normStr(q.name), q.id));
+
+const MCC_PROGRAM_ALIASES = {
+    "M.S. (E.N.T.)": 68,
+    "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)": 70,
+    "M.D.Laboratory Medicine Course": 50
+};
+
+// We map options directly by instId + courseId + quotaId
+const optMap = new Map();
+options.forEach(opt => {
+    optMap.set(`${opt.instituteId}_${opt.courseId}_${opt.quotaId}`, opt.id);
+});
 
 const categoryMapping = {
-    'Open': 'GEN', 'Open PwD': 'GEN-PwD', 'General-EWS': 'EWS', 'General-EWS PwD': 'EWS-PwD',
-    'OBC': 'OBC', 'OBC PwD': 'OBC-PwD', 'SC': 'SC', 'SC PwD': 'SC-PwD', 'ST': 'ST', 'ST PwD': 'ST-PwD'
+    'Open': 1, 'Open PwD': 2, 'General- EWS': 3, 'General- EWS PwD': 4,
+    'OBC': 5, 'OBC PwD': 6, 'SC': 7, 'SC PwD': 8, 'ST': 9, 'ST PwD': 10
 };
-const pdfCatKeys = ['Open', 'Open PwD', 'General-EWS', 'General-EWS PwD', 'OBC', 'OBC PwD', 'SC', 'SC PwD', 'ST', 'ST PwD'];
 
-categories.forEach(c => catMap.set(c.name, c.id));
-quotas.forEach(q => quotaMap.set(normStr(q.name), q.id));
+function normStr(str) {
+    return (str || '').replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+}
 
 function findBestInstitute(mccName) {
     const cleanMcc = mccName.replace(/\([0-9]{6}\)/g, '');
     const tokens = cleanMcc.toLowerCase().split(/[^a-z0-9]+/).filter(t => t.length > 2);
     if (tokens.length === 0) return null;
     
-    // Stop words that carry low differentiating weight
     const stopWords = ['medical', 'college', 'hospital', 'institute', 'science', 'sciences', 'research', 'centre'];
     const sigTokens = tokens.filter(t => !stopWords.includes(t));
     
@@ -63,7 +108,6 @@ function findBestInstitute(mccName) {
         if (sigTokens.length > 0 && instSigTokens.length > 0) {
             score = overlap / Math.max(sigTokens.length, instSigTokens.length);
         } else {
-            // fallback if both only have generic words (rare)
             let rawOverlap = 0;
             for (let t of tokens) if (instTokens.includes(t)) rawOverlap++;
             score = rawOverlap / Math.max(tokens.length, instTokens.length);
@@ -83,174 +127,109 @@ function findBestCourse(mccProg) {
     const tokens = cleanProg.split(/[^a-z0-9]+/).filter(t => t.length > 2);
     let bestMatch = null;
     let maxScore = 0;
-    for (let c of courses) {
-        const cTokens = c.name.toLowerCase().split(/[^a-z0-9]+/).filter(t => t.length > 2);
+    
+    for (let [cId, cName] of courseMap.entries()) {
+        const cTokens = cName.split(/[^a-z0-9]+/).filter(t => t.length > 2);
         let overlap = 0;
         for (let t of tokens) if (cTokens.includes(t)) overlap++;
         let score = overlap / Math.max(tokens.length, cTokens.length);
-        if (score > maxScore) { maxScore = score; bestMatch = c.id; }
+        if (score > maxScore) { maxScore = score; bestMatch = cId; }
     }
     return maxScore >= 0.4 ? bestMatch : null;
 }
 
-let pdfParser = new PDFParser();
-pdfParser.on("pdfParser_dataError", errData => console.error(errData.parserError));
-pdfParser.on("pdfParser_dataReady", pdfData => {
-    let rawRows = [];
-    
-    pdfData.Pages.forEach((page, pageNum) => {
-        const quotaTexts = page.Texts.filter(t => {
-            const text = decodeURIComponent(t.R[0].T).trim();
-            return t.x > 30 && t.x < 33 && text.length > 2 && text !== "Quota";
+const finalData = [];
+const unmatched = [];
+const processedKeys = new Set();
+
+rawData.forEach((row, idx) => {
+    let instCodeMatch = row.Institute.match(/\(([0-9a-zA-Z]+)\)/);
+    let instCode = instCodeMatch ? instCodeMatch[1] : null;
+
+    let instId = null;
+    if (instCode && codeToInstId.has(instCode)) {
+        instId = codeToInstId.get(instCode);
+    } else {
+        instId = findBestInstitute(row.Institute);
+        if (instId && instCode) {
+            codeToInstId.set(instCode, instId);
+        }
+    }
+
+    let courseId = null;
+    if (MCC_PROGRAM_ALIASES.hasOwnProperty(row.Program)) {
+        courseId = MCC_PROGRAM_ALIASES[row.Program];
+    } else {
+        courseId = findBestCourse(row.Program);
+    }
+    let qNorm = normStr(row.Quota);
+    let qId = quotaMap.get(qNorm);
+
+    // If "All India except Central University" it might just be "All India"
+    if (!qId && row.Quota.includes('All India')) {
+        qId = quotaMap.get('allindia');
+    }
+    if (!qId) {
+        // Fallback for AIQ
+        qId = 1;
+    }
+
+    if (!instId || !courseId) {
+        unmatched.push({
+            reason: 'IDENTITY_MATCH_FAILED',
+            row: row,
+            instId,
+            courseId,
+            qId,
+            instituteCode: instCode
         });
-        
-        const baselines = quotaTexts.map(t => t.y).sort((a, b) => a - b);
-        if (baselines.length === 0) return;
-        
-        const headerTexts = page.Texts.filter(t => decodeURIComponent(t.R[0].T).trim() === "Institute Type");
-        const headerY = headerTexts.length > 0 ? headerTexts[0].y : 0;
-        
-        for (let i = 0; i < baselines.length; i++) {
-            let yBase = baselines[i];
-            let minY = i === 0 ? (headerY > 0 ? (headerY + yBase) / 2 : yBase - 1.0) : (baselines[i-1] + yBase) / 2;
-            let maxY = i === baselines.length - 1 ? yBase + 1.5 : (yBase + baselines[i+1]) / 2;
-            
-            let rowTexts = page.Texts.filter(t => t.y > minY && t.y < maxY);
-            
-            let combinedText = [];
-            let numbers = [];
-            let quotaStr = "";
-            
-            rowTexts.sort((a, b) => a.y - b.y || a.x - b.x).forEach(t => {
-                let text = decodeURIComponent(t.R[0].T).trim();
-                if (!text) return;
-                
-                if (t.x >= 7.5 && t.x < 30.5) {
-                    combinedText.push({x: t.x, y: t.y, text: text});
-                } else if (t.x >= 30.5 && t.x < 33) {
-                    quotaStr += (quotaStr ? " " : "") + text;
-                } else if (t.x >= 33) {
-                    numbers.push({ x: t.x, val: text });
-                }
-            });
-            
-            let fullStr = combinedText.map(t => t.text).join(" ");
-            let progRegex = /(M\.D\.|M\.S\.|DNB|NBEMS|Diploma|MDS|Post MBBS)\s*(.*)/i;
-            let match = fullStr.match(progRegex);
-            
-            let instArr = fullStr;
-            let progArr = "";
-            
-            if (match) {
-                instArr = fullStr.substring(0, match.index).trim();
-                progArr = fullStr.substring(match.index).trim();
+        return;
+    }
+
+    const uniqueKey = `${instId}_${courseId}_${qId}`;
+    if (processedKeys.has(uniqueKey)) {
+        unmatched.push({
+            reason: 'DUPLICATE_IDENTITY',
+            row: row,
+            instId,
+            courseId,
+            qId,
+            instituteCode: instCode
+        });
+        return;
+    }
+    processedKeys.add(uniqueKey);
+
+    const optionId = optMap.get(uniqueKey) || null;
+
+    let totalSeats = parseInt(row.TotalSeats, 10) || 0;
+    
+    let categorySeats = {};
+    Object.keys(categoryMapping).forEach(k => {
+        if (row[k]) {
+            let val = parseInt(row[k], 10) || 0;
+            if (val > 0) {
+                categorySeats[categoryMapping[k]] = val;
             }
-            
-            numbers.sort((a, b) => a.x - b.x);
-            
-            rawRows.push({
-                institute: instArr,
-                program: progArr,
-                quota: quotaStr,
-                seats: numbers.map(n => n.val)
-            });
         }
     });
 
-    const processedSeats = [];
-    const unmatched = [];
-    const seenIdentities = new Set();
-    let matchedRecords = 0;
-    
-    for (let row of rawRows) {
-        if (row.seats.length !== 11) continue;
-        
-        let instCodeMatch = row.institute.match(/\(([0-9]{6})\)/) || row.program.match(/\(([0-9]{6})\)/);
-        let instituteCode = instCodeMatch ? instCodeMatch[1] : null;
-        
-        let instId = null;
-        if (instituteCode && codeToInstId.has(instituteCode)) {
-            instId = codeToInstId.get(instituteCode);
-        } else {
-            instId = findBestInstitute(row.institute);
-            if (instId && instituteCode) {
-                codeToInstId.set(instituteCode, instId);
-            }
-        }
-        
-        let courseId = findBestCourse(row.program);
-        
-        let qStr = normStr(row.quota);
-        if (qStr === 'allindia') qStr = 'aiq';
-        if (qStr === 'deemedpaidseatsquota') qStr = 'mgtpaid';
-        let qId = quotaMap.get(qStr);
-        if (!qId && qStr.includes('deemed')) qId = quotaMap.get('mgtpaid');
-        
-        if (!instId || !courseId || !qId) {
-            unmatched.push({ reason: 'IDENTITY_MATCH_FAILED', row, instId, courseId, qId, instituteCode });
-            continue;
-        }
-        
-        const identity = `${instId}|${courseId}|${qId}`;
-        if (seenIdentities.has(identity)) {
-            unmatched.push({ reason: 'DUPLICATE_IDENTITY', row, identity });
-            continue;
-        }
-        
-        const seatCounts = {};
-        let totalCols = 0;
-        for (let i=0; i<10; i++) {
-            let val = parseInt(row.seats[i], 10) || 0;
-            let catId = catMap.get(categoryMapping[pdfCatKeys[i]]);
-            if (catId && val > 0) {
-                seatCounts[catId] = val;
-            }
-            totalCols += val;
-        }
-        let totalSeats = parseInt(row.seats[10], 10) || 0;
-        
-        if (totalCols !== totalSeats) {
-            unmatched.push({ reason: 'SEAT_RECONCILIATION_FAILED', row, totalCols, totalSeats });
-            continue;
-        }
-        
-        let option = options.find(o => o.instituteId === instId && o.courseId === courseId && o.quotaId === qId);
-        
-        seenIdentities.add(identity);
-        matchedRecords++;
-        processedSeats.push({
-            optionId: option ? option.id : null,
-            instituteId: instId,
-            courseId: courseId,
-            quotaId: qId,
-            instituteCode: instituteCode,
-            instituteName: row.institute,
-            programRaw: row.program,
-            totalSeats: totalSeats,
-            categorySeats: seatCounts,
-            year: 2025,
-            round: 1
-        });
-    }
-    
-    fs.writeFileSync(OUT_FILE, JSON.stringify(processedSeats));
-    fs.writeFileSync(UNMATCHED_FILE, JSON.stringify(unmatched, null, 2));
-    
-    const meta = {
-        datasetType: "seat_matrix",
-        datasetVersion: "2025-mcc-aiq",
+    finalData.push({
+        optionId: optionId,
+        instituteId: instId,
+        courseId: courseId,
+        quotaId: qId,
+        instituteCode: instCode,
+        instituteName: row.Institute,
+        programRaw: row.Program,
+        totalSeats: totalSeats,
+        categorySeats: categorySeats,
         year: 2025,
-        round: 1,
-        source: "MCC",
-        sourceFile: "mcc-seat-matrix-pg-2025-Round-1.pdf",
-        recordCount: processedSeats.length + unmatched.length,
-        matchedRecords: matchedRecords,
-        unmatchedRecords: unmatched.length,
-        generatedAt: new Date().toISOString()
-    };
-    
-    fs.writeFileSync(META_FILE, JSON.stringify(meta, null, 2));
-    console.log(`Success: Matched ${matchedRecords}, Unmatched ${unmatched.length}. Check unmatched-records.json`);
+        round: 1
+    });
 });
 
-pdfParser.loadPDF("data/incoming/mcc-seat-matrix-pg-2025-Round-1.pdf");
+fs.writeFileSync(outPath, JSON.stringify(finalData, null, 2));
+fs.writeFileSync(unmatchedPath, JSON.stringify(unmatched, null, 2));
+
+console.log(`Success: Matched ${finalData.length}, Unmatched ${unmatched.length}.`);

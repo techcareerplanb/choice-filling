@@ -51,7 +51,12 @@ export class SeatMatrixProvider {
             };
         }
 
-        const catSeats = record.categorySeats[String(categoryId)] || 0;
+        let catSeats = 0;
+        if (categoryId === null || categoryId === undefined) {
+            catSeats = record.totalSeats; // Fallback to total seats if no category selected
+        } else {
+            catSeats = record.categorySeats[String(categoryId)] || 0;
+        }
 
         return {
             status: 'AVAILABLE',

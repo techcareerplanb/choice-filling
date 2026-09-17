@@ -1,0 +1,11 @@
+{
+  "totalSourceRows": 3561,
+  "matched": 2969,
+  "validButNotModeled": 388,
+  "duplicates": 204,
+  "outOfScope": 4,
+  "mappingError": 0,
+  "ambiguous": 0,
+  "standardMdMsRecordsMatched": 2765,
+  "standardMdMsRecordsNotMatched": 0
+}
