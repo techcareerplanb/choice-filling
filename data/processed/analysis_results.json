@@ -1,0 +1,108 @@
+{
+  "totalRecords": 21771,
+  "uniqueInstitutes": 1894,
+  "uniqueCourses": 100,
+  "uniqueQuotas": 13,
+  "uniqueCategories": 14,
+  "uniqueCounsellings": 1,
+  "years": [
+    "2024",
+    "2025"
+  ],
+  "rounds": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "fieldFrequency": {
+    "id": 21771,
+    "state": 21771,
+    "institute": 21771,
+    "course": 21771,
+    "quota": 21771,
+    "category": 21771,
+    "counselling": 21771,
+    "cr_2024_1": 13931,
+    "cr_2024_2": 13875,
+    "cr_2024_3": 14935,
+    "cr_2025_1": 14540,
+    "cr_2025_2": 15559,
+    "cr_2025_3": 16975,
+    "fee_id": 21771,
+    "fee": 21771,
+    "stipend_year_1": 21771,
+    "bond_years": 21771,
+    "bond_penalty": 21771,
+    "beds": 21771,
+    "choice_list_count": 21771,
+    "cr_2024_4": 2156,
+    "cr_2024_5": 527,
+    "cr_2025_4": 2566
+  },
+  "missingNull": {
+    "fee_id": 24
+  },
+  "financialAsterisks": {
+    "fee": 14836,
+    "stipend": 7486,
+    "bondPenalty": 10814,
+    "bondYears": 10814
+  },
+  "bedsUnavailable": 1580,
+  "missingRounds": 21721,
+  "quotaMasterCombos": [
+    "AIQ | AIQ",
+    "DU | DU",
+    "IP | IP",
+    "DNB Post MBBS | DNB",
+    "BHU | BHU",
+    "AMU | AMU",
+    "NBE Diploma | DNB",
+    "MNG | Deemed to be Univ Seats",
+    "AFMS | AFMS",
+    "NRI | Deemed to be Univ Seats",
+    "AFMS-DNB | AFMS-DNB",
+    "JM | Deemed to be Univ Seats",
+    "MM | Deemed to be Univ Seats"
+  ],
+  "categoryFormats": [
+    "GEN",
+    "EWS",
+    "OBC",
+    "SC",
+    "ST",
+    "GEN-PwD",
+    "EWS-PwD",
+    "OBC-PwD",
+    "AFMS-Priority IV",
+    "AFMS-Priority III",
+    "SC-PwD",
+    "ST-PwD",
+    "NRI-Priority II",
+    "NRI-Priority I"
+  ],
+  "courseNamingPatterns": [
+    "MD",
+    "MS",
+    "DNB",
+    "Diploma",
+    "MCh",
+    "Master"
+  ],
+  "inconsistentTypes": [
+    "beds contains non-numeric: -"
+  ],
+  "allRoundKeys": [
+    "cr_2024_1",
+    "cr_2024_2",
+    "cr_2024_3",
+    "cr_2025_1",
+    "cr_2025_2",
+    "cr_2025_3",
+    "cr_2024_4",
+    "cr_2024_5",
+    "cr_2025_4"
+  ]
+}

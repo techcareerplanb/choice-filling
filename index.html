@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET PG Decision Tool</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container">
+            <a href="#/" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+                <span>NEET PG Decision Tool</span>
+            </a>
+            
+            <!-- Mobile Menu Toggle (Implemented later if needed, mostly handled by CSS) -->
+            <button class="btn btn-ghost mobile-menu-btn" style="display: none;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+            
+            <nav class="app-nav">
+                <a href="#/search" class="nav-link active">Search</a>
+                <a href="#/compare" class="nav-link">Compare <span id="compare-count" class="badge" style="display:none;">0</span></a>
+                <a href="#/shortlist" class="nav-link">Shortlist <span id="shortlist-count" class="badge badge-outline">0</span></a>
+                <a href="#/choice-list" class="nav-link">Choice List</a>
+                <a href="#/methodology" class="nav-link text-sm">Data & Methodology</a>
+                <a href="#/help" class="nav-link text-sm">Help</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Global Error/Loading Overlay -->
+    <div id="global-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.9); z-index:1000; align-items:center; justify-content:center; flex-direction:column;">
+        <div class="spinner mb-4"></div>
+        <h3 id="overlay-msg" class="text-primary">Loading data engine...</h3>
+    </div>
+
+    <main id="app-container" class="main-content">
+        <!-- SPA view content injected here by router.js -->
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p class="mb-2"><strong>NEET PG Decision Tool</strong></p>
+            <p class="text-sm">Data derived from official sources. Not a guarantee of admission. Use for guidance only.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="/js/app.js?v=3"></script>
+</body>
+</html>

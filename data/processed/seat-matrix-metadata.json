@@ -1,0 +1,12 @@
+{
+  "datasetType": "seat_matrix",
+  "datasetVersion": "2025-mcc-aiq",
+  "year": 2025,
+  "round": 1,
+  "source": "MCC",
+  "sourceFile": "mcc-seat-matrix-pg-2025-Round-1.pdf",
+  "recordCount": 3462,
+  "matchedRecords": 1384,
+  "unmatchedRecords": 2078,
+  "generatedAt": "2026-09-17T08:28:52.621Z"
+}
