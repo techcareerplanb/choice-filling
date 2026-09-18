@@ -20,7 +20,7 @@ export async function renderCompare(container, params = {}) {
                 <div class="card" style="background:var(--bg-surface); padding:3rem; text-align:center; border-radius:8px;">
                     <h3 class="text-muted" style="margin-bottom:1rem;">No options selected for comparison</h3>
                     <p class="text-muted mb-4">Go back to the search results to add colleges to your compare list.</p>
-                    <a href="#/search" class="btn btn-primary" style="display:inline-block; padding:0.5rem 1.5rem; border-radius:4px; text-decoration:none;">Go to Search</a>
+                    <a href="#/results" class="btn btn-primary" style="display:inline-block; padding:0.5rem 1.5rem; border-radius:4px; text-decoration:none;">Go to Search</a>
                 </div>
             `;
             return;

@@ -10,8 +10,8 @@ export class SeatMatrixProvider {
         if (!seatData || !Array.isArray(seatData)) return;
         
         for (const record of seatData) {
-            // Composite key for O(1) lookup
-            const key = `${record.instituteId}_${record.courseId}_${record.quotaId}_${record.year}_${record.round}`;
+            // Composite key for O(1) lookup, ignoring round
+            const key = `${record.instituteId}_${record.courseId}_${record.quotaId}_${record.year}`;
             this.dataIndex.set(key, record);
         }
         
@@ -20,16 +20,8 @@ export class SeatMatrixProvider {
 
     /**
      * Retrieves seat matrix data for a specific option.
-     * @param {Object} query
-     * @param {number} query.instituteId
-     * @param {number} query.courseId
-     * @param {number} query.quotaId
-     * @param {number} query.categoryId
-     * @param {number} query.year
-     * @param {number} query.round
-     * @returns {Object} Seat matrix status and data
      */
-    static getSeats({ instituteId, courseId, quotaId, categoryId, year, round }) {
+    static getSeats({ instituteId, courseId, quotaId, categoryId, year }) {
         if (!this.isInitialized) {
             return {
                 status: 'UNAVAILABLE',
@@ -38,7 +30,7 @@ export class SeatMatrixProvider {
             };
         }
 
-        const key = `${instituteId}_${courseId}_${quotaId}_${year}_${round}`;
+        const key = `${instituteId}_${courseId}_${quotaId}_${year}`;
         const record = this.dataIndex.get(key);
 
         if (!record) {
@@ -46,8 +38,9 @@ export class SeatMatrixProvider {
                 status: 'UNAVAILABLE',
                 totalSeats: null,
                 categorySeats: null,
+                sourceType: null,
                 source: null,
-                notes: `Data Unavailable: Seat matrix not officially published for this specific institute, course, and quota for Round ${round} ${year}.`
+                notes: `Data Unavailable: Seat matrix not officially published for this specific institute, course, and quota for ${year}.`
             };
         }
 
@@ -62,6 +55,7 @@ export class SeatMatrixProvider {
             status: 'AVAILABLE',
             totalSeats: record.totalSeats,
             categorySeats: catSeats,
+            sourceType: record.sourceType || 'AIQ',
             source: 'MCC',
             instituteCode: record.instituteCode,
             notes: null

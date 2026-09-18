@@ -76,13 +76,13 @@ export function renderResults(container, params = {}) {
             
             
             <div style="display: grid; grid-template-columns: minmax(280px, 1fr) 3fr; gap: 2rem;" class="results-layout">
-                <aside class="desktop-filters desktop-only" style="position: sticky; top: 2rem; height: max-content; z-index: 10;">
-                    <div class="card" style="padding: 1.5rem; background: var(--bg-surface); border-radius: 12px; border: 1px solid var(--border-color); box-shadow: var(--shadow-sm);">
+                <aside class="desktop-filters desktop-only" style="position: sticky; top: 5rem; height: max-content; align-self: start; z-index: 10;">
+                    <div class="card" style="padding: 1.5rem; background: var(--bg-surface); border-radius: 12px; border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); max-height: calc(100vh - 6rem); overflow-y: auto; overscroll-behavior: contain;">
                         <h3 style="margin-bottom: 1.25rem; font-size: 1.25rem;">Refine Search</h3>
                         
                         <div class="form-group" style="margin-bottom: 1.25rem;">
                             <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">All India Rank (AIR)</label>
-                            <input type="number" id="sidebar-rank" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px;" value="${params.rank || ''}" placeholder="e.g. 5000">
+                            <input type="text" inputmode="numeric" pattern="[0-9]*" id="sidebar-rank" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px;" value="${params.rank || ''}" placeholder="e.g. 5000">
                         </div>
                         
                         <div class="form-group" style="margin-bottom: 1.25rem; position: relative;">
@@ -231,6 +231,10 @@ export function renderResults(container, params = {}) {
                                 <option value="max_pen_3000000" ${params.bond === 'max_pen_3000000' ? 'selected' : ''}>Max Penalty ₹30L</option>
                             </select>
                         </div>
+                        <div class="form-group" style="margin-top: 2rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                            <button id="sidebar-apply-filters" type="button" class="btn btn-primary" style="width:100%; padding:0.75rem; border-radius:8px;">Apply Filters</button>
+                            <button id="sidebar-clear-all" type="button" class="btn btn-outline" style="width:100%; padding:0.75rem; border-radius:8px; color:var(--danger); border-color:var(--danger);">Clear All Filters</button>
+                        </div>
                     </div>
                 </aside>
                 <div id="results-list" style="display:flex; flex-direction:column; gap:1.5rem; margin-bottom:6rem; min-width: 0;">
@@ -264,14 +268,13 @@ export function renderResults(container, params = {}) {
             </div>
             
             <!-- Mobile Filter Drawer -->
-            <div class="drawer-backdrop" id="drawer-backdrop"></div>
-            <div class="mobile-drawer" id="mobile-drawer">
+            <div class="drawer-backdrop mobile-only" id="drawer-backdrop"></div>
+            <div class="mobile-drawer mobile-only" id="mobile-drawer">
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; border-bottom:1px solid var(--border-color); padding-bottom:1rem;">
                     <h3 style="margin:0;">Modify Search</h3>
                     <button id="close-drawer" style="background:none; border:none; font-size:1.5rem; cursor:pointer; color:var(--text-muted);">&times;</button>
                 </div>
                 <div style="display:flex; flex-direction:column; gap:1rem;">
-                    <a href="#/search" class="btn btn-primary" style="text-align:center; padding:1rem; border-radius:8px;">Open Search Filters</a>
                     <button id="clear-all-mobile" class="btn btn-outline" style="text-align:center; padding:1rem; border-radius:8px; color:var(--danger); border-color:var(--danger);">Clear All Filters</button>
                 </div>
             </div>
@@ -302,9 +305,16 @@ export function renderResults(container, params = {}) {
     closeBtn.addEventListener('click', closeDrawer);
     backdrop.addEventListener('click', closeDrawer);
     document.getElementById('clear-all-mobile').addEventListener('click', () => {
-        navigate('/results', { rank: params.rank, category: params.category });
+        navigate('/results');
         closeDrawer();
     });
+    
+    const sidebarClearAll = document.getElementById('sidebar-clear-all');
+    if (sidebarClearAll) {
+        sidebarClearAll.addEventListener('click', () => {
+            navigate('/results');
+        });
+    }
     
     // Add active filter chips
     if (hasAdvancedFilters) {
@@ -752,20 +762,20 @@ export function renderResults(container, params = {}) {
         const bond = document.getElementById('sidebar-bond').value;
         const year = document.getElementById('sidebar-year').value;
         const round = document.getElementById('sidebar-round').value;
+        const seats = document.getElementById('sidebar-seats') ? document.getElementById('sidebar-seats').value : '';
         const selectedStates = getSelectedStates();
         const selectedColleges = getSelectedColleges();
         const selectedCourses = getSelectedCourses();
         
-        const rankNum = parseInt(rankStr, 10);
-        if (isNaN(rankNum) || rankNum <= 0) return;
-        if (!cat) return;
-        
-        const searchParams = { rank: rankStr, category: cat };
+        const searchParams = {};
+        if (rankStr && parseInt(rankStr, 10) > 0) searchParams.rank = rankStr;
+        if (cat) searchParams.category = cat;
         if (budget) searchParams.budget = budget;
         if (stipend) searchParams.stipend = stipend;
         if (bond) searchParams.bond = bond;
         if (year && year !== 'all') searchParams.year = year;
         if (round && round !== 'all') searchParams.round = round;
+        if (seats) searchParams.seats = seats;
         if (selectedStates.length > 0) searchParams.state = selectedStates.join(',');
         if (selectedColleges.length > 0) searchParams.institute = selectedColleges.join(',');
         if (selectedCourses.length > 0) searchParams.specialisation = selectedCourses.join(',');
@@ -773,10 +783,10 @@ export function renderResults(container, params = {}) {
         navigate('/results', searchParams);
     };
 
-    ['sidebar-cat', 'sidebar-budget', 'sidebar-stipend', 'sidebar-bond', 'sidebar-year', 'sidebar-round', 'sidebar-seats'].forEach(id => {
-        const el = document.getElementById(id);
-        if(el) el.addEventListener('change', handleSidebarChange);
-    });
+    const applyFiltersBtn = document.getElementById('sidebar-apply-filters');
+    if (applyFiltersBtn) {
+        applyFiltersBtn.addEventListener('click', handleSidebarChange);
+    }
     
     // State Filter Dropdown Logic
     const stateBtn = document.getElementById('state-dropdown-btn');
@@ -797,12 +807,6 @@ export function renderResults(container, params = {}) {
         // Stop propagation inside popover to prevent closing
         statePopover.addEventListener('click', (e) => {
             e.stopPropagation();
-        });
-        
-        // State checkboxes change listener
-        const stateCheckboxes = document.querySelectorAll('.state-checkbox');
-        stateCheckboxes.forEach(cb => {
-            cb.addEventListener('change', handleSidebarChange);
         });
         
         // Search functionality
@@ -833,7 +837,7 @@ export function renderResults(container, params = {}) {
                         }
                     }
                 });
-                if (changed) handleSidebarChange();
+                // if (changed) handleSidebarChange();
             });
         }
         if (clearAllBtn) {
@@ -845,7 +849,7 @@ export function renderResults(container, params = {}) {
                         changed = true;
                     }
                 });
-                if (changed) handleSidebarChange();
+                // if (changed) handleSidebarChange();
             });
         }
     }
@@ -867,11 +871,6 @@ export function renderResults(container, params = {}) {
         
         collegePopover.addEventListener('click', (e) => {
             e.stopPropagation();
-        });
-        
-        const collegeCheckboxes = document.querySelectorAll('.college-checkbox');
-        collegeCheckboxes.forEach(cb => {
-            cb.addEventListener('change', handleSidebarChange);
         });
         
         const collegeSearch = document.getElementById('college-search-input');
@@ -900,7 +899,7 @@ export function renderResults(container, params = {}) {
                         }
                     }
                 });
-                if (changed) handleSidebarChange();
+                // if (changed) handleSidebarChange();
             });
         }
         if (clearAllBtn) {
@@ -912,7 +911,7 @@ export function renderResults(container, params = {}) {
                         changed = true;
                     }
                 });
-                if (changed) handleSidebarChange();
+                // if (changed) handleSidebarChange();
             });
         }
     }
@@ -934,11 +933,6 @@ export function renderResults(container, params = {}) {
         
         coursePopover.addEventListener('click', (e) => {
             e.stopPropagation();
-        });
-        
-        const courseCheckboxes = document.querySelectorAll('.course-checkbox');
-        courseCheckboxes.forEach(cb => {
-            cb.addEventListener('change', handleSidebarChange);
         });
         
         const courseSearch = document.getElementById('course-search-input');
@@ -967,7 +961,7 @@ export function renderResults(container, params = {}) {
                         }
                     }
                 });
-                if (changed) handleSidebarChange();
+                // if (changed) handleSidebarChange();
             });
         }
         if (clearAllBtn) {
@@ -979,16 +973,11 @@ export function renderResults(container, params = {}) {
                         changed = true;
                     }
                 });
-                if (changed) handleSidebarChange();
+                // if (changed) handleSidebarChange();
             });
         }
     }
     
-    const rankEl = document.getElementById('sidebar-rank');
-    if(rankEl) {
-        rankEl.addEventListener('change', handleSidebarChange);
-    }
-
     const originalHashChange = window.onhashchange;
 
     window.addEventListener('hashchange', function cleanup() {

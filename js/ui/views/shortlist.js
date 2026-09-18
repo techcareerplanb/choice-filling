@@ -1,13 +1,14 @@
 export async function renderShortlist(container) {
     container.innerHTML = `
-        <div class="container" style="max-width:1000px; margin-top:2rem;">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2rem;">
-                <h1>My Shortlist</h1>
-                <a href="#/search" class="btn btn-outline" style="padding:0.5rem 1rem; border-radius:4px; border:1px solid var(--border-color); text-decoration:none;">Search More Options</a>
+        <div class="container" style="margin-top:2rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
+                <h1 style="font-size:1.75rem; font-weight:700;">Your Shortlist</h1>
+                <a href="#/results" class="btn btn-outline" style="padding:0.5rem 1rem; border-radius:4px; border:1px solid var(--border-color); text-decoration:none;">Search More Options</a>
             </div>
-            <p class="text-muted mb-4">Drag and drop rows to reorder your priority. Tag your options and add personal notes.</p>
             <div id="shortlist-content">
-                <div class="spinner"></div>
+                <div style="text-align:center; padding:3rem; background:var(--bg-surface); border-radius:8px;">
+                    Loading...
+                </div>
             </div>
         </div>
     `;
@@ -22,7 +23,8 @@ export async function renderShortlist(container) {
             content.innerHTML = `
                 <div class="card" style="background:var(--bg-surface); padding:3rem; text-align:center; border-radius:8px;">
                     <h3 class="text-muted" style="margin-bottom:1rem;">Your shortlist is empty.</h3>
-                    <a href="#/search" class="btn btn-primary" style="display:inline-block; padding:0.5rem 1rem; border-radius:4px; text-decoration:none;">Go to Search</a>
+                    <p class="text-muted mb-4">Search for options and add them to your shortlist.</p>
+                    <a href="#/results" class="btn btn-primary" style="display:inline-block; padding:0.5rem 1rem; border-radius:4px; text-decoration:none;">Go to Search</a>
                 </div>
             `;
             return;

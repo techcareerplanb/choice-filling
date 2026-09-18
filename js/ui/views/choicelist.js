@@ -42,8 +42,8 @@ export async function renderChoiceList(container) {
             content.innerHTML = `
                 <div class="card" style="background:var(--bg-surface); padding:3rem; text-align:center; border-radius:8px;">
                     <h3 class="text-muted" style="margin-bottom:1rem;">Your Choice List is empty.</h3>
-                    <p class="text-muted mb-4">Add colleges to your Shortlist to build your final Choice List.</p>
-                    <a href="#/search" class="btn btn-primary" style="display:inline-block; padding:0.5rem 1rem; border-radius:4px; text-decoration:none;">Go to Search</a>
+                    <p class="text-muted mb-3">You haven't added any colleges to your choice list yet.</p>
+                    <a href="#/results" class="btn btn-primary" style="display:inline-block; padding:0.5rem 1rem; border-radius:4px; text-decoration:none;">Go to Search</a>
                 </div>
             `;
             return;

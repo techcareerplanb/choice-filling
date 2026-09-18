@@ -27,7 +27,7 @@ self.onmessage = async (e) => {
                 searchIndex = new SearchIndex(datasets.indexes);
                 
                 // Initialize Providers
-                SeatMatrixProvider.initialize(datasets['seat-matrix-2025']);
+                SeatMatrixProvider.initialize([...(datasets['seat-matrix-2025'] || []), ...(datasets['seat-matrix-additional-2025'] || [])]);
                 
                 self.postMessage({ type: 'INIT_SUCCESS', msgId, payload: dataStore.getMetadata() });
                 break;
@@ -73,8 +73,7 @@ self.onmessage = async (e) => {
                         courseId: hydrated.course.id,
                         quotaId: hydrated.quota.id,
                         categoryId: hydrated.category.id,
-                        year: new Date().getFullYear(),
-                        round: 1
+                        year: new Date().getFullYear()
                     });
                     
                     // A. Hard Filter (Budget, Stipend, Bond, Seats)
@@ -161,8 +160,7 @@ self.onmessage = async (e) => {
                     courseId: opt.course.id,
                     quotaId: opt.quota.id,
                     categoryId: opt.category.id,
-                    year: new Date().getFullYear(),
-                    round: 1
+                    year: new Date().getFullYear()
                 });
                 
                 // Integrate Official Domicile Eligibility Provider

@@ -49,8 +49,10 @@ export function filterOption(option, criteria) {
             if (option.seatData.status !== 'AVAILABLE') {
                 return false; // Not officially published, so we don't show it when strictly filtering by seats
             }
-            if (option.seatData.categorySeats < minSeats) {
-                return false;
+            if (option.seatData.sourceType === 'DEEMED') {
+                if (option.seatData.totalSeats < minSeats) return false;
+            } else {
+                if (option.seatData.categorySeats < minSeats) return false;
             }
         }
     }

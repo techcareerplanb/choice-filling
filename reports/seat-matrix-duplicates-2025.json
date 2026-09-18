@@ -1,0 +1,1838 @@
+[
+  {
+    "sourceRowId": "140",
+    "instituteCode": "902832",
+    "instituteName": "Autonomous State Medical College, Shahjahanpur(902832)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "6140_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "141",
+    "instituteCode": "902832",
+    "instituteName": "Autonomous State Medical College, Shahjahanpur(902832)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "6140_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "142",
+    "instituteCode": "902832",
+    "instituteName": "Autonomous State Medical College, Shahjahanpur(902832)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6140_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "143",
+    "instituteCode": "902832",
+    "instituteName": "Autonomous State Medical College, Shahjahanpur(902832)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6140_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "144",
+    "instituteCode": "902832",
+    "instituteName": "Autonomous State Medical College, Shahjahanpur(902832)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6140_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "145",
+    "instituteCode": "902832",
+    "instituteName": "Autonomous State Medical College, Shahjahanpur(902832)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6140_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "146",
+    "instituteCode": "902832",
+    "instituteName": "Autonomous State Medical College, Shahjahanpur(902832)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "6140_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "147",
+    "instituteCode": "902832",
+    "instituteName": "Autonomous State Medical College, Shahjahanpur(902832)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "6140_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "726",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "727",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "729",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "166_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "730",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "166_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "731",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "732",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "166_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "733",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "166_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "734",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "735",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "736",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "737",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "166_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "738",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_60_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "739",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "canonicalIdentity": "166_62_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "741",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "canonicalIdentity": "166_67_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "742",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "166_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "743",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "744",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "166_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "745",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "166_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "746",
+    "instituteCode": "700296",
+    "instituteName": "Gandhi Medical College, Bhopal(700296)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "166_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "865",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "866",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_6_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "867",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (Emergency and Critical Care)/M.D. (Emergency Medicine)",
+    "quota": "All India",
+    "canonicalIdentity": "14_43_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "868",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "14_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "869",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "870",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "14_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "871",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "872",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "874",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "14_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "875",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_60_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "876",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_62_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "877",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "canonicalIdentity": "14_67_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "878",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "14_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "879",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "880",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "881",
+    "instituteCode": "700529",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE - KANNUR(700529)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1012",
+    "instituteCode": "902851",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE SHAHDOL(902851)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "14_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1013",
+    "instituteCode": "902851",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE SHAHDOL(902851)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1016",
+    "instituteCode": "701703",
+    "instituteName": "Government Medical College Srinagar(701703)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "98_6_1",
+    "subtype": "CANONICAL_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1041",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1042",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1043",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_6_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1044",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "14_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1045",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "14_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1046",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1047",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "14_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1048",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1049",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1050",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1051",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1052",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "14_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1053",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_60_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1054",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_62_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1055",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "canonicalIdentity": "14_61_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1056",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "canonicalIdentity": "14_67_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1058",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "14_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1059",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1060",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1061",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1062",
+    "instituteCode": "700304",
+    "instituteName": "Government Medical College, Aurangabad(700304)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "14_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1063",
+    "instituteCode": "701510",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE, AZAMGARH(701510)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1064",
+    "instituteCode": "701510",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE, AZAMGARH(701510)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1065",
+    "instituteCode": "701510",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE, AZAMGARH(701510)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "14_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1066",
+    "instituteCode": "701510",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE, AZAMGARH(701510)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "14_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1067",
+    "instituteCode": "701510",
+    "instituteName": "GOVERNMENT MEDICAL COLLEGE, AZAMGARH(701510)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "14_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1229",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1230",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1231",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_6_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1232",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "14_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1233",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "14_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1234",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1235",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "14_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1236",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1237",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1238",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1239",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1240",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "14_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1241",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "14_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1242",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1243",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1244",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "1245",
+    "instituteCode": "701513",
+    "instituteName": "Government Medical College, Ratlam(701513)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "14_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2048",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2049",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2050",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "116_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2051",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "116_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2052",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2053",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "116_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2054",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "116_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2055",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2056",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2057",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2058",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "116_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2059",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "116_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2060",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2061",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "116_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2062",
+    "instituteCode": "701502",
+    "instituteName": "Karwar Institute of Medical Sciences, Karnataka(701502)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "116_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2094",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2095",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2096",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "116_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2097",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2098",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "116_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2099",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "116_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2100",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2101",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2102",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2103",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "116_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2104",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "116_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2105",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2106",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "116_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2107",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "116_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2108",
+    "instituteCode": "701511",
+    "instituteName": "Kodagu Institute of Medical Sciences, Karnataka(701511)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "116_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2169",
+    "instituteCode": "700370",
+    "instituteName": "Lala Lajpat Rai Memorial Medical College, MEERUT(700370)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "373_6_1",
+    "subtype": "CANONICAL_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2231",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2232",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_6_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2233",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "14_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2234",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "14_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2235",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2236",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "14_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2237",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2238",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2239",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2240",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2241",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "14_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2242",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_60_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2243",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_62_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2244",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "canonicalIdentity": "14_67_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2246",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "14_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2247",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2248",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "14_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2249",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "14_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2250",
+    "instituteCode": "700367",
+    "instituteName": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE(700367)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "14_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2441",
+    "instituteCode": "700119",
+    "instituteName": "Maulana Azad Medical College(700119)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "54_6_1",
+    "subtype": "CANONICAL_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2460",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "DIPLOMA IN ANAESTHESIOLOGY",
+    "quota": "All India",
+    "canonicalIdentity": "405_1_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2464",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2465",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2466",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_6_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2468",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "405_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2469",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2470",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "405_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2471",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "405_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2472",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2473",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2474",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2475",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "405_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2476",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_60_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2479",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "canonicalIdentity": "405_67_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2482",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "405_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2483",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2484",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "405_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2485",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "405_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2486",
+    "instituteCode": "700392",
+    "instituteName": "MEDICAL COLLEGE, KOLKATA(700392)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "405_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2786",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2787",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2788",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_6_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2789",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2790",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2791",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2792",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2793",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (PAEDIATRICS)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_53_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2794",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2795",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2796",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2797",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "6120_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2798",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (PSYCHIATRY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_60_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2799",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (RADIO-DIAGNOSIS)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_62_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2800",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (Radiotherapy/ Radiation Oncology)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_61_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2801",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_67_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2802",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2803",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2804",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2805",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2806",
+    "instituteCode": "700316",
+    "instituteName": "Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR(700316)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "6120_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2902",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (ANAESTHESIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_32_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2903",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2904",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_6_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2905",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "356_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2906",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (GENERAL MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "356_46_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2907",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology)",
+    "quota": "All India",
+    "canonicalIdentity": "356_70_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2908",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2909",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2910",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2911",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "356_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2913",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.S. (E.N.T.)",
+    "quota": "All India",
+    "canonicalIdentity": "356_68_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2914",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.S. (GENERAL SURGERY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_69_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2915",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2916",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "M.S. (ORTHOPAEDICS)",
+    "quota": "All India",
+    "canonicalIdentity": "356_72_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2917",
+    "instituteCode": "700535",
+    "instituteName": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES(700535)",
+    "program": "MD/MS (Anatomy)",
+    "quota": "All India",
+    "canonicalIdentity": "356_34_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2918",
+    "instituteCode": "700517",
+    "instituteName": "RAJIV GANDHI MEDICAL COLLEGE KALWA THANE(700517)",
+    "program": "M.D. (BIOCHEMISTRY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_79_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2919",
+    "instituteCode": "700517",
+    "instituteName": "RAJIV GANDHI MEDICAL COLLEGE KALWA THANE(700517)",
+    "program": "M.D. (FORENSIC MEDICINE)",
+    "quota": "All India",
+    "canonicalIdentity": "356_45_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2920",
+    "instituteCode": "700517",
+    "instituteName": "RAJIV GANDHI MEDICAL COLLEGE KALWA THANE(700517)",
+    "program": "M.D. (MICROBIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_51_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2921",
+    "instituteCode": "700517",
+    "instituteName": "RAJIV GANDHI MEDICAL COLLEGE KALWA THANE(700517)",
+    "program": "M.D. (PATHOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_55_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2922",
+    "instituteCode": "700517",
+    "instituteName": "RAJIV GANDHI MEDICAL COLLEGE KALWA THANE(700517)",
+    "program": "M.D. (PHARMACOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_57_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2923",
+    "instituteCode": "700517",
+    "instituteName": "RAJIV GANDHI MEDICAL COLLEGE KALWA THANE(700517)",
+    "program": "M.D. (PHYSIOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "356_59_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "2924",
+    "instituteCode": "700517",
+    "instituteName": "RAJIV GANDHI MEDICAL COLLEGE KALWA THANE(700517)",
+    "program": "M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE",
+    "quota": "All India",
+    "canonicalIdentity": "356_63_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "3025",
+    "instituteCode": "700381",
+    "instituteName": "Regional Institute of Ophthalmology(700381)",
+    "program": "M.S. (OPHTHALMOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "255_71_1",
+    "subtype": "TRUE_SOURCE_DUPLICATE"
+  },
+  {
+    "sourceRowId": "3109",
+    "instituteCode": "700375",
+    "instituteName": "Sarojini Naidu Medical College, AGRA(700375)",
+    "program": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",
+    "quota": "All India",
+    "canonicalIdentity": "369_6_1",
+    "subtype": "CANONICAL_DUPLICATE"
+  }
+]

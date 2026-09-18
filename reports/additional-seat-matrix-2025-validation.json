@@ -1,0 +1,32 @@
+{
+  "CENTRAL_INTERNAL": {
+    "sourceRows": 157,
+    "matched": 140,
+    "unmatched": 17,
+    "duplicates": 0,
+    "mappingErrors": 0,
+    "ambiguous": 0
+  },
+  "DEEMED": {
+    "sourceRows": 1201,
+    "matched": 979,
+    "unmatched": 171,
+    "duplicates": 51,
+    "mappingErrors": 0,
+    "ambiguous": 0
+  },
+  "DNB": {
+    "sourceRows": 4419,
+    "matched": 1761,
+    "unmatched": 2456,
+    "duplicates": 202,
+    "mappingErrors": 0,
+    "ambiguous": 0
+  },
+  "mutations": {
+    "sourceValueMutations": 0,
+    "falsePositiveMappings": 0,
+    "newCanonicalCollisions": 0,
+    "regressionFailures": 0
+  }
+}

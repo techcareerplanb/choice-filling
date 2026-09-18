@@ -1,10 +1,10 @@
-import { renderHome } from './ui/views/home.js';
 import { renderResults } from './ui/views/results.js';
 import { renderCollege } from './ui/views/college.js';
 import { renderCompare } from './ui/views/compare.js';
 import { renderShortlist } from './ui/views/shortlist.js';
 import { renderChoiceList } from './ui/views/choicelist.js';
 import { renderStatic } from './ui/views/static.js';
+import { renderUpdateData } from './ui/views/update-data.js';
 
 let appContainer = null;
 
@@ -44,10 +44,7 @@ function handleRoute() {
     
     appContainer.innerHTML = ''; // Clear current view
     
-    if (path === '/' || path === '/search') {
-        renderHome(appContainer, params);
-    } 
-    else if (path === '/results') {
+    if (path === '/' || path === '/results') {
         renderResults(appContainer, params);
     } 
     else if (path.startsWith('/college/')) {
@@ -65,6 +62,9 @@ function handleRoute() {
     }
     else if (path === '/methodology' || path === '/help') {
         renderStatic(appContainer, path);
+    }
+    else if (path === '/update-data') {
+        renderUpdateData(appContainer, params);
     }
     else {
         appContainer.innerHTML = `<div class="container text-center mt-4"><h2>404 - Page Not Found</h2></div>`;
