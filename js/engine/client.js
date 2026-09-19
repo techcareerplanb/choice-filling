@@ -33,8 +33,10 @@ export class EngineClient {
         if (criteria.institutes && criteria.institutes.length) params.append('institutes', criteria.institutes.join(','));
         if (criteria.courses && criteria.courses.length) params.append('courses', criteria.courses.join(','));
         
-        // Scalar criteria
-        if (criteria.categoryIds && criteria.categoryIds.length === 1) params.append('candidateCategory', criteria.categoryIds[0]);
+        // Send the raw candidate category ID — the server resolves eligibility expansion (OPEN+reserved).
+        // Do NOT expand client-side and do NOT gate on array length (that silently drops the filter for
+        // non-GEN candidates who have a 2-element array).
+        if (criteria.candidateCategory) params.append('candidateCategory', criteria.candidateCategory);
         if (criteria.budget) params.append('budget', criteria.budget);
         if (criteria.stipend) params.append('stipend', criteria.stipend);
         if (criteria.bond !== undefined && criteria.bond !== null) params.append('bond', criteria.bond);
@@ -99,7 +101,8 @@ export class EngineClient {
         if (criteria.institutes && criteria.institutes.length) params.append('institutes', criteria.institutes.join(','));
         if (criteria.courses && criteria.courses.length) params.append('courses', criteria.courses.join(','));
         
-        if (criteria.categoryIds && criteria.categoryIds.length === 1) params.append('candidateCategory', criteria.categoryIds[0]);
+        // Send raw candidate category ID — server handles eligibility expansion
+        if (criteria.candidateCategory) params.append('candidateCategory', criteria.candidateCategory);
         if (criteria.budget) params.append('budget', criteria.budget);
         if (criteria.stipend) params.append('stipend', criteria.stipend);
         if (criteria.bond !== undefined && criteria.bond !== null) params.append('bond', criteria.bond);

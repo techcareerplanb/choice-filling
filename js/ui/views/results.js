@@ -1,8 +1,30 @@
 import { navigate } from '../../router.js';
+import { getCacheItem, setCacheItem } from '../../engine/cache.js';
+
+let isFirstLoad = true;
 
 export async function renderResults(container, params = {}) {
     const engine = window.DATA_ENGINE;
     
+    // Restore filters from cache if the URL has no params and it's the first load
+    if (isFirstLoad && Object.keys(params).length === 0) {
+        isFirstLoad = false;
+        try {
+            const cachedParams = await getCacheItem('uiState', 'lastSearchParams');
+            if (cachedParams && Object.keys(cachedParams).length > 0) {
+                // We have cached filters, redirect to use them
+                navigate('/results', cachedParams);
+                return;
+            }
+        } catch (err) {
+            console.error('Failed to read cached filters', err);
+        }
+    }
+    isFirstLoad = false;
+    
+    // Save current filters to cache
+    setCacheItem('uiState', 'lastSearchParams', params).catch(console.error);
+
     // Parse rank for fit assessment
     const rank = params.rank ? parseInt(params.rank, 10) : null;
     
@@ -25,14 +47,14 @@ export async function renderResults(container, params = {}) {
         criteria.quotas = params.quota.split(',').map(s => parseInt(s.trim(), 10)).filter(id => !isNaN(id));
     }
     
-    // Map Candidate Category -> Option Categories
+    // Pass the candidate's raw category ID to the server.
+    // The server (server/data.js getEligibleCategories) is the sole authority for
+    // category eligibility expansion (GEN→OPEN, EWS→OPEN+EWS, OBC→OPEN+OBC, etc.).
     if (params.category || params.cat) {
         const candCatId = parseInt(params.category || params.cat, 10);
-        const openCat = window.APP_META.categories.find(c => c.name === 'GEN' || c.name === 'OPEN');
-        const openCatId = openCat ? openCat.id : 1;
-        
-        // A candidate is always eligible for OPEN seats, plus seats specifically reserved for their category.
-        criteria.categoryIds = (candCatId === openCatId) ? [openCatId] : [openCatId, candCatId];
+        if (!isNaN(candCatId)) {
+            criteria.candidateCategory = candCatId;
+        }
     }
     
     // 1. Determine available colleges based on state filter

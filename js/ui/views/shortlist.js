@@ -62,6 +62,9 @@ export async function renderShortlist(container) {
                     const opt = obj.data;
                     const s = obj.state;
                     
+                    if (!opt) return ''; // Skip rendering if option is not found or failed to load
+
+                    
                     const isFav = s.isFavorite;
                     const analyzed = opt._analyzedCutoffs;
                     const latestCutoffText = analyzed && analyzed.latestYear && analyzed.latestRound && analyzed.latestClosingRank != null ? 
