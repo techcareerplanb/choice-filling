@@ -48,8 +48,8 @@ export class SearchIndex {
 
         if (criteria.instituteIds && criteria.instituteIds.length > 0) applyIntersectionMultiple(this.indexes.byInstitute, criteria.instituteIds);
         if (criteria.courseIds && criteria.courseIds.length > 0) applyIntersectionMultiple(this.indexes.byCourse, criteria.courseIds);
-        if (criteria.categoryId) applyIntersection(this.indexes.byCategory, criteria.categoryId);
-        if (criteria.quotaId) applyIntersection(this.indexes.byQuota, criteria.quotaId);
+        if (criteria.categoryIds && criteria.categoryIds.length > 0) applyIntersectionMultiple(this.indexes.byCategory, criteria.categoryIds);
+        if (criteria.quotaIds && criteria.quotaIds.length > 0) applyIntersectionMultiple(this.indexes.byQuota, criteria.quotaIds);
         if (criteria.states && criteria.states.length > 0) applyIntersectionMultiple(this.indexes.byState, criteria.states);
         
         // If no criteria provided, we technically match all, but returning 21k IDs is heavy.

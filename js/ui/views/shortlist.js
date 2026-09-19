@@ -3,7 +3,10 @@ export async function renderShortlist(container) {
         <div class="container" style="margin-top:2rem;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
                 <h1 style="font-size:1.75rem; font-weight:700;">Your Shortlist</h1>
-                <a href="#/results" class="btn btn-outline" style="padding:0.5rem 1rem; border-radius:4px; border:1px solid var(--border-color); text-decoration:none;">Search More Options</a>
+                <div style="display:flex; gap:0.5rem;">
+                    <button id="btn-clear-shortlist" class="btn btn-outline" style="padding:0.5rem 1rem; border-radius:4px; border:1px solid var(--danger); color:var(--danger); background:transparent; cursor:pointer;">Clear List</button>
+                    <a href="#/results" class="btn btn-outline" style="padding:0.5rem 1rem; border-radius:4px; border:1px solid var(--border-color); text-decoration:none;">Search More Options</a>
+                </div>
             </div>
             <div id="shortlist-content">
                 <div style="text-align:center; padding:3rem; background:var(--bg-surface); border-radius:8px;">
@@ -20,6 +23,8 @@ export async function renderShortlist(container) {
         const listState = stateModule.state.shortlist;
         
         if (listState.length === 0) {
+            const clearBtn = document.getElementById('btn-clear-shortlist');
+            if (clearBtn) clearBtn.style.display = 'none';
             content.innerHTML = `
                 <div class="card" style="background:var(--bg-surface); padding:3rem; text-align:center; border-radius:8px;">
                     <h3 class="text-muted" style="margin-bottom:1rem;">Your shortlist is empty.</h3>
@@ -31,7 +36,17 @@ export async function renderShortlist(container) {
         }
 
         const engine = window.DATA_ENGINE;
-        const options = await Promise.all(listState.map(item => engine.getOption(item.id)));
+        const options = [];
+        const BATCH_SIZE = 50; // Use batch API to save requests
+        for (let i = 0; i < listState.length; i += BATCH_SIZE) {
+            const batchIds = listState.slice(i, i + BATCH_SIZE).map(item => item.id);
+            try {
+                const batchResults = await engine.getOptionsBatch(batchIds);
+                options.push(...batchResults);
+            } catch (err) {
+                console.error("Batch fetch failed", err);
+            }
+        }
         
         // Map engine data back to the specific ordered state
         const mergedData = listState.map(item => {
@@ -76,7 +91,7 @@ export async function renderShortlist(container) {
                                     </div>
                                     <div style="font-weight:500; color:var(--primary-color); margin-bottom:0.5rem;">${opt.course.name}</div>
                                     <div style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1rem;">
-                                        ${opt.institute.state} &middot; ${opt.quota.short_name} &middot; ${opt.category.name}
+                                        ${opt.institute.state}${opt.institute.type ? ` &middot; ${opt.institute.type}` : ''}
                                     </div>
                                     
                                     <div style="display:flex; gap:1rem; font-size:0.875rem;">
@@ -203,6 +218,16 @@ export async function renderShortlist(container) {
                 renderShortlist(container); // re-render
             }
         });
+
+        const clearBtn = document.getElementById('btn-clear-shortlist');
+        if (clearBtn) {
+            clearBtn.addEventListener('click', () => {
+                if (confirm('Are you sure you want to clear your entire shortlist?')) {
+                    stateModule.clearShortlist();
+                    renderShortlist(container);
+                }
+            });
+        }
 
     } catch (e) {
         content.innerHTML = `<div class="card p-4 text-danger">Failed to load shortlist: ${e.message}</div>`;

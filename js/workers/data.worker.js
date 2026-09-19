@@ -37,12 +37,11 @@ self.onmessage = async (e) => {
                 
                 const { rank, criteria } = payload;
                 
-                // 1. Initial O(1) Intersections (Category, Course, Institute, Quota)
                 const indexCriteria = {
-                    categoryId: criteria.categoryId,
+                    categoryIds: criteria.categoryIds,
                     courseIds: criteria.courses,
                     instituteIds: criteria.institutes,
-                    quotaId: criteria.quotaId,
+                    quotaIds: criteria.quotas,
                     states: criteria.states
                 };
                 
@@ -105,10 +104,8 @@ self.onmessage = async (e) => {
                 // 3. Sort by safety score (highest score = safest)
                 results.sort((a, b) => b._fit.score - a._fit.score);
                 
-                // 4. Return top 200 to prevent IPC bottleneck
-                const cappedResults = results.slice(0, 200);
-                
-                self.postMessage({ type: 'SEARCH_SUCCESS', msgId, payload: { total: results.length, data: cappedResults } });
+                // 4. Return all results as requested by user
+                self.postMessage({ type: 'SEARCH_SUCCESS', msgId, payload: { total: results.length, data: results } });
                 break;
                 
             case 'GET_OPTION':

@@ -210,7 +210,18 @@ rawData.forEach(item => {
         
         bondYears: bondYearsData.amount,
         bondPenalty: bondPenaltyData.amount,
-        bondHasCaveat: (bondYearsData.hasCaveat || bondPenaltyData.hasCaveat)
+        bondHasCaveat: (bondYearsData.hasCaveat || bondPenaltyData.hasCaveat),
+        
+        feeTotal: item.fee_total !== undefined ? item.fee_total : null,
+        feeHostel: item.fee_hostel !== undefined ? item.fee_hostel : null,
+        feeOther: item.fee_other !== undefined ? item.fee_other : null,
+        courseDurationMonths: item.course_duration_months !== undefined ? item.course_duration_months : null,
+        bondRequired: item.bond_required !== undefined ? item.bond_required : null,
+        bondDetails: item.bond_details !== undefined ? item.bond_details : null,
+        remarks: item.remarks !== undefined ? item.remarks : null,
+        sourceLabel: item.source_label !== undefined ? item.source_label : null,
+        sourceUrl: item.source_url !== undefined ? item.source_url : null,
+        lastUpdatedAt: item.lastUpdatedAt !== undefined ? item.lastUpdatedAt : null
     });
 });
 

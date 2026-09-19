@@ -114,11 +114,8 @@ export async function renderChoiceList(container) {
                         else if (meta.tier === 'Safe') { badgeClass = 'var(--success-light)'; badgeText = 'var(--success)'; }
 
                         return `
-                            <div class="shortlist-item card" data-id="${opt.id}" draggable="true" style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; display:flex; align-items:stretch; cursor:grab; overflow:hidden;">
-                                <div class="drag-handle no-print" style="width:40px; background:var(--bg-main); display:flex; align-items:center; justify-content:center; color:var(--text-muted); border-right:1px solid var(--border-color);">
-                                    ☰
-                                </div>
-                                <div style="width:40px; background:var(--bg-main); display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:1.25rem; color:var(--text-muted); border-right:1px solid var(--border-color);">
+                            <div class="shortlist-item card" data-id="${opt.id}" style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; display:flex; align-items:stretch; overflow:hidden;">
+                                <div style="width:60px; background:var(--bg-main); display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:1.5rem; color:var(--text-muted); border-right:1px solid var(--border-color);">
                                     ${index + 1}
                                 </div>
                                 
@@ -128,12 +125,18 @@ export async function renderChoiceList(container) {
                                             <h3 style="margin:0 0 0.25rem 0; font-size:1.25rem;">${opt.institute.name}</h3>
                                             <div style="font-weight:500; color:var(--text); margin-bottom:0.5rem;">${opt.course.name}</div>
                                             <div style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1rem;">
-                                                ${opt.institute.state} &middot; ${opt.quota.short_name} &middot; ${opt.category.name}
+                                                ${opt.institute.state}${opt.institute.type ? ` &middot; ${opt.institute.type}` : ''}
                                             </div>
                                         </div>
                                         <div style="text-align:right;">
                                             <span style="display:inline-block; padding:0.25rem 0.5rem; border-radius:4px; font-size:0.75rem; font-weight:600; background: ${badgeClass}; color: ${badgeText};">${meta.tier.toUpperCase()}</span>
                                             <div class="text-muted text-sm mt-1">${s.isFavorite ? '★ Favorite' : ''}</div>
+                                            
+                                            <div class="no-print mt-3" style="display:flex; align-items:center; gap:0.5rem; justify-content:flex-end;">
+                                                <label style="font-size:0.875rem; color:var(--text-muted);">Move to:</label>
+                                                <input type="number" class="form-control pos-input" min="1" max="${dataToRender.length}" value="${index + 1}" style="width:70px; padding:0.25rem; text-align:center;">
+                                                <button class="btn btn-outline btn-move" data-id="${opt.id}" data-current="${index}" style="padding:0.25rem 0.5rem; font-size:0.875rem;">Move</button>
+                                            </div>
                                         </div>
                                     </div>
                                     
@@ -166,7 +169,7 @@ export async function renderChoiceList(container) {
         });
         
         document.getElementById('btn-export-csv').addEventListener('click', () => {
-            let csv = 'Order,Tier,Institute,State,Course,Quota,Category,Fee,Stipend,Notes\n';
+            let csv = 'Order,Tier,Institute,State,Course,Fee,Stipend,Notes\n';
             mergedData.forEach((obj, idx) => {
                 const m = recommendedMetadata.find(x => x.optionId === obj.data.id);
                 const row = [
@@ -175,8 +178,6 @@ export async function renderChoiceList(container) {
                     `"${obj.data.institute.name}"`,
                     obj.data.institute.state,
                     `"${obj.data.course.name}"`,
-                    obj.data.quota.short_name,
-                    obj.data.category.name,
                     `"${obj.data.financials.feeRaw || ''}"`,
                     `"${obj.data.financials.stipendRaw || ''}"`,
                     `"${obj.state.notes.replace(/"/g, '""')}"`
@@ -201,59 +202,45 @@ export async function renderChoiceList(container) {
             // Re-render
             const newlySortedData = orderedIds.map(id => mergedData.find(m => m.state.id === id));
             content.innerHTML = renderList(newlySortedData);
-            bindDragAndDrop(); // Rebind since DOM changed
+            bindMoveControls(newlySortedData.length); // Rebind since DOM changed
         });
 
-        // Drag and Drop implementation
-        const bindDragAndDrop = () => {
+        const bindMoveControls = (totalLength) => {
             const listEl = document.getElementById('choice-sortable-list');
             if (!listEl) return;
-            let draggedItem = null;
-
-            listEl.addEventListener('dragstart', (e) => {
-                const item = e.target.closest('.shortlist-item');
-                if (!item) return;
-                draggedItem = item;
-                setTimeout(() => item.style.opacity = '0.5', 0);
-            });
-
-            listEl.addEventListener('dragend', (e) => {
-                if (draggedItem) {
-                    draggedItem.style.opacity = '1';
-                    draggedItem = null;
-                    const newOrder = Array.from(listEl.querySelectorAll('.shortlist-item')).map(el => parseInt(el.dataset.id, 10));
-                    stateModule.reorderShortlist(newOrder);
+            
+            listEl.addEventListener('click', (e) => {
+                if (e.target.classList.contains('btn-move')) {
+                    const btn = e.target;
+                    const id = parseInt(btn.dataset.id, 10);
+                    const currentIdx = parseInt(btn.dataset.current, 10);
+                    
+                    const inputEl = btn.previousElementSibling;
+                    const rawVal = parseInt(inputEl.value, 10);
+                    
+                    if (isNaN(rawVal)) {
+                        alert("Please enter a valid numeric position.");
+                        return;
+                    }
+                    
+                    let newIdx = rawVal - 1;
+                    if (newIdx < 0) newIdx = 0;
+                    if (newIdx >= totalLength) newIdx = totalLength - 1;
+                    
+                    if (newIdx === currentIdx) return; // No change
+                    
+                    // Reorder IDs array directly
+                    const currentOrderIds = Array.from(listEl.querySelectorAll('.shortlist-item')).map(el => parseInt(el.dataset.id, 10));
+                    const itemToMove = currentOrderIds.splice(currentIdx, 1)[0];
+                    currentOrderIds.splice(newIdx, 0, itemToMove);
+                    
+                    stateModule.reorderShortlist(currentOrderIds);
                     renderChoiceList(container); // Re-render to update index numbers
                 }
             });
-
-            listEl.addEventListener('dragover', (e) => {
-                e.preventDefault();
-                const afterElement = getDragAfterElement(listEl, e.clientY);
-                const draggable = draggedItem;
-                if (draggable == null) return;
-                if (afterElement == null) {
-                    listEl.appendChild(draggable);
-                } else {
-                    listEl.insertBefore(draggable, afterElement);
-                }
-            });
-
-            function getDragAfterElement(container, y) {
-                const draggableElements = [...container.querySelectorAll('.shortlist-item:not([style*="opacity: 0.5"])')];
-                return draggableElements.reduce((closest, child) => {
-                    const box = child.getBoundingClientRect();
-                    const offset = y - box.top - box.height / 2;
-                    if (offset < 0 && offset > closest.offset) {
-                        return { offset: offset, element: child };
-                    } else {
-                        return closest;
-                    }
-                }, { offset: Number.NEGATIVE_INFINITY }).element;
-            }
         };
         
-        bindDragAndDrop();
+        bindMoveControls(mergedData.length);
 
     } catch (e) {
         content.innerHTML = `<div class="card p-4 text-danger">Failed to load Choice List: ${e.message}</div>`;

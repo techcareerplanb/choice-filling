@@ -1,0 +1,349 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { DataStore } from '../js/data/DataStore.js';
+import { SearchIndex } from '../js/data/SearchIndex.js';
+import { filterOption } from '../js/engine/filterEngine.js';
+import { analyzeCutoffs } from '../js/engine/cutoffEngine.js';
+import { assessFit } from '../js/engine/fitEngine.js';
+import { SeatMatrixProvider } from '../js/data/SeatMatrixProvider.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const DATA_DIR = path.join(__dirname, '..', 'data', 'processed');
+
+export let dataStore = null;
+export let searchIndex = null;
+
+// Hard-coded Category Eligibility Map
+const CATEGORY_ELIGIBILITY = {
+    '1': ['1'], // GN -> OPEN
+    '2': ['1', '2'], // OBC -> OPEN + OBC
+    '3': ['1', '3'], // SC -> OPEN + SC
+    '4': ['1', '4'], // ST -> OPEN + ST
+    '5': ['1', '5']  // EWS -> OPEN + EWS
+};
+
+function getEligibleCategories(candidateCategoryId) {
+    if (!candidateCategoryId) return null;
+    return CATEGORY_ELIGIBILITY[String(candidateCategoryId)] || [String(candidateCategoryId)];
+}
+
+export async function initDataLayer() {
+    console.log("Loading datasets into memory...");
+    const files = [
+        'metadata', 'institutes', 'courses', 'categories', 'quotas', 'counsellings',
+        'options', 'cutoffs', 'financials',
+        'seat-matrix-2025', 'seat-matrix-additional-2025', 'indexes'
+    ];
+    
+    const datasets = {};
+    for (const file of files) {
+        const filePath = path.join(DATA_DIR, `${file}.json`);
+        if (fs.existsSync(filePath)) {
+            const raw = await fs.promises.readFile(filePath, 'utf8');
+            datasets[file] = JSON.parse(raw);
+        } else {
+            console.warn(`Dataset ${file}.json not found!`);
+            datasets[file] = [];
+        }
+    }
+    
+    dataStore = new DataStore(datasets);
+    searchIndex = new SearchIndex(datasets.indexes);
+    SeatMatrixProvider.initialize([...(datasets['seat-matrix-2025'] || []), ...(datasets['seat-matrix-additional-2025'] || [])]);
+    
+    console.log("Data layer initialized.");
+}
+
+export function searchOptions(query) {
+    if (!dataStore || !searchIndex) throw new Error("Data layer not initialized");
+    
+    // Parse pagination and cursor
+    const pageSize = Math.min(parseInt(query.pageSize, 10) || 50, 100);
+    const cursor = query.cursor; 
+    
+    // Parse filters
+    const rank = query.rank ? parseInt(query.rank, 10) : null;
+    const quotas = query.quota ? query.quota.split(',') : [];
+    const candidateCategory = query.candidateCategory || null;
+    const states = query.states ? query.states.split(',') : [];
+    const institutes = query.institutes ? query.institutes.split(',').map(Number) : [];
+    const courses = query.courses ? query.courses.split(',').map(Number) : [];
+    
+    const eligibleCategoryIds = getEligibleCategories(candidateCategory);
+    const quotaIds = quotas.map(q => {
+        const qt = Object.values(dataStore.quotas).find(x => String(x.id) === q || x.short_name === q || x.name === q);
+        return qt ? qt.id : null;
+    }).filter(Boolean);
+    
+    const indexCriteria = {
+        categoryIds: eligibleCategoryIds ? eligibleCategoryIds.map(Number) : undefined,
+        quotaIds: quotaIds.length > 0 ? quotaIds : undefined,
+        states: states.length > 0 ? states : undefined,
+        instituteIds: institutes.length > 0 ? institutes : undefined,
+        courseIds: courses.length > 0 ? courses : undefined
+    };
+    
+    // Clear undefined
+    Object.keys(indexCriteria).forEach(k => indexCriteria[k] === undefined && delete indexCriteria[k]);
+    
+    let candidateIds = searchIndex.search(indexCriteria);
+    if (candidateIds.length === 0 && Object.keys(indexCriteria).length === 0) {
+        candidateIds = Object.keys(dataStore.options);
+    }
+    
+    // Additional criteria for filterEngine
+    const extraCriteria = {
+        budget: query.budget,
+        stipend: query.stipend,
+        bond: query.bond,
+        seats: query.seats,
+        year: query.year,
+        round: query.round
+    };
+    
+    const results = [];
+    
+    for (let i = 0; i < candidateIds.length; i++) {
+        const optId = candidateIds[i];
+        const hydrated = dataStore.getHydratedOption(optId);
+        
+        // Inject seat data
+        hydrated.seatData = SeatMatrixProvider.getSeats({
+            instituteId: hydrated.institute.id,
+            courseId: hydrated.course.id,
+            quotaId: hydrated.quota.id,
+            categoryId: hydrated.category.id,
+            year: 2025 // Current year
+        });
+        
+        if (!filterOption(hydrated, extraCriteria)) {
+            continue;
+        }
+        
+        let filteredCutoffs = hydrated.cutoffs;
+        if (extraCriteria.year || extraCriteria.round) {
+            filteredCutoffs = hydrated.cutoffs.filter(c => {
+                const yMatch = !extraCriteria.year || extraCriteria.year === 'all' || c.year === parseInt(extraCriteria.year, 10);
+                const rMatch = !extraCriteria.round || extraCriteria.round === 'all' || c.round === parseInt(extraCriteria.round, 10);
+                return yMatch && rMatch;
+            });
+        }
+        
+        const analyzed = analyzeCutoffs(filteredCutoffs);
+        hydrated._analyzedCutoffs = analyzed;
+        hydrated._fit = assessFit(rank, analyzed);
+        
+        results.push(hydrated);
+    }
+    
+    // Sort
+    const sortBy = query.sortBy || 'fit';
+    
+    // Calculate a primary sort value for cursor
+    results.forEach(r => {
+        if (sortBy === 'fit') {
+            const map = { 'Historically favorable': 3, 'Historically competitive': 2, 'Historically difficult': 1, 'Unknown': 0 };
+            r._sortVal = map[r._fit.classification];
+            r._sortTie = r._fit.rankMarginLatest !== null ? r._fit.rankMarginLatest : -Infinity;
+        } else if (sortBy === 'rank') {
+            r._sortVal = r._fit.rankMarginLatest !== null ? Math.abs(r._fit.rankMarginLatest) : Infinity;
+        } else if (sortBy === 'fee') {
+            r._sortVal = parseInt((r.financials.feeRaw || '').replace(/[^0-9]/g, '')) || Infinity;
+        } else if (sortBy === 'stipend') {
+            r._sortVal = r.financials.stipendYear1 || 0;
+        } else if (sortBy === 'bond') {
+            r._sortVal = r.financials.bondYears === undefined ? Infinity : r.financials.bondYears;
+        } else if (sortBy === 'name') {
+            r._sortVal = r.institute.name;
+        } else if (sortBy === 'course') {
+            r._sortVal = r.course.name;
+        }
+    });
+    
+    results.sort((a, b) => {
+        if (sortBy === 'fit') {
+            if (a._sortVal !== b._sortVal) return b._sortVal - a._sortVal;
+            return b._sortTie - a._sortTie;
+        } else if (sortBy === 'stipend') {
+            if (a._sortVal !== b._sortVal) return b._sortVal - a._sortVal;
+        } else if (sortBy === 'name' || sortBy === 'course') {
+            const cmp = a._sortVal.localeCompare(b._sortVal);
+            if (cmp !== 0) return cmp;
+        } else {
+            // fee, bond, rank (ascending by default)
+            if (a._sortVal !== b._sortVal) return a._sortVal - b._sortVal;
+        }
+        return a.id - b.id; // stable fallback
+    });
+    
+    // Cursor Pagination
+    let startIndex = 0;
+    if (cursor) {
+        const cursorPayload = Buffer.from(cursor, 'base64').toString('ascii');
+        // format: sortVal_optionId (sortVal might be string or number)
+        const parts = cursorPayload.split('_');
+        const cId = parseInt(parts.pop(), 10);
+        // We actually just find the index of this ID since results are fully sorted in memory.
+        const idx = results.findIndex(r => r.id === cId);
+        if (idx !== -1) {
+            startIndex = idx + 1;
+        } else {
+            throw new Error('INVALID_CURSOR');
+        }
+    }
+    
+    const paginated = results.slice(startIndex, startIndex + pageSize);
+    let nextCursor = null;
+    if (startIndex + pageSize < results.length) {
+        const lastItem = paginated[paginated.length - 1];
+        nextCursor = Buffer.from(`cursor_${lastItem.id}`).toString('base64');
+    }
+    
+    // Build compact DTOs to save bandwidth
+    const items = paginated.map(p => ({
+        id: p.id,
+        institute: { id: p.institute.id, name: p.institute.name, state: p.institute.state },
+        course: { id: p.course.id, name: p.course.name },
+        quota: { id: p.quota.id, name: p.quota.name, short_name: p.quota.short_name },
+        category: { id: p.category.id, name: p.category.name },
+        financials: p.financials,
+        seatData: p.seatData,
+        cutoffs: p.cutoffs, // Kept to allow client sorting/inspection if needed (can be minimized)
+        _analyzedCutoffs: p._analyzedCutoffs,
+        _fit: p._fit
+    }));
+    
+    return {
+        items,
+        pagination: {
+            pageSize,
+            nextCursor,
+            hasMore: nextCursor !== null,
+            totalMatching: results.length
+        },
+        appliedFilters: query
+    };
+}
+
+export function getOption(id, reqYear, reqRound, rank) {
+    if (!dataStore) throw new Error("Data layer not initialized");
+    const opt = dataStore.getHydratedOption(id);
+    if (!opt) return null;
+    
+    // Sibling Options (Same Institute, Quota, Category)
+    const siblingIds = searchIndex.search({
+        instituteId: opt.institute.id,
+        quotaId: opt.quota.id,
+        categoryId: opt.category.id
+    });
+    opt._siblings = siblingIds.map(sid => {
+        const siblingOpt = dataStore.getHydratedOption(sid);
+        return {
+            optionId: siblingOpt.id,
+            courseId: siblingOpt.course.id,
+            courseName: siblingOpt.course.name
+        };
+    }).sort((a,b) => a.courseName.localeCompare(b.courseName));
+
+    // Cutoff filtering
+    let optCutoffs = opt.cutoffs;
+    if (reqYear && reqYear !== 'all') optCutoffs = optCutoffs.filter(c => c.year === parseInt(reqYear, 10));
+    if (reqRound && reqRound !== 'all') optCutoffs = optCutoffs.filter(c => c.round === parseInt(reqRound, 10));
+
+    const analyzedStats = analyzeCutoffs(optCutoffs);
+    opt._analyzedCutoffs = analyzedStats;
+    if (rank) {
+        opt._fit = assessFit(parseInt(rank, 10), analyzedStats);
+    } else {
+        opt._fit = { classification: 'Unknown', explanation: 'No AIR provided.', confidence: analyzedStats.confidence };
+    }
+    
+    // Inject seat matrix
+    opt.seatData = SeatMatrixProvider.getSeats({
+        instituteId: opt.institute.id,
+        courseId: opt.course.id,
+        quotaId: opt.quota.id,
+        categoryId: opt.category.id,
+        year: 2025
+    });
+
+    return opt;
+}
+
+export function getOptionsBatch(ids) {
+    if (!dataStore) throw new Error("Data layer not initialized");
+    return ids.map(id => {
+        const opt = dataStore.getHydratedOption(id);
+        if (!opt) return { id, error: 'NOT_FOUND' };
+        
+        opt._analyzedCutoffs = analyzeCutoffs(opt.cutoffs);
+        return opt;
+    });
+}
+
+export function getFilterMetadata() {
+    if (!dataStore) throw new Error("Data layer not initialized");
+    return dataStore.getMetadata();
+}
+
+
+export function getFilteredIdentities(query) {
+    if (!dataStore || !searchIndex) throw new Error("Data layer not initialized");
+    
+    // Parse filters
+    const quotas = query.quota ? query.quota.split(',') : [];
+    const candidateCategory = query.candidateCategory || null;
+    const states = query.states ? query.states.split(',') : [];
+    const institutes = query.institutes ? query.institutes.split(',').map(Number) : [];
+    const courses = query.courses ? query.courses.split(',').map(Number) : [];
+    
+    const eligibleCategoryIds = getEligibleCategories(candidateCategory);
+    const quotaIds = quotas.map(q => {
+        const qt = Object.values(dataStore.quotas).find(x => String(x.id) === q || x.short_name === q || x.name === q);
+        return qt ? qt.id : null;
+    }).filter(Boolean);
+    
+    const indexCriteria = {
+        categoryIds: eligibleCategoryIds ? eligibleCategoryIds.map(Number) : undefined,
+        quotaIds: quotaIds.length > 0 ? quotaIds : undefined,
+        states: states.length > 0 ? states : undefined,
+        instituteIds: institutes.length > 0 ? institutes : undefined,
+        courseIds: courses.length > 0 ? courses : undefined
+    };
+    
+    Object.keys(indexCriteria).forEach(k => indexCriteria[k] === undefined && delete indexCriteria[k]);
+    
+    let candidateIds = searchIndex.search(indexCriteria);
+    if (candidateIds.length === 0 && Object.keys(indexCriteria).length === 0) {
+        candidateIds = Object.keys(dataStore.options);
+    }
+    
+    const extraCriteria = {
+        budget: query.budget,
+        stipend: query.stipend,
+        bond: query.bond,
+        seats: query.seats,
+        year: query.year,
+        round: query.round
+    };
+    
+    const results = [];
+    const seenIdentities = new Set();
+    
+    for (let i = 0; i < candidateIds.length; i++) {
+        const optId = candidateIds[i];
+        const hydrated = dataStore.getHydratedOption(optId);
+        
+        if (!filterOption(hydrated, extraCriteria)) continue;
+        
+        const identity = `${hydrated.institute.id}_${hydrated.course.id}`;
+        if (!seenIdentities.has(identity)) {
+            seenIdentities.add(identity);
+            results.push({ id: parseInt(optId, 10), identity });
+        }
+    }
+    
+    return results;
+}

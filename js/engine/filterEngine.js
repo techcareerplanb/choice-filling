@@ -54,6 +54,8 @@ export function filterOption(option, criteria) {
             } else {
                 if (option.seatData.categorySeats < minSeats) return false;
             }
+        } else {
+            return false;
         }
     }
 

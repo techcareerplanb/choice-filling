@@ -1,6 +1,6 @@
 import { navigate } from '../../router.js';
 
-export function renderResults(container, params = {}) {
+export async function renderResults(container, params = {}) {
     const engine = window.DATA_ENGINE;
     
     // Parse rank for fit assessment
@@ -9,9 +9,9 @@ export function renderResults(container, params = {}) {
     // Build search criteria from params
     const criteria = {};
     if (params.bond) criteria.bond = params.bond;
-    if (params.budget) criteria.maxFee = parseInt(params.budget, 10);
+    if (params.budget) criteria.budget = parseInt(params.budget, 10);
     if (params.seats) criteria.seats = parseInt(params.seats, 10);
-    if (params.stipend) criteria.minStipend = parseInt(params.stipend, 10);
+    if (params.stipend) criteria.stipend = parseInt(params.stipend, 10);
     if (params.specialisation) {
         criteria.courses = params.specialisation.split(',').map(s => s.trim()).filter(s => s.length > 0);
     }
@@ -20,6 +20,19 @@ export function renderResults(container, params = {}) {
     }
     if (params.institute) {
         criteria.institutes = params.institute.split(',').map(s => s.trim()).filter(s => s.length > 0);
+    }
+    if (params.quota) {
+        criteria.quotas = params.quota.split(',').map(s => parseInt(s.trim(), 10)).filter(id => !isNaN(id));
+    }
+    
+    // Map Candidate Category -> Option Categories
+    if (params.category || params.cat) {
+        const candCatId = parseInt(params.category || params.cat, 10);
+        const openCat = window.APP_META.categories.find(c => c.name === 'GEN' || c.name === 'OPEN');
+        const openCatId = openCat ? openCat.id : 1;
+        
+        // A candidate is always eligible for OPEN seats, plus seats specifically reserved for their category.
+        criteria.categoryIds = (candCatId === openCatId) ? [openCatId] : [openCatId, candCatId];
     }
     
     // 1. Determine available colleges based on state filter
@@ -47,7 +60,7 @@ export function renderResults(container, params = {}) {
         <div class="container" style="margin-top:2rem;">
             <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1.5rem; flex-wrap:wrap; gap:1rem;">
                 <div>
-                    <h1 style="font-size:1.75rem; margin-bottom:0.5rem; font-weight:700;">Search Results</h1>
+                    <h1 style="font-size:1.75rem; margin-bottom:0.5rem; font-weight:700;">Search Results <span id="results-count" style="font-size:1.25rem; font-weight:500; color:var(--text-muted); margin-left:0.5rem;"></span></h1>
                     <p class="text-muted" style="margin-bottom:1rem;">Showing best fits for AIR ${rank ? rank.toLocaleString() : 'Not provided'}</p>
                     <div id="active-filters" class="mobile-only" style="display:flex; gap:0.5rem; flex-wrap:wrap; align-items:center;"></div>
                 </div>
@@ -68,6 +81,12 @@ export function renderResults(container, params = {}) {
                     
                     <button id="mobile-filter-btn" class="btn btn-outline mobile-drawer-toggle mobile-only" style="margin-bottom:0;">
                         <span>⚙️ Filters</span>
+                    </button>
+                    
+                    <button id="shortlist-all-btn" class="btn btn-primary" style="margin-bottom:0; display:flex; align-items:center; gap:0.5rem;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                        <span class="desktop-only">Shortlist All</span>
+                        <span class="mobile-only">All</span>
                     </button>
                     
                     
@@ -139,6 +158,30 @@ export function renderResults(container, params = {}) {
                         </div>
                         
                         <div class="form-group" style="margin-bottom: 1.25rem; position: relative;">
+                            <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">Quota</label>
+                            <button id="quota-dropdown-btn" type="button" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px; text-align:left; background:white; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
+                                <span id="quota-dropdown-label">${criteria.quotas && criteria.quotas.length > 0 ? (criteria.quotas.length === 1 ? window.APP_META.quotas.find(q => String(q.id) === String(criteria.quotas[0]))?.name || '1 quota selected' : `${criteria.quotas.length} quotas selected`) : 'All Quotas'}</span>
+                                <span>▼</span>
+                            </button>
+                            <div id="quota-dropdown-popover" style="display:none; position:absolute; top:100%; left:0; width:100%; background:white; border:1px solid var(--border-color-dark); border-radius:8px; margin-top:0.25rem; z-index:50; box-shadow:var(--shadow-md); max-height:300px; overflow-y:auto;">
+                                <div style="padding:0.75rem; border-bottom:1px solid var(--border-color); position:sticky; top:0; background:white; z-index:2;">
+                                    <div style="display:flex; justify-content:space-between;">
+                                        <button type="button" id="quota-select-all" class="btn btn-outline" style="padding:0.25rem 0.5rem; font-size:0.75rem; border:none; color:var(--primary-color);">Select All</button>
+                                        <button type="button" id="quota-clear-all" class="btn btn-outline" style="padding:0.25rem 0.5rem; font-size:0.75rem; border:none; color:var(--danger);">Clear All</button>
+                                    </div>
+                                </div>
+                                <div id="quota-checkbox-list" style="padding:0.5rem;">
+                                    ${window.APP_META.quotas.sort((a, b) => a.name.localeCompare(b.name)).map(q => `
+                                        <label style="display:flex; align-items:center; gap:0.5rem; padding:0.5rem; cursor:pointer; font-size:0.875rem;" class="quota-option-label">
+                                            <input type="checkbox" value="${q.id}" class="quota-checkbox" ${criteria.quotas && criteria.quotas.includes(q.id) ? 'checked' : ''}>
+                                            <span class="quota-name-text">${q.short_name || q.name}</span>
+                                        </label>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group" style="margin-bottom: 1.25rem; position: relative;">
                             <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">Specialisation</label>
                             <button id="course-dropdown-btn" type="button" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px; text-align:left; background:white; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
                                 <span id="course-dropdown-label">${criteria.courses && criteria.courses.length > 0 ? (criteria.courses.length === 1 ? window.APP_META.courses.find(c => String(c.id) === String(criteria.courses[0]))?.name || '1 specialisation selected' : `${criteria.courses.length} specialisations selected`) : 'All Specialisations'}</span>
@@ -204,9 +247,16 @@ export function renderResults(container, params = {}) {
                             <label class="form-label text-muted" style="display:block; margin-bottom:0.5rem; font-size:0.875rem;">Max Budget (Fee)</label>
                             <select id="sidebar-budget" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color); border-radius:8px;">
                                 <option value="">No Preference</option>
-                                <option value="500000" ${params.budget === '500000' ? 'selected' : ''}>< ₹5 Lakhs/yr</option>
-                                <option value="1500000" ${params.budget === '1500000' ? 'selected' : ''}>< ₹15 Lakhs/yr</option>
+                                <option value="1000000" ${params.budget === '1000000' ? 'selected' : ''}>< ₹10 Lakhs/yr</option>
+                                <option value="2000000" ${params.budget === '2000000' ? 'selected' : ''}>< ₹20 Lakhs/yr</option>
                                 <option value="3000000" ${params.budget === '3000000' ? 'selected' : ''}>< ₹30 Lakhs/yr</option>
+                                <option value="4000000" ${params.budget === '4000000' ? 'selected' : ''}>< ₹40 Lakhs/yr</option>
+                                <option value="5000000" ${params.budget === '5000000' ? 'selected' : ''}>< ₹50 Lakhs/yr</option>
+                                <option value="6000000" ${params.budget === '6000000' ? 'selected' : ''}>< ₹60 Lakhs/yr</option>
+                                <option value="7000000" ${params.budget === '7000000' ? 'selected' : ''}>< ₹70 Lakhs/yr</option>
+                                <option value="8000000" ${params.budget === '8000000' ? 'selected' : ''}>< ₹80 Lakhs/yr</option>
+                                <option value="9000000" ${params.budget === '9000000' ? 'selected' : ''}>< ₹90 Lakhs/yr</option>
+                                <option value="10000000" ${params.budget === '10000000' ? 'selected' : ''}>< ₹1 Crore/yr</option>
                             </select>
                         </div>
                         
@@ -237,20 +287,23 @@ export function renderResults(container, params = {}) {
                         </div>
                     </div>
                 </aside>
-                <div id="results-list" style="display:flex; flex-direction:column; gap:1.5rem; margin-bottom:6rem; min-width: 0;">
+                <div id="results-main-column" style="display:flex; flex-direction:column; min-width: 0;">
+                    <div id="results-list" style="display:flex; flex-direction:column; gap:1.5rem; margin-bottom:6rem; min-width: 0;">
 
-                <!-- Skeleton Loading State -->
-                ${Array(3).fill(`
-                <div class="card" style="padding:1.5rem; border-radius:8px;">
-                    <div class="skeleton-box" style="width:80px; height:24px; border-radius:4px; margin-bottom:0.75rem;"></div>
-                    <div class="skeleton-box" style="width:60%; height:28px; margin-bottom:0.5rem;"></div>
-                    <div class="skeleton-box" style="width:40%; height:20px; margin-bottom:1rem;"></div>
-                    <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1rem; margin-bottom:1rem;">
-                        <div class="skeleton-box" style="height:60px;"></div>
-                        <div class="skeleton-box" style="height:60px;"></div>
-                        <div class="skeleton-box" style="height:60px;"></div>
+                    <!-- Skeleton Loading State -->
+                    ${Array(3).fill(`
+                    <div class="card" style="padding:1.5rem; border-radius:8px;">
+                        <div class="skeleton-box" style="width:80px; height:24px; border-radius:4px; margin-bottom:0.75rem;"></div>
+                        <div class="skeleton-box" style="width:60%; height:28px; margin-bottom:0.5rem;"></div>
+                        <div class="skeleton-box" style="width:40%; height:20px; margin-bottom:1rem;"></div>
+                        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1rem; margin-bottom:1rem;">
+                            <div class="skeleton-box" style="height:60px;"></div>
+                            <div class="skeleton-box" style="height:60px;"></div>
+                            <div class="skeleton-box" style="height:60px;"></div>
+                        </div>
+                    </div>`).join('')}
                     </div>
-                </div>`).join('')}
+                </div>
             </div>
             
             </div>
@@ -391,6 +444,24 @@ export function renderResults(container, params = {}) {
             });
         }
         
+        if (criteria.quotas && criteria.quotas.length > 0) {
+            criteria.quotas.forEach(quotaId => {
+                const qObj = window.APP_META.quotas.find(q => String(q.id) === String(quotaId));
+                const quotaName = qObj ? (qObj.short_name || qObj.name) : quotaId;
+                const chip = document.createElement('span');
+                chip.style.background = 'var(--bg-surface-hover)';
+                chip.style.padding = '0.375rem 0.75rem';
+                chip.style.borderRadius = '16px';
+                chip.style.fontSize = '0.875rem';
+                chip.style.border = '1px solid var(--border-color)';
+                chip.style.display = 'inline-flex';
+                chip.style.alignItems = 'center';
+                chip.style.gap = '0.5rem';
+                chip.innerHTML = `${quotaName} <span style="cursor:pointer; color:var(--text-muted); font-weight:bold;" data-quota-filter="${quotaId}">&times;</span>`;
+                filtersContainer.appendChild(chip);
+            });
+        }
+        
         // Add Clear All chip
         const clearAll = document.createElement('span');
         clearAll.style.color = 'var(--primary-color)';
@@ -447,88 +518,195 @@ export function renderResults(container, params = {}) {
             }
             navigate('/results', newParams);
         }
+        if (e.target.tagName === 'SPAN' && e.target.dataset.quotaFilter) {
+            const quotaToRemove = e.target.dataset.quotaFilter;
+            const currentQuotas = criteria.quotas || [];
+            const newQuotas = currentQuotas.filter(s => String(s) !== String(quotaToRemove));
+            const newParams = { ...params };
+            if (newQuotas.length > 0) {
+                newParams.quota = newQuotas.join(',');
+            } else {
+                delete newParams.quota;
+            }
+            navigate('/results', newParams);
+        }
     });
 
     let unsubscribe = null;
-    let localData = []; // Store result data for sync
-
-    // Execute Search
-    engine.search(rank, criteria).then(result => {
-        localData = result.data;
-        renderSortedList();
-    }).catch(e => {
-        listContainer.innerHTML = `<div class="text-danger p-4 card" style="background:var(--bg-surface);">Failed to search: ${e.message}</div>`;
-    });
+    let localData = []; // Store current page results for state sync
+    let totalMatches = 0;
     
-    // Sort logic
-    sortSelect.addEventListener('change', renderSortedList);
+    // Pagination state
+    let cursorHistory = [];
+    let currentCursor = null;
+    let nextCursor = null;
+    let currentPage = 1;
+    let hasMore = false;
+    let isLoading = false;
+    const PAGE_SIZE = 50; // matches API default
     
-    function renderSortedList() {
-        if (localData.length === 0) {
-            listContainer.innerHTML = `
-                <div class="text-center p-4 card" style="background:var(--bg-surface); padding:3rem !important;">
-                    <h3 style="margin-bottom:1rem; font-size:1.5rem;">No options match all your filters</h3>
-                    <p class="text-muted mb-4">You have applied restrictive filters that resulted in zero matches. Consider relaxing some of your constraints:</p>
-                    <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
-                        ${params.budget ? `<button class="btn btn-outline relax-filter" data-key="budget">Remove Budget Limit</button>` : ''}
-                        ${params.stipend ? `<button class="btn btn-outline relax-filter" data-key="stipend">Remove Stipend Limit</button>` : ''}
-                        ${params.bond ? `<button class="btn btn-outline relax-filter" data-key="bond">Remove Bond Limit</button>` : ''}
-                        ${params.course ? `<button class="btn btn-outline relax-filter" data-key="course">Search Any Branch</button>` : ''}
-                    </div>
-                </div>
-            `;
-            
-            document.querySelectorAll('.relax-filter').forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    const newParams = { ...params };
-                    delete newParams[e.target.dataset.key];
-                    navigate('/results', newParams);
-                });
-            });
+    // Ensure Pagination containers exist
+    let topPaginationContainer = document.getElementById('top-pagination-container');
+    if (!topPaginationContainer) {
+        topPaginationContainer = document.createElement('div');
+        topPaginationContainer.id = 'top-pagination-container';
+        listContainer.parentNode.insertBefore(topPaginationContainer, listContainer);
+    }
+    
+    let bottomPaginationContainer = document.getElementById('bottom-pagination-container');
+    if (!bottomPaginationContainer) {
+        bottomPaginationContainer = document.createElement('div');
+        bottomPaginationContainer.id = 'bottom-pagination-container';
+        listContainer.parentNode.insertBefore(bottomPaginationContainer, listContainer.nextSibling);
+    }
+    
+    function renderPagination() {
+        if (totalMatches === 0) {
+            topPaginationContainer.innerHTML = '';
+            bottomPaginationContainer.innerHTML = '';
             return;
         }
         
-        // Apply Sort
-        const sortBy = sortSelect.value;
-        const sortedData = [...localData].sort((a, b) => {
-            if (sortBy === 'fit') {
-                const map = { 'Historically favorable': 3, 'Historically competitive': 2, 'Historically difficult': 1, 'Unknown': 0 };
-                const aVal = map[a._fit.classification];
-                const bVal = map[b._fit.classification];
-                if (aVal !== bVal) return bVal - aVal;
-                // tie-breaker: closest margin
-                if (a._fit.rankMarginLatest !== null && b._fit.rankMarginLatest !== null) {
-                    return b._fit.rankMarginLatest - a._fit.rankMarginLatest;
+        const html = `
+            <div style="display:flex; justify-content:center; align-items:center; gap:1rem; padding:1.5rem 0;">
+                <button class="btn btn-outline btn-prev" ${currentPage === 1 ? 'disabled' : ''}>Previous</button>
+                <span style="font-weight:600; font-size:1rem; color:var(--text);">Page ${currentPage}</span>
+                <button class="btn btn-outline btn-next" ${!hasMore ? 'disabled' : ''}>Next</button>
+            </div>
+        `;
+        
+        topPaginationContainer.innerHTML = html;
+        bottomPaginationContainer.innerHTML = html;
+        
+        // Add event listeners
+        document.querySelectorAll('.btn-prev').forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (currentPage > 1 && !isLoading) {
+                    currentCursor = cursorHistory.pop(); // Go back to previous cursor
+                    currentPage--;
+                    loadResults(true);
                 }
-                return 0;
-            } else if (sortBy === 'rank') {
-                if (a._fit.rankMarginLatest !== null && b._fit.rankMarginLatest !== null) {
-                    return Math.abs(a._fit.rankMarginLatest) - Math.abs(b._fit.rankMarginLatest); // closest to 0
-                }
-                return 0;
-            } else if (sortBy === 'fee') {
-                const feeA = parseInt((a.financials.feeRaw || '').replace(/[^0-9]/g, '')) || Infinity;
-                const feeB = parseInt((b.financials.feeRaw || '').replace(/[^0-9]/g, '')) || Infinity;
-                return feeA - feeB;
-            } else if (sortBy === 'stipend') {
-                const stipA = a.financials.stipendYear1 || 0;
-                const stipB = b.financials.stipendYear1 || 0;
-                return stipB - stipA; // highest first
-            } else if (sortBy === 'bond') {
-                const bondA = a.financials.bondYears === undefined ? Infinity : a.financials.bondYears;
-                const bondB = b.financials.bondYears === undefined ? Infinity : b.financials.bondYears;
-                return bondA - bondB;
-            } else if (sortBy === 'name') {
-                return a.institute.name.localeCompare(b.institute.name);
-            } else if (sortBy === 'course') {
-                return a.course.name.localeCompare(b.course.name);
-            }
-            return 0;
+            });
         });
         
-        listContainer.innerHTML = '';
+        document.querySelectorAll('.btn-next').forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (hasMore && !isLoading) {
+                    cursorHistory.push(currentCursor); // Save current cursor for "Previous"
+                    currentCursor = nextCursor;
+                    currentPage++;
+                    loadResults(true);
+                }
+            });
+        });
+    }
+
+    // Execute Search
+    async function loadResults(isNavigating = false) {
+        if (isLoading) return;
+        isLoading = true;
         
-        sortedData.forEach(opt => {
+        if (!isNavigating) {
+            currentCursor = null;
+            cursorHistory = [];
+            currentPage = 1;
+        }
+        
+        listContainer.innerHTML = '<div class="text-center p-4">Loading options...</div>';
+        const buttons = document.querySelectorAll('.btn-prev, .btn-next');
+        buttons.forEach(b => b.disabled = true);
+        
+        const sortBy = sortSelect.value;
+        
+        try {
+            const result = await engine.search(rank, criteria, currentCursor, sortBy);
+            nextCursor = result.pagination.nextCursor;
+            hasMore = result.pagination.hasMore;
+            totalMatches = result.pagination.totalMatching;
+            localData = result.items; // replace instead of append
+            
+            listContainer.innerHTML = '';
+            renderItems(result.items);
+            renderPagination();
+            
+            // Update counter
+            const countEl = document.getElementById('results-count');
+            if (countEl) {
+                if (totalMatches === 0) {
+                    countEl.textContent = `(0 options)`;
+                } else {
+                    const startIdx = (currentPage - 1) * PAGE_SIZE + 1;
+                    const endIdx = startIdx + result.items.length - 1;
+                    countEl.textContent = `(Showing ${startIdx}–${endIdx} of ${totalMatches.toLocaleString()} matching options)`;
+                }
+            }
+            
+            if (isNavigating) {
+                // Scroll to top of results container
+                const listTop = listContainer.getBoundingClientRect().top + window.scrollY - 100;
+                window.scrollTo({ top: listTop, behavior: 'smooth' });
+            }
+            
+            // Handle zero results
+            if (localData.length === 0) {
+                renderZeroResults();
+            }
+            
+        } catch (e) {
+            listContainer.innerHTML = `
+                <div class="text-danger p-4 card" style="background:var(--bg-surface);">
+                    Failed to load options: ${e.message}
+                    <div style="margin-top:1rem;">
+                        <button class="btn btn-outline" onclick="window.location.reload()">Refresh Page</button>
+                    </div>
+                </div>
+            `;
+            // Restore state on failure
+            if (isNavigating) {
+                if (currentPage > 1 && !hasMore) {
+                    // if we tried to go next but failed, we should probably just reset loading state,
+                    // but fixing state rollback properly:
+                    // Actually, if we failed, we just show the error in the listContainer. 
+                    // The user can't easily recover the previous DOM without re-fetching, 
+                    // so we leave the error message there and they can navigate again (which triggers a refetch).
+                }
+            }
+            renderPagination(); // re-enable buttons so they can try again
+        } finally {
+            isLoading = false;
+        }
+    }
+    
+    sortSelect.addEventListener('change', () => loadResults(false));
+    
+    // Initial load
+    loadResults(false);
+    
+    function renderZeroResults() {
+        listContainer.innerHTML = `
+            <div class="text-center p-4 card" style="background:var(--bg-surface); padding:3rem !important;">
+                <h3 style="margin-bottom:1rem; font-size:1.5rem;">No options match all your filters</h3>
+                <p class="text-muted mb-4">You have applied restrictive filters that resulted in zero matches. Consider relaxing some of your constraints:</p>
+                <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+                    ${params.budget ? `<button class="btn btn-outline relax-filter" data-key="budget">Remove Budget Limit</button>` : ''}
+                    ${params.stipend ? `<button class="btn btn-outline relax-filter" data-key="stipend">Remove Stipend Limit</button>` : ''}
+                    ${params.bond ? `<button class="btn btn-outline relax-filter" data-key="bond">Remove Bond Limit</button>` : ''}
+                    ${params.course ? `<button class="btn btn-outline relax-filter" data-key="course">Search Any Branch</button>` : ''}
+                </div>
+            </div>
+        `;
+        
+        document.querySelectorAll('.relax-filter').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const newParams = { ...params };
+                delete newParams[e.target.dataset.key];
+                navigate('/results', newParams);
+            });
+        });
+    }
+    
+    function renderItems(items) {
+        items.forEach(opt => {
             const fit = opt._fit;
             
             let badgeClass = 'var(--warning-light)';
@@ -550,6 +728,7 @@ export function renderResults(container, params = {}) {
             const card = document.createElement('div');
             card.className = 'card result-card';
             card.dataset.id = opt.id;
+            card.dataset.identity = `${opt.institute.id}_${opt.course.id}`;
             card.style.background = 'var(--bg-surface)';
             card.style.padding = '1.5rem';
             card.style.borderRadius = '12px';
@@ -624,7 +803,7 @@ export function renderResults(container, params = {}) {
                 <div style="display:flex; gap:1rem; padding-top:1rem; flex-wrap:wrap;" class="action-buttons">
                     <a href="#/college/${opt.id}?rank=${rank || ''}&year=${params.year || 'all'}&round=${params.round || 'all'}" class="btn btn-primary" style="padding:0.75rem 1.25rem; border-radius:8px; font-weight:600; font-size:0.875rem; text-decoration:none; background:var(--primary-color); color:white;">View Details</a>
                     <button class="btn btn-outline btn-compare" data-id="${opt.id}" style="padding:0.75rem 1.25rem; border:1px solid var(--border-color); background:transparent; border-radius:8px; cursor:pointer; font-size:0.875rem; font-weight:600; min-width:110px;">Compare</button>
-                    <button class="btn btn-outline btn-shortlist" data-id="${opt.id}" style="padding:0.75rem 1.25rem; border:1px solid var(--border-color); background:transparent; border-radius:8px; cursor:pointer; font-size:0.875rem; font-weight:600; min-width:130px;">+ Shortlist</button>
+                    <button class="btn btn-outline btn-shortlist" data-id="${opt.id}" data-identity="${opt.institute.id}_${opt.course.id}" style="padding:0.75rem 1.25rem; border:1px solid var(--border-color); background:transparent; border-radius:8px; cursor:pointer; font-size:0.875rem; font-weight:600; min-width:130px;">+ Shortlist</button>
                 </div>
             `;
             listContainer.appendChild(card);
@@ -637,10 +816,11 @@ export function renderResults(container, params = {}) {
                 // Sync Cards
                 document.querySelectorAll('.result-card').forEach(card => {
                     const id = parseInt(card.dataset.id, 10);
+                    const identity = card.dataset.identity;
                     const btnS = card.querySelector('.btn-shortlist');
                     const btnC = card.querySelector('.btn-compare');
                     
-                    if (state.shortlist.some(i => i.id === id)) {
+                    if (state.shortlist.some(i => i.identity === identity || i.id === id)) {
                         btnS.textContent = '✓ Shortlisted';
                         btnS.classList.replace('btn-outline', 'btn-primary');
                     } else {
@@ -711,7 +891,8 @@ export function renderResults(container, params = {}) {
                 listContainer.addEventListener('click', (e) => {
                     if (e.target.classList.contains('btn-shortlist')) {
                         const id = parseInt(e.target.dataset.id, 10);
-                        module.toggleShortlist(id);
+                        const identity = e.target.dataset.identity;
+                        module.toggleShortlist(id, identity);
                     }
                     if (e.target.classList.contains('btn-compare')) {
                         const id = parseInt(e.target.dataset.id, 10);
@@ -766,6 +947,7 @@ export function renderResults(container, params = {}) {
         const selectedStates = getSelectedStates();
         const selectedColleges = getSelectedColleges();
         const selectedCourses = getSelectedCourses();
+        const selectedQuotas = Array.from(document.querySelectorAll('.quota-checkbox:checked')).map(cb => cb.value);
         
         const searchParams = {};
         if (rankStr && parseInt(rankStr, 10) > 0) searchParams.rank = rankStr;
@@ -779,15 +961,89 @@ export function renderResults(container, params = {}) {
         if (selectedStates.length > 0) searchParams.state = selectedStates.join(',');
         if (selectedColleges.length > 0) searchParams.institute = selectedColleges.join(',');
         if (selectedCourses.length > 0) searchParams.specialisation = selectedCourses.join(',');
+        if (selectedQuotas.length > 0) searchParams.quota = selectedQuotas.join(',');
         
         navigate('/results', searchParams);
     };
+
+    const shortlistAllBtn = document.getElementById('shortlist-all-btn');
+    if (shortlistAllBtn) {
+        shortlistAllBtn.addEventListener('click', async () => {
+            if (totalMatches === 0) {
+                alert("No options to shortlist.");
+                return;
+            }
+            
+            const originalText = shortlistAllBtn.innerHTML;
+            shortlistAllBtn.innerHTML = '<span>Loading...</span>';
+            shortlistAllBtn.disabled = true;
+            
+            try {
+                const optionsToShortlist = await engine.getIdentities(rank, criteria);
+                const module = await import('../../state.js');
+                module.addMultipleToShortlist(optionsToShortlist);
+                
+                shortlistAllBtn.innerHTML = '<span>✅ Added</span>';
+            } catch (err) {
+                console.error(err);
+                alert("Failed to shortlist: " + err.message);
+                shortlistAllBtn.innerHTML = originalText;
+            } finally {
+                setTimeout(() => {
+                    shortlistAllBtn.innerHTML = originalText;
+                    shortlistAllBtn.disabled = false;
+                }, 2000);
+            }
+        });
+    }
 
     const applyFiltersBtn = document.getElementById('sidebar-apply-filters');
     if (applyFiltersBtn) {
         applyFiltersBtn.addEventListener('click', handleSidebarChange);
     }
     
+    // Quota Filter Dropdown Logic
+    const quotaBtn = document.getElementById('quota-dropdown-btn');
+    const quotaPopover = document.getElementById('quota-dropdown-popover');
+    if (quotaBtn && quotaPopover) {
+        quotaBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            quotaPopover.style.display = quotaPopover.style.display === 'none' ? 'block' : 'none';
+        });
+        
+        document.addEventListener('click', (e) => {
+            if (!quotaPopover.contains(e.target) && !quotaBtn.contains(e.target)) {
+                quotaPopover.style.display = 'none';
+            }
+        });
+        
+        quotaPopover.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+        
+        const selectAllBtn = document.getElementById('quota-select-all');
+        const clearAllBtn = document.getElementById('quota-clear-all');
+        if (selectAllBtn) {
+            selectAllBtn.addEventListener('click', () => {
+                document.querySelectorAll('.quota-option-label').forEach(label => {
+                    if (label.style.display !== 'none') {
+                        const cb = label.querySelector('.quota-checkbox');
+                        if (!cb.checked) {
+                            cb.checked = true;
+                        }
+                    }
+                });
+            });
+        }
+        if (clearAllBtn) {
+            clearAllBtn.addEventListener('click', () => {
+                document.querySelectorAll('.quota-checkbox').forEach(cb => {
+                    if (cb.checked) cb.checked = false;
+                });
+            });
+        }
+    }
+
     // State Filter Dropdown Logic
     const stateBtn = document.getElementById('state-dropdown-btn');
     const statePopover = document.getElementById('state-dropdown-popover');

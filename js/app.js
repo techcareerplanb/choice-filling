@@ -22,6 +22,16 @@ async function initApp() {
         // since we are using a lightweight vanilla architecture.
         window.DATA_ENGINE = engine;
         
+        overlayMsg.textContent = "Updating saved lists...";
+        const { initState, migrateShortlistData } = await import('./state.js');
+        
+        await initState();
+        
+        // This migrateShortlistData was likely the function mapping old objects to new
+        if (typeof migrateShortlistData === 'function') {
+            await migrateShortlistData(engine);
+        }
+        
         // Hide overlay
         overlay.style.display = 'none';
         
@@ -30,8 +40,15 @@ async function initApp() {
         
     } catch (error) {
         console.error(error);
-        overlayMsg.innerHTML = `<span class="text-danger">Failed to load data engine. Please refresh.</span>`;
-        overlay.querySelector('.spinner').style.display = 'none';
+        overlayMsg.innerHTML = `
+            <div style="text-align:center; padding: 2rem;">
+                <div class="text-danger mb-2" style="font-weight:600; font-size:1.125rem;">Could not load search data (API failed).</div>
+                <div class="text-muted mb-4">Please check the server terminal and try again.</div>
+                <button class="btn btn-outline" onclick="window.location.reload()" style="padding:0.5rem 1.5rem; border-radius:4px;">Retry</button>
+            </div>
+        `;
+        const spinner = overlay.querySelector('.spinner');
+        if (spinner) spinner.style.display = 'none';
     }
 }
 

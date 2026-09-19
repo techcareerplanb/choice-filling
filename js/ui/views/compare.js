@@ -28,8 +28,8 @@ export async function renderCompare(container, params = {}) {
 
         const engine = window.DATA_ENGINE;
         
-        // Parallel fetch all options
-        const options = await Promise.all(compareIds.map(id => engine.getOption(id)));
+        // Fetch all options in a single batch request
+        const options = await engine.getOptionsBatch(compareIds);
         
         // Find best fit column
         let bestIndex = -1;

@@ -1,6 +1,5 @@
 import { renderSVGChart } from '../components/chart.js';
 import { navigate } from '../../router.js';
-import { CollegeUpdatesStore } from '../../data/CollegeUpdatesStore.js';
 
 export async function renderCollege(container, optionId, params = {}) {
     const engine = window.DATA_ENGINE;
@@ -158,25 +157,35 @@ export async function renderCollege(container, optionId, params = {}) {
                     ${chartHtml}
                 </div>
                 
-                ${renderManualUpdates(opt)}
-
                 <div id="financials" style="position:absolute; top:-100px;"></div>
-                <h3 style="margin-top:3rem; margin-bottom:1rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem;">Official Financials & Bond</h3>
+                <h3 style="margin-top:3rem; margin-bottom:1rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem;">College Financials, Stipend & Bond Information</h3>
                 <div class="grid grid-3" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:1.5rem; padding:1.5rem; background:var(--bg-main); border-radius:8px; margin-bottom:1rem; border:1px solid var(--border-color);">
                     <div>
                         <div class="text-muted mb-2 text-sm">Annual Fee</div>
                         <div style="font-size:1.25rem; font-weight:600;">${feeVal} ${opt.financials.feeHasCaveat ? `<span title="Subject to conditions" style="color:var(--warning)">⚠️</span>` : ''}</div>
+                        ${opt.financials.feeTotal ? `<div class="text-sm mt-1 text-muted">Total: ₹${opt.financials.feeTotal.toLocaleString()}</div>` : ''}
+                        ${opt.financials.feeHostel ? `<div class="text-sm mt-1 text-muted">Hostel: ₹${opt.financials.feeHostel.toLocaleString()}</div>` : ''}
+                        ${opt.financials.feeOther ? `<div class="text-sm mt-1 text-muted">Other: ₹${opt.financials.feeOther.toLocaleString()}</div>` : ''}
                     </div>
                     <div>
                         <div class="text-muted mb-2 text-sm">Stipend (Year 1)</div>
                         <div style="font-size:1.25rem; font-weight:600;">${stipendVal} ${opt.financials.stipendHasCaveat ? `<span title="Subject to change" style="color:var(--warning)">⚠️</span>` : ''}</div>
+                        ${opt.financials.courseDurationMonths ? `<div class="text-sm mt-2 text-muted">Course Duration: ${opt.financials.courseDurationMonths} Months</div>` : ''}
                     </div>
                     <div>
                         <div class="text-muted mb-2 text-sm">Service Bond</div>
-                        <div style="font-size:1.25rem; font-weight:600;">${bondVal}</div>
-                        <div class="text-sm mt-2 text-muted">Penalty: ${bondPen}</div>
+                        <div style="font-size:1.25rem; font-weight:600;">${opt.financials.bondRequired === 'YES' ? 'Yes' : opt.financials.bondRequired === 'NO' ? 'No' : bondVal}</div>
+                        ${opt.financials.bondYears ? `<div class="text-sm mt-1 text-muted">Duration: ${opt.financials.bondYears} Year(s)</div>` : ''}
+                        <div class="text-sm mt-1 text-muted">Penalty: ${bondPen}</div>
+                        ${opt.financials.bondDetails ? `<div class="text-sm mt-2 text-muted" style="line-height:1.4;">Details: ${opt.financials.bondDetails}</div>` : ''}
                     </div>
                 </div>
+                ${opt.financials.remarks || opt.financials.sourceLabel ? `
+                    <div style="padding:1rem; background:var(--bg-surface-hover); border-radius:8px; border:1px solid var(--border-color); font-size:0.875rem; color:var(--text-muted); margin-bottom:2rem;">
+                        ${opt.financials.remarks ? `<div style="margin-bottom:0.5rem;"><strong>Remarks:</strong> ${opt.financials.remarks}</div>` : ''}
+                        ${opt.financials.sourceLabel ? `<div><strong>Source:</strong> ${opt.financials.sourceUrl ? `<a href="${opt.financials.sourceUrl}" target="_blank" class="text-primary">${opt.financials.sourceLabel}</a>` : opt.financials.sourceLabel}</div>` : ''}
+                    </div>
+                ` : ''}
                 
                 <div id="data" style="position:absolute; top:-100px;"></div>
                 <h3 style="margin-top:3rem; margin-bottom:1rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem;">Official Data Integrations</h3>
@@ -269,86 +278,4 @@ export async function renderCollege(container, optionId, params = {}) {
     } catch (e) {
         content.innerHTML = `<div class="card" style="padding:2rem;"><div class="text-danger">Failed to load college details: ${e.message}</div></div>`;
     }
-}
-
-function renderManualUpdates(opt) {
-    const update = CollegeUpdatesStore.getMergedUpdate(opt.institute.id, opt.course.id);
-    
-    let html = `
-        <div id="user-data" style="position:absolute; top:-100px;"></div>
-        <h3 style="margin-top:3rem; margin-bottom:1rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem; display:flex; justify-content:space-between; align-items:center;">
-            <span>User-Maintained College Information</span>
-            <a href="#/update-data" class="btn btn-outline" style="font-size:0.875rem; padding:0.25rem 0.75rem;">Edit</a>
-        </h3>
-    `;
-
-    if (!update) {
-        html += `
-            <div style="padding:1.5rem; background:var(--bg-surface); border-radius:8px; border:1px solid var(--border-color); color:var(--text-muted); text-align:center; margin-bottom:1rem;">
-                <em>Information not yet updated manually.</em>
-            </div>
-        `;
-        return html;
-    }
-
-    const fmtMoney = (val) => val != null ? `₹${val.toLocaleString()}` : 'N/A';
-    
-    html += `
-        <div class="grid grid-3" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:1.5rem; padding:1.5rem; background:var(--bg-surface-hover); border-radius:8px; margin-bottom:1rem; border:1px dashed var(--primary-color);">
-            
-            <!-- Fees -->
-            <div style="grid-column: 1 / -1; margin-bottom:-0.5rem;"><h4 style="margin:0; font-size:1rem; color:var(--text-muted);">Fees</h4></div>
-            <div>
-                <div class="text-muted mb-1 text-sm">Annual Tuition</div>
-                <div style="font-weight:600;">${fmtMoney(update.fees?.annualTuition)}</div>
-            </div>
-            <div>
-                <div class="text-muted mb-1 text-sm">Hostel Fee</div>
-                <div style="font-weight:600;">${fmtMoney(update.fees?.hostel)}</div>
-            </div>
-            <div>
-                <div class="text-muted mb-1 text-sm">Other Mandatory</div>
-                <div style="font-weight:600;">${fmtMoney(update.fees?.otherMandatory)}</div>
-            </div>
-
-            <!-- Stipend & Duration -->
-            <div style="grid-column: 1 / -1; margin-bottom:-0.5rem; margin-top:0.5rem;"><h4 style="margin:0; font-size:1rem; color:var(--text-muted);">Stipend & Course</h4></div>
-            <div>
-                <div class="text-muted mb-1 text-sm">Monthly Stipend</div>
-                <div style="font-weight:600;">${fmtMoney(update.stipend?.monthly)}</div>
-            </div>
-            <div>
-                <div class="text-muted mb-1 text-sm">Course Duration</div>
-                <div style="font-weight:600;">${update.courseDurationMonths != null ? update.courseDurationMonths + ' Months' : 'N/A'}</div>
-            </div>
-            <div></div>
-
-            <!-- Bond -->
-            <div style="grid-column: 1 / -1; margin-bottom:-0.5rem; margin-top:0.5rem;"><h4 style="margin:0; font-size:1rem; color:var(--text-muted);">Bond</h4></div>
-            <div>
-                <div class="text-muted mb-1 text-sm">Required</div>
-                <div style="font-weight:600;">${update.bond?.required === 'YES' ? 'Yes' : update.bond?.required === 'NO' ? 'No' : 'Unknown'}</div>
-            </div>
-            <div>
-                <div class="text-muted mb-1 text-sm">Duration</div>
-                <div style="font-weight:600;">${update.bond?.durationMonths != null ? update.bond?.durationMonths + ' Months' : 'N/A'}</div>
-            </div>
-            <div>
-                <div class="text-muted mb-1 text-sm">Penalty</div>
-                <div style="font-weight:600;">${fmtMoney(update.bond?.penaltyAmount)}</div>
-            </div>
-            ${update.bond?.details ? `<div style="grid-column: 1 / -1; margin-top:-0.5rem;"><div class="text-muted mb-1 text-sm">Bond Details</div><div style="font-weight:500; font-size:0.875rem;">${update.bond.details}</div></div>` : ''}
-
-            <!-- Meta -->
-            <div style="grid-column: 1 / -1; margin-top:1rem; padding-top:1rem; border-top:1px solid var(--border-color); display:flex; justify-content:space-between; font-size:0.75rem; color:var(--text-muted);">
-                <div>
-                    Last verified: ${new Date(update.lastUpdatedAt).toLocaleDateString()} 
-                    ${update.source?.label ? `| Source: ${update.source.url ? `<a href="${update.source.url}" target="_blank" class="text-primary">${update.source.label}</a>` : update.source.label}` : ''}
-                </div>
-                ${update.remarks ? `<div><em>Remarks: ${update.remarks}</em></div>` : ''}
-            </div>
-        </div>
-    `;
-
-    return html;
 }
