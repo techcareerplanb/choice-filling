@@ -121,7 +121,7 @@ export async function renderResults(container, params = {}) {
             
             <div style="display: grid; grid-template-columns: minmax(280px, 1fr) 3fr; gap: 2rem;" class="results-layout">
                 <aside class="desktop-filters desktop-only" style="position: sticky; top: 5rem; height: max-content; align-self: start; z-index: 10;">
-                    <div class="card" style="padding: 1.5rem; background: var(--bg-surface); border-radius: 12px; border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); max-height: calc(100vh - 6rem); overflow-y: auto; overscroll-behavior: contain;">
+                    <div class="card" style="padding: 1.5rem; background: var(--bg-surface); border-radius: 12px; border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); max-height: calc(100vh - 13rem); overflow-y: auto; overscroll-behavior: contain;">
                         <h3 style="margin-bottom: 1.25rem; font-size: 1.25rem;">Refine Search</h3>
                         
                         <div class="form-group" style="margin-bottom: 1.25rem;">
@@ -313,6 +313,25 @@ export async function renderResults(container, params = {}) {
                     </div>
                 </aside>
                 <div id="results-main-column" style="display:flex; flex-direction:column; min-width: 0;">
+                    
+                    <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+                        <div>
+                            <h1 style="margin:0; font-size: 1.75rem;">Search Results <span class="text-muted text-sm" style="font-weight:400;" id="results-count"></span></h1>
+                            ${rank ? `<div class="text-muted mt-2">Showing best fits for AIR ${rank.toLocaleString()}</div>` : ''}
+                        </div>
+                        
+                        <div style="display:flex; gap:1rem; align-items:center;">
+                            <label class="text-muted text-sm" style="font-weight:500;">Sort By</label>
+                            <select id="sort-select" class="form-control" style="padding:0.5rem; border-radius:4px; border:1px solid var(--border-color);">
+                                <option value="fit" ${params.sortBy === 'fit' || !params.sortBy ? 'selected' : ''}>Best Historical Fit</option>
+                                <option value="closing_rank_high" ${params.sortBy === 'closing_rank_high' ? 'selected' : ''}>Cutoff Rank (High to Low)</option>
+                                <option value="closing_rank_low" ${params.sortBy === 'closing_rank_low' ? 'selected' : ''}>Cutoff Rank (Low to High)</option>
+                                <option value="fee_low" ${params.sortBy === 'fee_low' ? 'selected' : ''}>Tuition Fee (Low to High)</option>
+                                <option value="stipend_high" ${params.sortBy === 'stipend_high' ? 'selected' : ''}>Stipend (High to Low)</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <div id="results-list" style="display:flex; flex-direction:column; gap:1.5rem; margin-bottom:6rem; min-width: 0;">
 
                     <!-- Skeleton Loading State -->
