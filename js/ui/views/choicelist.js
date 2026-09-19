@@ -50,12 +50,25 @@ export async function renderChoiceList(container) {
         }
 
         const engine = window.DATA_ENGINE;
-        const options = await Promise.all(listState.map(item => engine.getOption(item.id)));
+        const results = await Promise.allSettled(listState.map(item => engine.getOption(item.id)));
         
-        const mergedData = listState.map(item => ({
-            state: item,
-            data: options.find(o => o.id === item.id)
-        }));
+        const mergedData = [];
+        listState.forEach((item, index) => {
+            const result = results[index];
+            if (result.status === 'fulfilled' && result.value) {
+                mergedData.push({
+                    state: item,
+                    data: result.value
+                });
+            } else {
+                console.warn(`Skipping missing/removed option ID ${item.id}`);
+            }
+        });
+        
+        if (mergedData.length === 0) {
+            content.innerHTML = `<div class="card p-4 text-center text-muted">All selected choices are no longer available in the database.</div>`;
+            return;
+        }
         
         // Calculate Summary Stats
         let dreamCount = 0, targetCount = 0, safeCount = 0;
@@ -75,7 +88,7 @@ export async function renderChoiceList(container) {
                 }
             }
             
-            if (item.data._fit && item.data._fit.rankMarginLatest !== null) {
+            if (item.data._fit && typeof item.data._fit.rankMarginLatest === 'number') {
                 totalMargin += item.data._fit.rankMarginLatest;
                 marginCount++;
             }

@@ -79,10 +79,10 @@ const loginLimiter = rateLimit({
     skipSuccessfulRequests: true,  // Only count failed attempts
 });
 
-// General API limiter — 500 requests per IP per 15 minutes
+// General API limiter — 5000 requests per IP per 15 minutes (increased for local dev)
 const apiLimiter = rateLimit({
     windowMs: 15 * 60 * 1000,
-    max: 500,
+    max: 5000,
     standardHeaders: true,
     legacyHeaders: false,
 });
