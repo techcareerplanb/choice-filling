@@ -178,9 +178,11 @@ export function searchOptions(query) {
         return a.id - b.id; // stable fallback
     });
     
-    // Cursor Pagination
+    // Cursor / Page Pagination
     let startIndex = 0;
-    if (cursor) {
+    if (query.page) {
+        startIndex = (Math.max(1, parseInt(query.page, 10)) - 1) * pageSize;
+    } else if (cursor) {
         const cursorPayload = Buffer.from(cursor, 'base64').toString('ascii');
         // format: sortVal_optionId (sortVal might be string or number)
         const parts = cursorPayload.split('_');

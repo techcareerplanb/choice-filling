@@ -46,6 +46,9 @@ export async function renderResults(container, params = {}) {
     if (params.quota) {
         criteria.quotas = params.quota.split(',').map(s => parseInt(s.trim(), 10)).filter(id => !isNaN(id));
     }
+    if (params.page) {
+        criteria.page = parseInt(params.page, 10);
+    }
     
     // Pass the candidate's raw category ID to the server.
     // The server (server/data.js getEligibleCategories) is the sole authority for
@@ -502,6 +505,7 @@ export async function renderResults(container, params = {}) {
         if (e.target.tagName === 'SPAN' && e.target.dataset.filter) {
             const newParams = { ...params };
             delete newParams[e.target.dataset.filter];
+            delete newParams.page;
             navigate('/results', newParams);
         }
         if (e.target.tagName === 'SPAN' && e.target.dataset.stateFilter) {
@@ -514,6 +518,7 @@ export async function renderResults(container, params = {}) {
             } else {
                 delete newParams.state;
             }
+            delete newParams.page;
             navigate('/results', newParams);
         }
         if (e.target.tagName === 'SPAN' && e.target.dataset.collegeFilter) {
@@ -526,6 +531,7 @@ export async function renderResults(container, params = {}) {
             } else {
                 delete newParams.institute;
             }
+            delete newParams.page;
             navigate('/results', newParams);
         }
         if (e.target.tagName === 'SPAN' && e.target.dataset.courseFilter) {
@@ -538,6 +544,7 @@ export async function renderResults(container, params = {}) {
             } else {
                 delete newParams.specialisation;
             }
+            delete newParams.page;
             navigate('/results', newParams);
         }
         if (e.target.tagName === 'SPAN' && e.target.dataset.quotaFilter) {
@@ -550,6 +557,7 @@ export async function renderResults(container, params = {}) {
             } else {
                 delete newParams.quota;
             }
+            delete newParams.page;
             navigate('/results', newParams);
         }
     });
@@ -562,7 +570,7 @@ export async function renderResults(container, params = {}) {
     let cursorHistory = [];
     let currentCursor = null;
     let nextCursor = null;
-    let currentPage = 1;
+    let currentPage = params.page ? parseInt(params.page, 10) : 1;
     let hasMore = false;
     let isLoading = false;
     const PAGE_SIZE = 50; // matches API default
@@ -604,9 +612,9 @@ export async function renderResults(container, params = {}) {
         document.querySelectorAll('.btn-prev').forEach(btn => {
             btn.addEventListener('click', () => {
                 if (currentPage > 1 && !isLoading) {
-                    currentCursor = cursorHistory.pop(); // Go back to previous cursor
-                    currentPage--;
-                    loadResults(true);
+                    const newParams = { ...params };
+                    newParams.page = currentPage - 1;
+                    navigate('/results', newParams);
                 }
             });
         });
@@ -614,10 +622,9 @@ export async function renderResults(container, params = {}) {
         document.querySelectorAll('.btn-next').forEach(btn => {
             btn.addEventListener('click', () => {
                 if (hasMore && !isLoading) {
-                    cursorHistory.push(currentCursor); // Save current cursor for "Previous"
-                    currentCursor = nextCursor;
-                    currentPage++;
-                    loadResults(true);
+                    const newParams = { ...params };
+                    newParams.page = currentPage + 1;
+                    navigate('/results', newParams);
                 }
             });
         });
@@ -628,7 +635,7 @@ export async function renderResults(container, params = {}) {
         if (isLoading) return;
         isLoading = true;
         
-        if (!isNavigating) {
+        if (!isNavigating && !params.page) {
             currentCursor = null;
             cursorHistory = [];
             currentPage = 1;
@@ -699,7 +706,12 @@ export async function renderResults(container, params = {}) {
         }
     }
     
-    sortSelect.addEventListener('change', () => loadResults(false));
+    sortSelect.addEventListener('change', () => {
+        const newParams = { ...params };
+        delete newParams.page; // reset to page 1 on sort change
+        newParams.sortBy = sortSelect.value;
+        navigate('/results', newParams);
+    });
     
     // Initial load
     loadResults(false);
@@ -722,6 +734,7 @@ export async function renderResults(container, params = {}) {
             btn.addEventListener('click', (e) => {
                 const newParams = { ...params };
                 delete newParams[e.target.dataset.key];
+                delete newParams.page;
                 navigate('/results', newParams);
             });
         });

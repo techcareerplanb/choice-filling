@@ -42,6 +42,7 @@ export class EngineClient {
         if (criteria.bond !== undefined && criteria.bond !== null) params.append('bond', criteria.bond);
         if (criteria.year) params.append('year', criteria.year);
         if (criteria.round) params.append('round', criteria.round);
+        if (criteria.page) params.append('page', criteria.page);
         
         // Sort keys to ensure deterministic cache key
         const sortedParams = Array.from(params.entries()).sort((a, b) => a[0].localeCompare(b[0]));

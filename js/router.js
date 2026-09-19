@@ -34,10 +34,16 @@ function handleRoute() {
     
     const params = Object.fromEntries(new URLSearchParams(queryString));
     
-    // Update active nav links
+    // Update active nav links and preserve query parameters across views
     document.querySelectorAll('.nav-link').forEach(link => {
+        const currentHref = link.getAttribute('href');
+        if (!currentHref) return;
+        
+        const [basePath] = currentHref.split('?');
+        link.setAttribute('href', queryString ? `${basePath}?${queryString}` : basePath);
+        
         link.classList.remove('active');
-        if (link.getAttribute('href') === `#${path}`) {
+        if (basePath === `#${path}`) {
             link.classList.add('active');
         }
     });

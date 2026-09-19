@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node --env-file=.env server.js",
     "ingest": "echo 'Ingestion not yet integrated'",
     "validate-data": "node scripts/validate-data.js",
     "build-data": "node scripts/preprocess.js"
