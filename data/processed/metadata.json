@@ -1,8 +1,8 @@
 {
   "datasetVersion": "1.0.0",
   "source": "All-India.json",
-  "retrievedAt": "2026-09-19T09:50:46.596Z",
-  "recordCount": 21771,
+  "retrievedAt": "2026-09-22T12:46:17.523Z",
+  "recordCount": 21871,
   "historicalYears": [
     2024,
     2025
@@ -14,5 +14,5 @@
     4,
     5
   ],
-  "generatedAt": "2026-09-19T09:50:46.598Z"
+  "generatedAt": "2026-09-22T12:46:17.524Z"
 }
