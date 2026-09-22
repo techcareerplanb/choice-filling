@@ -208,14 +208,20 @@ export async function renderChoiceList(container) {
         
         // Auto-Sort Logic
         document.getElementById('btn-auto-sort').addEventListener('click', () => {
+            const currentScrollY = window.scrollY;
+            
             // Apply recommended order
             const orderedIds = recommendedMetadata.map(m => m.optionId);
             stateModule.reorderShortlist(orderedIds);
             
-            // Re-render
+            // Re-render and update mergedData
             const newlySortedData = orderedIds.map(id => mergedData.find(m => m.state.id === id));
-            content.innerHTML = renderList(newlySortedData);
-            bindMoveControls(newlySortedData.length); // Rebind since DOM changed
+            mergedData.splice(0, mergedData.length, ...newlySortedData);
+            
+            content.innerHTML = renderList(mergedData);
+            bindMoveControls(mergedData.length); // Rebind since DOM changed
+            
+            window.scrollTo(0, currentScrollY);
         });
 
         const bindMoveControls = (totalLength) => {
@@ -242,13 +248,23 @@ export async function renderChoiceList(container) {
                     
                     if (newIdx === currentIdx) return; // No change
                     
+                    const currentScrollY = window.scrollY;
+                    
                     // Reorder IDs array directly
                     const currentOrderIds = Array.from(listEl.querySelectorAll('.shortlist-item')).map(el => parseInt(el.dataset.id, 10));
                     const itemToMove = currentOrderIds.splice(currentIdx, 1)[0];
                     currentOrderIds.splice(newIdx, 0, itemToMove);
                     
                     stateModule.reorderShortlist(currentOrderIds);
-                    renderChoiceList(container); // Re-render to update index numbers
+                    
+                    // Reorder mergedData in place
+                    const itemDataToMove = mergedData.splice(currentIdx, 1)[0];
+                    mergedData.splice(newIdx, 0, itemDataToMove);
+                    
+                    content.innerHTML = renderList(mergedData); // Re-render without full page reload
+                    bindMoveControls(totalLength);
+                    
+                    window.scrollTo(0, currentScrollY);
                 }
             });
         };

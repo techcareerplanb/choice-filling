@@ -94,13 +94,20 @@ export async function renderResults(container, params = {}) {
                     <div class="form-group mb-0" style="display:flex; align-items:center; gap:0.5rem;">
                         <label for="sort-select" style="font-size:0.875rem; color:var(--text-muted); font-weight:500;">Sort By</label>
                         <select id="sort-select" class="form-control" style="padding:0.5rem 2rem 0.5rem 0.75rem; min-width:160px; border-radius:8px;">
-                            <option value="fit">Best Historical Fit</option>
-                            <option value="rank">Closest to Rank</option>
-                            <option value="fee">Lowest Fee</option>
-                            <option value="stipend">Highest Stipend</option>
-                            <option value="bond">Lowest Bond</option>
-                            <option value="name">College Name</option>
-                            <option value="course">Course Name</option>
+                            <option value="fit" ${params.sortBy === 'fit' || !params.sortBy ? 'selected' : ''}>Best Historical Fit</option>
+                            <option value="fit_rev" ${params.sortBy === 'fit_rev' ? 'selected' : ''}>Worst Historical Fit</option>
+                            <option value="rank" ${params.sortBy === 'rank' ? 'selected' : ''}>Closest to Rank</option>
+                            <option value="rank_rev" ${params.sortBy === 'rank_rev' ? 'selected' : ''}>Furthest from Rank</option>
+                            <option value="fee" ${params.sortBy === 'fee' ? 'selected' : ''}>Lowest Fee</option>
+                            <option value="fee_rev" ${params.sortBy === 'fee_rev' ? 'selected' : ''}>Highest Fee</option>
+                            <option value="stipend" ${params.sortBy === 'stipend' ? 'selected' : ''}>Highest Stipend</option>
+                            <option value="stipend_rev" ${params.sortBy === 'stipend_rev' ? 'selected' : ''}>Lowest Stipend</option>
+                            <option value="bond" ${params.sortBy === 'bond' ? 'selected' : ''}>Lowest Bond</option>
+                            <option value="bond_rev" ${params.sortBy === 'bond_rev' ? 'selected' : ''}>Highest Bond</option>
+                            <option value="name" ${params.sortBy === 'name' ? 'selected' : ''}>College Name (A-Z)</option>
+                            <option value="name_rev" ${params.sortBy === 'name_rev' ? 'selected' : ''}>College Name (Z-A)</option>
+                            <option value="course" ${params.sortBy === 'course' ? 'selected' : ''}>Course Name (A-Z)</option>
+                            <option value="course_rev" ${params.sortBy === 'course_rev' ? 'selected' : ''}>Course Name (Z-A)</option>
                         </select>
                     </div>
                     
@@ -318,17 +325,6 @@ export async function renderResults(container, params = {}) {
                         <div>
                             <h1 style="margin:0; font-size: 1.75rem;">Search Results <span class="text-muted text-sm" style="font-weight:400;" id="results-count"></span></h1>
                             ${rank ? `<div class="text-muted mt-2">Showing best fits for AIR ${rank.toLocaleString()}</div>` : ''}
-                        </div>
-                        
-                        <div style="display:flex; gap:1rem; align-items:center;">
-                            <label class="text-muted text-sm" style="font-weight:500;">Sort By</label>
-                            <select id="sort-select" class="form-control" style="padding:0.5rem; border-radius:4px; border:1px solid var(--border-color);">
-                                <option value="fit" ${params.sortBy === 'fit' || !params.sortBy ? 'selected' : ''}>Best Historical Fit</option>
-                                <option value="closing_rank_high" ${params.sortBy === 'closing_rank_high' ? 'selected' : ''}>Cutoff Rank (High to Low)</option>
-                                <option value="closing_rank_low" ${params.sortBy === 'closing_rank_low' ? 'selected' : ''}>Cutoff Rank (Low to High)</option>
-                                <option value="fee_low" ${params.sortBy === 'fee_low' ? 'selected' : ''}>Tuition Fee (Low to High)</option>
-                                <option value="stipend_high" ${params.sortBy === 'stipend_high' ? 'selected' : ''}>Stipend (High to Low)</option>
-                            </select>
                         </div>
                     </div>
 

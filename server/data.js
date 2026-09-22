@@ -139,7 +139,13 @@ export function searchOptions(query) {
     }
     
     // Sort
-    const sortBy = query.sortBy || 'fit';
+    let rawSortBy = query.sortBy || 'fit';
+    let isReverse = false;
+    if (rawSortBy.endsWith('_rev')) {
+        isReverse = true;
+        rawSortBy = rawSortBy.replace('_rev', '');
+    }
+    const sortBy = rawSortBy;
     
     // Calculate a primary sort value for cursor
     results.forEach(r => {
@@ -163,17 +169,22 @@ export function searchOptions(query) {
     });
     
     results.sort((a, b) => {
+        let res = 0;
         if (sortBy === 'fit') {
-            if (a._sortVal !== b._sortVal) return b._sortVal - a._sortVal;
-            return b._sortTie - a._sortTie;
+            if (a._sortVal !== b._sortVal) res = b._sortVal - a._sortVal;
+            else res = b._sortTie - a._sortTie;
         } else if (sortBy === 'stipend') {
-            if (a._sortVal !== b._sortVal) return b._sortVal - a._sortVal;
+            if (a._sortVal !== b._sortVal) res = b._sortVal - a._sortVal;
         } else if (sortBy === 'name' || sortBy === 'course') {
             const cmp = a._sortVal.localeCompare(b._sortVal);
-            if (cmp !== 0) return cmp;
+            if (cmp !== 0) res = cmp;
         } else {
             // fee, bond, rank (ascending by default)
-            if (a._sortVal !== b._sortVal) return a._sortVal - b._sortVal;
+            if (a._sortVal !== b._sortVal) res = a._sortVal - b._sortVal;
+        }
+        
+        if (res !== 0) {
+            return isReverse ? -res : res;
         }
         return a.id - b.id; // stable fallback
     });
