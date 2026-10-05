@@ -1,3 +1,4 @@
+import { getRankLabel, getRankShortLabel } from '../utils.js';
 export function renderStatic(container, path) {
     if (path === '/methodology') {
         container.innerHTML = `
@@ -8,7 +9,7 @@ export function renderStatic(container, path) {
                 <p class="text-muted">The core dataset is derived from the official Medical Counseling Committee (MCC) allotments. It has been rigorously processed to separate available historical allotments from unavailable or ambiguous entries.</p>
                 
                 <h3 class="mt-4 mb-2">Cutoff Logic & Fit Assessment</h3>
-                <p class="text-muted">Unlike traditional portals that provide a single arbitrary probability score, our engine compares your All India Rank (AIR) directly against historical closing ranks across multiple rounds. A "Safe/Realistic" label is applied if your rank falls safely within the historical boundaries (plus a small buffer margin to account for year-over-year variance). An "Ambitious" label is applied if your rank is worse than historical cutoffs.</p>
+                <p class="text-muted">Unlike traditional portals that provide a single arbitrary probability score, our engine compares your ${getRankLabel()} directly against historical closing ranks across multiple rounds. A "Safe/Realistic" label is applied if your rank falls safely within the historical boundaries (plus a small buffer margin to account for year-over-year variance). An "Ambitious" label is applied if your rank is worse than historical cutoffs.</p>
                 
                 <h3 class="mt-4 mb-2">Financial Asterisks</h3>
                 <p class="text-muted">You will often see a yellow warning triangle (⚠️) next to fees and stipends. This preserves the original caveat from the authorities (e.g. "₹69,470*"), indicating the amount may be subject to court orders or specific state conditions.</p>

@@ -1,3 +1,4 @@
+import { getRankLabel, getRankShortLabel } from '../utils.js';
 export async function renderShortlist(container) {
     container.innerHTML = `
         <div class="container" style="margin-top:2rem;">
@@ -67,7 +68,8 @@ export async function renderShortlist(container) {
                     
                     const isFav = s.isFavorite;
                     const analyzed = opt._analyzedCutoffs;
-                    const latestCutoffText = analyzed && analyzed.latestYear && analyzed.latestRound && analyzed.latestClosingRank != null ? 
+                    const aiRankText = analyzed && analyzed.latestAIRank ? ` (AIR: ${analyzed.latestAIRank.toLocaleString()})` : '';
+            const latestCutoffText = analyzed && analyzed.latestYear && analyzed.latestRound && analyzed.latestClosingRank != null ? 
                         `${analyzed.latestYear} R${analyzed.latestRound}: ${analyzed.latestClosingRank.toLocaleString()}` : 
                         'Not available';
 
@@ -99,7 +101,7 @@ export async function renderShortlist(container) {
                                     
                                     <div style="display:flex; gap:1rem; font-size:0.875rem;">
                                         <div>
-                                            <span class="text-muted">Latest Cutoff:</span> <strong>${latestCutoffText}</strong>
+                                            <span class="text-muted">Latest Cutoff (${getRankShortLabel()}):</span> <strong>${latestCutoffText}</strong>
                                         </div>
                                     </div>
                                 </div>

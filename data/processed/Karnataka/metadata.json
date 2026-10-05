@@ -1,0 +1,19 @@
+{
+  "datasetVersion": "1.0.0",
+  "source": "All-India.json",
+  "retrievedAt": "2026-10-01T06:14:06.465Z",
+  "recordCount": 4202,
+  "historicalYears": [
+    2024,
+    2025
+  ],
+  "availableRounds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "generatedAt": "2026-10-01T06:14:06.465Z"
+}

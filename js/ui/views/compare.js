@@ -1,3 +1,4 @@
+import { getRankLabel, getRankShortLabel } from '../utils.js';
 export async function renderCompare(container, params = {}) {
     container.innerHTML = `
         <div class="container" style="max-width:1400px; margin-top:2rem;">
@@ -101,7 +102,7 @@ export async function renderCompare(container, params = {}) {
 
                     <!-- Cutoffs -->
                     <tr>
-                        <td style="padding:1rem; font-weight:600; border-bottom:1px solid var(--border-color); position:sticky; left:0; background:var(--bg-main); border-right:1px solid var(--border-color);">Latest Cutoff</td>
+                        <td style="padding:1rem; font-weight:600; border-bottom:1px solid var(--border-color); position:sticky; left:0; background:var(--bg-main); border-right:1px solid var(--border-color);">Latest Cutoff (${getRankShortLabel()})</td>
                         ${options.map((opt, i) => {
                             const analyzed = opt._analyzedCutoffs;
                             const val = analyzed && analyzed.latestYear && analyzed.latestRound && analyzed.latestClosingRank != null ? 

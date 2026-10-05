@@ -35,8 +35,8 @@ function calculateRankMargin(userAIR, closingRank) {
     return cutoffRank - userRank;
 }
 
-export function assessFit(userAIR, analyzedCutoffs) {
-    if (!analyzedCutoffs || !analyzedCutoffs.hasData || !userAIR) {
+export function assessFit(userRank, userAIR, analyzedCutoffs) {
+    if (!analyzedCutoffs || !analyzedCutoffs.hasData || (!userRank && !userAIR)) {
         return {
             classification: 'Insufficient historical data',
             rankMarginLatest: null,
@@ -48,9 +48,24 @@ export function assessFit(userAIR, analyzedCutoffs) {
         };
     }
 
-    const rankMarginLatest = calculateRankMargin(userAIR, analyzedCutoffs.latestClosingRank);
-    const rankMarginBest = calculateRankMargin(userAIR, analyzedCutoffs.bestClosingRank);     
-    const rankMarginWorst = calculateRankMargin(userAIR, analyzedCutoffs.worstClosingRank);   
+    
+    let rankMarginLatest = null;
+    let rankMarginBest = null;
+    let rankMarginWorst = null;
+    let usedAIR = false;
+
+    if (userRank) {
+        rankMarginLatest = calculateRankMargin(userRank, analyzedCutoffs.latestClosingRank);
+        rankMarginBest = calculateRankMargin(userRank, analyzedCutoffs.bestClosingRank);     
+        rankMarginWorst = calculateRankMargin(userRank, analyzedCutoffs.worstClosingRank); 
+    } else if (userAIR && analyzedCutoffs.latestAIRank) {
+        rankMarginLatest = calculateRankMargin(userAIR, analyzedCutoffs.latestAIRank);
+        // We only have latestAIRank in analyzedCutoffs right now, so best/worst might be null for AIR
+        rankMarginBest = rankMarginLatest;
+        rankMarginWorst = rankMarginLatest;
+        usedAIR = true;
+    }
+   
 
     if (rankMarginLatest === null) {
         return {
@@ -79,8 +94,8 @@ export function assessFit(userAIR, analyzedCutoffs) {
     }
 
     // Generate Explanation
-    const userRankNum = Number(String(userAIR).replace(/[^0-9.-]+/g, ""));
-    let explanation = `Your AIR is ${userRankNum.toLocaleString()}. `;
+    const userRankNum = Number(String(usedAIR ? userAIR : userRank).replace(/[^0-9.-]+/g, ''));
+    let explanation = `Your ${usedAIR ? 'AIR' : 'Rank'} is ${userRankNum.toLocaleString()}. `;
     
     const margin = Math.abs(rankMarginLatest).toLocaleString();
     const lYear = analyzedCutoffs.latestYear;

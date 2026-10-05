@@ -26,6 +26,7 @@ export function analyzeCutoffs(cutoffsArray) {
     let latestYear = -1;
     let latestRound = -1;
     let latestClosingRank = null;
+    let latestAIRank = null;
     let totalRank = 0;
     
     const validRanks = [];
@@ -50,6 +51,7 @@ export function analyzeCutoffs(cutoffsArray) {
                 latestYear = c.year;
                 latestRound = c.round;
                 latestClosingRank = c.closingRank;
+                latestAIRank = c.aiRank || null;
             }
         }
     }
@@ -111,6 +113,7 @@ export function analyzeCutoffs(cutoffsArray) {
     return {
         hasData: true,
         latestClosingRank: latestClosingRank,
+        latestAIRank: latestAIRank,
         bestClosingRank: bestRank,
         worstClosingRank: worstRank,
         medianClosingRank: Math.round(medianRank),

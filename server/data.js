@@ -12,8 +12,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DATA_DIR = path.join(__dirname, '..', 'data', 'processed');
 
-export let dataStore = null;
-export let searchIndex = null;
+export const dataStores = {};
+export const searchIndexes = {};
 
 // Hard-coded Category Eligibility Map
 const CATEGORY_ELIGIBILITY = {
@@ -29,6 +29,7 @@ function getEligibleCategories(candidateCategoryId) {
     return CATEGORY_ELIGIBILITY[String(candidateCategoryId)] || [String(candidateCategoryId)];
 }
 
+
 export async function initDataLayer() {
     console.log("Loading datasets into memory...");
     const files = [
@@ -37,27 +38,41 @@ export async function initDataLayer() {
         'seat-matrix-2025', 'seat-matrix-additional-2025', 'indexes'
     ];
     
-    const datasets = {};
-    for (const file of files) {
-        const filePath = path.join(DATA_DIR, `${file}.json`);
-        if (fs.existsSync(filePath)) {
-            const raw = await fs.promises.readFile(filePath, 'utf8');
-            datasets[file] = JSON.parse(raw);
-        } else {
-            console.warn(`Dataset ${file}.json not found!`);
-            datasets[file] = [];
+    const dirs = await fs.promises.readdir(DATA_DIR, { withFileTypes: true });
+    let seatMatrices = [];
+    
+    for (const dir of dirs) {
+        if (!dir.isDirectory()) continue;
+        const counselling = dir.name;
+        if (counselling.includes('mcc_pg')) continue;
+
+        const datasets = {};
+        for (const file of files) {
+            const filePath = path.join(DATA_DIR, counselling, `${file}.json`);
+            if (fs.existsSync(filePath)) {
+                try {
+                    const raw = await fs.promises.readFile(filePath, 'utf8');
+                    datasets[file] = JSON.parse(raw);
+                } catch(e) { datasets[file] = []; }
+            } else {
+                datasets[file] = [];
+            }
         }
+        
+        dataStores[counselling] = new DataStore(datasets);
+        searchIndexes[counselling] = new SearchIndex(datasets.indexes || {});
+        seatMatrices = seatMatrices.concat(datasets['seat-matrix-2025'] || [], datasets['seat-matrix-additional-2025'] || []);
     }
     
-    dataStore = new DataStore(datasets);
-    searchIndex = new SearchIndex(datasets.indexes);
-    SeatMatrixProvider.initialize([...(datasets['seat-matrix-2025'] || []), ...(datasets['seat-matrix-additional-2025'] || [])]);
-    
-    console.log("Data layer initialized.");
+    SeatMatrixProvider.initialize(seatMatrices);
+    console.log("Data layer initialized for: " + Object.keys(dataStores).join(', '));
 }
 
-export function searchOptions(query) {
-    if (!dataStore || !searchIndex) throw new Error("Data layer not initialized");
+export function searchOptions(counselling, query) {
+    const dataStore = dataStores[counselling];
+    const searchIndex = searchIndexes[counselling];
+
+    if (!dataStore || !searchIndex) throw new Error("Data layer not initialized for " + counselling);
     
     // Parse pagination and cursor
     const pageSize = Math.min(parseInt(query.pageSize, 10) || 50, 100);
@@ -65,6 +80,7 @@ export function searchOptions(query) {
     
     // Parse filters
     const rank = query.rank ? parseInt(query.rank, 10) : null;
+    const aiRank = query.aiRank ? parseInt(query.aiRank, 10) : null;
     const quotas = query.quota ? query.quota.split(',') : [];
     const candidateCategory = query.candidateCategory || null;
     const states = query.states ? query.states.split(',') : [];
@@ -133,7 +149,7 @@ export function searchOptions(query) {
         
         const analyzed = analyzeCutoffs(filteredCutoffs);
         hydrated._analyzedCutoffs = analyzed;
-        hydrated._fit = assessFit(rank, analyzed);
+        hydrated._fit = assessFit(rank, aiRank, analyzed);
         
         results.push(hydrated);
     }
@@ -240,8 +256,10 @@ export function searchOptions(query) {
     };
 }
 
-export function getOption(id, reqYear, reqRound, rank) {
-    if (!dataStore) throw new Error("Data layer not initialized");
+export function getOption(counselling, id, reqYear, reqRound, rank) {
+    const dataStore = dataStores[counselling];
+    const searchIndex = searchIndexes[counselling];
+    if (!dataStore || !searchIndex) throw new Error("Data layer not initialized for " + counselling);
     const opt = dataStore.getHydratedOption(id);
     if (!opt) return null;
     
@@ -285,8 +303,9 @@ export function getOption(id, reqYear, reqRound, rank) {
     return opt;
 }
 
-export function getOptionsBatch(ids) {
-    if (!dataStore) throw new Error("Data layer not initialized");
+export function getOptionsBatch(counselling, ids) {
+    const dataStore = dataStores[counselling];
+    if (!dataStore) throw new Error("Data layer not initialized for " + counselling);
     return ids.map(id => {
         const opt = dataStore.getHydratedOption(id);
         if (!opt) return { id, error: 'NOT_FOUND' };
@@ -296,13 +315,18 @@ export function getOptionsBatch(ids) {
     });
 }
 
-export function getFilterMetadata() {
+export function getFilterMetadata(counselling) {
+    const dataStore = dataStores[counselling];
+
     if (!dataStore) throw new Error("Data layer not initialized");
     return dataStore.getMetadata();
 }
 
 
-export function getFilteredIdentities(query) {
+export function getFilteredIdentities(counselling, query) {
+    const dataStore = dataStores[counselling];
+    const searchIndex = searchIndexes[counselling];
+
     if (!dataStore || !searchIndex) throw new Error("Data layer not initialized");
     
     // Parse filters

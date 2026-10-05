@@ -1,3 +1,4 @@
+import { getRankLabel, getRankShortLabel } from '../utils.js';
 import { generateRecommendations } from '../../engine/recommendationEngine.js';
 
 export async function renderChoiceList(container) {

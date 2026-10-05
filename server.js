@@ -11,6 +11,7 @@ import { initDataLayer, searchOptions, getOption, getOptionsBatch, getFilterMeta
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+
 // ---------------------------------------------------------------------------
 // Required environment variables — fail fast if not set
 // ---------------------------------------------------------------------------
@@ -43,6 +44,12 @@ const app = express();
 
 app.use(express.json({ limit: '10mb' }));
 app.use(compression());
+app.get('/api/counsellings', (req, res) => {
+    const dirs = fs.readdirSync(path.join(__dirname, 'data/processed'), { withFileTypes: true });
+    const counsellings = dirs.filter(d => d.isDirectory() && !d.name.includes('mcc_pg')).map(d => d.name);
+    res.json({ success: true, counsellings });
+});
+
 
 // Set no-cache on all API responses to prevent browsers from caching stale data
 app.use('/api/', (req, res, next) => {
@@ -147,9 +154,9 @@ app.get('/api/check-auth', (req, res) => {
 // Search and Data APIs
 // ---------------------------------------------------------------------------
 
-app.get('/api/filter-metadata', (req, res) => {
+app.get('/api/:counselling/filter-metadata', (req, res) => {
     try {
-        const metadata = getFilterMetadata();
+        const metadata = getFilterMetadata(req.params.counselling);
         res.json(metadata);
     } catch (err) {
         console.error('Filter metadata error:', err);
@@ -157,9 +164,9 @@ app.get('/api/filter-metadata', (req, res) => {
     }
 });
 
-app.get('/api/options', (req, res) => {
+app.get('/api/:counselling/options', (req, res) => {
     try {
-        const result = searchOptions(req.query);
+        const result = searchOptions(req.params.counselling, req.query);
         res.json(result);
     } catch (err) {
         if (err.message === 'INVALID_CURSOR') {
@@ -171,9 +178,9 @@ app.get('/api/options', (req, res) => {
     }
 });
 
-app.get('/api/options/identities', (req, res) => {
+app.get('/api/:counselling/identities', (req, res) => {
     try {
-        const result = getFilteredIdentities(req.query);
+        const result = getFilteredIdentities(req.params.counselling, req.query);
         res.json(result);
     } catch (err) {
         console.error('Identities API Error:', err);
@@ -190,7 +197,7 @@ app.get('/api/options/batch', (req, res) => {
         if (ids.length === 0) return res.status(400).json({ error: 'Invalid ids parameter' });
         if (ids.length > 100) return res.status(400).json({ error: 'Maximum 100 IDs allowed for batch request' });
 
-        const result = getOptionsBatch(ids);
+        const result = getOptionsBatch(req.params.counselling, ids);
         res.json(result);
     } catch (err) {
         console.error('Batch API Error:', err);
@@ -198,12 +205,12 @@ app.get('/api/options/batch', (req, res) => {
     }
 });
 
-app.get('/api/options/:id', (req, res) => {
+app.get('/api/:counselling/options/:id', (req, res) => {
     try {
         const id = parseInt(req.params.id, 10);
         if (isNaN(id)) return res.status(400).json({ error: 'Invalid option ID' });
 
-        const opt = getOption(id, req.query.year, req.query.round, req.query.rank);
+        const opt = getOption(req.params.counselling, id);
         if (!opt) return res.status(404).json({ error: 'Option not found' });
 
         res.json(opt);
@@ -407,8 +414,9 @@ app.use((req, res) => {
 async function startServer() {
     try {
         await initDataLayer();
-        app.listen(PORT, () => {
+        app.listen(PORT, '0.0.0.0', () => {
             console.log(`Server is running on http://localhost:${PORT}`);
+            console.log(`Server is also accessible on your local network at http://0.0.0.0:${PORT}`);
             console.log(`Admin password and session secret loaded from environment.`);
         });
     } catch (e) {

@@ -1,3 +1,4 @@
+import { getRankLabel, getRankShortLabel } from '../utils.js';
 import { navigate } from '../../router.js';
 import { getCacheItem, setCacheItem } from '../../engine/cache.js';
 
@@ -27,6 +28,7 @@ export async function renderResults(container, params = {}) {
 
     // Parse rank for fit assessment
     const rank = params.rank ? parseInt(params.rank, 10) : null;
+    const aiRank = params.aiRank ? parseInt(params.aiRank, 10) : null;
     
     // Build search criteria from params
     const criteria = {};
@@ -86,7 +88,7 @@ export async function renderResults(container, params = {}) {
             <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1.5rem; flex-wrap:wrap; gap:1rem;">
                 <div>
                     <h1 style="font-size:1.75rem; margin-bottom:0.5rem; font-weight:700;">Search Results <span id="results-count" style="font-size:1.25rem; font-weight:500; color:var(--text-muted); margin-left:0.5rem;"></span></h1>
-                    <p class="text-muted" style="margin-bottom:1rem;">Showing best fits for AIR ${rank ? rank.toLocaleString() : 'Not provided'}</p>
+                    <p class="text-muted" style="margin-bottom:1rem;">Showing best fits for ${getRankShortLabel()} ${rank ? rank.toLocaleString() : 'Not provided'}</p>
                     <div id="active-filters" class="mobile-only" style="display:flex; gap:0.5rem; flex-wrap:wrap; align-items:center;"></div>
                 </div>
                 
@@ -132,9 +134,16 @@ export async function renderResults(container, params = {}) {
                         <h3 style="margin-bottom: 1.25rem; font-size: 1.25rem;">Refine Search</h3>
                         
                         <div class="form-group" style="margin-bottom: 1.25rem;">
-                            <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">All India Rank (AIR)</label>
+                            <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">${getRankLabel()}</label>
                             <input type="text" inputmode="numeric" pattern="[0-9]*" id="sidebar-rank" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px;" value="${params.rank || ''}" placeholder="e.g. 5000">
                         </div>
+                        
+                        ${getRankLabel() !== 'All India Rank (AIR)' ? `
+                        <div class="form-group" style="margin-bottom: 1.25rem;">
+                            <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">All India Rank (AIR)</label>
+                            <input type="text" inputmode="numeric" pattern="[0-9]*" id="sidebar-ai-rank" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px;" value="${params.aiRank || ''}" placeholder="e.g. 15000">
+                        </div>
+                        ` : ''}
                         
                         <div class="form-group" style="margin-bottom: 1.25rem; position: relative;">
                             <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">State</label>
@@ -324,7 +333,7 @@ export async function renderResults(container, params = {}) {
                     <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
                         <div>
                             <h1 style="margin:0; font-size: 1.75rem;">Search Results <span class="text-muted text-sm" style="font-weight:400;" id="results-count"></span></h1>
-                            ${rank ? `<div class="text-muted mt-2">Showing best fits for AIR ${rank.toLocaleString()}</div>` : ''}
+                            ${rank ? `<div class="text-muted mt-2">Showing best fits for ${getRankShortLabel()} ${rank.toLocaleString()}</div>` : ''}
                         </div>
                     </div>
 
@@ -663,7 +672,7 @@ export async function renderResults(container, params = {}) {
         const sortBy = sortSelect.value;
         
         try {
-            const result = await engine.search(rank, criteria, currentCursor, sortBy);
+            const result = await engine.search({rank, aiRank}, criteria, currentCursor, sortBy);
             nextCursor = result.pagination.nextCursor;
             hasMore = result.pagination.hasMore;
             totalMatches = result.pagination.totalMatching;
@@ -795,12 +804,13 @@ export async function renderResults(container, params = {}) {
             const marginColor = fit.rankMarginLatest >= 0 ? 'var(--success)' : 'var(--danger)';
             
             const analyzed = opt._analyzedCutoffs;
+            const aiRankText = analyzed && analyzed.latestAIRank ? ` (AIR: ${analyzed.latestAIRank.toLocaleString()})` : '';
             const latestCutoffText = analyzed && analyzed.latestYear && analyzed.latestRound && analyzed.latestClosingRank != null ? 
-                `${analyzed.latestYear} R${analyzed.latestRound}: ${analyzed.latestClosingRank.toLocaleString()}` : 
+                `${analyzed.latestYear} R${analyzed.latestRound}: ${analyzed.latestClosingRank.toLocaleString()}${aiRankText}` : 
                 'Not available';
                 
                         const isHistorical = (params.year && params.year !== 'all') || (params.round && params.round !== 'all');
-            const cutoffLabelText = isHistorical ? 'Selected Cutoff' : 'Latest Cutoff';
+            const cutoffLabelText = isHistorical ? 'Selected Cutoff' : `Latest Cutoff (${getRankShortLabel()})`;
             const feeVal = opt.financials.feeRaw || 'Not available';
             const stipendVal = opt.financials.stipendRaw || 'Not available';
             const bondVal = opt.financials.bondYears ? `${opt.financials.bondYears} Year(s)` : (opt.financials.bondYears === 0 ? 'No Bond' : 'Not available');
@@ -826,7 +836,7 @@ export async function renderResults(container, params = {}) {
                         <div style="font-weight:600;">${latestCutoffText}</div>
                     </div>
                     <div>
-                        <div class="text-muted" style="margin-bottom:0.25rem;">Your AIR</div>
+                        <div class="text-muted" style="margin-bottom:0.25rem;">Your ${getRankShortLabel()}</div>
                         <div style="font-weight:600;">${rank ? rank.toLocaleString() : 'Not provided'}</div>
                     </div>
                     <div>
@@ -987,6 +997,8 @@ export async function renderResults(container, params = {}) {
 
     const handleSidebarChange = () => {
         const rankStr = document.getElementById('sidebar-rank').value;
+        const aiRankEl = document.getElementById('sidebar-ai-rank');
+        const aiRankStr = aiRankEl ? aiRankEl.value : null;
         const cat = document.getElementById('sidebar-cat').value;
         const budget = document.getElementById('sidebar-budget').value;
         const stipend = document.getElementById('sidebar-stipend').value;
@@ -1001,6 +1013,7 @@ export async function renderResults(container, params = {}) {
         
         const searchParams = {};
         if (rankStr && parseInt(rankStr, 10) > 0) searchParams.rank = rankStr;
+        if (aiRankStr && parseInt(aiRankStr, 10) > 0) searchParams.aiRank = aiRankStr;
         if (cat) searchParams.category = cat;
         if (budget) searchParams.budget = budget;
         if (stipend) searchParams.stipend = stipend;

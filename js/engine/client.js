@@ -1,5 +1,11 @@
 import { getCacheItem, setCacheItem, enforceLRU } from './cache.js';
 
+
+function getApiPrefix() {
+    const c = localStorage.getItem('activeCounselling') || 'All-India';
+    return `/api/${c}`;
+}
+
 export class EngineClient {
     constructor() {
         // No longer uses WebWorker
@@ -8,22 +14,26 @@ export class EngineClient {
     async init(progressCallback) {
         if (progressCallback) progressCallback('Connecting to server...');
         
-        const cachedMeta = await getCacheItem('filterMetadata', 'meta');
+        const cachedMeta = await getCacheItem('filterMetadata', getApiPrefix());
         if (cachedMeta) {
             return cachedMeta;
         }
 
-        const res = await fetch('/api/filter-metadata');
+        const res = await fetch(getApiPrefix() + '/api/filter-metadata'.replace('/api', ''));
         if (!res.ok) throw new Error('Failed to load filter metadata');
         const data = await res.json();
         
-        await setCacheItem('filterMetadata', 'meta', data);
+        await setCacheItem('filterMetadata', getApiPrefix(), data);
         return data;
     }
     
-    async search(rank, criteria, cursor = null, sortBy = 'fit', forceRefresh = false) {
+    async search(ranks, criteria, cursor = null, sortBy = 'fit', forceRefresh = false) {
+        ranks = ranks || {};
+        const rank = ranks.rank;
+        const aiRank = ranks.aiRank;
         const params = new URLSearchParams();
         if (rank) params.append('rank', rank);
+        if (aiRank) params.append('aiRank', aiRank);
         if (cursor) params.append('cursor', cursor);
         if (sortBy) params.append('sortBy', sortBy);
         
@@ -46,7 +56,7 @@ export class EngineClient {
         
         // Sort keys to ensure deterministic cache key
         const sortedParams = Array.from(params.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-        const cacheKey = JSON.stringify(sortedParams);
+        const cacheKey = getApiPrefix() + '_' + JSON.stringify(sortedParams);
         
         if (!forceRefresh) {
             const cachedPage = await getCacheItem('resultPages', cacheKey);
@@ -56,7 +66,7 @@ export class EngineClient {
             }
         }
         
-        const res = await fetch(`/api/options?${params.toString()}`);
+        const res = await fetch(`${getApiPrefix()}/options?${params.toString()}`);
         if (!res.ok) {
             const err = await res.json().catch(() => ({}));
             throw new Error(err.error || 'Failed to search options');
@@ -78,12 +88,12 @@ export class EngineClient {
         if (round !== 'all') params.append('round', round);
         
         const sortedParams = Array.from(params.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-        const cacheKey = `${id}_${JSON.stringify(sortedParams)}`;
+        const cacheKey = getApiPrefix() + '_' + `${id}_${JSON.stringify(sortedParams)}`;
         
         const cachedDetail = await getCacheItem('optionDetails', cacheKey);
         if (cachedDetail) return cachedDetail;
         
-        const res = await fetch(`/api/options/${id}?${params.toString()}`);
+        const res = await fetch(`${getApiPrefix()}/options/${id}?${params.toString()}`);
         if (!res.ok) throw new Error('Option not found');
         
         const data = await res.json();

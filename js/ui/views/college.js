@@ -1,3 +1,4 @@
+import { getRankLabel, getRankShortLabel } from '../utils.js';
 import { renderSVGChart } from '../components/chart.js';
 import { navigate } from '../../router.js';
 
@@ -110,7 +111,7 @@ export async function renderCollege(container, optionId, params = {}) {
             </div>
         ` : `
             <div class="text-center p-4 mb-4" style="background:var(--bg-surface-hover); border-radius:8px;">
-                <p class="text-muted">Enter your All India Rank in the search page to see your personalized fit analysis.</p>
+                <p class="text-muted">Enter your ${getRankLabel()} in the search page to see your personalized fit analysis.</p>
             </div>
         `;
         
@@ -230,7 +231,7 @@ export async function renderCollege(container, optionId, params = {}) {
                     </div>
                 </details>
                 
-                <h3 style="margin-bottom:1rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem;">Raw Cutoff Matrix (All India Rank)</h3>
+                <h3 style="margin-bottom:1rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem;">Raw Cutoff Matrix (${getRankLabel()})</h3>
                 ${cutoffsHtml}
             </div>
             

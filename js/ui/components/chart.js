@@ -1,3 +1,4 @@
+import { getRankLabel, getRankShortLabel } from '../utils.js';
 /**
  * Native Vanilla JS SVG Chart Generator for Cutoff Trends
  * Returns an HTML string representing the SVG.
@@ -81,12 +82,12 @@ export function renderSVGChart(cutoffs, userAIR) {
         svg += `<text x="${x}" y="${svgHeight - 15}" fill="var(--text-muted)" font-size="12" text-anchor="middle">${p.label}</text>`;
     });
 
-    // User AIR Line
+    // User ${getRankShortLabel()} Line
     if (userAIR && userAIR >= yTop && userAIR <= yBottom) {
         const yUser = scaleY(userAIR);
         svg += `<line x1="${padding.left}" y1="${yUser}" x2="${svgWidth - padding.right}" y2="${yUser}" stroke="var(--warning)" stroke-width="2" stroke-dasharray="6" />`;
         svg += `<rect x="${svgWidth - padding.right - 80}" y="${yUser - 10}" width="80" height="20" fill="var(--warning)" rx="4"/>`;
-        svg += `<text x="${svgWidth - padding.right - 40}" y="${yUser + 4}" fill="white" font-size="12" font-weight="bold" text-anchor="middle">Your AIR</text>`;
+        svg += `<text x="${svgWidth - padding.right - 40}" y="${yUser + 4}" fill="white" font-size="12" font-weight="bold" text-anchor="middle">Your ${getRankShortLabel()}</text>`;
     }
 
     svg += `</svg>`;

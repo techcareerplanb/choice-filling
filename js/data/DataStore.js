@@ -15,6 +15,8 @@ export class DataStore {
         
         // Group financials by optionId (should be 1:1, but safety first)
         this.financialsByOption = this._arrayToMap(datasets.financials, 'optionId');
+        
+        this.metadata = datasets.metadata;
     }
 
     _arrayToMap(arr, keyField = 'id') {
@@ -69,7 +71,9 @@ export class DataStore {
             quotas: Object.values(this.quotas),
             categories: Object.values(this.categories),
             counsellings: Object.values(this.counsellings),
-            states: Array.from(statesSet).sort()
+            states: Array.from(statesSet).sort(),
+            historicalYears: this.metadata?.historicalYears || [],
+            availableRounds: this.metadata?.availableRounds || []
         };
     }
 }

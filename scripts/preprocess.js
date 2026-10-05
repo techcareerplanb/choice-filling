@@ -6,8 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 
-const INPUT_PATH = path.join(__dirname, '../data/All-India.json');
-const OUT_DIR = path.join(__dirname, '../data/processed');
+const INPUT_PATH = process.env.INPUT_PATH || path.join(__dirname, '../data/All-India.json');
+const OUT_DIR = process.env.OUT_DIR || path.join(__dirname, '../data/processed');
 
 console.log('Starting relational data preprocessing...');
 

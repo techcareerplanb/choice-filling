@@ -1,0 +1,216 @@
+[
+  {
+    "id": 511397,
+    "state": "Delhi",
+    "institute": {
+      "id": 1361,
+      "name": "Chacha Nehru Bal Chikitsalaya, Delhi",
+      "short_name": "Chacha Nehru Bal Chikit, Delhi",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 500,
+      "name": "Delhi State Quota",
+      "short_name": "Delhi State Quota",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Delhi State Quota"
+    },
+    "category": "UR",
+    "counselling": {
+      "id": 87,
+      "name": "Delhi - PG Medical",
+      "short_name": "Delhi PG"
+    },
+    "cr_2024_1": {
+      "value": "1(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 1,
+      "counselling_rank": 1,
+      "ai_rank": 8055,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "cr_2025_1": {
+      "value": "1(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 1,
+      "counselling_rank": 1,
+      "ai_rank": 5461,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 641021,
+    "fee": "₹35,000*",
+    "stipend_year_1": "₹1,10,652*",
+    "bond_years": "1",
+    "bond_penalty": "₹20,00,000",
+    "beds": "221",
+    "choice_list_count": 0
+  },
+  {
+    "id": 517351,
+    "state": "Delhi",
+    "institute": {
+      "id": 1361,
+      "name": "Chacha Nehru Bal Chikitsalaya, Delhi",
+      "short_name": "Chacha Nehru Bal Chikit, Delhi",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 500,
+      "name": "Delhi State Quota",
+      "short_name": "Delhi State Quota",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Delhi State Quota"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 87,
+      "name": "Delhi - PG Medical",
+      "short_name": "Delhi PG"
+    },
+    "cr_2025_1": {
+      "value": "2(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 2,
+      "counselling_rank": 2,
+      "ai_rank": 25601,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 641021,
+    "fee": "₹35,000*",
+    "stipend_year_1": "₹1,10,652*",
+    "bond_years": "1",
+    "bond_penalty": "₹20,00,000",
+    "beds": "221",
+    "choice_list_count": 0
+  },
+  {
+    "id": 517352,
+    "state": "Delhi",
+    "institute": {
+      "id": 1361,
+      "name": "Chacha Nehru Bal Chikitsalaya, Delhi",
+      "short_name": "Chacha Nehru Bal Chikit, Delhi",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 500,
+      "name": "Delhi State Quota",
+      "short_name": "Delhi State Quota",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Delhi State Quota"
+    },
+    "category": "ST",
+    "counselling": {
+      "id": 87,
+      "name": "Delhi - PG Medical",
+      "short_name": "Delhi PG"
+    },
+    "cr_2025_1": {
+      "value": "3(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 3,
+      "counselling_rank": 3,
+      "ai_rank": 68947,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 641021,
+    "fee": "₹35,000*",
+    "stipend_year_1": "₹1,10,652*",
+    "bond_years": "1",
+    "bond_penalty": "₹20,00,000",
+    "beds": "221",
+    "choice_list_count": 0
+  },
+  {
+    "id": 511396,
+    "state": "Delhi",
+    "institute": {
+      "id": 1361,
+      "name": "Chacha Nehru Bal Chikitsalaya, Delhi",
+      "short_name": "Chacha Nehru Bal Chikit, Delhi",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 500,
+      "name": "Delhi State Quota",
+      "short_name": "Delhi State Quota",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Delhi State Quota"
+    },
+    "category": "OBC",
+    "counselling": {
+      "id": 87,
+      "name": "Delhi - PG Medical",
+      "short_name": "Delhi PG"
+    },
+    "cr_2024_1": {
+      "value": "2(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 2,
+      "counselling_rank": 2,
+      "ai_rank": 11442,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "cr_2025_1": {
+      "value": "4(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 4,
+      "counselling_rank": 4,
+      "ai_rank": 10240,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 641021,
+    "fee": "₹35,000*",
+    "stipend_year_1": "₹1,10,652*",
+    "bond_years": "1",
+    "bond_penalty": "₹20,00,000",
+    "beds": "221",
+    "choice_list_count": 0
+  }
+]

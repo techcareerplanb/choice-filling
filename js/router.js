@@ -1,3 +1,4 @@
+import { renderHome } from './ui/views/home.js';
 import { renderResults } from './ui/views/results.js';
 import { renderCollege } from './ui/views/college.js';
 import { renderCompare } from './ui/views/compare.js';
@@ -50,7 +51,10 @@ function handleRoute() {
     
     appContainer.innerHTML = ''; // Clear current view
     
-    if (path === '/' || path === '/results') {
+    if (path === '/') {
+        renderHome(appContainer);
+    } 
+    else if (path === '/results') {
         renderResults(appContainer, params);
     } 
     else if (path.startsWith('/college/')) {
