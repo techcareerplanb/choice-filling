@@ -58,11 +58,12 @@ export function assessFit(userRank, userAIR, analyzedCutoffs) {
         rankMarginLatest = calculateRankMargin(userRank, analyzedCutoffs.latestClosingRank);
         rankMarginBest = calculateRankMargin(userRank, analyzedCutoffs.bestClosingRank);     
         rankMarginWorst = calculateRankMargin(userRank, analyzedCutoffs.worstClosingRank); 
-    } else if (userAIR && analyzedCutoffs.latestAIRank) {
+    } else if (userAIR && (analyzedCutoffs.latestAIRank || analyzedCutoffs.worstAIRank)) {
         rankMarginLatest = calculateRankMargin(userAIR, analyzedCutoffs.latestAIRank);
-        // We only have latestAIRank in analyzedCutoffs right now, so best/worst might be null for AIR
-        rankMarginBest = rankMarginLatest;
-        rankMarginWorst = rankMarginLatest;
+        const worstAI = analyzedCutoffs.worstAIRank || analyzedCutoffs.latestAIRank;
+        const bestAI = analyzedCutoffs.bestAIRank || analyzedCutoffs.latestAIRank;
+        rankMarginWorst = calculateRankMargin(userAIR, worstAI);
+        rankMarginBest = calculateRankMargin(userAIR, bestAI);
         usedAIR = true;
     }
    
@@ -122,6 +123,8 @@ export function assessFit(userRank, userAIR, analyzedCutoffs) {
         rankMarginWorst,
         score,
         explanation,
-        confidence: analyzedCutoffs.confidence
+        confidence: analyzedCutoffs.confidence,
+        usedRankType: usedAIR ? 'AIR' : 'State Rank',
+        usedRankValue: userRankNum
     };
 }

@@ -52,6 +52,7 @@ export class EngineClient {
         if (criteria.bond !== undefined && criteria.bond !== null) params.append('bond', criteria.bond);
         if (criteria.year) params.append('year', criteria.year);
         if (criteria.round) params.append('round', criteria.round);
+        if (criteria.includeInservice !== undefined && criteria.includeInservice !== null) params.append('includeInservice', criteria.includeInservice);
         if (criteria.page) params.append('page', criteria.page);
         
         // Sort keys to ensure deterministic cache key
@@ -121,7 +122,7 @@ export class EngineClient {
         if (criteria.round) params.append('round', criteria.round);
         
         // Shortlist identities isn't heavily paginated, usually a one-off fetch. No IDB caching required.
-        const res = await fetch(`/api/options/identities?${params.toString()}`);
+        const res = await fetch(`${getApiPrefix()}/identities?${params.toString()}`);
         if (!res.ok) throw new Error('Failed to fetch identities');
         return await res.json();
     }
@@ -129,7 +130,7 @@ export class EngineClient {
     async getOptionsBatch(ids) {
         if (!ids || ids.length === 0) return [];
         // We could theoretically cache individual IDs from batches, but for simplicity we rely on the network batch.
-        const res = await fetch(`/api/options/batch?ids=${ids.join(',')}`);
+        const res = await fetch(`${getApiPrefix()}/options/batch?ids=${ids.join(',')}`);
         if (!res.ok) throw new Error('Failed to load batch options');
         return await res.json();
     }

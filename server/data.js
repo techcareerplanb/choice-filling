@@ -15,18 +15,9 @@ const DATA_DIR = path.join(__dirname, '..', 'data', 'processed');
 export const dataStores = {};
 export const searchIndexes = {};
 
-// Hard-coded Category Eligibility Map
-const CATEGORY_ELIGIBILITY = {
-    '1': ['1'], // GN -> OPEN
-    '2': ['1', '2'], // OBC -> OPEN + OBC
-    '3': ['1', '3'], // SC -> OPEN + SC
-    '4': ['1', '4'], // ST -> OPEN + ST
-    '5': ['1', '5']  // EWS -> OPEN + EWS
-};
-
 function getEligibleCategories(candidateCategoryId) {
     if (!candidateCategoryId) return null;
-    return CATEGORY_ELIGIBILITY[String(candidateCategoryId)] || [String(candidateCategoryId)];
+    return [String(candidateCategoryId)];
 }
 
 
@@ -116,7 +107,8 @@ export function searchOptions(counselling, query) {
         bond: query.bond,
         seats: query.seats,
         year: query.year,
-        round: query.round
+        round: query.round,
+        includeInservice: query.includeInservice
     };
     
     const results = [];
@@ -139,15 +131,21 @@ export function searchOptions(counselling, query) {
         }
         
         let filteredCutoffs = hydrated.cutoffs;
-        if (extraCriteria.year || extraCriteria.round) {
-            filteredCutoffs = hydrated.cutoffs.filter(c => {
-                const yMatch = !extraCriteria.year || extraCriteria.year === 'all' || c.year === parseInt(extraCriteria.year, 10);
-                const rMatch = !extraCriteria.round || extraCriteria.round === 'all' || c.round === parseInt(extraCriteria.round, 10);
-                return yMatch && rMatch;
-            });
+        // Always run cutoff filter to exclude in-service by default unless requested
+        filteredCutoffs = hydrated.cutoffs.filter(c => {
+            const yMatch = !extraCriteria.year || extraCriteria.year === 'all' || c.year === parseInt(extraCriteria.year, 10);
+            const rMatch = !extraCriteria.round || extraCriteria.round === 'all' || c.round === parseInt(extraCriteria.round, 10);
+            const isService = c.candidateFlag === 'inservice_candidate' || c.inserviceCandidate === true;
+            const inserviceMatch = extraCriteria.includeInservice === 'true' || !isService;
+            return yMatch && rMatch && inserviceMatch;
+        });
+        
+        if (filteredCutoffs.length === 0 && hydrated.cutoffs.length > 0) {
+            continue;
         }
         
         const analyzed = analyzeCutoffs(filteredCutoffs);
+        hydrated.cutoffs = filteredCutoffs;
         hydrated._analyzedCutoffs = analyzed;
         hydrated._fit = assessFit(rank, aiRank, analyzed);
         
@@ -170,7 +168,18 @@ export function searchOptions(counselling, query) {
             r._sortVal = map[r._fit.classification];
             r._sortTie = r._fit.rankMarginLatest !== null ? r._fit.rankMarginLatest : -Infinity;
         } else if (sortBy === 'rank') {
-            r._sortVal = r._fit.rankMarginLatest !== null ? Math.abs(r._fit.rankMarginLatest) : Infinity;
+            const margin = r._fit ? (r._fit.rankMarginWorst !== null ? r._fit.rankMarginWorst : r._fit.rankMarginLatest) : null;
+            if (margin !== null && margin !== undefined) {
+                if (margin >= 0) {
+                    // Group 0: positive differences (+0 to +N closest to rank first)
+                    r._sortVal = margin;
+                } else {
+                    // Group 1: negative differences (-0 to -N closest to rank first)
+                    r._sortVal = 1e9 + Math.abs(margin);
+                }
+            } else {
+                r._sortVal = Infinity;
+            }
         } else if (sortBy === 'fee') {
             r._sortVal = parseInt((r.financials.feeRaw || '').replace(/[^0-9]/g, '')) || Infinity;
         } else if (sortBy === 'stipend') {
@@ -256,7 +265,7 @@ export function searchOptions(counselling, query) {
     };
 }
 
-export function getOption(counselling, id, reqYear, reqRound, rank) {
+export function getOption(counselling, id, reqYear, reqRound, rank, includeInservice = false) {
     const dataStore = dataStores[counselling];
     const searchIndex = searchIndexes[counselling];
     if (!dataStore || !searchIndex) throw new Error("Data layer not initialized for " + counselling);
@@ -282,8 +291,14 @@ export function getOption(counselling, id, reqYear, reqRound, rank) {
     let optCutoffs = opt.cutoffs;
     if (reqYear && reqYear !== 'all') optCutoffs = optCutoffs.filter(c => c.year === parseInt(reqYear, 10));
     if (reqRound && reqRound !== 'all') optCutoffs = optCutoffs.filter(c => c.round === parseInt(reqRound, 10));
+    
+    optCutoffs = optCutoffs.filter(c => {
+        const isService = c.candidateFlag === 'inservice_candidate' || c.inserviceCandidate === true;
+        return String(includeInservice) === 'true' || !isService;
+    });
 
     const analyzedStats = analyzeCutoffs(optCutoffs);
+    opt.cutoffs = optCutoffs;
     opt._analyzedCutoffs = analyzedStats;
     if (rank) {
         opt._fit = assessFit(parseInt(rank, 10), analyzedStats);

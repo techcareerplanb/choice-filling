@@ -27,6 +27,8 @@ export function analyzeCutoffs(cutoffsArray) {
     let latestRound = -1;
     let latestClosingRank = null;
     let latestAIRank = null;
+    let bestAIRank = Infinity;
+    let worstAIRank = -Infinity;
     let totalRank = 0;
     
     const validRanks = [];
@@ -53,6 +55,11 @@ export function analyzeCutoffs(cutoffsArray) {
                 latestClosingRank = c.closingRank;
                 latestAIRank = c.aiRank || null;
             }
+        }
+
+        if (c.aiRank !== null && c.aiRank !== undefined) {
+            if (c.aiRank < bestAIRank) bestAIRank = c.aiRank;
+            if (c.aiRank > worstAIRank) worstAIRank = c.aiRank;
         }
     }
 
@@ -114,8 +121,10 @@ export function analyzeCutoffs(cutoffsArray) {
         hasData: true,
         latestClosingRank: latestClosingRank,
         latestAIRank: latestAIRank,
-        bestClosingRank: bestRank,
-        worstClosingRank: worstRank,
+        bestClosingRank: bestRank === Infinity ? null : bestRank,
+        worstClosingRank: worstRank === -Infinity ? null : worstRank,
+        bestAIRank: bestAIRank === Infinity ? null : bestAIRank,
+        worstAIRank: worstAIRank === -Infinity ? null : worstAIRank,
         medianClosingRank: Math.round(medianRank),
         averageClosingRank: averageRank,
         latestYear: latestYear,

@@ -62,6 +62,10 @@ export async function renderResults(container, params = {}) {
         }
     }
     
+    if (params.includeInservice) {
+        criteria.includeInservice = params.includeInservice;
+    }
+    
     // 1. Determine available colleges based on state filter
     let availableColleges = window.APP_META.institutes;
     if (criteria.states && criteria.states.length > 0) {
@@ -88,7 +92,7 @@ export async function renderResults(container, params = {}) {
             <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1.5rem; flex-wrap:wrap; gap:1rem;">
                 <div>
                     <h1 style="font-size:1.75rem; margin-bottom:0.5rem; font-weight:700;">Search Results <span id="results-count" style="font-size:1.25rem; font-weight:500; color:var(--text-muted); margin-left:0.5rem;"></span></h1>
-                    <p class="text-muted" style="margin-bottom:1rem;">Showing best fits for ${getRankShortLabel()} ${rank ? rank.toLocaleString() : 'Not provided'}</p>
+                    <p class="text-muted" style="margin-bottom:1rem;">Showing best fits for ${rank ? `${getRankShortLabel()} ${rank.toLocaleString()}` : (aiRank ? `AIR ${aiRank.toLocaleString()}` : `${getRankShortLabel()} Not provided`)}</p>
                     <div id="active-filters" class="mobile-only" style="display:flex; gap:0.5rem; flex-wrap:wrap; align-items:center;"></div>
                 </div>
                 
@@ -145,7 +149,8 @@ export async function renderResults(container, params = {}) {
                         </div>
                         ` : ''}
                         
-                        <div class="form-group" style="margin-bottom: 1.25rem; position: relative;">
+                        ${localStorage.getItem('activeCounselling') === 'All-India' ? `
+<div class="form-group" style="margin-bottom: 1.25rem; position: relative;">
                             <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">State</label>
                             <button id="state-dropdown-btn" type="button" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px; text-align:left; background:white; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
                                 <span id="state-dropdown-label">${criteria.states && criteria.states.length > 0 ? (criteria.states.length === 1 ? criteria.states[0] : `${criteria.states.length} states selected`) : 'All States'}</span>
@@ -169,6 +174,7 @@ export async function renderResults(container, params = {}) {
                                 </div>
                             </div>
                         </div>
+` : ''}
                         
                         <div class="form-group" style="margin-bottom: 1.25rem;">
                             <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">Historical Year</label>
@@ -196,6 +202,11 @@ export async function renderResults(container, params = {}) {
                                 <option value="">Select Category</option>
                                 ${window.APP_META.categories.map(c => `<option value="${c.id}" ${params.category === String(c.id) || params.cat === String(c.id) ? 'selected' : ''}>${c.name}</option>`).join('')}
                             </select>
+                        </div>
+                        
+                        <div class="form-group" style="margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <input type="checkbox" id="sidebar-inservice" ${params.includeInservice === 'true' ? 'checked' : ''} style="width: 1.2rem; height: 1.2rem; cursor: pointer;">
+                            <label for="sidebar-inservice" class="form-label" style="margin-bottom:0; font-weight:500; cursor: pointer;">Include In-Service</label>
                         </div>
                         
                         <div class="form-group" style="margin-bottom: 1.25rem; position: relative;">
@@ -333,7 +344,7 @@ export async function renderResults(container, params = {}) {
                     <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
                         <div>
                             <h1 style="margin:0; font-size: 1.75rem;">Search Results <span class="text-muted text-sm" style="font-weight:400;" id="results-count"></span></h1>
-                            ${rank ? `<div class="text-muted mt-2">Showing best fits for ${getRankShortLabel()} ${rank.toLocaleString()}</div>` : ''}
+                            ${(rank || aiRank) ? `<div class="text-muted mt-2">Showing best fits for ${rank ? `${getRankShortLabel()} ${rank.toLocaleString()}` : `AIR ${aiRank.toLocaleString()}`}</div>` : ''}
                         </div>
                     </div>
 
@@ -798,19 +809,34 @@ export async function renderResults(container, params = {}) {
             card.style.gap = '1rem';
             card.style.transition = 'box-shadow 0.2s';
             
-            const marginText = fit.rankMarginLatest !== null ? 
-                (fit.rankMarginLatest >= 0 ? `+${Math.abs(fit.rankMarginLatest).toLocaleString()}` : `-${Math.abs(fit.rankMarginLatest).toLocaleString()}`) : 
-                'Not available';
-            const marginColor = fit.rankMarginLatest >= 0 ? 'var(--success)' : 'var(--danger)';
-            
+            const isClosestSort = params.sortBy === 'rank' || params.sortBy === 'rank_rev';
+            const isHistorical = (params.year && params.year !== 'all') || (params.round && params.round !== 'all');
             const analyzed = opt._analyzedCutoffs;
-            const aiRankText = analyzed && analyzed.latestAIRank ? ` (AIR: ${analyzed.latestAIRank.toLocaleString()})` : '';
-            const latestCutoffText = analyzed && analyzed.latestYear && analyzed.latestRound && analyzed.latestClosingRank != null ? 
-                `${analyzed.latestYear} R${analyzed.latestRound}: ${analyzed.latestClosingRank.toLocaleString()}${aiRankText}` : 
+            
+            // For closest to rank sorting without specific round/year filters, show highest cutoff & its margin
+            const useHighestCutoff = isClosestSort && !isHistorical && analyzed && (analyzed.worstClosingRank != null || analyzed.worstAIRank != null);
+            const effectiveMargin = useHighestCutoff ? 
+                (fit.rankMarginWorst !== null && fit.rankMarginWorst !== undefined ? fit.rankMarginWorst : fit.rankMarginLatest) : 
+                fit.rankMarginLatest;
+            
+            const marginText = effectiveMargin !== null ? 
+                (effectiveMargin >= 0 ? `+${Math.abs(effectiveMargin).toLocaleString()}` : `-${Math.abs(effectiveMargin).toLocaleString()}`) : 
                 'Not available';
-                
-                        const isHistorical = (params.year && params.year !== 'all') || (params.round && params.round !== 'all');
-            const cutoffLabelText = isHistorical ? 'Selected Cutoff' : `Latest Cutoff (${getRankShortLabel()})`;
+            const marginColor = effectiveMargin >= 0 ? 'var(--success)' : 'var(--danger)';
+            
+            const aiRankText = analyzed && analyzed.latestAIRank ? ` (AIR: ${analyzed.latestAIRank.toLocaleString()})` : '';
+            let latestCutoffText = 'Not available';
+            let cutoffLabelText = isHistorical ? 'Selected Cutoff' : `Latest Cutoff (${getRankShortLabel()})`;
+            
+            if (useHighestCutoff) {
+                cutoffLabelText = `Highest Cutoff (${getRankShortLabel()})`;
+                const aiWorstText = analyzed.worstAIRank ? ` (AIR: ${analyzed.worstAIRank.toLocaleString()})` : aiRankText;
+                latestCutoffText = analyzed.worstClosingRank != null ? 
+                    `${analyzed.worstClosingRank.toLocaleString()}${aiWorstText}` : 
+                    (analyzed.worstAIRank != null ? `AIR: ${analyzed.worstAIRank.toLocaleString()}` : 'Not available');
+            } else if (analyzed && analyzed.latestYear && analyzed.latestRound && analyzed.latestClosingRank != null) {
+                latestCutoffText = `${analyzed.latestYear} R${analyzed.latestRound}: ${analyzed.latestClosingRank.toLocaleString()}${aiRankText}`;
+            }
             const feeVal = opt.financials.feeRaw || 'Not available';
             const stipendVal = opt.financials.stipendRaw || 'Not available';
             const bondVal = opt.financials.bondYears ? `${opt.financials.bondYears} Year(s)` : (opt.financials.bondYears === 0 ? 'No Bond' : 'Not available');
@@ -836,8 +862,8 @@ export async function renderResults(container, params = {}) {
                         <div style="font-weight:600;">${latestCutoffText}</div>
                     </div>
                     <div>
-                        <div class="text-muted" style="margin-bottom:0.25rem;">Your ${getRankShortLabel()}</div>
-                        <div style="font-weight:600;">${rank ? rank.toLocaleString() : 'Not provided'}</div>
+                        <div class="text-muted" style="margin-bottom:0.25rem;">Your ${opt._fit && opt._fit.usedRankType === 'AIR' ? 'AIR' : getRankShortLabel()}</div>
+                        <div style="font-weight:600;">${opt._fit && opt._fit.usedRankValue ? opt._fit.usedRankValue.toLocaleString() : (rank ? rank.toLocaleString() : (aiRank ? aiRank.toLocaleString() : 'Not provided'))}</div>
                     </div>
                     <div>
                         <div class="text-muted" style="margin-bottom:0.25rem;">Rank Margin</div>
@@ -1010,6 +1036,7 @@ export async function renderResults(container, params = {}) {
         const selectedColleges = getSelectedColleges();
         const selectedCourses = getSelectedCourses();
         const selectedQuotas = Array.from(document.querySelectorAll('.quota-checkbox:checked')).map(cb => cb.value);
+        const includeInservice = document.getElementById('sidebar-inservice') ? document.getElementById('sidebar-inservice').checked : false;
         
         const searchParams = {};
         if (rankStr && parseInt(rankStr, 10) > 0) searchParams.rank = rankStr;
@@ -1025,6 +1052,7 @@ export async function renderResults(container, params = {}) {
         if (selectedColleges.length > 0) searchParams.institute = selectedColleges.join(',');
         if (selectedCourses.length > 0) searchParams.specialisation = selectedCourses.join(',');
         if (selectedQuotas.length > 0) searchParams.quota = selectedQuotas.join(',');
+        if (includeInservice) searchParams.includeInservice = 'true';
         
         navigate('/results', searchParams);
     };

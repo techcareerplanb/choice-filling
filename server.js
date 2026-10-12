@@ -188,7 +188,7 @@ app.get('/api/:counselling/identities', (req, res) => {
     }
 });
 
-app.get('/api/options/batch', (req, res) => {
+app.get('/api/:counselling/options/batch', (req, res) => {
     try {
         const idsParam = req.query.ids;
         if (!idsParam) return res.status(400).json({ error: 'Missing ids parameter' });
@@ -210,7 +210,7 @@ app.get('/api/:counselling/options/:id', (req, res) => {
         const id = parseInt(req.params.id, 10);
         if (isNaN(id)) return res.status(400).json({ error: 'Invalid option ID' });
 
-        const opt = getOption(req.params.counselling, id);
+        const opt = getOption(req.params.counselling, id, req.query.year, req.query.round, req.query.rank, req.query.includeInservice);
         if (!opt) return res.status(404).json({ error: 'Option not found' });
 
         res.json(opt);
