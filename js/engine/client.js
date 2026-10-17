@@ -54,6 +54,7 @@ export class EngineClient {
         if (criteria.round) params.append('round', criteria.round);
         if (criteria.includeInservice !== undefined && criteria.includeInservice !== null) params.append('includeInservice', criteria.includeInservice);
         if (criteria.page) params.append('page', criteria.page);
+        if (criteria.pageSize) params.append('pageSize', criteria.pageSize);
         
         // Sort keys to ensure deterministic cache key
         const sortedParams = Array.from(params.entries()).sort((a, b) => a[0].localeCompare(b[0]));
@@ -104,9 +105,15 @@ export class EngineClient {
         return data;
     }
     
-    async getIdentities(rank, criteria) {
+    async getIdentities(ranks, criteria, sortBy = 'fit') {
         const params = new URLSearchParams();
-        if (rank) params.append('rank', rank);
+        if (typeof ranks === 'object' && ranks !== null) {
+            if (ranks.rank) params.append('rank', ranks.rank);
+            if (ranks.aiRank) params.append('aiRank', ranks.aiRank);
+        } else if (ranks) {
+            params.append('rank', ranks);
+        }
+        if (sortBy) params.append('sortBy', sortBy);
         
         if (criteria.quotas && criteria.quotas.length) params.append('quota', criteria.quotas.join(','));
         if (criteria.states && criteria.states.length) params.append('states', criteria.states.join(','));
@@ -118,8 +125,10 @@ export class EngineClient {
         if (criteria.budget) params.append('budget', criteria.budget);
         if (criteria.stipend) params.append('stipend', criteria.stipend);
         if (criteria.bond !== undefined && criteria.bond !== null) params.append('bond', criteria.bond);
+        if (criteria.seats) params.append('seats', criteria.seats);
         if (criteria.year) params.append('year', criteria.year);
         if (criteria.round) params.append('round', criteria.round);
+        if (criteria.includeInservice !== undefined) params.append('includeInservice', criteria.includeInservice);
         
         // Shortlist identities isn't heavily paginated, usually a one-off fetch. No IDB caching required.
         const res = await fetch(`${getApiPrefix()}/identities?${params.toString()}`);

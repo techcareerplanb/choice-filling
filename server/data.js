@@ -59,15 +59,11 @@ export async function initDataLayer() {
     console.log("Data layer initialized for: " + Object.keys(dataStores).join(', '));
 }
 
-export function searchOptions(counselling, query) {
+function getFilteredAndSortedResults(counselling, query) {
     const dataStore = dataStores[counselling];
     const searchIndex = searchIndexes[counselling];
 
     if (!dataStore || !searchIndex) throw new Error("Data layer not initialized for " + counselling);
-    
-    // Parse pagination and cursor
-    const pageSize = Math.min(parseInt(query.pageSize, 10) || 50, 100);
-    const cursor = query.cursor; 
     
     // Parse filters
     const rank = query.rank ? parseInt(query.rank, 10) : null;
@@ -213,6 +209,17 @@ export function searchOptions(counselling, query) {
         }
         return a.id - b.id; // stable fallback
     });
+
+    return results;
+}
+
+export function searchOptions(counselling, query) {
+    const results = getFilteredAndSortedResults(counselling, query);
+    
+    // Parse pagination and cursor
+    const pageSize = Math.min(parseInt(query.pageSize, 10) || 50, 100);
+    const cursor = query.cursor; 
+
     
     // Cursor / Page Pagination
     let startIndex = 0;
@@ -339,63 +346,18 @@ export function getFilterMetadata(counselling) {
 
 
 export function getFilteredIdentities(counselling, query) {
-    const dataStore = dataStores[counselling];
-    const searchIndex = searchIndexes[counselling];
-
-    if (!dataStore || !searchIndex) throw new Error("Data layer not initialized");
-    
-    // Parse filters
-    const quotas = query.quota ? query.quota.split(',') : [];
-    const candidateCategory = query.candidateCategory || null;
-    const states = query.states ? query.states.split(',') : [];
-    const institutes = query.institutes ? query.institutes.split(',').map(Number) : [];
-    const courses = query.courses ? query.courses.split(',').map(Number) : [];
-    
-    const eligibleCategoryIds = getEligibleCategories(candidateCategory);
-    const quotaIds = quotas.map(q => {
-        const qt = Object.values(dataStore.quotas).find(x => String(x.id) === q || x.short_name === q || x.name === q);
-        return qt ? qt.id : null;
-    }).filter(Boolean);
-    
-    const indexCriteria = {
-        categoryIds: eligibleCategoryIds ? eligibleCategoryIds.map(Number) : undefined,
-        quotaIds: quotaIds.length > 0 ? quotaIds : undefined,
-        states: states.length > 0 ? states : undefined,
-        instituteIds: institutes.length > 0 ? institutes : undefined,
-        courseIds: courses.length > 0 ? courses : undefined
-    };
-    
-    Object.keys(indexCriteria).forEach(k => indexCriteria[k] === undefined && delete indexCriteria[k]);
-    
-    let candidateIds = searchIndex.search(indexCriteria);
-    if (candidateIds.length === 0 && Object.keys(indexCriteria).length === 0) {
-        candidateIds = Object.keys(dataStore.options);
-    }
-    
-    const extraCriteria = {
-        budget: query.budget,
-        stipend: query.stipend,
-        bond: query.bond,
-        seats: query.seats,
-        year: query.year,
-        round: query.round
-    };
-    
-    const results = [];
+    const results = getFilteredAndSortedResults(counselling, query);
+    const finalIdentities = [];
     const seenIdentities = new Set();
     
-    for (let i = 0; i < candidateIds.length; i++) {
-        const optId = candidateIds[i];
-        const hydrated = dataStore.getHydratedOption(optId);
-        
-        if (!filterOption(hydrated, extraCriteria)) continue;
-        
-        const identity = `${hydrated.institute.id}_${hydrated.course.id}`;
+    for (let i = 0; i < results.length; i++) {
+        const r = results[i];
+        const identity = `${r.institute.id}_${r.course.id}`;
         if (!seenIdentities.has(identity)) {
             seenIdentities.add(identity);
-            results.push({ id: parseInt(optId, 10), identity });
+            finalIdentities.push({ id: r.id, identity });
         }
     }
     
-    return results;
+    return finalIdentities;
 }

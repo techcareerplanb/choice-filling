@@ -121,6 +121,12 @@ export async function renderResults(container, params = {}) {
                         <span>⚙️ Filters</span>
                     </button>
                     
+                    <button id="shortlist-top-btn" class="btn btn-outline" style="margin-bottom:0; display:flex; align-items:center; gap:0.5rem;" title="Shortlist top N results">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                        <span class="desktop-only">Shortlist Top N</span>
+                        <span class="mobile-only">Top N</span>
+                    </button>
+
                     <button id="shortlist-all-btn" class="btn btn-primary" style="margin-bottom:0; display:flex; align-items:center; gap:0.5rem;">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
                         <span class="desktop-only">Shortlist All</span>
@@ -380,6 +386,52 @@ export async function renderResults(container, params = {}) {
                 </div>
             </div>
             
+            <!-- Shortlist Top N Modal -->
+            <div id="shortlist-top-modal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(15, 23, 42, 0.65); backdrop-filter:blur(6px); align-items:center; justify-content:center; padding:1rem; opacity:0; transition:opacity 0.2s ease;">
+                <div class="card" id="shortlist-top-modal-content" style="background:var(--bg-surface); border-radius:16px; border:1px solid var(--border-color); box-shadow:var(--shadow-xl); max-width:440px; width:100%; padding:2rem; transform:scale(0.95); transition:transform 0.2s ease;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                        <div style="display:flex; align-items:center; gap:0.75rem;">
+                            <div style="width:38px; height:38px; border-radius:10px; background:rgba(37, 99, 235, 0.1); color:var(--primary-color); display:flex; align-items:center; justify-content:center;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                            </div>
+                            <h3 style="margin:0; font-size:1.25rem; font-weight:700;">Shortlist Top Results</h3>
+                        </div>
+                        <button id="shortlist-top-modal-close" type="button" style="background:none; border:none; font-size:1.5rem; line-height:1; cursor:pointer; color:var(--text-muted); padding:0.25rem;">&times;</button>
+                    </div>
+                    
+                    <p class="text-muted" style="margin-bottom:1.25rem; font-size:0.875rem; line-height:1.5;">
+                        Add the top-ranked options from your current filtered & sorted results to your shortlist.
+                    </p>
+                    
+                    <div style="margin-bottom:1.25rem;">
+                        <label style="display:block; font-size:0.75rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); margin-bottom:0.5rem;">Quick Presets</label>
+                        <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:0.5rem;" id="shortlist-top-presets">
+                            <button type="button" class="btn btn-outline shortlist-preset-btn" data-n="10" style="padding:0.5rem 0.25rem; font-weight:600; font-size:0.875rem; border-radius:8px;">Top 10</button>
+                            <button type="button" class="btn btn-outline shortlist-preset-btn" data-n="25" style="padding:0.5rem 0.25rem; font-weight:600; font-size:0.875rem; border-radius:8px;">Top 25</button>
+                            <button type="button" class="btn btn-outline shortlist-preset-btn" data-n="50" style="padding:0.5rem 0.25rem; font-weight:600; font-size:0.875rem; border-radius:8px;">Top 50</button>
+                            <button type="button" class="btn btn-outline shortlist-preset-btn" data-n="100" style="padding:0.5rem 0.25rem; font-weight:600; font-size:0.875rem; border-radius:8px;">Top 100</button>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" style="margin-bottom:1.25rem;">
+                        <label for="shortlist-top-input" style="display:flex; justify-content:space-between; font-weight:500; font-size:0.875rem; margin-bottom:0.5rem;">
+                            <span>Custom Number (N)</span>
+                            <span id="shortlist-top-max-hint" style="color:var(--text-muted); font-size:0.8125rem;"></span>
+                        </label>
+                        <input type="number" id="shortlist-top-input" min="1" class="form-control" placeholder="Enter number (e.g. 15)" style="width:100%; padding:0.75rem; font-size:1rem; border-radius:8px; border:1px solid var(--border-color-dark);">
+                    </div>
+                    
+                    <div id="shortlist-top-error" style="display:none; color:var(--danger); font-size:0.8125rem; margin-bottom:1rem; padding:0.5rem 0.75rem; background:rgba(239, 68, 68, 0.1); border-radius:6px;"></div>
+                    
+                    <div style="display:flex; gap:0.75rem; justify-content:flex-end;">
+                        <button type="button" id="shortlist-top-modal-cancel" class="btn btn-outline" style="padding:0.75rem 1.25rem; border-radius:8px;">Cancel</button>
+                        <button type="button" id="shortlist-top-modal-submit" class="btn btn-primary" style="padding:0.75rem 1.5rem; border-radius:8px; font-weight:600; display:flex; align-items:center; gap:0.5rem;">
+                            <span>Add to Shortlist</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
             <!-- Mobile Filter Drawer -->
             <div class="drawer-backdrop mobile-only" id="drawer-backdrop"></div>
             <div class="mobile-drawer mobile-only" id="mobile-drawer">
@@ -1070,7 +1122,8 @@ export async function renderResults(container, params = {}) {
             shortlistAllBtn.disabled = true;
             
             try {
-                const optionsToShortlist = await engine.getIdentities(rank, criteria);
+                const targetSortBy = sortSelect ? sortSelect.value : (params.sortBy || 'fit');
+                const optionsToShortlist = await engine.getIdentities({ rank, aiRank }, criteria, targetSortBy);
                 const module = await import('../../state.js');
                 module.addMultipleToShortlist(optionsToShortlist);
                 
@@ -1087,6 +1140,186 @@ export async function renderResults(container, params = {}) {
             }
         });
     }
+
+    // Shortlist Top N Modal Logic
+    const shortlistTopBtn = document.getElementById('shortlist-top-btn');
+    const shortlistTopModal = document.getElementById('shortlist-top-modal');
+    const shortlistTopModalContent = document.getElementById('shortlist-top-modal-content');
+    const shortlistTopClose = document.getElementById('shortlist-top-modal-close');
+    const shortlistTopCancel = document.getElementById('shortlist-top-modal-cancel');
+    const shortlistTopSubmit = document.getElementById('shortlist-top-modal-submit');
+    const shortlistTopInput = document.getElementById('shortlist-top-input');
+    const shortlistTopMaxHint = document.getElementById('shortlist-top-max-hint');
+    const shortlistTopError = document.getElementById('shortlist-top-error');
+
+    const openTopModal = () => {
+        if (totalMatches === 0) {
+            alert("No options available to shortlist.");
+            return;
+        }
+        if (shortlistTopError) shortlistTopError.style.display = 'none';
+        if (shortlistTopInput) {
+            shortlistTopInput.value = '';
+            shortlistTopInput.max = totalMatches;
+        }
+        if (shortlistTopMaxHint) {
+            shortlistTopMaxHint.textContent = `Max: ${totalMatches.toLocaleString()} matches`;
+        }
+        document.querySelectorAll('.shortlist-preset-btn').forEach(btn => {
+            btn.classList.remove('btn-primary');
+            btn.classList.add('btn-outline');
+        });
+        
+        if (shortlistTopModal && shortlistTopModalContent) {
+            shortlistTopModal.style.display = 'flex';
+            requestAnimationFrame(() => {
+                shortlistTopModal.style.opacity = '1';
+                shortlistTopModalContent.style.transform = 'scale(1)';
+            });
+            setTimeout(() => { if (shortlistTopInput) shortlistTopInput.focus(); }, 50);
+        }
+    };
+
+    const closeTopModal = () => {
+        if (!shortlistTopModal || !shortlistTopModalContent) return;
+        shortlistTopModal.style.opacity = '0';
+        shortlistTopModalContent.style.transform = 'scale(0.95)';
+        setTimeout(() => {
+            shortlistTopModal.style.display = 'none';
+        }, 200);
+    };
+
+    if (shortlistTopBtn) shortlistTopBtn.addEventListener('click', openTopModal);
+    if (shortlistTopClose) shortlistTopClose.addEventListener('click', closeTopModal);
+    if (shortlistTopCancel) shortlistTopCancel.addEventListener('click', closeTopModal);
+
+    document.querySelectorAll('.shortlist-preset-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const val = parseInt(btn.dataset.n, 10);
+            if (shortlistTopInput) shortlistTopInput.value = val;
+            if (shortlistTopError) shortlistTopError.style.display = 'none';
+            document.querySelectorAll('.shortlist-preset-btn').forEach(b => {
+                b.classList.remove('btn-primary');
+                b.classList.add('btn-outline');
+            });
+            btn.classList.remove('btn-outline');
+            btn.classList.add('btn-primary');
+            if (shortlistTopInput) shortlistTopInput.focus();
+        });
+    });
+
+    if (shortlistTopModal) {
+        shortlistTopModal.addEventListener('click', (e) => {
+            if (e.target === shortlistTopModal) closeTopModal();
+        });
+    }
+
+    const handleShortlistTopSubmit = async () => {
+        if (!shortlistTopInput || !shortlistTopSubmit) return;
+        const nVal = parseInt(shortlistTopInput.value, 10);
+        if (isNaN(nVal) || nVal <= 0) {
+            if (shortlistTopError) {
+                shortlistTopError.textContent = "Please enter a valid positive number.";
+                shortlistTopError.style.display = 'block';
+            }
+            shortlistTopInput.focus();
+            return;
+        }
+
+        const countToFetch = Math.min(nVal, totalMatches);
+        const originalText = shortlistTopSubmit.innerHTML;
+        shortlistTopSubmit.innerHTML = '<span>Adding...</span>';
+        shortlistTopSubmit.disabled = true;
+        if (shortlistTopError) shortlistTopError.style.display = 'none';
+
+        try {
+            const targetSortBy = sortSelect ? sortSelect.value : (params.sortBy || 'fit');
+            const items = [];
+            const seenIdentities = new Set();
+            
+            // If already on page 1 and localData has enough, take directly
+            if (currentPage === 1 && localData && localData.length > 0) {
+                for (const item of localData) {
+                    const identity = `${item.institute.id}_${item.course.id}`;
+                    if (!seenIdentities.has(identity)) {
+                        seenIdentities.add(identity);
+                        items.push({ id: item.id, identity });
+                        if (items.length >= countToFetch) break;
+                    }
+                }
+            }
+
+            // If more items needed, fetch in batches of 100 starting from the beginning
+            if (items.length < countToFetch) {
+                let cursor = null;
+                let pageNum = 1;
+                while (items.length < countToFetch) {
+                    const fetchCriteria = { ...criteria, pageSize: 100 };
+                    const res = await engine.search({ rank, aiRank }, fetchCriteria, cursor, targetSortBy);
+                    if (!res.items || res.items.length === 0) break;
+                    
+                    for (const item of res.items) {
+                        const identity = `${item.institute.id}_${item.course.id}`;
+                        if (!seenIdentities.has(identity)) {
+                            seenIdentities.add(identity);
+                            items.push({ id: item.id, identity });
+                            if (items.length >= countToFetch) break;
+                        }
+                    }
+
+                    if (!res.pagination || !res.pagination.hasMore || !res.pagination.nextCursor) break;
+                    cursor = res.pagination.nextCursor;
+                    pageNum++;
+                    if (pageNum > 20) break; // safety cap 2000 items
+                }
+            }
+
+            const module = await import('../../state.js');
+            module.addMultipleToShortlist(items);
+
+            shortlistTopSubmit.innerHTML = `<span>✅ Added ${items.length}!</span>`;
+            if (shortlistTopBtn) {
+                const originalBtnHtml = shortlistTopBtn.innerHTML;
+                shortlistTopBtn.innerHTML = `<span>✅ Top ${items.length} Added</span>`;
+                setTimeout(() => {
+                    shortlistTopBtn.innerHTML = originalBtnHtml;
+                }, 3000);
+            }
+
+            setTimeout(() => {
+                closeTopModal();
+                shortlistTopSubmit.innerHTML = originalText;
+                shortlistTopSubmit.disabled = false;
+            }, 1000);
+
+        } catch (err) {
+            console.error(err);
+            if (shortlistTopError) {
+                shortlistTopError.textContent = "Failed to shortlist: " + err.message;
+                shortlistTopError.style.display = 'block';
+            }
+            shortlistTopSubmit.innerHTML = originalText;
+            shortlistTopSubmit.disabled = false;
+        }
+    };
+
+    if (shortlistTopSubmit) shortlistTopSubmit.addEventListener('click', handleShortlistTopSubmit);
+    if (shortlistTopInput) {
+        shortlistTopInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                handleShortlistTopSubmit();
+            } else if (e.key === 'Escape') {
+                closeTopModal();
+            }
+        });
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && shortlistTopModal && shortlistTopModal.style.display === 'flex') {
+            closeTopModal();
+        }
+    });
 
     const applyFiltersBtn = document.getElementById('sidebar-apply-filters');
     if (applyFiltersBtn) {

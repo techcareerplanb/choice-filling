@@ -183,22 +183,44 @@ export async function renderChoiceList(container) {
         });
         
         document.getElementById('btn-export-csv').addEventListener('click', () => {
-            let csv = 'Order,Tier,Institute,State,Course,Fee,Stipend,Notes\n';
+            let csv = 'Order,Institute,State,Course,Fee,Stipend,Bond,Bond Penalty,Bed Count,Notes\n';
             mergedData.forEach((obj, idx) => {
-                const m = recommendedMetadata.find(x => x.optionId === obj.data.id);
+                const fin = obj.data.financials || {};
+
+                // Format Bond
+                let bondStr = 'Not available';
+                if (fin.bondYears !== undefined && fin.bondYears !== null) {
+                    bondStr = fin.bondYears === 0 ? 'No Bond' : `${fin.bondYears} Year(s)`;
+                }
+
+                // Format Bond Penalty
+                let bondPenStr = 'Not available';
+                if (fin.bondPenalty !== undefined && fin.bondPenalty !== null) {
+                    bondPenStr = fin.bondPenalty > 0 ? `₹${fin.bondPenalty.toLocaleString('en-IN')}` : (fin.bondYears === 0 ? 'N/A' : '₹0');
+                } else if (fin.bondYears === 0) {
+                    bondPenStr = 'N/A';
+                }
+
+                // Format Bed Count
+                const bedsStr = (obj.data.bedsCount !== undefined && obj.data.bedsCount !== null)
+                    ? obj.data.bedsCount
+                    : (obj.data.bedsStatus === 'unavailable' ? 'N/A' : '');
+
                 const row = [
                     idx + 1,
-                    m ? m.tier : obj.state.tag,
-                    `"${obj.data.institute.name}"`,
-                    obj.data.institute.state,
-                    `"${obj.data.course.name}"`,
-                    `"${obj.data.financials.feeRaw || ''}"`,
-                    `"${obj.data.financials.stipendRaw || ''}"`,
-                    `"${obj.state.notes.replace(/"/g, '""')}"`
+                    `"${obj.data.institute?.name || ''}"`,
+                    `"${obj.data.institute?.state || ''}"`,
+                    `"${obj.data.course?.name || ''}"`,
+                    `"${fin.feeRaw || ''}"`,
+                    `"${fin.stipendRaw || ''}"`,
+                    `"${bondStr}"`,
+                    `"${bondPenStr}"`,
+                    `"${bedsStr}"`,
+                    `"${(obj.state?.notes || '').replace(/"/g, '""')}"`
                 ];
                 csv += row.join(',') + '\n';
             });
-            const blob = new Blob([csv], { type: 'text/csv' });
+            const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
