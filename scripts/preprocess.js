@@ -178,10 +178,12 @@ rawData.forEach(item => {
         if (key.startsWith('cr_')) {
             const parts = key.split('_'); 
             if (parts.length === 3 && item[key]) {
+                const yearNum = parseInt(parts[1], 10);
+                const roundNum = parts[2].includes('.') ? parseFloat(parts[2]) : parseInt(parts[2], 10);
                 cutoffs.push({
                     optionId: optionId,
-                    year: parseInt(parts[1], 10),
-                    round: parseInt(parts[2], 10),
+                    year: yearNum,
+                    round: roundNum,
                     closingRank: item[key].closing_rank,
                     counsellingRank: item[key].counselling_rank,
                     aiRank: item[key].ai_rank,
@@ -190,8 +192,8 @@ rawData.forEach(item => {
                     candidateFlag: item[key].candidate_flag
                 });
                 
-                availableYears.add(parseInt(parts[1], 10));
-                availableRounds.add(parseInt(parts[2], 10));
+                availableYears.add(yearNum);
+                availableRounds.add(roundNum);
             }
         }
     });
@@ -233,11 +235,11 @@ rawData.forEach(item => {
 // Metadata
 const metadata = {
     datasetVersion: "1.0.0",
-    source: "All-India.json",
+    source: path.basename(INPUT_PATH),
     retrievedAt: new Date().toISOString(),
     recordCount: rawData.length,
-    historicalYears: Array.from(availableYears).sort(),
-    availableRounds: Array.from(availableRounds).sort(),
+    historicalYears: Array.from(availableYears).sort((a, b) => a - b),
+    availableRounds: Array.from(availableRounds).sort((a, b) => a - b),
     generatedAt: new Date().toISOString()
 };
 

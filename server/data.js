@@ -130,7 +130,7 @@ function getFilteredAndSortedResults(counselling, query) {
         // Always run cutoff filter to exclude in-service by default unless requested
         filteredCutoffs = hydrated.cutoffs.filter(c => {
             const yMatch = !extraCriteria.year || extraCriteria.year === 'all' || c.year === parseInt(extraCriteria.year, 10);
-            const rMatch = !extraCriteria.round || extraCriteria.round === 'all' || c.round === parseInt(extraCriteria.round, 10);
+            const rMatch = !extraCriteria.round || extraCriteria.round === 'all' || c.round === Number(extraCriteria.round);
             const isService = c.candidateFlag === 'inservice_candidate' || c.inserviceCandidate === true;
             const inserviceMatch = extraCriteria.includeInservice === 'true' || !isService;
             return yMatch && rMatch && inserviceMatch;
@@ -297,7 +297,7 @@ export function getOption(counselling, id, reqYear, reqRound, rank, includeInser
     // Cutoff filtering
     let optCutoffs = opt.cutoffs;
     if (reqYear && reqYear !== 'all') optCutoffs = optCutoffs.filter(c => c.year === parseInt(reqYear, 10));
-    if (reqRound && reqRound !== 'all') optCutoffs = optCutoffs.filter(c => c.round === parseInt(reqRound, 10));
+    if (reqRound && reqRound !== 'all') optCutoffs = optCutoffs.filter(c => c.round === Number(reqRound));
     
     optCutoffs = optCutoffs.filter(c => {
         const isService = c.candidateFlag === 'inservice_candidate' || c.inserviceCandidate === true;

@@ -186,8 +186,10 @@ export async function renderResults(container, params = {}) {
                             <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">Historical Year</label>
                             <select id="sidebar-year" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px;">
                                 <option value="all">All Years</option>
-                                <option value="2025" ${params.year === '2025' ? 'selected' : ''}>2025</option>
-                                <option value="2024" ${params.year === '2024' ? 'selected' : ''}>2024</option>
+                                ${(window.APP_META.historicalYears && window.APP_META.historicalYears.length > 0
+                                    ? [...window.APP_META.historicalYears].sort((a, b) => b - a)
+                                    : [2025, 2024]
+                                ).map(y => `<option value="${y}" ${params.year === String(y) ? 'selected' : ''}>${y}</option>`).join('')}
                             </select>
                         </div>
                         
@@ -195,10 +197,10 @@ export async function renderResults(container, params = {}) {
                             <label class="form-label" style="display:block; margin-bottom:0.5rem; font-weight:500;">Historical Round</label>
                             <select id="sidebar-round" class="form-control" style="width:100%; padding:0.75rem; border:1px solid var(--border-color-dark); border-radius:8px;">
                                 <option value="all">All Rounds</option>
-                                <option value="1" ${params.round === '1' ? 'selected' : ''}>Round 1</option>
-                                <option value="2" ${params.round === '2' ? 'selected' : ''}>Round 2</option>
-                                <option value="3" ${params.round === '3' ? 'selected' : ''}>Round 3</option>
-                                <option value="4" ${params.round === '4' ? 'selected' : ''}>Round 4</option>
+                                ${(window.APP_META.availableRounds && window.APP_META.availableRounds.length > 0
+                                    ? window.APP_META.availableRounds
+                                    : [1, 2, 3, 4]
+                                ).map(r => `<option value="${r}" ${params.round === String(r) ? 'selected' : ''}>Round ${r}</option>`).join('')}
                             </select>
                         </div>
                         

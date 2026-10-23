@@ -8,7 +8,8 @@
     "start": "node --env-file=.env server.js",
     "ingest": "echo 'Ingestion not yet integrated'",
     "validate-data": "node scripts/validate-data.js",
-    "build-data": "node scripts/preprocess.js"
+    "build-data": "node scripts/preprocess.js",
+    "build-states": "node scripts/preprocess-states.js"
   },
   "author": "",
   "license": "ISC",

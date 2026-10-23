@@ -1,0 +1,17 @@
+{
+  "datasetVersion": "1.0.0",
+  "source": "Andra Mng Quota.json",
+  "retrievedAt": "2026-10-22T08:49:40.974Z",
+  "recordCount": 702,
+  "historicalYears": [
+    2024,
+    2025
+  ],
+  "availableRounds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "generatedAt": "2026-10-22T08:49:40.975Z"
+}

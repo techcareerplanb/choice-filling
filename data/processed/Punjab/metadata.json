@@ -1,0 +1,18 @@
+{
+  "datasetVersion": "1.0.0",
+  "source": "Punjab.json",
+  "retrievedAt": "2026-10-22T08:49:40.803Z",
+  "recordCount": 510,
+  "historicalYears": [
+    2024,
+    2025
+  ],
+  "availableRounds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "generatedAt": "2026-10-22T08:49:40.810Z"
+}

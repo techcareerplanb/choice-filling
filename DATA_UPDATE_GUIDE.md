@@ -33,5 +33,18 @@ This script will:
 - Generate relational indexes
 - Auto-generate `metadata.json` documenting the dataset version and available rounds.
 
+### State Counselling Data (e.g. Rajasthan, Punjab, Chattisgarh, Andhra, Telangana, etc.)
+To add or update state-level counselling datasets:
+1. Place the state raw JSON in `data/raw/<StateName>.json`
+2. Process all states or specific states:
+```bash
+# Process all state datasets in data/raw
+npm run build-states
+
+# Or process specific states
+node scripts/preprocess-states.js "Punjab" "Chattisgharh" "Andra Mng Quota" "Telangana mng quota"
+```
+Each state will be compiled into `data/processed/<StateName>/` and automatically served by the application.
+
 ### 4. Deploy
 The frontend is completely static and reads from `data/processed/`. Simply deploy the updated repository to your hosting provider. No application logic changes are necessary.

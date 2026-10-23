@@ -1,0 +1,20 @@
+{
+  "datasetVersion": "1.0.0",
+  "source": "Telangana mng quota.json",
+  "retrievedAt": "2026-10-22T08:49:41.057Z",
+  "recordCount": 750,
+  "historicalYears": [
+    2024,
+    2025
+  ],
+  "availableRounds": [
+    1,
+    2,
+    3,
+    3.5,
+    4,
+    5,
+    6
+  ],
+  "generatedAt": "2026-10-22T08:49:41.058Z"
+}
