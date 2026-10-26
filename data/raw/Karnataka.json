@@ -136569,8 +136569,8 @@
       "counselling_rank": 61296,
       "ai_rank": 61296,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "61296(1)",
@@ -136580,8 +136580,8 @@
       "counselling_rank": 61296,
       "ai_rank": 61296,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037287,
     "fee": "₹1,23,400*",
@@ -136628,8 +136628,8 @@
       "counselling_rank": 109149,
       "ai_rank": 109149,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "89365(1)",
@@ -136639,8 +136639,8 @@
       "counselling_rank": 89365,
       "ai_rank": 89365,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "89365(1)",
@@ -136650,8 +136650,8 @@
       "counselling_rank": 89365,
       "ai_rank": 89365,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "61429(1)",
@@ -136661,8 +136661,8 @@
       "counselling_rank": 61429,
       "ai_rank": 61429,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "61429(1)",
@@ -136672,8 +136672,8 @@
       "counselling_rank": 61429,
       "ai_rank": 61429,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035200,
     "fee": "₹1,23,400*",
@@ -148529,8 +148529,8 @@
       "counselling_rank": 62120,
       "ai_rank": 62120,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "71272(1)",
@@ -148540,8 +148540,8 @@
       "counselling_rank": 71272,
       "ai_rank": 71272,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036526,
     "fee": "₹7,83,108*",
@@ -153809,8 +153809,8 @@
       "counselling_rank": 71272,
       "ai_rank": 71272,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "76214(1)",
@@ -153820,8 +153820,8 @@
       "counselling_rank": 76214,
       "ai_rank": 76214,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036886,
     "fee": "₹7,83,108*",
@@ -166862,8 +166862,8 @@
       "counselling_rank": 92690,
       "ai_rank": 92690,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "92690(1)",
@@ -166873,8 +166873,8 @@
       "counselling_rank": 92690,
       "ai_rank": 92690,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1038530,
     "fee": "₹7,83,108*",
@@ -169993,8 +169993,8 @@
       "counselling_rank": 97902,
       "ai_rank": 97902,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "97902(1)",
@@ -170004,8 +170004,8 @@
       "counselling_rank": 97902,
       "ai_rank": 97902,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036776,
     "fee": "₹7,83,108*",
@@ -170938,8 +170938,8 @@
       "counselling_rank": 99292,
       "ai_rank": 99292,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "99292(1)",
@@ -170949,8 +170949,8 @@
       "counselling_rank": 99292,
       "ai_rank": 99292,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035619,
     "fee": "₹7,83,108*",
@@ -172494,7 +172494,7 @@
       "counselling_rank": 125896,
       "ai_rank": 125896,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S3_Karnataka"
     },
     "cr_2025_2": {
@@ -172505,7 +172505,7 @@
       "counselling_rank": 101361,
       "ai_rank": 101361,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S3_Karnataka"
     },
     "cr_2025_3": {
@@ -172516,7 +172516,7 @@
       "counselling_rank": 101361,
       "ai_rank": 101361,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S3_Karnataka"
     },
     "fee_id": 1035589,
@@ -173384,8 +173384,8 @@
       "counselling_rank": 102233,
       "ai_rank": 102233,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "102233(1)",
@@ -173395,8 +173395,8 @@
       "counselling_rank": 102233,
       "ai_rank": 102233,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035139,
     "fee": "₹1,23,400*",
@@ -174061,8 +174061,8 @@
       "counselling_rank": 103171,
       "ai_rank": 103171,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036781,
     "fee": "₹7,83,108*",
@@ -174521,8 +174521,8 @@
       "counselling_rank": 29187,
       "ai_rank": 29187,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "29187(1)",
@@ -174532,8 +174532,8 @@
       "counselling_rank": 29187,
       "ai_rank": 29187,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "104048(1)",
@@ -174543,8 +174543,8 @@
       "counselling_rank": 104048,
       "ai_rank": 104048,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "104048(1)",
@@ -174554,8 +174554,8 @@
       "counselling_rank": 104048,
       "ai_rank": 104048,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036417,
     "fee": "₹1,25,000",
@@ -175088,8 +175088,8 @@
       "counselling_rank": 63543,
       "ai_rank": 63543,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "105371(1)",
@@ -175099,8 +175099,8 @@
       "counselling_rank": 105371,
       "ai_rank": 105371,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "105371(1)",
@@ -175110,8 +175110,8 @@
       "counselling_rank": 105371,
       "ai_rank": 105371,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035423,
     "fee": "₹1,23,400*",
@@ -179522,8 +179522,8 @@
       "counselling_rank": 62186,
       "ai_rank": 62186,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "112668(1)",
@@ -179533,8 +179533,8 @@
       "counselling_rank": 112668,
       "ai_rank": 112668,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "112668(1)",
@@ -179544,8 +179544,8 @@
       "counselling_rank": 112668,
       "ai_rank": 112668,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "112668(1)",
@@ -179555,8 +179555,8 @@
       "counselling_rank": 112668,
       "ai_rank": 112668,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "112668(1)",
@@ -179566,8 +179566,8 @@
       "counselling_rank": 112668,
       "ai_rank": 112668,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037745,
     "fee": "₹8,08,108*",
@@ -181796,8 +181796,8 @@
       "counselling_rank": 139319,
       "ai_rank": 139319,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "115881(1)",
@@ -181807,8 +181807,8 @@
       "counselling_rank": 115881,
       "ai_rank": 115881,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034973,
     "fee": "₹1,25,000",
@@ -183389,8 +183389,8 @@
       "counselling_rank": 114800,
       "ai_rank": 114800,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "62120(1)",
@@ -183400,8 +183400,8 @@
       "counselling_rank": 62120,
       "ai_rank": 62120,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "62120(1)",
@@ -183411,8 +183411,8 @@
       "counselling_rank": 62120,
       "ai_rank": 62120,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "133632(1)",
@@ -183422,8 +183422,8 @@
       "counselling_rank": 133632,
       "ai_rank": 133632,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "118136(1)",
@@ -183433,8 +183433,8 @@
       "counselling_rank": 118136,
       "ai_rank": 118136,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035240,
     "fee": "₹1,25,000",
@@ -183823,8 +183823,8 @@
       "counselling_rank": 76214,
       "ai_rank": 76214,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "118635(1)",
@@ -183834,8 +183834,8 @@
       "counselling_rank": 118635,
       "ai_rank": 118635,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036500,
     "fee": "₹1,25,000*",
@@ -184368,8 +184368,8 @@
       "counselling_rank": 71272,
       "ai_rank": 71272,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "61296(1)",
@@ -184379,8 +184379,8 @@
       "counselling_rank": 61296,
       "ai_rank": 61296,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "118635(1)",
@@ -184390,8 +184390,8 @@
       "counselling_rank": 118635,
       "ai_rank": 118635,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "120168(2)",
@@ -184401,8 +184401,8 @@
       "counselling_rank": 120168,
       "ai_rank": 120168,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036420,
     "fee": "₹1,25,000",
@@ -184751,8 +184751,8 @@
       "counselling_rank": 115853,
       "ai_rank": 115853,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "93357(1)",
@@ -184762,8 +184762,8 @@
       "counselling_rank": 93357,
       "ai_rank": 93357,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "71272(1)",
@@ -184773,8 +184773,8 @@
       "counselling_rank": 71272,
       "ai_rank": 71272,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "120657(2)",
@@ -184784,8 +184784,8 @@
       "counselling_rank": 120657,
       "ai_rank": 120657,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035080,
     "fee": "₹1,25,000",
@@ -185049,8 +185049,8 @@
       "counselling_rank": 84899,
       "ai_rank": 84899,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "76214(1)",
@@ -185060,8 +185060,8 @@
       "counselling_rank": 76214,
       "ai_rank": 76214,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "121008(1)",
@@ -185071,8 +185071,8 @@
       "counselling_rank": 121008,
       "ai_rank": 121008,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034987,
     "fee": "₹1,25,000",
@@ -185590,8 +185590,8 @@
       "counselling_rank": 76214,
       "ai_rank": 76214,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "92690(1)",
@@ -185601,8 +185601,8 @@
       "counselling_rank": 92690,
       "ai_rank": 92690,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "121327(1)",
@@ -185612,8 +185612,8 @@
       "counselling_rank": 121327,
       "ai_rank": 121327,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036421,
     "fee": "₹1,25,000",
@@ -186889,8 +186889,8 @@
       "counselling_rank": 124131,
       "ai_rank": 124131,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077623,
     "fee": "₹1,25,000",
@@ -187154,8 +187154,8 @@
       "counselling_rank": 53795,
       "ai_rank": 53795,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "53795(1)",
@@ -187165,8 +187165,8 @@
       "counselling_rank": 53795,
       "ai_rank": 53795,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "125267(1)",
@@ -187176,8 +187176,8 @@
       "counselling_rank": 125267,
       "ai_rank": 125267,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036418,
     "fee": "₹1,25,000",
@@ -187974,8 +187974,8 @@
       "counselling_rank": 127021,
       "ai_rank": 127021,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036403,
     "fee": "₹1,23,400*",
@@ -188250,7 +188250,7 @@
       "counselling_rank": 127830,
       "ai_rank": 127830,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S1_Karnataka"
     },
     "cr_2025_3": {
@@ -188261,7 +188261,7 @@
       "counselling_rank": 127830,
       "ai_rank": 127830,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S1_Karnataka"
     },
     "fee_id": 1037285,
@@ -188552,8 +188552,8 @@
       "counselling_rank": 140634,
       "ai_rank": 140634,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "128554(1)",
@@ -188563,8 +188563,8 @@
       "counselling_rank": 128554,
       "ai_rank": 128554,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034977,
     "fee": "₹1,25,000",
@@ -188883,8 +188883,8 @@
       "counselling_rank": 129831,
       "ai_rank": 129831,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077624,
     "fee": "₹1,25,000",
@@ -189663,8 +189663,8 @@
       "counselling_rank": 93505,
       "ai_rank": 93505,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "131719(1)",
@@ -189674,8 +189674,8 @@
       "counselling_rank": 131719,
       "ai_rank": 131719,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034782,
     "fee": "₹1,23,400*",
@@ -190491,8 +190491,8 @@
       "counselling_rank": 126689,
       "ai_rank": 126689,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "132963(2)",
@@ -190502,8 +190502,8 @@
       "counselling_rank": 132963,
       "ai_rank": 132963,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034978,
     "fee": "₹1,25,000",
@@ -192044,8 +192044,8 @@
       "counselling_rank": 135470,
       "ai_rank": 135470,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077625,
     "fee": "₹1,25,000",
@@ -193104,8 +193104,8 @@
       "counselling_rank": 137183,
       "ai_rank": 137183,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077626,
     "fee": "₹1,25,000",
@@ -193358,8 +193358,8 @@
       "counselling_rank": 137472,
       "ai_rank": 137472,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077627,
     "fee": "₹1,25,000",
@@ -193531,8 +193531,8 @@
       "counselling_rank": 99267,
       "ai_rank": 99267,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "137662(1)",
@@ -193542,8 +193542,8 @@
       "counselling_rank": 137662,
       "ai_rank": 137662,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1038144,
     "fee": "₹8,08,108*",
@@ -193649,8 +193649,8 @@
       "counselling_rank": 137798,
       "ai_rank": 137798,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077628,
     "fee": "₹1,25,000",
@@ -193697,8 +193697,8 @@
       "counselling_rank": 138295,
       "ai_rank": 138295,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035017,
     "fee": "₹7,83,108*",
@@ -193745,8 +193745,8 @@
       "counselling_rank": 127003,
       "ai_rank": 127003,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_4": {
       "value": "145439(1)",
@@ -193756,8 +193756,8 @@
       "counselling_rank": 145439,
       "ai_rank": 145439,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "138327(1)",
@@ -193767,8 +193767,8 @@
       "counselling_rank": 138327,
       "ai_rank": 138327,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035950,
     "fee": "₹1,25,000",
@@ -195084,8 +195084,8 @@
       "counselling_rank": 140044,
       "ai_rank": 140044,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077629,
     "fee": "₹1,25,000",
@@ -195132,8 +195132,8 @@
       "counselling_rank": 145439,
       "ai_rank": 145439,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_4": {
       "value": "161415(1)",
@@ -195143,8 +195143,8 @@
       "counselling_rank": 161415,
       "ai_rank": 161415,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "140675(1)",
@@ -195154,8 +195154,8 @@
       "counselling_rank": 140675,
       "ai_rank": 140675,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035081,
     "fee": "₹1,25,000",
@@ -196284,8 +196284,8 @@
       "counselling_rank": 143248,
       "ai_rank": 143248,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077630,
     "fee": "₹1,23,400*",
@@ -196880,8 +196880,8 @@
       "counselling_rank": 146385,
       "ai_rank": 146385,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035105,
     "fee": "₹1,23,400*",
@@ -197064,8 +197064,8 @@
       "counselling_rank": 132963,
       "ai_rank": 132963,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "146656(1)",
@@ -197075,8 +197075,8 @@
       "counselling_rank": 146656,
       "ai_rank": 146656,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036506,
     "fee": "₹1,25,000*",
@@ -197296,8 +197296,8 @@
       "counselling_rank": 157631,
       "ai_rank": 157631,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "147196(1)",
@@ -197307,8 +197307,8 @@
       "counselling_rank": 147196,
       "ai_rank": 147196,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035078,
     "fee": "₹1,25,000",
@@ -197355,8 +197355,8 @@
       "counselling_rank": 156812,
       "ai_rank": 156812,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "96194(1)",
@@ -197366,8 +197366,8 @@
       "counselling_rank": 96194,
       "ai_rank": 96194,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "104048(2)",
@@ -197377,8 +197377,8 @@
       "counselling_rank": 104048,
       "ai_rank": 104048,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "147263(1)",
@@ -197388,8 +197388,8 @@
       "counselling_rank": 147263,
       "ai_rank": 147263,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035238,
     "fee": "₹1,25,000",
@@ -197528,8 +197528,8 @@
       "counselling_rank": 147912,
       "ai_rank": 147912,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077631,
     "fee": "₹1,25,000",
@@ -197793,8 +197793,8 @@
       "counselling_rank": 149371,
       "ai_rank": 149371,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077632,
     "fee": "₹1,25,000",
@@ -198069,8 +198069,8 @@
       "counselling_rank": 149782,
       "ai_rank": 149782,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077633,
     "fee": "₹1,25,000",
@@ -198117,8 +198117,8 @@
       "counselling_rank": 105371,
       "ai_rank": 105371,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "105371(1)",
@@ -198128,8 +198128,8 @@
       "counselling_rank": 105371,
       "ai_rank": 105371,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "150043(1)",
@@ -198139,8 +198139,8 @@
       "counselling_rank": 150043,
       "ai_rank": 150043,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036424,
     "fee": "₹1,25,000",
@@ -198452,8 +198452,8 @@
       "counselling_rank": 159194,
       "ai_rank": 159194,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "84899(1)",
@@ -198463,8 +198463,8 @@
       "counselling_rank": 84899,
       "ai_rank": 84899,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "151226(1)",
@@ -198474,8 +198474,8 @@
       "counselling_rank": 151226,
       "ai_rank": 151226,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034984,
     "fee": "₹1,25,000",
@@ -198522,8 +198522,8 @@
       "counselling_rank": 137462,
       "ai_rank": 137462,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "151870(1)",
@@ -198533,8 +198533,8 @@
       "counselling_rank": 151870,
       "ai_rank": 151870,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034990,
     "fee": "₹1,25,000",
@@ -198938,8 +198938,8 @@
       "counselling_rank": 153279,
       "ai_rank": 153279,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077634,
     "fee": "₹1,25,000",
@@ -199446,8 +199446,8 @@
       "counselling_rank": 125992,
       "ai_rank": 125992,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "154576(2)",
@@ -199457,8 +199457,8 @@
       "counselling_rank": 154576,
       "ai_rank": 154576,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034972,
     "fee": "₹1,25,000",
@@ -199564,8 +199564,8 @@
       "counselling_rank": 155436,
       "ai_rank": 155436,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077635,
     "fee": "₹1,25,000",
@@ -199612,8 +199612,8 @@
       "counselling_rank": 178852,
       "ai_rank": 178852,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "155715(1)",
@@ -199623,8 +199623,8 @@
       "counselling_rank": 155715,
       "ai_rank": 155715,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035083,
     "fee": "₹1,25,000",
@@ -199719,8 +199719,8 @@
       "counselling_rank": 156251,
       "ai_rank": 156251,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077636,
     "fee": "₹1,25,000",
@@ -201025,8 +201025,8 @@
       "counselling_rank": 158970,
       "ai_rank": 158970,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077637,
     "fee": "₹1,25,000",
@@ -201073,8 +201073,8 @@
       "counselling_rank": 159233,
       "ai_rank": 159233,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035618,
     "fee": "₹7,83,108*",
@@ -201316,8 +201316,8 @@
       "counselling_rank": 145306,
       "ai_rank": 145306,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "132963(1)",
@@ -201327,8 +201327,8 @@
       "counselling_rank": 132963,
       "ai_rank": 132963,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "160287(1)",
@@ -201338,8 +201338,8 @@
       "counselling_rank": 160287,
       "ai_rank": 160287,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034976,
     "fee": "₹1,25,000",
@@ -201636,8 +201636,8 @@
       "counselling_rank": 109165,
       "ai_rank": 109165,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "161204(1)",
@@ -201647,8 +201647,8 @@
       "counselling_rank": 161204,
       "ai_rank": 161204,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034971,
     "fee": "₹1,25,000",
@@ -202780,8 +202780,8 @@
       "counselling_rank": 163834,
       "ai_rank": 163834,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077638,
     "fee": "₹1,25,000",
@@ -203317,8 +203317,8 @@
       "counselling_rank": 164555,
       "ai_rank": 164555,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077639,
     "fee": "₹1,25,000",
@@ -203461,8 +203461,8 @@
       "counselling_rank": 165199,
       "ai_rank": 165199,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077640,
     "fee": "₹1,25,000",
@@ -204735,8 +204735,8 @@
       "counselling_rank": 167641,
       "ai_rank": 167641,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077641,
     "fee": "₹1,25,000",
@@ -205103,8 +205103,8 @@
       "counselling_rank": 127003,
       "ai_rank": 127003,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "168470(1)",
@@ -205114,8 +205114,8 @@
       "counselling_rank": 168470,
       "ai_rank": 168470,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034983,
     "fee": "₹1,25,000",
@@ -205835,8 +205835,8 @@
       "counselling_rank": 121311,
       "ai_rank": 121311,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "89248(1)",
@@ -205846,8 +205846,8 @@
       "counselling_rank": 89248,
       "ai_rank": 89248,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "89248(1)",
@@ -205857,8 +205857,8 @@
       "counselling_rank": 89248,
       "ai_rank": 89248,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "170342(1)",
@@ -205868,8 +205868,8 @@
       "counselling_rank": 170342,
       "ai_rank": 170342,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035949,
     "fee": "₹1,25,000",
@@ -206111,8 +206111,8 @@
       "counselling_rank": 144203,
       "ai_rank": 144203,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "117834(1)",
@@ -206122,8 +206122,8 @@
       "counselling_rank": 117834,
       "ai_rank": 117834,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "117834(1)",
@@ -206133,8 +206133,8 @@
       "counselling_rank": 117834,
       "ai_rank": 117834,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "170949(2)",
@@ -206144,8 +206144,8 @@
       "counselling_rank": 170949,
       "ai_rank": 170949,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035239,
     "fee": "₹1,25,000",
@@ -206560,8 +206560,8 @@
       "counselling_rank": 185488,
       "ai_rank": 185488,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "97902(1)",
@@ -206571,8 +206571,8 @@
       "counselling_rank": 97902,
       "ai_rank": 97902,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "83319(1)",
@@ -206582,8 +206582,8 @@
       "counselling_rank": 83319,
       "ai_rank": 83319,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "171599(1)",
@@ -206593,8 +206593,8 @@
       "counselling_rank": 171599,
       "ai_rank": 171599,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034989,
     "fee": "₹1,25,000",
@@ -206788,8 +206788,8 @@
       "counselling_rank": 172770,
       "ai_rank": 172770,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077642,
     "fee": "₹1,25,000",
@@ -207156,8 +207156,8 @@
       "counselling_rank": 173087,
       "ai_rank": 173087,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034975,
     "fee": "₹1,25,000",
@@ -208002,8 +208002,8 @@
       "counselling_rank": 175119,
       "ai_rank": 175119,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077643,
     "fee": "₹1,25,000",
@@ -208805,8 +208805,8 @@
       "counselling_rank": 195737,
       "ai_rank": 195737,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "177176(1)",
@@ -208816,8 +208816,8 @@
       "counselling_rank": 177176,
       "ai_rank": 177176,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034991,
     "fee": "₹1,25,000",
@@ -209401,8 +209401,8 @@
       "counselling_rank": 183032,
       "ai_rank": 183032,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "178142(1)",
@@ -209412,8 +209412,8 @@
       "counselling_rank": 178142,
       "ai_rank": 178142,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034979,
     "fee": "₹1,25,000",
@@ -209920,8 +209920,8 @@
       "counselling_rank": 178212,
       "ai_rank": 178212,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "179096(2)",
@@ -209931,8 +209931,8 @@
       "counselling_rank": 179096,
       "ai_rank": 179096,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034969,
     "fee": "₹1,25,000",
@@ -210097,8 +210097,8 @@
       "counselling_rank": 190979,
       "ai_rank": 190979,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "179604(2)",
@@ -210108,8 +210108,8 @@
       "counselling_rank": 179604,
       "ai_rank": 179604,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035082,
     "fee": "₹1,25,000",
@@ -210292,8 +210292,8 @@
       "counselling_rank": 165562,
       "ai_rank": 165562,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "180285(1)",
@@ -210303,8 +210303,8 @@
       "counselling_rank": 180285,
       "ai_rank": 180285,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034968,
     "fee": "₹1,25,000",
@@ -210351,8 +210351,8 @@
       "counselling_rank": 101361,
       "ai_rank": 101361,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "121152(1)",
@@ -210362,8 +210362,8 @@
       "counselling_rank": 121152,
       "ai_rank": 121152,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "180362(2)",
@@ -210373,8 +210373,8 @@
       "counselling_rank": 180362,
       "ai_rank": 180362,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035241,
     "fee": "₹1,25,000",
@@ -210914,8 +210914,8 @@
       "counselling_rank": 167630,
       "ai_rank": 167630,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "181043(1)",
@@ -210925,8 +210925,8 @@
       "counselling_rank": 181043,
       "ai_rank": 181043,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036138,
     "fee": "₹1,25,000",
@@ -210973,8 +210973,8 @@
       "counselling_rank": 147097,
       "ai_rank": 147097,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "181263(1)",
@@ -210984,8 +210984,8 @@
       "counselling_rank": 181263,
       "ai_rank": 181263,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035952,
     "fee": "₹1,25,000",
@@ -211352,8 +211352,8 @@
       "counselling_rank": 111101,
       "ai_rank": 111101,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "132963(2)",
@@ -211363,8 +211363,8 @@
       "counselling_rank": 132963,
       "ai_rank": 132963,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "181779(1)",
@@ -211374,8 +211374,8 @@
       "counselling_rank": 181779,
       "ai_rank": 181779,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036425,
     "fee": "₹1,25,000",
@@ -212139,8 +212139,8 @@
       "counselling_rank": 163324,
       "ai_rank": 163324,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_5": {
       "value": "192198(1)",
@@ -212150,8 +212150,8 @@
       "counselling_rank": 192198,
       "ai_rank": 192198,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "182788(2)",
@@ -212161,8 +212161,8 @@
       "counselling_rank": 182788,
       "ai_rank": 182788,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034970,
     "fee": "₹1,25,000",
@@ -212301,8 +212301,8 @@
       "counselling_rank": 183310,
       "ai_rank": 183310,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077645,
     "fee": "₹1,25,000",
@@ -212592,8 +212592,8 @@
       "counselling_rank": 183494,
       "ai_rank": 183494,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077646,
     "fee": "₹1,25,000",
@@ -212640,8 +212640,8 @@
       "counselling_rank": 183674,
       "ai_rank": 183674,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077644,
     "fee": "₹1,25,000",
@@ -213144,8 +213144,8 @@
       "counselling_rank": 120111,
       "ai_rank": 120111,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "104048(1)",
@@ -213155,8 +213155,8 @@
       "counselling_rank": 104048,
       "ai_rank": 104048,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "102233(1)",
@@ -213166,8 +213166,8 @@
       "counselling_rank": 102233,
       "ai_rank": 102233,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "184826(2)",
@@ -213177,8 +213177,8 @@
       "counselling_rank": 184826,
       "ai_rank": 184826,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035079,
     "fee": "₹1,25,000",
@@ -215006,8 +215006,8 @@
       "counselling_rank": 171013,
       "ai_rank": 171013,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "188965(1)",
@@ -215017,8 +215017,8 @@
       "counselling_rank": 188965,
       "ai_rank": 188965,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034985,
     "fee": "₹1,25,000",
@@ -215484,8 +215484,8 @@
       "counselling_rank": 156009,
       "ai_rank": 156009,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "189398(1)",
@@ -215495,8 +215495,8 @@
       "counselling_rank": 189398,
       "ai_rank": 189398,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034988,
     "fee": "₹1,25,000",
@@ -215782,8 +215782,8 @@
       "counselling_rank": 190152,
       "ai_rank": 190152,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077647,
     "fee": "₹1,25,000",
@@ -216084,8 +216084,8 @@
       "counselling_rank": 190910,
       "ai_rank": 190910,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077648,
     "fee": "₹1,25,000",
@@ -216489,8 +216489,8 @@
       "counselling_rank": 93505,
       "ai_rank": 93505,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "93505(1)",
@@ -216500,8 +216500,8 @@
       "counselling_rank": 93505,
       "ai_rank": 93505,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "191978(2)",
@@ -216511,8 +216511,8 @@
       "counselling_rank": 191978,
       "ai_rank": 191978,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036422,
     "fee": "₹1,25,000",
@@ -217026,8 +217026,8 @@
       "counselling_rank": 199812,
       "ai_rank": 199812,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "193350(1)",
@@ -217037,8 +217037,8 @@
       "counselling_rank": 193350,
       "ai_rank": 193350,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035951,
     "fee": "₹1,25,000",
@@ -217622,8 +217622,8 @@
       "counselling_rank": 194601,
       "ai_rank": 194601,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077649,
     "fee": "₹1,25,000",
@@ -217670,8 +217670,8 @@
       "counselling_rank": 194793,
       "ai_rank": 194793,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077650,
     "fee": "₹1,25,000",
@@ -218811,8 +218811,8 @@
       "counselling_rank": 197467,
       "ai_rank": 197467,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077651,
     "fee": "₹1,25,000",
@@ -219691,8 +219691,8 @@
       "counselling_rank": 198665,
       "ai_rank": 198665,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077652,
     "fee": "₹1,25,000",
@@ -220022,8 +220022,8 @@
       "counselling_rank": 199379,
       "ai_rank": 199379,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077654,
     "fee": "₹1,25,000",
@@ -220390,8 +220390,8 @@
       "counselling_rank": 199940,
       "ai_rank": 199940,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077655,
     "fee": "₹1,25,000",
@@ -220751,8 +220751,8 @@
       "counselling_rank": 178582,
       "ai_rank": 178582,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "200710(1)",
@@ -220762,8 +220762,8 @@
       "counselling_rank": 200710,
       "ai_rank": 200710,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035947,
     "fee": "₹1,25,000",
@@ -221112,8 +221112,8 @@
       "counselling_rank": 201742,
       "ai_rank": 201742,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077656,
     "fee": "₹1,25,000",
@@ -221274,8 +221274,8 @@
       "counselling_rank": 194856,
       "ai_rank": 194856,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "202473(1)",
@@ -221285,8 +221285,8 @@
       "counselling_rank": 202473,
       "ai_rank": 202473,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034981,
     "fee": "₹1,25,000",
@@ -221484,8 +221484,8 @@
       "counselling_rank": 186853,
       "ai_rank": 186853,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "203189(1)",
@@ -221495,8 +221495,8 @@
       "counselling_rank": 203189,
       "ai_rank": 203189,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034628,
     "fee": "₹1,25,000",
@@ -222591,8 +222591,8 @@
       "counselling_rank": 204779,
       "ai_rank": 204779,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077657,
     "fee": "₹1,25,000",
@@ -222775,8 +222775,8 @@
       "counselling_rank": 159280,
       "ai_rank": 159280,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "205023(1)",
@@ -222786,8 +222786,8 @@
       "counselling_rank": 205023,
       "ai_rank": 205023,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034986,
     "fee": "₹1,25,000",
@@ -223301,8 +223301,8 @@
       "counselling_rank": 205573,
       "ai_rank": 205573,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077653,
     "fee": "₹1,25,000",
@@ -226053,8 +226053,8 @@
       "counselling_rank": 190697,
       "ai_rank": 190697,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "209952(1)",
@@ -226064,8 +226064,8 @@
       "counselling_rank": 209952,
       "ai_rank": 209952,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035948,
     "fee": "₹1,25,000",
@@ -226469,8 +226469,8 @@
       "counselling_rank": 150729,
       "ai_rank": 150729,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "210521(1)",
@@ -226480,8 +226480,8 @@
       "counselling_rank": 210521,
       "ai_rank": 210521,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034982,
     "fee": "₹1,25,000",
@@ -227201,8 +227201,8 @@
       "counselling_rank": 211217,
       "ai_rank": 211217,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077658,
     "fee": "₹1,25,000",
@@ -227385,8 +227385,8 @@
       "counselling_rank": 211571,
       "ai_rank": 211571,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077659,
     "fee": "₹1,25,000",
@@ -229600,8 +229600,8 @@
       "counselling_rank": 216262,
       "ai_rank": 216262,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077660,
     "fee": "₹1,25,000",
@@ -230310,8 +230310,8 @@
       "counselling_rank": 219230,
       "ai_rank": 219230,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077661,
     "fee": "₹1,25,000",
@@ -246781,8 +246781,8 @@
       "counselling_rank": 85228,
       "ai_rank": 85228,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "27606(1)",
@@ -246792,8 +246792,8 @@
       "counselling_rank": 27606,
       "ai_rank": 27606,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034656,
     "fee": "₹1,23,400*",
@@ -246840,8 +246840,8 @@
       "counselling_rank": 124293,
       "ai_rank": 124293,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "27606(1)",
@@ -246851,8 +246851,8 @@
       "counselling_rank": 27606,
       "ai_rank": 27606,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035575,
     "fee": "₹1,23,400*",
@@ -246899,8 +246899,8 @@
       "counselling_rank": 27606,
       "ai_rank": 27606,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035467,
     "fee": "₹1,23,400*",
@@ -247326,8 +247326,8 @@
       "counselling_rank": 64429,
       "ai_rank": 64429,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "29187(1)",
@@ -247337,8 +247337,8 @@
       "counselling_rank": 29187,
       "ai_rank": 29187,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034665,
     "fee": "₹1,23,400*",
@@ -254800,8 +254800,8 @@
       "counselling_rank": 105246,
       "ai_rank": 105246,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "54549(1)",
@@ -254811,8 +254811,8 @@
       "counselling_rank": 54549,
       "ai_rank": 54549,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035275,
     "fee": "₹7,83,108*",
@@ -259434,8 +259434,8 @@
       "counselling_rank": 64372,
       "ai_rank": 64372,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "64372(1)",
@@ -259445,8 +259445,8 @@
       "counselling_rank": 64372,
       "ai_rank": 64372,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "56088(1)",
@@ -259456,8 +259456,8 @@
       "counselling_rank": 56088,
       "ai_rank": 56088,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035202,
     "fee": "₹1,23,400*",
@@ -259504,8 +259504,8 @@
       "counselling_rank": 64372,
       "ai_rank": 64372,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034658,
     "fee": "₹1,23,400*",
@@ -261146,8 +261146,8 @@
       "counselling_rank": 82854,
       "ai_rank": 82854,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "67749(1)",
@@ -261157,8 +261157,8 @@
       "counselling_rank": 67749,
       "ai_rank": 67749,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "67749(1)",
@@ -261168,8 +261168,8 @@
       "counselling_rank": 67749,
       "ai_rank": 67749,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036398,
     "fee": "₹1,23,400*",
@@ -261216,8 +261216,8 @@
       "counselling_rank": 49088,
       "ai_rank": 49088,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "67758(1)",
@@ -261227,8 +261227,8 @@
       "counselling_rank": 67758,
       "ai_rank": 67758,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037000,
     "fee": "₹7,83,108*",
@@ -262997,8 +262997,8 @@
       "counselling_rank": 70561,
       "ai_rank": 70561,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "70561(1)",
@@ -263008,8 +263008,8 @@
       "counselling_rank": 70561,
       "ai_rank": 70561,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035389,
     "fee": "₹1,23,400*",
@@ -264425,8 +264425,8 @@
       "counselling_rank": 54185,
       "ai_rank": 54185,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "66276(2)",
@@ -264436,8 +264436,8 @@
       "counselling_rank": 66276,
       "ai_rank": 66276,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "66276(2)",
@@ -264447,8 +264447,8 @@
       "counselling_rank": 66276,
       "ai_rank": 66276,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "72632(1)",
@@ -264458,8 +264458,8 @@
       "counselling_rank": 72632,
       "ai_rank": 72632,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034653,
     "fee": "₹1,23,400*",
@@ -267061,8 +267061,8 @@
       "counselling_rank": 77744,
       "ai_rank": 77744,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "77744(1)",
@@ -267072,8 +267072,8 @@
       "counselling_rank": 77744,
       "ai_rank": 77744,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034787,
     "fee": "₹1,23,400*",
@@ -270198,8 +270198,8 @@
       "counselling_rank": 83319,
       "ai_rank": 83319,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036501,
     "fee": "₹1,25,000*",
@@ -270246,8 +270246,8 @@
       "counselling_rank": 83384,
       "ai_rank": 83384,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "83384(1)",
@@ -270257,8 +270257,8 @@
       "counselling_rank": 83384,
       "ai_rank": 83384,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036448,
     "fee": "₹2,50,000*",
@@ -270419,8 +270419,8 @@
       "counselling_rank": 95444,
       "ai_rank": 95444,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "84047(1)",
@@ -270430,8 +270430,8 @@
       "counselling_rank": 84047,
       "ai_rank": 84047,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "84047(1)",
@@ -270441,8 +270441,8 @@
       "counselling_rank": 84047,
       "ai_rank": 84047,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "53795(1)",
@@ -270452,8 +270452,8 @@
       "counselling_rank": 53795,
       "ai_rank": 53795,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034666,
     "fee": "₹1,23,400*",
@@ -270964,8 +270964,8 @@
       "counselling_rank": 84899,
       "ai_rank": 84899,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036502,
     "fee": "₹1,25,000*",
@@ -273432,8 +273432,8 @@
       "counselling_rank": 89968,
       "ai_rank": 89968,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035577,
     "fee": "₹1,23,400*",
@@ -273480,8 +273480,8 @@
       "counselling_rank": 89968,
       "ai_rank": 89968,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "89968(1)",
@@ -273491,8 +273491,8 @@
       "counselling_rank": 89968,
       "ai_rank": 89968,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034975,
     "fee": "₹1,25,000",
@@ -274117,8 +274117,8 @@
       "counselling_rank": 91537,
       "ai_rank": 91537,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034929,
     "fee": "₹1,23,400*",
@@ -274846,8 +274846,8 @@
       "counselling_rank": 94642,
       "ai_rank": 94642,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "92146(1)",
@@ -274857,8 +274857,8 @@
       "counselling_rank": 92146,
       "ai_rank": 92146,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035469,
     "fee": "₹1,23,400*",
@@ -274905,7 +274905,7 @@
       "counselling_rank": 92146,
       "ai_rank": 92146,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S2_Karnataka"
     },
     "cr_2025_1": {
@@ -274916,7 +274916,7 @@
       "counselling_rank": 92146,
       "ai_rank": 92146,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S2_Karnataka"
     },
     "fee_id": 1035141,
@@ -274964,8 +274964,8 @@
       "counselling_rank": 92336,
       "ai_rank": 92336,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036416,
     "fee": "₹1,23,400*",
@@ -275351,8 +275351,8 @@
       "counselling_rank": 92737,
       "ai_rank": 92737,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "92737(1)",
@@ -275362,8 +275362,8 @@
       "counselling_rank": 92737,
       "ai_rank": 92737,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036451,
     "fee": "₹2,50,000*",
@@ -275837,8 +275837,8 @@
       "counselling_rank": 93357,
       "ai_rank": 93357,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034789,
     "fee": "₹1,23,400*",
@@ -276231,8 +276231,8 @@
       "counselling_rank": 101884,
       "ai_rank": 101884,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "94347(1)",
@@ -276242,7 +276242,7 @@
       "counselling_rank": 94347,
       "ai_rank": 94347,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S1_Karnataka"
     },
     "fee_id": 1034665,
@@ -276780,8 +276780,8 @@
       "counselling_rank": 95264,
       "ai_rank": 95264,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036503,
     "fee": "₹1,25,000*",
@@ -277031,8 +277031,8 @@
       "counselling_rank": 61429,
       "ai_rank": 61429,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "56088(1)",
@@ -277042,8 +277042,8 @@
       "counselling_rank": 56088,
       "ai_rank": 56088,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "96194(1)",
@@ -277053,8 +277053,8 @@
       "counselling_rank": 96194,
       "ai_rank": 96194,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036419,
     "fee": "₹1,25,000",
@@ -278091,8 +278091,8 @@
       "counselling_rank": 98003,
       "ai_rank": 98003,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036504,
     "fee": "₹1,23,400*",
@@ -278588,7 +278588,7 @@
       "counselling_rank": 98623,
       "ai_rank": 98623,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S2_Karnataka"
     },
     "cr_2025_1": {
@@ -278599,7 +278599,7 @@
       "counselling_rank": 98003,
       "ai_rank": 98003,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S2_Karnataka"
     },
     "fee_id": 1035240,
@@ -278647,7 +278647,7 @@
       "counselling_rank": 98623,
       "ai_rank": 98623,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S2_Karnataka"
     },
     "fee_id": 1036401,
@@ -278695,8 +278695,8 @@
       "counselling_rank": 98703,
       "ai_rank": 98703,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1038059,
     "fee": "₹7,83,108*",
@@ -279141,8 +279141,8 @@
       "counselling_rank": 39148,
       "ai_rank": 39148,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_0.1": {
       "value": "94294(1)",
@@ -279152,8 +279152,8 @@
       "counselling_rank": 94294,
       "ai_rank": 94294,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "99215(1)",
@@ -279163,8 +279163,8 @@
       "counselling_rank": 99215,
       "ai_rank": 99215,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036405,
     "fee": "₹1,23,400*",
@@ -279211,8 +279211,8 @@
       "counselling_rank": 99215,
       "ai_rank": 99215,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "92336(1)",
@@ -279222,8 +279222,8 @@
       "counselling_rank": 92336,
       "ai_rank": 92336,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "92336(1)",
@@ -279233,8 +279233,8 @@
       "counselling_rank": 92336,
       "ai_rank": 92336,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037939,
     "fee": "₹7,83,108*",
@@ -280761,7 +280761,7 @@
       "counselling_rank": 101361,
       "ai_rank": 101361,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S3_Karnataka"
     },
     "fee_id": 1034977,
@@ -281759,8 +281759,8 @@
       "counselling_rank": 84669,
       "ai_rank": 84669,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "103602(1)",
@@ -281770,8 +281770,8 @@
       "counselling_rank": 103602,
       "ai_rank": 103602,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036449,
     "fee": "₹2,50,000*",
@@ -282569,8 +282569,8 @@
       "counselling_rank": 104802,
       "ai_rank": 104802,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "104802(1)",
@@ -282580,8 +282580,8 @@
       "counselling_rank": 104802,
       "ai_rank": 104802,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034969,
     "fee": "₹1,25,000",
@@ -282628,8 +282628,8 @@
       "counselling_rank": 104802,
       "ai_rank": 104802,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035109,
     "fee": "₹1,23,400*",
@@ -282746,8 +282746,8 @@
       "counselling_rank": 104947,
       "ai_rank": 104947,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036266,
     "fee": "₹1,23,400*",
@@ -282794,8 +282794,8 @@
       "counselling_rank": 83319,
       "ai_rank": 83319,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "104947(1)",
@@ -282805,8 +282805,8 @@
       "counselling_rank": 104947,
       "ai_rank": 104947,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034669,
     "fee": "₹1,23,400*",
@@ -283424,8 +283424,8 @@
       "counselling_rank": 93813,
       "ai_rank": 93813,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "106140(1)",
@@ -283435,8 +283435,8 @@
       "counselling_rank": 106140,
       "ai_rank": 106140,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "70561(1)",
@@ -283446,8 +283446,8 @@
       "counselling_rank": 70561,
       "ai_rank": 70561,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035591,
     "fee": "₹1,23,400*",
@@ -284389,8 +284389,8 @@
       "counselling_rank": 104947,
       "ai_rank": 104947,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "93357(1)",
@@ -284400,8 +284400,8 @@
       "counselling_rank": 93357,
       "ai_rank": 93357,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "107179(1)",
@@ -284411,8 +284411,8 @@
       "counselling_rank": 107179,
       "ai_rank": 107179,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036266,
     "fee": "₹1,23,400*",
@@ -284459,8 +284459,8 @@
       "counselling_rank": 107179,
       "ai_rank": 107179,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "107179(1)",
@@ -284470,8 +284470,8 @@
       "counselling_rank": 107179,
       "ai_rank": 107179,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "89248(1)",
@@ -284481,8 +284481,8 @@
       "counselling_rank": 89248,
       "ai_rank": 89248,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036256,
     "fee": "₹1,23,400*",
@@ -284916,8 +284916,8 @@
       "counselling_rank": 107836,
       "ai_rank": 107836,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "94294(1)",
@@ -284927,8 +284927,8 @@
       "counselling_rank": 94294,
       "ai_rank": 94294,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037281,
     "fee": "₹1,23,400*",
@@ -284975,8 +284975,8 @@
       "counselling_rank": 107836,
       "ai_rank": 107836,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "107836(1)",
@@ -284986,8 +284986,8 @@
       "counselling_rank": 107836,
       "ai_rank": 107836,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035585,
     "fee": "₹1,23,400*",
@@ -286168,8 +286168,8 @@
       "counselling_rank": 109853,
       "ai_rank": 109853,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "97902(1)",
@@ -286179,8 +286179,8 @@
       "counselling_rank": 97902,
       "ai_rank": 97902,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1038534,
     "fee": "₹7,83,108*",
@@ -286227,8 +286227,8 @@
       "counselling_rank": 109853,
       "ai_rank": 109853,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036505,
     "fee": "₹1,23,400*",
@@ -286448,8 +286448,8 @@
       "counselling_rank": 88652,
       "ai_rank": 88652,
       "allotments_count": 3,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "110196(1)",
@@ -286459,8 +286459,8 @@
       "counselling_rank": 110196,
       "ai_rank": 110196,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035201,
     "fee": "₹1,23,400*",
@@ -286507,8 +286507,8 @@
       "counselling_rank": 95264,
       "ai_rank": 95264,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "110196(1)",
@@ -286518,8 +286518,8 @@
       "counselling_rank": 110196,
       "ai_rank": 110196,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034922,
     "fee": "₹1,23,400*",
@@ -286566,8 +286566,8 @@
       "counselling_rank": 110264,
       "ai_rank": 110264,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "110264(1)",
@@ -286577,8 +286577,8 @@
       "counselling_rank": 110264,
       "ai_rank": 110264,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "110264(1)",
@@ -286588,8 +286588,8 @@
       "counselling_rank": 110264,
       "ai_rank": 110264,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035884,
     "fee": "₹7,83,108*",
@@ -286809,8 +286809,8 @@
       "counselling_rank": 111101,
       "ai_rank": 111101,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036478,
     "fee": "₹2,50,000*",
@@ -286857,8 +286857,8 @@
       "counselling_rank": 98003,
       "ai_rank": 98003,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "111101(1)",
@@ -286868,8 +286868,8 @@
       "counselling_rank": 111101,
       "ai_rank": 111101,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036423,
     "fee": "₹1,23,400*",
@@ -289784,8 +289784,8 @@
       "counselling_rank": 110196,
       "ai_rank": 110196,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "114525(1)",
@@ -289795,8 +289795,8 @@
       "counselling_rank": 114525,
       "ai_rank": 114525,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035233,
     "fee": "₹1,23,400*",
@@ -289843,8 +289843,8 @@
       "counselling_rank": 106140,
       "ai_rank": 106140,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "114525(1)",
@@ -289854,8 +289854,8 @@
       "counselling_rank": 114525,
       "ai_rank": 114525,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036426,
     "fee": "₹1,23,400*",
@@ -289902,8 +289902,8 @@
       "counselling_rank": 114534,
       "ai_rank": 114534,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035464,
     "fee": "₹1,23,400*",
@@ -291578,7 +291578,7 @@
       "counselling_rank": 117834,
       "ai_rank": 117834,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S3_Karnataka"
     },
     "fee_id": 1035148,
@@ -292296,7 +292296,7 @@
       "counselling_rank": 118635,
       "ai_rank": 118635,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S3_Karnataka"
     },
     "fee_id": 1038143,
@@ -292344,8 +292344,8 @@
       "counselling_rank": 92690,
       "ai_rank": 92690,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "118635(1)",
@@ -292355,8 +292355,8 @@
       "counselling_rank": 118635,
       "ai_rank": 118635,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035879,
     "fee": "₹7,83,108*",
@@ -292403,8 +292403,8 @@
       "counselling_rank": 118661,
       "ai_rank": 118661,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037005,
     "fee": "₹7,83,108*",
@@ -292845,8 +292845,8 @@
       "counselling_rank": 120173,
       "ai_rank": 120173,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "120173(1)",
@@ -292856,8 +292856,8 @@
       "counselling_rank": 120173,
       "ai_rank": 120173,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035504,
     "fee": "₹7,83,108*",
@@ -292904,8 +292904,8 @@
       "counselling_rank": 72632,
       "ai_rank": 72632,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "72632(2)",
@@ -292915,8 +292915,8 @@
       "counselling_rank": 72632,
       "ai_rank": 72632,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "120173(1)",
@@ -292926,8 +292926,8 @@
       "counselling_rank": 120173,
       "ai_rank": 120173,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034669,
     "fee": "₹1,23,400*",
@@ -293530,8 +293530,8 @@
       "counselling_rank": 69894,
       "ai_rank": 69894,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "69894(1)",
@@ -293541,8 +293541,8 @@
       "counselling_rank": 69894,
       "ai_rank": 69894,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "121152(1)",
@@ -293552,8 +293552,8 @@
       "counselling_rank": 121152,
       "ai_rank": 121152,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035584,
     "fee": "₹1,23,400*",
@@ -294381,7 +294381,7 @@
       "counselling_rank": 125896,
       "ai_rank": 125896,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S3_Karnataka"
     },
     "fee_id": 1035201,
@@ -294742,7 +294742,7 @@
       "counselling_rank": 127830,
       "ai_rank": 127830,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S1_Karnataka"
     },
     "fee_id": 1036420,
@@ -294790,7 +294790,7 @@
       "counselling_rank": 127830,
       "ai_rank": 127830,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S1_Karnataka"
     },
     "fee_id": 1035468,
@@ -295490,7 +295490,7 @@
       "counselling_rank": 131625,
       "ai_rank": 131625,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S1_Karnataka"
     },
     "fee_id": 1037213,
@@ -295538,7 +295538,7 @@
       "counselling_rank": 131625,
       "ai_rank": 131625,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "SCG_S1_Karnataka"
     },
     "fee_id": 1034947,
@@ -296850,8 +296850,8 @@
       "counselling_rank": 136515,
       "ai_rank": 136515,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037207,
     "fee": "₹8,08,858*",
@@ -296898,8 +296898,8 @@
       "counselling_rank": 137486,
       "ai_rank": 137486,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "137486(1)",
@@ -296909,8 +296909,8 @@
       "counselling_rank": 137486,
       "ai_rank": 137486,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034664,
     "fee": "₹1,23,400*",
@@ -296957,8 +296957,8 @@
       "counselling_rank": 137486,
       "ai_rank": 137486,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034667,
     "fee": "₹1,23,400*",
@@ -327052,8 +327052,8 @@
       "counselling_rank": 32648,
       "ai_rank": 32648,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035142,
     "fee": "₹1,23,400*",
@@ -335003,8 +335003,8 @@
       "counselling_rank": 47906,
       "ai_rank": 47906,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036659,
     "fee": "₹7,83,108*",
@@ -335740,8 +335740,8 @@
       "counselling_rank": 49097,
       "ai_rank": 49097,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035474,
     "fee": "₹1,23,400*",
@@ -336164,8 +336164,8 @@
       "counselling_rank": 49849,
       "ai_rank": 49849,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034826,
     "fee": "₹7,83,108*",
@@ -336282,8 +336282,8 @@
       "counselling_rank": 50006,
       "ai_rank": 50006,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037213,
     "fee": "₹8,08,858*",
@@ -338511,8 +338511,8 @@
       "counselling_rank": 55964,
       "ai_rank": 55964,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035275,
     "fee": "₹7,83,108*",
@@ -343079,8 +343079,8 @@
       "counselling_rank": 69388,
       "ai_rank": 69388,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1038138,
     "fee": "₹8,08,108*",
@@ -344808,8 +344808,8 @@
       "counselling_rank": 75093,
       "ai_rank": 75093,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035832,
     "fee": "₹1,23,400*",
@@ -345099,8 +345099,8 @@
       "counselling_rank": 75719,
       "ai_rank": 75719,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035161,
     "fee": "₹1,23,400*",
@@ -345147,8 +345147,8 @@
       "counselling_rank": 76358,
       "ai_rank": 76358,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037939,
     "fee": "₹7,83,108*",
@@ -345645,8 +345645,8 @@
       "counselling_rank": 78465,
       "ai_rank": 78465,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035720,
     "fee": "₹1,23,400*",
@@ -346629,8 +346629,8 @@
       "counselling_rank": 82291,
       "ai_rank": 82291,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034671,
     "fee": "₹1,23,400*",
@@ -347661,8 +347661,8 @@
       "counselling_rank": 84920,
       "ai_rank": 84920,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037336,
     "fee": "₹7,83,108*",
@@ -347768,8 +347768,8 @@
       "counselling_rank": 85723,
       "ai_rank": 85723,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036401,
     "fee": "₹1,23,400*",
@@ -348041,8 +348041,8 @@
       "counselling_rank": 86388,
       "ai_rank": 86388,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034792,
     "fee": "₹1,23,400*",
@@ -348336,8 +348336,8 @@
       "counselling_rank": 87436,
       "ai_rank": 87436,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034653,
     "fee": "₹1,23,400*",
@@ -348561,8 +348561,8 @@
       "counselling_rank": 87761,
       "ai_rank": 87761,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036403,
     "fee": "₹1,23,400*",
@@ -348738,8 +348738,8 @@
       "counselling_rank": 88197,
       "ai_rank": 88197,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034788,
     "fee": "₹1,23,400*",
@@ -348904,8 +348904,8 @@
       "counselling_rank": 88620,
       "ai_rank": 88620,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035588,
     "fee": "₹1,23,400*",
@@ -349612,8 +349612,8 @@
       "counselling_rank": 91422,
       "ai_rank": 91422,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036256,
     "fee": "₹1,23,400*",
@@ -349896,8 +349896,8 @@
       "counselling_rank": 93468,
       "ai_rank": 93468,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037954,
     "fee": "₹7,83,108*",
@@ -349944,8 +349944,8 @@
       "counselling_rank": 93812,
       "ai_rank": 93812,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035273,
     "fee": "₹7,83,108*",
@@ -350346,8 +350346,8 @@
       "counselling_rank": 96277,
       "ai_rank": 96277,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1038140,
     "fee": "₹8,08,108*",
@@ -350822,8 +350822,8 @@
       "counselling_rank": 98006,
       "ai_rank": 98006,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035200,
     "fee": "₹1,23,400*",
@@ -351441,8 +351441,8 @@
       "counselling_rank": 99341,
       "ai_rank": 99341,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034944,
     "fee": "₹1,23,400*",
@@ -352208,8 +352208,8 @@
       "counselling_rank": 100609,
       "ai_rank": 100609,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035986,
     "fee": "₹7,83,108*",
@@ -352643,8 +352643,8 @@
       "counselling_rank": 101184,
       "ai_rank": 101184,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037002,
     "fee": "₹7,83,108*",
@@ -352879,8 +352879,8 @@
       "counselling_rank": 101572,
       "ai_rank": 101572,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036481,
     "fee": "₹2,50,000*",
@@ -352986,8 +352986,8 @@
       "counselling_rank": 101992,
       "ai_rank": 101992,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037451,
     "fee": "₹7,83,108*",
@@ -353281,8 +353281,8 @@
       "counselling_rank": 102582,
       "ai_rank": 102582,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035423,
     "fee": "₹1,23,400*",
@@ -353447,8 +353447,8 @@
       "counselling_rank": 103083,
       "ai_rank": 103083,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035577,
     "fee": "₹1,23,400*",
@@ -353602,8 +353602,8 @@
       "counselling_rank": 103558,
       "ai_rank": 103558,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034655,
     "fee": "₹1,23,400*",
@@ -353709,8 +353709,8 @@
       "counselling_rank": 104010,
       "ai_rank": 104010,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034923,
     "fee": "₹1,23,400*",
@@ -353993,8 +353993,8 @@
       "counselling_rank": 104604,
       "ai_rank": 104604,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036402,
     "fee": "₹1,23,400*",
@@ -354362,8 +354362,8 @@
       "counselling_rank": 105850,
       "ai_rank": 105850,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035196,
     "fee": "₹1,23,400*",
@@ -354410,8 +354410,8 @@
       "counselling_rank": 106021,
       "ai_rank": 106021,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034954,
     "fee": "₹1,23,400*",
@@ -354956,8 +354956,8 @@
       "counselling_rank": 107156,
       "ai_rank": 107156,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035143,
     "fee": "₹1,23,400*",
@@ -355052,8 +355052,8 @@
       "counselling_rank": 107388,
       "ai_rank": 107388,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034784,
     "fee": "₹1,23,400*",
@@ -355207,8 +355207,8 @@
       "counselling_rank": 107867,
       "ai_rank": 107867,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036400,
     "fee": "₹1,23,400*",
@@ -356254,8 +356254,8 @@
       "counselling_rank": 110163,
       "ai_rank": 110163,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034666,
     "fee": "₹1,23,400*",
@@ -356361,8 +356361,8 @@
       "counselling_rank": 110600,
       "ai_rank": 110600,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035107,
     "fee": "₹1,23,400*",
@@ -357832,8 +357832,8 @@
       "counselling_rank": 115169,
       "ai_rank": 115169,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037343,
     "fee": "₹7,83,108*",
@@ -357976,8 +357976,8 @@
       "counselling_rank": 116048,
       "ai_rank": 116048,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037451,
     "fee": "₹7,83,108*",
@@ -358201,8 +358201,8 @@
       "counselling_rank": 117514,
       "ai_rank": 117514,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035581,
     "fee": "₹1,23,400*",
@@ -358378,8 +358378,8 @@
       "counselling_rank": 118042,
       "ai_rank": 118042,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036447,
     "fee": "₹2,50,000*",
@@ -359097,8 +359097,8 @@
       "counselling_rank": 119486,
       "ai_rank": 119486,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035588,
     "fee": "₹1,23,400*",
@@ -360849,8 +360849,8 @@
       "counselling_rank": 124776,
       "ai_rank": 124776,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1037941,
     "fee": "₹7,83,108*",
@@ -361214,8 +361214,8 @@
       "counselling_rank": 127076,
       "ai_rank": 127076,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035462,
     "fee": "₹1,23,400*",
@@ -361752,8 +361752,8 @@
       "counselling_rank": 127851,
       "ai_rank": 127851,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1036300,
     "fee": "₹7,83,108*",
@@ -363053,8 +363053,8 @@
       "counselling_rank": 142010,
       "ai_rank": 142010,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034974,
     "fee": "₹1,25,000",
@@ -363267,8 +363267,8 @@
       "counselling_rank": 146773,
       "ai_rank": 146773,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034975,
     "fee": "₹1,25,000",
@@ -363466,8 +363466,8 @@
       "counselling_rank": 151142,
       "ai_rank": 151142,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034980,
     "fee": "₹1,25,000",
@@ -365088,8 +365088,8 @@
       "counselling_rank": 186735,
       "ai_rank": 186735,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1035241,
     "fee": "₹1,25,000",
@@ -365335,8 +365335,8 @@
       "counselling_rank": 192721,
       "ai_rank": 192721,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1034987,
     "fee": "₹1,25,000",

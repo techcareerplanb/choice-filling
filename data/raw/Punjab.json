@@ -133,17 +133,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "14(1)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 14,
-      "counselling_rank": 14,
-      "ai_rank": 30514,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "36(6)",
       "session": "2025",
@@ -176,6 +165,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242354,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800133,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "14(1)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 14,
+      "counselling_rank": 14,
+      "ai_rank": 30514,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242354,
     "fee": "₹1,25,000*",
@@ -374,17 +412,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_3": {
-      "value": "34(2)",
-      "session": "2025",
-      "round": "3",
-      "closing_rank": 34,
-      "counselling_rank": 34,
-      "ai_rank": 41710,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_4": {
       "value": "3(1)",
       "session": "2025",
@@ -395,6 +422,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242316,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800134,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_3": {
+      "value": "34(2)",
+      "session": "2025",
+      "round": "3",
+      "closing_rank": 34,
+      "counselling_rank": 34,
+      "ai_rank": 41710,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242316,
     "fee": "₹1,25,000*",
@@ -478,17 +554,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_2": {
-      "value": "42(2)",
-      "session": "2025",
-      "round": "2",
-      "closing_rank": 42,
-      "counselling_rank": 42,
-      "ai_rank": 26274,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_3": {
       "value": "50(1)",
       "session": "2025",
@@ -499,6 +564,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242034,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹46,000",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "775",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800135,
+    "state": "Punjab",
+    "institute": {
+      "id": 277,
+      "name": "Christian Medical College, Ludhiana",
+      "short_name": "CMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_2": {
+      "value": "42(2)",
+      "session": "2025",
+      "round": "2",
+      "closing_rank": 42,
+      "counselling_rank": 42,
+      "ai_rank": 26274,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242034,
     "fee": "₹6,85,000*",
@@ -970,17 +1084,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_2": {
-      "value": "60(1)",
-      "session": "2025",
-      "round": "2",
-      "closing_rank": 60,
-      "counselling_rank": 60,
-      "ai_rank": 41710,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_3": {
       "value": "82(2)",
       "session": "2025",
@@ -991,6 +1094,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242359,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1025",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800136,
+    "state": "Punjab",
+    "institute": {
+      "id": 276,
+      "name": "Guru Govind Singh Medical College, Faridkot",
+      "short_name": "Guru Govind Singh, Faridkot",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_2": {
+      "value": "60(1)",
+      "session": "2025",
+      "round": "2",
+      "closing_rank": 60,
+      "counselling_rank": 60,
+      "ai_rank": 41710,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242359,
     "fee": "₹1,25,000*",
@@ -1029,17 +1181,6 @@
       "id": 24,
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
-    },
-    "cr_2024_1": {
-      "value": "91(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 91,
-      "counselling_rank": 91,
-      "ai_rank": 22668,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "53(1)",
@@ -1083,6 +1224,55 @@
     "choice_list_count": 0
   },
   {
+    "id": 800137,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 60,
+      "name": "MD Psychiatry",
+      "short_name": "PSYCHIATRY"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "91(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 91,
+      "counselling_rank": 91,
+      "ai_rank": 22668,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "fee_id": 1242333,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
     "id": 512548,
     "state": "Punjab",
     "institute": {
@@ -1111,17 +1301,6 @@
       "id": 24,
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
-    },
-    "cr_2024_1": {
-      "value": "189(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 189,
-      "counselling_rank": 189,
-      "ai_rank": 31028,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "139(1)",
@@ -1166,6 +1345,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242099,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1625",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800138,
+    "state": "Punjab",
+    "institute": {
+      "id": 275,
+      "name": "Dayanand Medical College & Hospital, Ludhiana",
+      "short_name": "DMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "189(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 189,
+      "counselling_rank": 189,
+      "ai_rank": 31028,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242099,
     "fee": "₹6,85,000*",
@@ -1330,6 +1558,44 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242208,
+    "fee": "₹10,50,000*",
+    "stipend_year_1": "₹76,000",
+    "bond_years": "1*",
+    "bond_penalty": "₹15,00,000*",
+    "beds": "820",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800139,
+    "state": "Punjab",
+    "institute": {
+      "id": 274,
+      "name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
+      "short_name": "SDRD, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 42,
+      "name": "MD Dermatology, Venereology & Leprosy",
+      "short_name": "DERMATOLOGY"
+    },
+    "quota": {
+      "id": 8554,
+      "name": "Punjab SGRD Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab SGRD IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
     },
     "cr_2025_3": {
       "value": "122(1)",
@@ -1889,17 +2155,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_2": {
-      "value": "232(2)",
-      "session": "2025",
-      "round": "2",
-      "closing_rank": 232,
-      "counselling_rank": 232,
-      "ai_rank": 58793,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_3": {
       "value": "148(1)",
       "session": "2025",
@@ -1910,6 +2165,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242286,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800140,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_2": {
+      "value": "232(2)",
+      "session": "2025",
+      "round": "2",
+      "closing_rank": 232,
+      "counselling_rank": 232,
+      "ai_rank": 58793,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242286,
     "fee": "₹1,25,000*",
@@ -2529,17 +2833,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_3": {
-      "value": "600(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 600,
-      "counselling_rank": 600,
-      "ai_rank": 95472,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "533(1)",
       "session": "2025",
@@ -2561,6 +2854,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242207,
+    "fee": "₹10,50,000*",
+    "stipend_year_1": "₹76,000",
+    "bond_years": "1*",
+    "bond_penalty": "₹15,00,000*",
+    "beds": "820",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800141,
+    "state": "Punjab",
+    "institute": {
+      "id": 274,
+      "name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
+      "short_name": "SDRD, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 67,
+      "name": "MD Tuberculosis & Respiratory Diseases",
+      "short_name": "TBRD"
+    },
+    "quota": {
+      "id": 8554,
+      "name": "Punjab SGRD Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab SGRD IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "600(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 600,
+      "counselling_rank": 600,
+      "ai_rank": 95472,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242207,
     "fee": "₹10,50,000*",
@@ -2682,17 +3024,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "375(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 375,
-      "counselling_rank": 375,
-      "ai_rank": 39412,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "318(1)",
       "session": "2024",
@@ -2703,17 +3034,6 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
-    },
-    "cr_2024_3": {
-      "value": "278(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 278,
-      "counselling_rank": 278,
-      "ai_rank": 61062,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "210(1)",
@@ -2736,6 +3056,66 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1241953,
+    "fee": "₹16,90,000*",
+    "stipend_year_1": "₹25,000*",
+    "bond_years": "1*",
+    "bond_penalty": "₹25,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800142,
+    "state": "Punjab",
+    "institute": {
+      "id": 280,
+      "name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
+      "short_name": "Adesh IMS, Bhatinda",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 42,
+      "name": "MD Dermatology, Venereology & Leprosy",
+      "short_name": "DERMATOLOGY"
+    },
+    "quota": {
+      "id": 8552,
+      "name": "Punjab Adesh Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab Adesh IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "375(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 375,
+      "counselling_rank": 375,
+      "ai_rank": 39412,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "cr_2024_3": {
+      "value": "278(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 278,
+      "counselling_rank": 278,
+      "ai_rank": 61062,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241953,
     "fee": "₹16,90,000*",
@@ -2988,17 +3368,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2025_2": {
-      "value": "159(1)",
-      "session": "2025",
-      "round": "2",
-      "closing_rank": 159,
-      "counselling_rank": 159,
-      "ai_rank": 53366,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_3": {
       "value": "189(1)",
       "session": "2025",
@@ -3009,6 +3378,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242098,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1625",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800143,
+    "state": "Punjab",
+    "institute": {
+      "id": 275,
+      "name": "Dayanand Medical College & Hospital, Ludhiana",
+      "short_name": "DMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "BC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_2": {
+      "value": "159(1)",
+      "session": "2025",
+      "round": "2",
+      "closing_rank": 159,
+      "counselling_rank": 159,
+      "ai_rank": 53366,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242098,
     "fee": "₹6,85,000*",
@@ -3058,17 +3476,6 @@
       "allotments_count": 3,
       "inservice_candidate": false,
       "candidate_flag": null
-    },
-    "cr_2024_2": {
-      "value": "256(3)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 256,
-      "counselling_rank": 256,
-      "ai_rank": 44365,
-      "allotments_count": 3,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "247(3)",
@@ -3123,6 +3530,55 @@
     "choice_list_count": 0
   },
   {
+    "id": 800144,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 32,
+      "name": "MD Anaesthesiology",
+      "short_name": "ANAESTHESIOLOGY"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "256(3)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 256,
+      "counselling_rank": 256,
+      "ai_rank": 44365,
+      "allotments_count": 3,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "fee_id": 1242320,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
     "id": 512588,
     "state": "Punjab",
     "institute": {
@@ -3151,17 +3607,6 @@
       "id": 24,
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
-    },
-    "cr_2024_1": {
-      "value": "144(2)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 144,
-      "counselling_rank": 144,
-      "ai_rank": 40575,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "163(1)",
@@ -3206,6 +3651,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242360,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1025",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800145,
+    "state": "Punjab",
+    "institute": {
+      "id": 276,
+      "name": "Guru Govind Singh Medical College, Faridkot",
+      "short_name": "Guru Govind Singh, Faridkot",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 72,
+      "name": "MS Orthopaedics",
+      "short_name": "ORTHOPAEDICS"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "144(2)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 144,
+      "counselling_rank": 144,
+      "ai_rank": 40575,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242360,
     "fee": "₹1,25,000*",
@@ -3371,17 +3865,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "422(1)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 422,
-      "counselling_rank": 422,
-      "ai_rank": 70482,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "289(1)",
       "session": "2025",
@@ -3414,6 +3897,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242283,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800146,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 72,
+      "name": "MS Orthopaedics",
+      "short_name": "ORTHOPAEDICS"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "422(1)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 422,
+      "counselling_rank": 422,
+      "ai_rank": 70482,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242283,
     "fee": "₹1,25,000*",
@@ -3918,17 +4450,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "191(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 191,
-      "counselling_rank": 191,
-      "ai_rank": 58502,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "296(2)",
       "session": "2025",
@@ -3961,6 +4482,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242343,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800147,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 68,
+      "name": "MS ENT",
+      "short_name": "ENT"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "191(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 191,
+      "counselling_rank": 191,
+      "ai_rank": 58502,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242343,
     "fee": "₹1,25,000*",
@@ -4175,17 +4745,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "207(2)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 207,
-      "counselling_rank": 207,
-      "ai_rank": 55686,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "278(5)",
       "session": "2025",
@@ -4218,6 +4777,55 @@
       "allotments_count": 3,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242341,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800148,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 69,
+      "name": "MS General Surgery",
+      "short_name": "GENERAL SURGERY"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "207(2)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 207,
+      "counselling_rank": 207,
+      "ai_rank": 55686,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242341,
     "fee": "₹1,25,000*",
@@ -4265,8 +4873,8 @@
       "counselling_rank": 417,
       "ai_rank": 14241,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "407(1)",
@@ -4309,8 +4917,8 @@
       "counselling_rank": 230,
       "ai_rank": 17601,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "239(1)",
@@ -4320,8 +4928,8 @@
       "counselling_rank": 239,
       "ai_rank": 26101,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241906,
     "fee": "₹1,25,000",
@@ -4788,17 +5396,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_1": {
-      "value": "300(2)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 300,
-      "counselling_rank": 300,
-      "ai_rank": 54962,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "252(2)",
       "session": "2025",
@@ -4820,6 +5417,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242327,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800149,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 68,
+      "name": "MS ENT",
+      "short_name": "ENT"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_1": {
+      "value": "300(2)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 300,
+      "counselling_rank": 300,
+      "ai_rank": 54962,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242327,
     "fee": "₹1,25,000*",
@@ -5357,17 +6003,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "320(3)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 320,
-      "counselling_rank": 320,
-      "ai_rank": 68886,
-      "allotments_count": 3,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "208(2)",
       "session": "2025",
@@ -5411,6 +6046,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242120,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1625",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800150,
+    "state": "Punjab",
+    "institute": {
+      "id": 275,
+      "name": "Dayanand Medical College & Hospital, Ludhiana",
+      "short_name": "DMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 32,
+      "name": "MD Anaesthesiology",
+      "short_name": "ANAESTHESIOLOGY"
+    },
+    "quota": {
+      "id": 8559,
+      "name": "Punjab Open Quota (All India Basis) (In-Service)",
+      "short_name": "Punjab Open Quota (AI Basis) (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Open Quota"
+    },
+    "category": "GEN",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "320(3)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 320,
+      "counselling_rank": 320,
+      "ai_rank": 68886,
+      "allotments_count": 3,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242120,
     "fee": "₹6,85,000*",
@@ -7041,17 +7725,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "538(1)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 538,
-      "counselling_rank": 538,
-      "ai_rank": 80437,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_3": {
       "value": "532(1)",
       "session": "2024",
@@ -7095,6 +7768,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242252,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800151,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 32,
+      "name": "MD Anaesthesiology",
+      "short_name": "ANAESTHESIOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "538(1)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 538,
+      "counselling_rank": 538,
+      "ai_rank": 80437,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242252,
     "fee": "₹1,25,000*",
@@ -7506,17 +8228,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2025_1": {
-      "value": "700(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 700,
-      "counselling_rank": 700,
-      "ai_rank": 78711,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "427(1)",
       "session": "2025",
@@ -7538,6 +8249,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242282,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800152,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 67,
+      "name": "MD Tuberculosis & Respiratory Diseases",
+      "short_name": "TBRD"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_1": {
+      "value": "700(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 700,
+      "counselling_rank": 700,
+      "ai_rank": 78711,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242282,
     "fee": "₹1,25,000*",
@@ -7618,8 +8378,8 @@
       "counselling_rank": 429,
       "ai_rank": 55637,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241912,
     "fee": "₹1,25,000",
@@ -7867,17 +8627,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "747(2)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 747,
-      "counselling_rank": 747,
-      "ai_rank": 87524,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_3": {
       "value": "679(1)",
       "session": "2024",
@@ -7921,6 +8670,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1241900,
+    "fee": "₹16,90,000*",
+    "stipend_year_1": "₹25,000*",
+    "bond_years": "1*",
+    "bond_penalty": "₹25,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800153,
+    "state": "Punjab",
+    "institute": {
+      "id": 280,
+      "name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
+      "short_name": "Adesh IMS, Bhatinda",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "747(2)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 747,
+      "counselling_rank": 747,
+      "ai_rank": 87524,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241900,
     "fee": "₹16,90,000*",
@@ -8354,17 +9152,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "551(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 551,
-      "counselling_rank": 551,
-      "ai_rank": 89335,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "734(1)",
       "session": "2025",
@@ -8397,6 +9184,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242293,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1025",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800154,
+    "state": "Punjab",
+    "institute": {
+      "id": 276,
+      "name": "Guru Govind Singh Medical College, Faridkot",
+      "short_name": "Guru Govind Singh, Faridkot",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 32,
+      "name": "MD Anaesthesiology",
+      "short_name": "ANAESTHESIOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "551(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 551,
+      "counselling_rank": 551,
+      "ai_rank": 89335,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242293,
     "fee": "₹1,25,000*",
@@ -9133,8 +9969,8 @@
       "counselling_rank": 872,
       "ai_rank": 52505,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "496(1)",
@@ -9414,6 +10250,44 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242335,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800155,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 3,
+      "name": "Diploma in Child Health",
+      "short_name": "DCH"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
     },
     "cr_2025_3": {
       "value": "507(2)",
@@ -9732,17 +10606,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "546(2)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 546,
-      "counselling_rank": 546,
-      "ai_rank": 88787,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "682(1)",
       "session": "2025",
@@ -9764,6 +10627,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242325,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800156,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 1,
+      "name": "Diploma in Anaesthesia",
+      "short_name": "DA"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "546(2)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 546,
+      "counselling_rank": 546,
+      "ai_rank": 88787,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "535(1)",
@@ -9866,8 +10778,8 @@
       "counselling_rank": 701,
       "ai_rank": 86328,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "545(1)",
@@ -9888,8 +10800,8 @@
       "counselling_rank": 126,
       "ai_rank": 175777,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241908,
     "fee": "₹1,25,000",
@@ -10137,17 +11049,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "1057(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 1057,
-      "counselling_rank": 1057,
-      "ai_rank": 87252,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "640(1)",
       "session": "2024",
@@ -10158,6 +11059,66 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "cr_2025_3": {
+      "value": "568(1)",
+      "session": "2025",
+      "round": "3",
+      "closing_rank": 568,
+      "counselling_rank": 568,
+      "ai_rank": 87591,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 1242257,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800157,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 1,
+      "name": "Diploma in Anaesthesia",
+      "short_name": "DA"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "1057(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 1057,
+      "counselling_rank": 1057,
+      "ai_rank": 87252,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "712(1)",
@@ -10180,17 +11141,6 @@
       "allotments_count": 1,
       "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
-    },
-    "cr_2025_3": {
-      "value": "568(1)",
-      "session": "2025",
-      "round": "3",
-      "closing_rank": 568,
-      "counselling_rank": 568,
-      "ai_rank": 87591,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
     },
     "fee_id": 1242257,
     "fee": "₹1,25,000*",
@@ -10457,8 +11407,8 @@
       "counselling_rank": 1190,
       "ai_rank": 95723,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "575(1)",
@@ -10610,8 +11560,8 @@
       "counselling_rank": 1395,
       "ai_rank": 66720,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "874(1)",
@@ -10621,8 +11571,8 @@
       "counselling_rank": 874,
       "ai_rank": 78366,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "582(1)",
@@ -10692,8 +11642,8 @@
       "counselling_rank": 665,
       "ai_rank": 61664,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_4": {
       "value": "162(1)",
@@ -10714,8 +11664,8 @@
       "counselling_rank": 1195,
       "ai_rank": 96721,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "584(1)",
@@ -10859,17 +11809,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "1236(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 1236,
-      "counselling_rank": 1236,
-      "ai_rank": 84470,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "774(1)",
       "session": "2024",
@@ -10923,6 +11862,55 @@
     "choice_list_count": 0
   },
   {
+    "id": 800158,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 55,
+      "name": "MD Pathology",
+      "short_name": "PATHOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "1236(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 1236,
+      "counselling_rank": 1236,
+      "ai_rank": 84470,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "fee_id": 1242284,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
     "id": 439632,
     "state": "Punjab",
     "institute": {
@@ -10960,8 +11948,8 @@
       "counselling_rank": 1367,
       "ai_rank": 63729,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "898(1)",
@@ -10971,8 +11959,8 @@
       "counselling_rank": 898,
       "ai_rank": 81742,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "587(1)",
@@ -10982,8 +11970,8 @@
       "counselling_rank": 587,
       "ai_rank": 95723,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
       "value": "127(1)",
@@ -11138,17 +12126,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "1225(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 1225,
-      "counselling_rank": 1225,
-      "ai_rank": 93695,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "1054(1)",
       "session": "2025",
@@ -11181,6 +12158,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242258,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800159,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 1,
+      "name": "Diploma in Anaesthesia",
+      "short_name": "DA"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "1225(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 1225,
+      "counselling_rank": 1225,
+      "ai_rank": 93695,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242258,
     "fee": "₹1,25,000*",
@@ -12158,8 +13184,8 @@
       "counselling_rank": 133,
       "ai_rank": 193800,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241914,
     "fee": "₹1,25,000",
@@ -12570,6 +13596,44 @@
       "allotments_count": 4,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242353,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800160,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 55,
+      "name": "MD Pathology",
+      "short_name": "PATHOLOGY"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
     },
     "cr_2025_4": {
       "value": "76(2)",
@@ -13562,8 +14626,8 @@
       "counselling_rank": 686,
       "ai_rank": 128860,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241912,
     "fee": "₹1,25,000",
@@ -13827,6 +14891,44 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1242389,
+    "fee": "₹1,00,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "420",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800161,
+    "state": "Punjab",
+    "institute": {
+      "id": 5748,
+      "name": "Dr BR Ambedkar State Institute of Medical Sciences, Mohali",
+      "short_name": "DrBRAmbedkar State IMS,Mohali",
+      "comments": null,
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
     "cr_2025_3": {
       "value": "696(1)",
       "session": "2025",
@@ -13884,8 +14986,8 @@
       "counselling_rank": 1511,
       "ai_rank": 75224,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "874(1)",
@@ -13955,8 +15057,8 @@
       "counselling_rank": 904,
       "ai_rank": 56381,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "707(1)",
@@ -14017,6 +15119,44 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242257,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800162,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 1,
+      "name": "Diploma in Anaesthesia",
+      "short_name": "DA"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "BC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
     },
     "cr_2025_3": {
       "value": "709(1)",
@@ -14228,8 +15368,8 @@
       "counselling_rank": 716,
       "ai_rank": 143968,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242234,
     "fee": "₹1,25,000",
@@ -14340,17 +15480,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "956(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 956,
-      "counselling_rank": 956,
-      "ai_rank": 163139,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_4": {
       "value": "187(1)",
       "session": "2024",
@@ -14361,6 +15490,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1241944,
+    "fee": "₹40,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "Info Not Available",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800163,
+    "state": "Punjab",
+    "institute": {
+      "id": 279,
+      "name": "Netaji Subhas National Institute of Sports Medicine, Patiala",
+      "short_name": "NSNIS, Patiala",
+      "comments": null,
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 28,
+      "name": "Diploma in Sports Medicine",
+      "short_name": "DSM"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "956(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 956,
+      "counselling_rank": 956,
+      "ai_rank": 163139,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "724(2)",
@@ -14638,8 +15816,8 @@
       "counselling_rank": 731,
       "ai_rank": 152986,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242235,
     "fee": "₹1,25,000",
@@ -14687,8 +15865,8 @@
       "counselling_rank": 734,
       "ai_rank": 154698,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242237,
     "fee": "₹1,25,000",
@@ -14807,8 +15985,8 @@
       "counselling_rank": 747,
       "ai_rank": 159246,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241921,
     "fee": "₹1,25,000",
@@ -15519,17 +16697,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "835(2)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 835,
-      "counselling_rank": 835,
-      "ai_rank": 114441,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_3": {
       "value": "744(1)",
       "session": "2024",
@@ -15594,6 +16761,55 @@
     "choice_list_count": 0
   },
   {
+    "id": 800164,
+    "state": "Punjab",
+    "institute": {
+      "id": 280,
+      "name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
+      "short_name": "Adesh IMS, Bhatinda",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 32,
+      "name": "MD Anaesthesiology",
+      "short_name": "ANAESTHESIOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "835(2)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 835,
+      "counselling_rank": 835,
+      "ai_rank": 114441,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "fee_id": 1241883,
+    "fee": "₹16,90,000*",
+    "stipend_year_1": "₹25,000*",
+    "bond_years": "1*",
+    "bond_penalty": "₹25,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
     "id": 407509,
     "state": "Punjab",
     "institute": {
@@ -15631,8 +16847,8 @@
       "counselling_rank": 1335,
       "ai_rank": 61546,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "750(1)",
@@ -15713,8 +16929,8 @@
       "counselling_rank": 777,
       "ai_rank": 176794,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242241,
     "fee": "₹1,25,000",
@@ -16164,17 +17380,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "1080(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 1080,
-      "counselling_rank": 1080,
-      "ai_rank": 84092,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "975(1)",
       "session": "2024",
@@ -16207,6 +17412,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242373,
+    "fee": "₹1,00,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1025",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800165,
+    "state": "Punjab",
+    "institute": {
+      "id": 276,
+      "name": "Guru Govind Singh Medical College, Faridkot",
+      "short_name": "Guru Govind Singh, Faridkot",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "1080(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 1080,
+      "counselling_rank": 1080,
+      "ai_rank": 84092,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242373,
     "fee": "₹1,00,000*",
@@ -16254,8 +17508,8 @@
       "counselling_rank": 1637,
       "ai_rank": 87611,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "912(1)",
@@ -16265,8 +17519,8 @@
       "counselling_rank": 912,
       "ai_rank": 112868,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "793(1)",
@@ -16276,8 +17530,8 @@
       "counselling_rank": 793,
       "ai_rank": 192249,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241938,
     "fee": "₹1,25,000",
@@ -16669,8 +17923,8 @@
       "counselling_rank": 813,
       "ai_rank": 206443,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242236,
     "fee": "₹1,25,000",
@@ -17142,17 +18396,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "901(1)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 901,
-      "counselling_rank": 901,
-      "ai_rank": 123118,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "1311(1)",
       "session": "2025",
@@ -17174,6 +18417,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242272,
+    "fee": "₹1,00,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800166,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 51,
+      "name": "MD Microbiology",
+      "short_name": "MICROBIOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "901(1)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 901,
+      "counselling_rank": 901,
+      "ai_rank": 123118,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242272,
     "fee": "₹1,00,000*",
@@ -17273,17 +18565,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_2": {
-      "value": "717(1)",
-      "session": "2025",
-      "round": "2",
-      "closing_rank": 717,
-      "counselling_rank": 717,
-      "ai_rank": 118983,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_3": {
       "value": "833(1)",
       "session": "2025",
@@ -17294,6 +18575,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242302,
+    "fee": "₹1,00,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800167,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_2": {
+      "value": "717(1)",
+      "session": "2025",
+      "round": "2",
+      "closing_rank": 717,
+      "counselling_rank": 717,
+      "ai_rank": 118983,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242302,
     "fee": "₹1,00,000*",
@@ -17447,6 +18777,44 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242331,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800168,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
     },
     "cr_2025_1": {
       "value": "2(1)",
@@ -17650,17 +19018,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "4(2)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 4,
-      "counselling_rank": 4,
-      "ai_rank": 5299,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "13(3)",
       "session": "2025",
@@ -17671,6 +19028,55 @@
       "allotments_count": 3,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242330,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800169,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "4(2)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 4,
+      "counselling_rank": 4,
+      "ai_rank": 5299,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242330,
     "fee": "₹1,25,000*",
@@ -17983,6 +19389,44 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1242313,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800170,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 42,
+      "name": "MD Dermatology, Venereology & Leprosy",
+      "short_name": "DERMATOLOGY"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
     "cr_2025_2": {
       "value": "19(1)",
       "session": "2025",
@@ -18079,9 +19523,9 @@
       "short_name": "RADIO DIAGNOSIS"
     },
     "quota": {
-      "id": 551,
-      "name": "Punjab Domicile Seats",
-      "short_name": "Punjab Domicile Seats",
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Punjab Domicile Seats"
@@ -18376,17 +19820,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_1": {
-      "value": "78(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 78,
-      "counselling_rank": 78,
-      "ai_rank": 26274,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "64(1)",
       "session": "2025",
@@ -18397,6 +19830,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242185,
+    "fee": "₹10,50,000*",
+    "stipend_year_1": "₹76,000",
+    "bond_years": "1*",
+    "bond_penalty": "₹15,00,000*",
+    "beds": "820",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800171,
+    "state": "Punjab",
+    "institute": {
+      "id": 274,
+      "name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
+      "short_name": "SDRD, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8554,
+      "name": "Punjab SGRD Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab SGRD IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_1": {
+      "value": "78(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 78,
+      "counselling_rank": 78,
+      "ai_rank": 26274,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242185,
     "fee": "₹10,50,000*",
@@ -18436,17 +19918,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "48(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 48,
-      "counselling_rank": 48,
-      "ai_rank": 30800,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "81(1)",
       "session": "2024",
@@ -18468,6 +19939,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242248,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800172,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "BC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "48(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 48,
+      "counselling_rank": 48,
+      "ai_rank": 30800,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "81(1)",
@@ -19485,17 +21005,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "100(4)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 100,
-      "counselling_rank": 100,
-      "ai_rank": 31028,
-      "allotments_count": 4,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_3": {
       "value": "70(2)",
       "session": "2024",
@@ -19538,6 +21047,55 @@
     "choice_list_count": 0
   },
   {
+    "id": 800173,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "100(4)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 100,
+      "counselling_rank": 100,
+      "ai_rank": 31028,
+      "allotments_count": 4,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "fee_id": 1242310,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
     "id": 512653,
     "state": "Punjab",
     "institute": {
@@ -19567,17 +21125,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "84(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 84,
-      "counselling_rank": 84,
-      "ai_rank": 34492,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "92(1)",
       "session": "2025",
@@ -19599,6 +21146,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242262,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800174,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "84(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 84,
+      "counselling_rank": 84,
+      "ai_rank": 34492,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242262,
     "fee": "₹1,25,000*",
@@ -19928,17 +21524,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "252(2)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 252,
-      "counselling_rank": 252,
-      "ai_rank": 53697,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_3": {
       "value": "239(1)",
       "session": "2024",
@@ -19960,6 +21545,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1241948,
+    "fee": "₹16,90,000*",
+    "stipend_year_1": "₹25,000*",
+    "bond_years": "1*",
+    "bond_penalty": "₹25,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800175,
+    "state": "Punjab",
+    "institute": {
+      "id": 280,
+      "name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
+      "short_name": "Adesh IMS, Bhatinda",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8552,
+      "name": "Punjab Adesh Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab Adesh IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "252(2)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 252,
+      "counselling_rank": 252,
+      "ai_rank": 53697,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241948,
     "fee": "₹16,90,000*",
@@ -20021,17 +21655,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "158(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 158,
-      "counselling_rank": 158,
-      "ai_rank": 39412,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "192(4)",
       "session": "2025",
@@ -20042,6 +21665,55 @@
       "allotments_count": 4,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242351,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800176,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 72,
+      "name": "MS Orthopaedics",
+      "short_name": "ORTHOPAEDICS"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "158(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 158,
+      "counselling_rank": 158,
+      "ai_rank": 39412,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "215(3)",
@@ -20704,17 +22376,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "157(2)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 157,
-      "counselling_rank": 157,
-      "ai_rank": 49825,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_3": {
       "value": "127(1)",
       "session": "2024",
@@ -20747,6 +22408,55 @@
       "allotments_count": 3,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242090,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1625",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800177,
+    "state": "Punjab",
+    "institute": {
+      "id": 275,
+      "name": "Dayanand Medical College & Hospital, Ludhiana",
+      "short_name": "DMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "157(2)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 157,
+      "counselling_rank": 157,
+      "ai_rank": 49825,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242090,
     "fee": "₹6,85,000*",
@@ -21059,17 +22769,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "271(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 271,
-      "counselling_rank": 271,
-      "ai_rank": 49825,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "234(1)",
       "session": "2024",
@@ -21102,6 +22801,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242055,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹46,000",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "775",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800178,
+    "state": "Punjab",
+    "institute": {
+      "id": 277,
+      "name": "Christian Medical College, Ludhiana",
+      "short_name": "CMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "271(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 271,
+      "counselling_rank": 271,
+      "ai_rank": 49825,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242055,
     "fee": "₹6,85,000*",
@@ -21305,6 +23053,44 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1242271,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800179,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
     "cr_2025_2": {
       "value": "346(1)",
       "session": "2025",
@@ -21387,17 +23173,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_1": {
-      "value": "371(2)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 371,
-      "counselling_rank": 371,
-      "ai_rank": 58793,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "280(2)",
       "session": "2025",
@@ -21408,6 +23183,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242304,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1025",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800180,
+    "state": "Punjab",
+    "institute": {
+      "id": 276,
+      "name": "Guru Govind Singh Medical College, Faridkot",
+      "short_name": "Guru Govind Singh, Faridkot",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_1": {
+      "value": "371(2)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 371,
+      "counselling_rank": 371,
+      "ai_rank": 58793,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242304,
     "fee": "₹1,25,000*",
@@ -21920,9 +23744,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 551,
-      "name": "Punjab Domicile Seats",
-      "short_name": "Punjab Domicile Seats",
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Punjab Domicile Seats"
@@ -22277,6 +24101,44 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1242253,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800181,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 72,
+      "name": "MS Orthopaedics",
+      "short_name": "ORTHOPAEDICS"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
     "cr_2025_2": {
       "value": "413(1)",
       "session": "2025",
@@ -22501,6 +24363,44 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1242072,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1625",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800182,
+    "state": "Punjab",
+    "institute": {
+      "id": 275,
+      "name": "Dayanand Medical College & Hospital, Ludhiana",
+      "short_name": "DMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 42,
+      "name": "MD Dermatology, Venereology & Leprosy",
+      "short_name": "DERMATOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
     "cr_2025_2": {
       "value": "438(1)",
       "session": "2025",
@@ -22618,8 +24518,8 @@
       "counselling_rank": 455,
       "ai_rank": 39102,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241929,
     "fee": "₹1,25,000",
@@ -22954,17 +24854,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "588(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 588,
-      "counselling_rank": 588,
-      "ai_rank": 61062,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_3": {
       "value": "434(1)",
       "session": "2024",
@@ -22986,6 +24875,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1241958,
+    "fee": "₹16,90,000*",
+    "stipend_year_1": "₹25,000*",
+    "bond_years": "1*",
+    "bond_penalty": "₹25,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800183,
+    "state": "Punjab",
+    "institute": {
+      "id": 280,
+      "name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
+      "short_name": "Adesh IMS, Bhatinda",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 71,
+      "name": "MS Ophthalmology",
+      "short_name": "OPHTHALMOLOGY"
+    },
+    "quota": {
+      "id": 8552,
+      "name": "Punjab Adesh Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab Adesh IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "588(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 588,
+      "counselling_rank": 588,
+      "ai_rank": 61062,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241958,
     "fee": "₹16,90,000*",
@@ -23448,8 +25386,8 @@
       "counselling_rank": 933,
       "ai_rank": 36645,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "539(1)",
@@ -23500,17 +25438,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2025_1": {
-      "value": "540(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 540,
-      "counselling_rank": 540,
-      "ai_rank": 55391,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "520(1)",
       "session": "2025",
@@ -23521,6 +25448,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242274,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800184,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 67,
+      "name": "MD Tuberculosis & Respiratory Diseases",
+      "short_name": "TBRD"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_1": {
+      "value": "540(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 540,
+      "counselling_rank": 540,
+      "ai_rank": 55391,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242274,
     "fee": "₹1,25,000*",
@@ -24008,17 +25984,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_1": {
-      "value": "576(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 576,
-      "counselling_rank": 576,
-      "ai_rank": 58269,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "492(1)",
       "session": "2025",
@@ -24029,6 +25994,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242275,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800185,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 68,
+      "name": "MS ENT",
+      "short_name": "ENT"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2025_1": {
+      "value": "576(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 576,
+      "counselling_rank": 576,
+      "ai_rank": 58269,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242275,
     "fee": "₹1,25,000*",
@@ -24150,17 +26164,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "508(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 508,
-      "counselling_rank": 508,
-      "ai_rank": 68103,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "455(2)",
       "session": "2025",
@@ -24182,6 +26185,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242352,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800186,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 55,
+      "name": "MD Pathology",
+      "short_name": "PATHOLOGY"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "508(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 508,
+      "counselling_rank": 508,
+      "ai_rank": 68103,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242352,
     "fee": "₹1,25,000*",
@@ -25321,8 +27373,8 @@
       "counselling_rank": 722,
       "ai_rank": 39102,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "494(1)",
@@ -25332,8 +27384,8 @@
       "counselling_rank": 494,
       "ai_rank": 44411,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241976,
     "fee": "₹1,25,000",
@@ -25638,8 +27690,8 @@
       "counselling_rank": 753,
       "ai_rank": 41515,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241907,
     "fee": "₹1,25,000",
@@ -26536,17 +28588,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "819(1)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 819,
-      "counselling_rank": 819,
-      "ai_rank": 99643,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "867(2)",
       "session": "2025",
@@ -26568,6 +28609,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1241899,
+    "fee": "₹16,90,000*",
+    "stipend_year_1": "₹25,000*",
+    "bond_years": "1*",
+    "bond_penalty": "₹25,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800187,
+    "state": "Punjab",
+    "institute": {
+      "id": 280,
+      "name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
+      "short_name": "Adesh IMS, Bhatinda",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 69,
+      "name": "MS General Surgery",
+      "short_name": "GENERAL SURGERY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_2": {
+      "value": "819(1)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 819,
+      "counselling_rank": 819,
+      "ai_rank": 99643,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241899,
     "fee": "₹16,90,000*",
@@ -26713,8 +28803,8 @@
       "counselling_rank": 877,
       "ai_rank": 52832,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "544(1)",
@@ -26926,8 +29016,8 @@
       "counselling_rank": 923,
       "ai_rank": 57975,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "634(1)",
@@ -27827,8 +29917,8 @@
       "counselling_rank": 1053,
       "ai_rank": 72178,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241925,
     "fee": "₹1,25,000",
@@ -28518,17 +30608,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "803(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 803,
-      "counselling_rank": 803,
-      "ai_rank": 123118,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "1167(1)",
       "session": "2025",
@@ -28539,6 +30618,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242349,
+    "fee": "₹1,00,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1025",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800188,
+    "state": "Punjab",
+    "institute": {
+      "id": 276,
+      "name": "Guru Govind Singh Medical College, Faridkot",
+      "short_name": "Guru Govind Singh, Faridkot",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 51,
+      "name": "MD Microbiology",
+      "short_name": "MICROBIOLOGY"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_3": {
+      "value": "803(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 803,
+      "counselling_rank": 803,
+      "ai_rank": 123118,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242349,
     "fee": "₹1,00,000*",
@@ -28728,8 +30856,8 @@
       "counselling_rank": 781,
       "ai_rank": 128860,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241927,
     "fee": "₹1,25,000",
@@ -28875,8 +31003,8 @@
       "counselling_rank": 1734,
       "ai_rank": 98584,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "819(1)",
@@ -28886,8 +31014,8 @@
       "counselling_rank": 819,
       "ai_rank": 86394,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "1194(1)",
@@ -28897,8 +31025,8 @@
       "counselling_rank": 1194,
       "ai_rank": 96664,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241939,
     "fee": "₹1,25,000",
@@ -29115,8 +31243,8 @@
       "counselling_rank": 1554,
       "ai_rank": 79061,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "773(1)",
@@ -29137,8 +31265,8 @@
       "counselling_rank": 1210,
       "ai_rank": 98779,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241937,
     "fee": "₹1,25,000",
@@ -29508,8 +31636,8 @@
       "counselling_rank": 1473,
       "ai_rank": 72636,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "770(1)",
@@ -29541,8 +31669,8 @@
       "counselling_rank": 1232,
       "ai_rank": 103713,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241934,
     "fee": "₹1,25,000",
@@ -29601,8 +31729,8 @@
       "counselling_rank": 1240,
       "ai_rank": 105067,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241936,
     "fee": "₹1,25,000",
@@ -30184,8 +32312,8 @@
       "counselling_rank": 1291,
       "ai_rank": 118793,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "722(1)",
@@ -30195,8 +32323,8 @@
       "counselling_rank": 722,
       "ai_rank": 96721,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241925,
     "fee": "₹1,25,000",
@@ -30293,8 +32421,8 @@
       "counselling_rank": 1306,
       "ai_rank": 128860,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241914,
     "fee": "₹1,25,000",
@@ -30415,6 +32543,44 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242245,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800189,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 42,
+      "name": "MD Dermatology, Venereology & Leprosy",
+      "short_name": "DERMATOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "BC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
     },
     "cr_2024_2": {
       "value": "34(1)",
@@ -30612,17 +32778,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "69(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 69,
-      "counselling_rank": 69,
-      "ai_rank": 34255,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "87(1)",
       "session": "2024",
@@ -30633,6 +32788,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242246,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1052",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800190,
+    "state": "Punjab",
+    "institute": {
+      "id": 273,
+      "name": "Government Medical College, Amritsar",
+      "short_name": "Govt Med Coll, Amritsar",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 42,
+      "name": "MD Dermatology, Venereology & Leprosy",
+      "short_name": "DERMATOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "BC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "69(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 69,
+      "counselling_rank": 69,
+      "ai_rank": 34255,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1242246,
     "fee": "₹1,25,000*",
@@ -30682,6 +32886,44 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242090,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1625",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800191,
+    "state": "Punjab",
+    "institute": {
+      "id": 275,
+      "name": "Dayanand Medical College & Hospital, Ludhiana",
+      "short_name": "DMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 62,
+      "name": "MD Radio Diagnosis",
+      "short_name": "RADIO DIAGNOSIS"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "BC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
     },
     "cr_2024_2": {
       "value": "117(1)",
@@ -31128,9 +33370,9 @@
       "short_name": "DERMATOLOGY"
     },
     "quota": {
-      "id": 551,
-      "name": "Punjab Domicile Seats",
-      "short_name": "Punjab Domicile Seats",
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Punjab Domicile Seats"
@@ -31932,6 +34174,44 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1242100,
+    "fee": "₹6,85,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1625",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800192,
+    "state": "Punjab",
+    "institute": {
+      "id": 275,
+      "name": "Dayanand Medical College & Hospital, Ludhiana",
+      "short_name": "DMC, Ludhiana",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 71,
+      "name": "MS Ophthalmology",
+      "short_name": "OPHTHALMOLOGY"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "BC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
     "cr_2024_2": {
       "value": "359(1)",
       "session": "2024",
@@ -32628,9 +34908,9 @@
       "short_name": "TBRD"
     },
     "quota": {
-      "id": 553,
-      "name": "Punjab BFUHS Institutional Preference Quota",
-      "short_name": "Punjab BFUHS IP Quota",
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Punjab Institutional Preference Quota"
@@ -32690,17 +34970,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "905(2)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 905,
-      "counselling_rank": 905,
-      "ai_rank": 75837,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "848(2)",
       "session": "2024",
@@ -32711,6 +34980,55 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242364,
+    "fee": "₹1,25,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1025",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800193,
+    "state": "Punjab",
+    "institute": {
+      "id": 276,
+      "name": "Guru Govind Singh Medical College, Faridkot",
+      "short_name": "Guru Govind Singh, Faridkot",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 49,
+      "name": "MD Immuno Haematology & Blood Transfusion",
+      "short_name": "IHBT"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "905(2)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 905,
+      "counselling_rank": 905,
+      "ai_rank": 75837,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "855(2)",
@@ -32797,9 +35115,9 @@
       "short_name": "PSYCHIATRY"
     },
     "quota": {
-      "id": 551,
-      "name": "Punjab Domicile Seats",
-      "short_name": "Punjab Domicile Seats",
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Punjab Domicile Seats"
@@ -33293,9 +35611,9 @@
       "short_name": "DCH"
     },
     "quota": {
-      "id": 551,
-      "name": "Punjab Domicile Seats",
-      "short_name": "Punjab Domicile Seats",
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Punjab Domicile Seats"
@@ -34153,8 +36471,8 @@
       "counselling_rank": 145,
       "ai_rank": 80381,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241906,
     "fee": "₹1,25,000",
@@ -34385,6 +36703,44 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1242356,
+    "fee": "₹1,00,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800194,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 57,
+      "name": "MD Pharmacology",
+      "short_name": "PHARMACOLOGY"
+    },
+    "quota": {
+      "id": 8553,
+      "name": "Punjab BFUHS Institutional Preference Quota (In-Service)",
+      "short_name": "Punjab BFUHS IP Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Institutional Preference Quota"
+    },
+    "category": "GEN-IP",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
     "cr_2024_4": {
       "value": "59(1)",
       "session": "2024",
@@ -34444,6 +36800,44 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1242266,
+    "fee": "₹1,00,000*",
+    "stipend_year_1": "₹76,000*",
+    "bond_years": "3*",
+    "bond_penalty": "₹30,00,000*",
+    "beds": "1672",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800195,
+    "state": "Punjab",
+    "institute": {
+      "id": 278,
+      "name": "Government Medical College, Patiala",
+      "short_name": "Govt Med Coll, Patiala",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 45,
+      "name": "MD Forensic Medicine",
+      "short_name": "FORENSIC MEDICINE"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
     },
     "cr_2024_2": {
       "value": "769(1)",
@@ -34663,17 +37057,6 @@
       "name": "Punjab - PG Medical",
       "short_name": "Punjab PG"
     },
-    "cr_2024_1": {
-      "value": "1314(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 1314,
-      "counselling_rank": 1314,
-      "ai_rank": 87524,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "782(1)",
       "session": "2024",
@@ -34684,6 +37067,55 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1241897,
+    "fee": "₹16,90,000*",
+    "stipend_year_1": "₹25,000*",
+    "bond_years": "1*",
+    "bond_penalty": "₹25,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800196,
+    "state": "Punjab",
+    "institute": {
+      "id": 280,
+      "name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
+      "short_name": "Adesh IMS, Bhatinda",
+      "comments": null,
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 67,
+      "name": "MD Tuberculosis & Respiratory Diseases",
+      "short_name": "TBRD"
+    },
+    "quota": {
+      "id": 8551,
+      "name": "Punjab Domicile Seats (In-Service)",
+      "short_name": "Punjab Domicile Seats (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Punjab Domicile Seats"
+    },
+    "category": "SC",
+    "counselling": {
+      "id": 24,
+      "name": "Punjab - PG Medical",
+      "short_name": "Punjab PG"
+    },
+    "cr_2024_1": {
+      "value": "1314(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 1314,
+      "counselling_rank": 1314,
+      "ai_rank": 87524,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241897,
     "fee": "₹16,90,000*",
@@ -34998,8 +37430,8 @@
       "counselling_rank": 959,
       "ai_rank": 127616,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241932,
     "fee": "₹1,25,000",
@@ -35565,8 +37997,8 @@
       "counselling_rank": 1553,
       "ai_rank": 79037,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241935,
     "fee": "₹1,25,000",
@@ -35723,8 +38155,8 @@
       "counselling_rank": 1667,
       "ai_rank": 91050,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1241936,
     "fee": "₹1,25,000",

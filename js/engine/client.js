@@ -83,11 +83,12 @@ export class EngineClient {
         return data;
     }
     
-    async getOption(id, rank = null, year = 'all', round = 'all') {
+    async getOption(id, rank = null, year = 'all', round = 'all', includeInservice = null) {
         const params = new URLSearchParams();
         if (rank) params.append('rank', rank);
         if (year !== 'all') params.append('year', year);
         if (round !== 'all') params.append('round', round);
+        if (includeInservice !== null && includeInservice !== undefined) params.append('includeInservice', includeInservice);
         
         const sortedParams = Array.from(params.entries()).sort((a, b) => a[0].localeCompare(b[0]));
         const cacheKey = getApiPrefix() + '_' + `${id}_${JSON.stringify(sortedParams)}`;

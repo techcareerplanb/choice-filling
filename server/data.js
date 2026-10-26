@@ -126,6 +126,14 @@ function getFilteredAndSortedResults(counselling, query) {
             continue;
         }
         
+        const isQuotaInservice = hydrated.quota && (
+            hydrated.quota.name.toLowerCase().includes('inservice') ||
+            hydrated.quota.name.toLowerCase().includes('in-service')
+        );
+        if (extraCriteria.includeInservice !== 'true' && isQuotaInservice) {
+            continue;
+        }
+        
         let filteredCutoffs = hydrated.cutoffs;
         // Always run cutoff filter to exclude in-service by default unless requested
         filteredCutoffs = hydrated.cutoffs.filter(c => {
@@ -299,9 +307,13 @@ export function getOption(counselling, id, reqYear, reqRound, rank, includeInser
     if (reqYear && reqYear !== 'all') optCutoffs = optCutoffs.filter(c => c.year === parseInt(reqYear, 10));
     if (reqRound && reqRound !== 'all') optCutoffs = optCutoffs.filter(c => c.round === Number(reqRound));
     
+    const isOptionInservice = opt.quota && (
+        opt.quota.name.toLowerCase().includes('inservice') ||
+        opt.quota.name.toLowerCase().includes('in-service')
+    );
     optCutoffs = optCutoffs.filter(c => {
         const isService = c.candidateFlag === 'inservice_candidate' || c.inserviceCandidate === true;
-        return String(includeInservice) === 'true' || !isService;
+        return isOptionInservice || String(includeInservice) === 'true' || !isService;
     });
 
     const analyzedStats = analyzeCutoffs(optCutoffs);

@@ -15,9 +15,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -36,7 +36,7 @@
       "counselling_rank": 5,
       "ai_rank": 30571,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
@@ -47,7 +47,7 @@
       "counselling_rank": 1,
       "ai_rank": 30571,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -58,7 +58,7 @@
       "counselling_rank": 2,
       "ai_rank": 30571,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711463,
@@ -85,9 +85,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -106,7 +106,7 @@
       "counselling_rank": 3,
       "ai_rank": 35743,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711485,
@@ -1919,8 +1919,8 @@
       "counselling_rank": 138,
       "ai_rank": 25630,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
       "value": "19(1)",
@@ -1930,7 +1930,7 @@
       "counselling_rank": 19,
       "ai_rank": 99315,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867381,
@@ -2246,17 +2246,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "203(1)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 203,
-      "counselling_rank": 203,
-      "ai_rank": 62443,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "129(1)",
       "session": "2025",
@@ -2289,6 +2278,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711490,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800618,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 32,
+      "name": "MD Anaesthesiology",
+      "short_name": "ANAESTHESIOLOGY"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "UR-WOMEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_2": {
+      "value": "203(1)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 203,
+      "counselling_rank": 203,
+      "ai_rank": 62443,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711490,
     "fee": "₹60,000*",
@@ -4384,8 +4421,8 @@
       "counselling_rank": 282,
       "ai_rank": 52295,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867386,
     "fee": "₹1,25,000",
@@ -5150,7 +5187,7 @@
       "counselling_rank": 310,
       "ai_rank": 97634,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
@@ -5161,7 +5198,7 @@
       "counselling_rank": 40,
       "ai_rank": 133742,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867385,
@@ -5212,28 +5249,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_2": {
-      "value": "399(1)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 399,
-      "counselling_rank": 399,
-      "ai_rank": 63515,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
-    "cr_2024_3": {
-      "value": "415(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 415,
-      "counselling_rank": 415,
-      "ai_rank": 63515,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_3": {
       "value": "311(1)",
       "session": "2025",
@@ -5255,6 +5270,65 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711457,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800619,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 365,
+      "name": "Doon Medical College, Dehradun",
+      "short_name": "Doon Med Coll, Dehradun",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 32,
+      "name": "MD Anaesthesiology",
+      "short_name": "ANAESTHESIOLOGY"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "SC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_2": {
+      "value": "399(1)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 399,
+      "counselling_rank": 399,
+      "ai_rank": 63515,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "cr_2024_3": {
+      "value": "415(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 415,
+      "counselling_rank": 415,
+      "ai_rank": 63515,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711457,
     "fee": "₹60,000*",
@@ -5301,8 +5375,8 @@
       "counselling_rank": 312,
       "ai_rank": 58182,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
       "value": "24(1)",
@@ -5312,7 +5386,7 @@
       "counselling_rank": 24,
       "ai_rank": 104589,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867383,
@@ -5908,6 +5982,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1022509,
+    "fee": "₹28,50,000*",
+    "stipend_year_1": "₹59,065",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800620,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 367,
+      "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
+      "short_name": "SGRRI, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 42,
+      "name": "MD Dermatology, Venereology & Leprosy",
+      "short_name": "DERMATOLOGY"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "OBC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2024_2": {
       "value": "974(1)",
       "session": "2024",
@@ -5938,7 +6049,7 @@
       "counselling_rank": 333,
       "ai_rank": 101129,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1022509,
@@ -6298,17 +6409,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_4": {
-      "value": "1098(1)",
-      "session": "2024",
-      "round": "4",
-      "closing_rank": 1098,
-      "counselling_rank": 1098,
-      "ai_rank": 133029,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "470(1)",
       "session": "2025",
@@ -6341,6 +6441,54 @@
       "allotments_count": 3,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1022486,
+    "fee": "₹26,75,000*",
+    "stipend_year_1": "₹59,065",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800621,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 367,
+      "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
+      "short_name": "SGRRI, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 60,
+      "name": "MD Psychiatry",
+      "short_name": "PSYCHIATRY"
+    },
+    "quota": {
+      "id": 8119,
+      "name": "Uttarakhand Private Seats - All India / Management (In-Service)",
+      "short_name": "UK Priv-AllIndia/Mgmt (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-MNG",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_4": {
+      "value": "1098(1)",
+      "session": "2024",
+      "round": "4",
+      "closing_rank": 1098,
+      "counselling_rank": 1098,
+      "ai_rank": 133029,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1022486,
     "fee": "₹26,75,000*",
@@ -7197,7 +7345,7 @@
       "counselling_rank": 379,
       "ai_rank": 109332,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
@@ -7208,8 +7356,8 @@
       "counselling_rank": 54,
       "ai_rank": 121951,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867384,
     "fee": "₹1,25,000",
@@ -7307,17 +7455,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "1110(2)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 1110,
-      "counselling_rank": 1110,
-      "ai_rank": 134674,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "858(1)",
       "session": "2025",
@@ -7350,6 +7487,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1003125,
+    "fee": "₹26,00,000*",
+    "stipend_year_1": "₹40,000",
+    "bond_years": "1",
+    "bond_penalty": "₹25,00,000",
+    "beds": "1200",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800622,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 364,
+      "name": "Himalayan Institute of Medical Sciences, Dehradun",
+      "short_name": "HIMS, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "OBC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_3": {
+      "value": "1110(2)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 1110,
+      "counselling_rank": 1110,
+      "ai_rank": 134674,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1003125,
     "fee": "₹26,00,000*",
@@ -7716,17 +7901,6 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
-    "cr_2025_3": {
-      "value": "417(3)",
-      "session": "2025",
-      "round": "3",
-      "closing_rank": 417,
-      "counselling_rank": 417,
-      "ai_rank": 119101,
-      "allotments_count": 3,
-      "inservice_candidate": false,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_4": {
       "value": "88(2)",
       "session": "2025",
@@ -7737,6 +7911,54 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1003125,
+    "fee": "₹26,00,000*",
+    "stipend_year_1": "₹40,000",
+    "bond_years": "1",
+    "bond_penalty": "₹25,00,000",
+    "beds": "1200",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800623,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 364,
+      "name": "Himalayan Institute of Medical Sciences, Dehradun",
+      "short_name": "HIMS, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-Open",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2025_3": {
+      "value": "417(3)",
+      "session": "2025",
+      "round": "3",
+      "closing_rank": 417,
+      "counselling_rank": 417,
+      "ai_rank": 119101,
+      "allotments_count": 3,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1003125,
     "fee": "₹26,00,000*",
@@ -7989,8 +8211,8 @@
       "counselling_rank": 607,
       "ai_rank": 49607,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "660(1)",
@@ -8000,8 +8222,8 @@
       "counselling_rank": 660,
       "ai_rank": 82511,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "424(1)",
@@ -8011,8 +8233,8 @@
       "counselling_rank": 424,
       "ai_rank": 82511,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867382,
     "fee": "₹1,25,000",
@@ -8226,9 +8448,9 @@
       "short_name": "PATHOLOGY"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -8247,7 +8469,7 @@
       "counselling_rank": 937,
       "ai_rank": 99049,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
@@ -8258,7 +8480,7 @@
       "counselling_rank": 680,
       "ai_rank": 99049,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -8269,7 +8491,7 @@
       "counselling_rank": 440,
       "ai_rank": 99049,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711483,
@@ -9131,8 +9353,8 @@
       "counselling_rank": 1025,
       "ai_rank": 100040,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "742(1)",
@@ -9142,8 +9364,8 @@
       "counselling_rank": 742,
       "ai_rank": 100040,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "492(1)",
@@ -9153,8 +9375,8 @@
       "counselling_rank": 492,
       "ai_rank": 100040,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867387,
     "fee": "₹1,25,000",
@@ -9740,9 +9962,9 @@
       "short_name": "RADIATION ONCOLOGY"
     },
     "quota": {
-      "id": 120,
-      "name": "Uttarakhand Private Seats - Govt Quota",
-      "short_name": "UK Priv-Govt Quota",
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Private Seats"
@@ -9761,7 +9983,7 @@
       "counselling_rank": 525,
       "ai_rank": 137114,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077743,
@@ -9939,9 +10161,9 @@
       "short_name": "FORENSIC MEDICINE"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -9960,7 +10182,7 @@
       "counselling_rank": 532,
       "ai_rank": 149080,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711468,
@@ -10529,9 +10751,9 @@
       "short_name": "MICROBIOLOGY"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -10550,7 +10772,7 @@
       "counselling_rank": 577,
       "ai_rank": 163764,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711482,
@@ -11173,8 +11395,8 @@
       "counselling_rank": 614,
       "ai_rank": 141639,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
       "value": "114(1)",
@@ -11184,8 +11406,8 @@
       "counselling_rank": 114,
       "ai_rank": 223864,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867385,
     "fee": "₹1,25,000",
@@ -11482,6 +11704,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 711515,
+    "fee": "₹5,00,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "500",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800624,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 6066,
+      "name": "Soban Singh Jeena Government Institute of Medical Science & Research, Almora",
+      "short_name": "Soban Singh Govt Inst, Almora",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 55,
+      "name": "MD Pathology",
+      "short_name": "PATHOLOGY"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "OBC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2025_3": {
       "value": "628(1)",
       "session": "2025",
@@ -11490,7 +11749,7 @@
       "counselling_rank": 628,
       "ai_rank": 177357,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
@@ -11501,7 +11760,7 @@
       "counselling_rank": 113,
       "ai_rank": 223772,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711515,
@@ -11549,7 +11808,7 @@
       "counselling_rank": 631,
       "ai_rank": 179999,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077746,
@@ -11624,9 +11883,9 @@
       "short_name": "MICROBIOLOGY"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -11645,7 +11904,7 @@
       "counselling_rank": 633,
       "ai_rank": 181443,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711470,
@@ -11718,17 +11977,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_4": {
-      "value": "1154(1)",
-      "session": "2024",
-      "round": "4",
-      "closing_rank": 1154,
-      "counselling_rank": 1154,
-      "ai_rank": 141260,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_5": {
       "value": "1355(1)",
       "session": "2024",
@@ -11772,6 +12020,54 @@
       "allotments_count": 7,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1022498,
+    "fee": "₹12,50,000*",
+    "stipend_year_1": "₹59,065",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800625,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 367,
+      "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
+      "short_name": "SGRRI, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 55,
+      "name": "MD Pathology",
+      "short_name": "PATHOLOGY"
+    },
+    "quota": {
+      "id": 8119,
+      "name": "Uttarakhand Private Seats - All India / Management (In-Service)",
+      "short_name": "UK Priv-AllIndia/Mgmt (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-MNG",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_4": {
+      "value": "1154(1)",
+      "session": "2024",
+      "round": "4",
+      "closing_rank": 1154,
+      "counselling_rank": 1154,
+      "ai_rank": 141260,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1022498,
     "fee": "₹12,50,000*",
@@ -11854,6 +12150,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1003100,
+    "fee": "₹0*",
+    "stipend_year_1": "₹40,000",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1200",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800626,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 364,
+      "name": "Himalayan Institute of Medical Sciences, Dehradun",
+      "short_name": "HIMS, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8119,
+      "name": "Uttarakhand Private Seats - All India / Management (In-Service)",
+      "short_name": "UK Priv-AllIndia/Mgmt (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-MNG",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2025_3": {
       "value": "635(1)",
       "session": "2025",
@@ -11862,7 +12195,7 @@
       "counselling_rank": 635,
       "ai_rank": 182345,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1003100,
@@ -11958,7 +12291,7 @@
       "counselling_rank": 663,
       "ai_rank": 120772,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -11969,8 +12302,8 @@
       "counselling_rank": 642,
       "ai_rank": 153496,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867384,
     "fee": "₹1,25,000",
@@ -12068,6 +12401,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 711467,
+    "fee": "₹1,00,000*",
+    "stipend_year_1": "₹76,600*",
+    "bond_years": "0*",
+    "bond_penalty": "₹0*",
+    "beds": "Info Not Available",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800627,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 368,
+      "name": "Veer Chandra Singh Garhwali Government Medical Science & Research Institute, Srinagar, Pauri Garhwal",
+      "short_name": "VCSG Med Coll, Pauri Garhwal",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "UR-WOMEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2025_3": {
       "value": "648(1)",
       "session": "2025",
@@ -12076,7 +12446,7 @@
       "counselling_rank": 648,
       "ai_rank": 185792,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711467,
@@ -12739,17 +13109,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_4": {
-      "value": "1232(1)",
-      "session": "2024",
-      "round": "4",
-      "closing_rank": 1232,
-      "counselling_rank": 1232,
-      "ai_rank": 153012,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "1075(3)",
       "session": "2025",
@@ -12792,6 +13151,54 @@
     "choice_list_count": 0
   },
   {
+    "id": 800628,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 367,
+      "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
+      "short_name": "SGRRI, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8119,
+      "name": "Uttarakhand Private Seats - All India / Management (In-Service)",
+      "short_name": "UK Priv-AllIndia/Mgmt (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-MNG",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_4": {
+      "value": "1232(1)",
+      "session": "2024",
+      "round": "4",
+      "closing_rank": 1232,
+      "counselling_rank": 1232,
+      "ai_rank": 153012,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "fee_id": 1022501,
+    "fee": "₹0*",
+    "stipend_year_1": "₹30,000*",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
     "id": 524732,
     "state": "Uttarakhand",
     "institute": {
@@ -12807,9 +13214,9 @@
       "short_name": "PATHOLOGY"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -12828,7 +13235,7 @@
       "counselling_rank": 703,
       "ai_rank": 205571,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711483,
@@ -13695,8 +14102,8 @@
       "counselling_rank": 1118,
       "ai_rank": 133289,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
       "value": "749(1)",
@@ -13706,8 +14113,8 @@
       "counselling_rank": 749,
       "ai_rank": 219766,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
       "value": "106(1)",
@@ -13717,7 +14124,7 @@
       "counselling_rank": 106,
       "ai_rank": 216957,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867385,
@@ -14000,6 +14407,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 711485,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800629,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "UR-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2025_2": {
       "value": "3(1)",
       "session": "2025",
@@ -14008,7 +14452,7 @@
       "counselling_rank": 3,
       "ai_rank": 35743,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711485,
@@ -14240,17 +14684,6 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
-    "cr_2024_1": {
-      "value": "2(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 2,
-      "counselling_rank": 2,
-      "ai_rank": 30387,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "22(1)",
       "session": "2025",
@@ -14261,6 +14694,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711485,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800630,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "UR-WOMEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_1": {
+      "value": "2(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 2,
+      "counselling_rank": 2,
+      "ai_rank": 30387,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711485,
     "fee": "₹60,000*",
@@ -14299,17 +14780,6 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
-    "cr_2025_1": {
-      "value": "10(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 10,
-      "counselling_rank": 10,
-      "ai_rank": 35743,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "34(1)",
       "session": "2025",
@@ -14320,6 +14790,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711462,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800631,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 365,
+      "name": "Doon Medical College, Dehradun",
+      "short_name": "Doon Med Coll, Dehradun",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 72,
+      "name": "MS Orthopaedics",
+      "short_name": "ORTHOPAEDICS"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "UR-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2025_1": {
+      "value": "10(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 10,
+      "counselling_rank": 10,
+      "ai_rank": 35743,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711462,
     "fee": "₹60,000*",
@@ -14739,9 +15257,9 @@
       "short_name": "ANAESTHESIOLOGY"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -14760,7 +15278,7 @@
       "counselling_rank": 53,
       "ai_rank": 149512,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1077755,
@@ -15224,8 +15742,8 @@
       "counselling_rank": 100,
       "ai_rank": 12097,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "60(1)",
@@ -15235,8 +15753,8 @@
       "counselling_rank": 60,
       "ai_rank": 12097,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867381,
     "fee": "₹1,25,000",
@@ -15434,7 +15952,7 @@
       "counselling_rank": 151,
       "ai_rank": 55687,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867379,
@@ -15846,17 +16364,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_1": {
-      "value": "274(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 274,
-      "counselling_rank": 274,
-      "ai_rank": 65797,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "52(1)",
       "session": "2025",
@@ -15867,6 +16374,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1022509,
+    "fee": "₹28,50,000*",
+    "stipend_year_1": "₹59,065",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800632,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 367,
+      "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
+      "short_name": "SGRRI, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 42,
+      "name": "MD Dermatology, Venereology & Leprosy",
+      "short_name": "DERMATOLOGY"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2025_1": {
+      "value": "274(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 274,
+      "counselling_rank": 274,
+      "ai_rank": 65797,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1022509,
     "fee": "₹28,50,000*",
@@ -16126,6 +16681,65 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
+    "cr_2025_1": {
+      "value": "319(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 319,
+      "counselling_rank": 319,
+      "ai_rank": 27101,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "cr_2025_2": {
+      "value": "224(1)",
+      "session": "2025",
+      "round": "2",
+      "closing_rank": 224,
+      "counselling_rank": 224,
+      "ai_rank": 27101,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 711493,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800633,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 365,
+      "name": "Doon Medical College, Dehradun",
+      "short_name": "Doon Med Coll, Dehradun",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "SC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2024_1": {
       "value": "224(1)",
       "session": "2024",
@@ -16158,28 +16772,6 @@
       "allotments_count": 1,
       "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
-    },
-    "cr_2025_1": {
-      "value": "319(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 319,
-      "counselling_rank": 319,
-      "ai_rank": 27101,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
-    },
-    "cr_2025_2": {
-      "value": "224(1)",
-      "session": "2025",
-      "round": "2",
-      "closing_rank": 224,
-      "counselling_rank": 224,
-      "ai_rank": 27101,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
     },
     "fee_id": 711493,
     "fee": "₹60,000*",
@@ -17066,8 +17658,8 @@
       "counselling_rank": 459,
       "ai_rank": 38627,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "360(1)",
@@ -17077,8 +17669,8 @@
       "counselling_rank": 360,
       "ai_rank": 42574,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867383,
     "fee": "₹1,25,000",
@@ -17386,17 +17978,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "1295(3)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 1295,
-      "counselling_rank": 1295,
-      "ai_rank": 169135,
-      "allotments_count": 3,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "507(2)",
       "session": "2025",
@@ -17418,6 +17999,54 @@
       "allotments_count": 2,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1022512,
+    "fee": "₹25,75,000*",
+    "stipend_year_1": "₹59,065",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800634,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 367,
+      "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
+      "short_name": "SGRRI, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 69,
+      "name": "MS General Surgery",
+      "short_name": "GENERAL SURGERY"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_3": {
+      "value": "1295(3)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 1295,
+      "counselling_rank": 1295,
+      "ai_rank": 169135,
+      "allotments_count": 3,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1022512,
     "fee": "₹25,75,000*",
@@ -17615,8 +18244,8 @@
       "counselling_rank": 522,
       "ai_rank": 61728,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 950601,
     "fee": "₹1,25,000",
@@ -17887,17 +18516,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2024_3": {
-      "value": "604(2)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 604,
-      "counselling_rank": 604,
-      "ai_rank": 89287,
-      "allotments_count": 2,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_4": {
       "value": "936(1)",
       "session": "2024",
@@ -17930,6 +18548,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711483,
+    "fee": "₹5,00,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800635,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 55,
+      "name": "MD Pathology",
+      "short_name": "PATHOLOGY"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "UR-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_3": {
+      "value": "604(2)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 604,
+      "counselling_rank": 604,
+      "ai_rank": 89287,
+      "allotments_count": 2,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711483,
     "fee": "₹5,00,000*",
@@ -18517,17 +19183,6 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
-    "cr_2024_3": {
-      "value": "746(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 746,
-      "counselling_rank": 746,
-      "ai_rank": 96188,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "672(2)",
       "session": "2025",
@@ -18549,6 +19204,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 1022503,
+    "fee": "₹25,75,000*",
+    "stipend_year_1": "₹59,065",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800636,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 367,
+      "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
+      "short_name": "SGRRI, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 67,
+      "name": "MD Tuberculosis & Respiratory Diseases",
+      "short_name": "TBRD"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_3": {
+      "value": "746(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 746,
+      "counselling_rank": 746,
+      "ai_rank": 96188,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1022503,
     "fee": "₹25,75,000*",
@@ -18687,7 +19390,7 @@
       "counselling_rank": 692,
       "ai_rank": 97634,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
@@ -18698,7 +19401,7 @@
       "counselling_rank": 517,
       "ai_rank": 101129,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867384,
@@ -18934,8 +19637,8 @@
       "counselling_rank": 551,
       "ai_rank": 42325,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "976(1)",
@@ -18967,8 +19670,8 @@
       "counselling_rank": 1121,
       "ai_rank": 96732,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "734(1)",
@@ -18978,7 +19681,7 @@
       "counselling_rank": 734,
       "ai_rank": 101129,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867385,
@@ -20157,7 +20860,7 @@
       "counselling_rank": 920,
       "ai_rank": 120772,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867384,
@@ -20216,7 +20919,7 @@
       "counselling_rank": 921,
       "ai_rank": 120842,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
@@ -20227,7 +20930,7 @@
       "counselling_rank": 664,
       "ai_rank": 120842,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867386,
@@ -20761,6 +21464,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1003136,
+    "fee": "₹15,00,000*",
+    "stipend_year_1": "₹40,000",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "1200",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800637,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 364,
+      "name": "Himalayan Institute of Medical Sciences, Dehradun",
+      "short_name": "HIMS, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 49,
+      "name": "MD Immuno Haematology & Blood Transfusion",
+      "short_name": "IHBT"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2025_2": {
       "value": "791(1)",
       "session": "2025",
@@ -20769,7 +21509,7 @@
       "counselling_rank": 791,
       "ai_rank": 137114,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1003136,
@@ -20868,6 +21608,54 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
+    "cr_2025_1": {
+      "value": "1122(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 1122,
+      "counselling_rank": 1122,
+      "ai_rank": 138175,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 1022512,
+    "fee": "₹25,75,000*",
+    "stipend_year_1": "₹59,065",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800638,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 367,
+      "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
+      "short_name": "SGRRI, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 69,
+      "name": "MS General Surgery",
+      "short_name": "GENERAL SURGERY"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "OBC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2024_1": {
       "value": "974(2)",
       "session": "2024",
@@ -20889,17 +21677,6 @@
       "allotments_count": 3,
       "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
-    },
-    "cr_2025_1": {
-      "value": "1122(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 1122,
-      "counselling_rank": 1122,
-      "ai_rank": 138175,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
     },
     "fee_id": 1022512,
     "fee": "₹25,75,000*",
@@ -20925,9 +21702,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -20984,9 +21761,9 @@
       "short_name": "OPHTHALMOLOGY"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -21209,9 +21986,9 @@
       "short_name": "PAEDIATRICS"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -21458,6 +22235,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 711485,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800639,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "OBC-WOMEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2024_2": {
       "value": "148(1)",
       "session": "2024",
@@ -21527,6 +22341,43 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711478,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800640,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 67,
+      "name": "MD Tuberculosis & Respiratory Diseases",
+      "short_name": "TBRD"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "UR-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
     },
     "cr_2024_3": {
       "value": "173(1)",
@@ -21656,6 +22507,43 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711485,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800641,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "SC-WOMEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
     },
     "cr_2024_2": {
       "value": "222(1)",
@@ -21998,9 +22886,9 @@
       "short_name": "SPM"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -22059,6 +22947,54 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
+    "cr_2024_3": {
+      "value": "418(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 418,
+      "counselling_rank": 418,
+      "ai_rank": 32063,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 711487,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800642,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 68,
+      "name": "MS ENT",
+      "short_name": "ENT"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "OBC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2024_1": {
       "value": "167(1)",
       "session": "2024",
@@ -22080,17 +23016,6 @@
       "allotments_count": 1,
       "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
-    },
-    "cr_2024_3": {
-      "value": "418(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 418,
-      "counselling_rank": 418,
-      "ai_rank": 32063,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
     },
     "fee_id": 711487,
     "fee": "₹60,000*",
@@ -22209,6 +23134,43 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711459,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800643,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 365,
+      "name": "Doon Medical College, Dehradun",
+      "short_name": "Doon Med Coll, Dehradun",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "SC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
     },
     "cr_2024_3": {
       "value": "453(1)",
@@ -22341,9 +23303,9 @@
       "short_name": "OBG"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -22411,9 +23373,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 120,
-      "name": "Uttarakhand Private Seats - Govt Quota",
-      "short_name": "UK Priv-Govt Quota",
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Private Seats"
@@ -22612,17 +23574,6 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
-    "cr_2024_1": {
-      "value": "222(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 222,
-      "counselling_rank": 222,
-      "ai_rank": 63493,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "570(1)",
       "session": "2024",
@@ -22644,6 +23595,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711488,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800644,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 53,
+      "name": "MD Paediatrics",
+      "short_name": "PAEDIATRICS"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "SC-WOMEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_1": {
+      "value": "222(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 222,
+      "counselling_rank": 222,
+      "ai_rank": 63493,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711488,
     "fee": "₹60,000*",
@@ -23010,17 +24009,6 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
-    "cr_2024_1": {
-      "value": "399(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 399,
-      "counselling_rank": 399,
-      "ai_rank": 63515,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "598(1)",
       "session": "2024",
@@ -23031,6 +24019,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711490,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "600",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800645,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 366,
+      "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College, Haldwani)",
+      "short_name": "Govt Med Coll, Haldwani",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 32,
+      "name": "MD Anaesthesiology",
+      "short_name": "ANAESTHESIOLOGY"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "SC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_1": {
+      "value": "399(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 399,
+      "counselling_rank": 399,
+      "ai_rank": 63515,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "772(1)",
@@ -23080,17 +24116,6 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
-    "cr_2024_1": {
-      "value": "763(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 763,
-      "counselling_rank": 763,
-      "ai_rank": 99939,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "755(1)",
       "session": "2024",
@@ -23101,6 +24126,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711466,
+    "fee": "₹5,00,000*",
+    "stipend_year_1": "₹76,600*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "Info Not Available",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800646,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 368,
+      "name": "Veer Chandra Singh Garhwali Government Medical Science & Research Institute, Srinagar, Pauri Garhwal",
+      "short_name": "VCSG Med Coll, Pauri Garhwal",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 55,
+      "name": "MD Pathology",
+      "short_name": "PATHOLOGY"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "SC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_1": {
+      "value": "763(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 763,
+      "counselling_rank": 763,
+      "ai_rank": 99939,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "788(1)",
@@ -23550,9 +24623,9 @@
       "short_name": "MICROBIOLOGY"
     },
     "quota": {
-      "id": 118,
-      "name": "Uttarakhand Govt Quota",
-      "short_name": "UK-Govt Quota",
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Govt Quota"
@@ -23726,8 +24799,8 @@
       "counselling_rank": 966,
       "ai_rank": 79114,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_2": {
       "value": "966(1)",
@@ -23737,8 +24810,8 @@
       "counselling_rank": 966,
       "ai_rank": 79114,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 867384,
     "fee": "₹1,25,000",
@@ -23834,9 +24907,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 120,
-      "name": "Uttarakhand Private Seats - Govt Quota",
-      "short_name": "UK Priv-Govt Quota",
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "Uttarakhand Private Seats"
@@ -24622,6 +25695,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 1003137,
+    "fee": "₹26,00,000*",
+    "stipend_year_1": "₹40,000",
+    "bond_years": "1",
+    "bond_penalty": "₹25,00,000",
+    "beds": "1200",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800647,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 364,
+      "name": "Himalayan Institute of Medical Sciences, Dehradun",
+      "short_name": "HIMS, Dehradun",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 71,
+      "name": "MS Ophthalmology",
+      "short_name": "OPHTHALMOLOGY"
+    },
+    "quota": {
+      "id": 8120,
+      "name": "Uttarakhand Private Seats - Govt Quota (In-Service)",
+      "short_name": "UK Priv-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Private Seats"
+    },
+    "category": "UR-WOMEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
     "cr_2024_3": {
       "value": "1315(1)",
       "session": "2024",
@@ -24788,28 +25898,6 @@
       "name": "Uttarakhand - PG Medical",
       "short_name": "UK PG"
     },
-    "cr_2024_1": {
-      "value": "549(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 549,
-      "counselling_rank": 549,
-      "ai_rank": 82471,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
-    "cr_2024_2": {
-      "value": "433(1)",
-      "session": "2024",
-      "round": "2",
-      "closing_rank": 433,
-      "counselling_rank": 433,
-      "ai_rank": 79081,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_3": {
       "value": "871(1)",
       "session": "2024",
@@ -24831,6 +25919,65 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 711456,
+    "fee": "₹5,00,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "0",
+    "bond_penalty": "₹0",
+    "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800648,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 365,
+      "name": "Doon Medical College, Dehradun",
+      "short_name": "Doon Med Coll, Dehradun",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 55,
+      "name": "MD Pathology",
+      "short_name": "PATHOLOGY"
+    },
+    "quota": {
+      "id": 8118,
+      "name": "Uttarakhand Govt Quota (In-Service)",
+      "short_name": "UK-Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "SC-OPEN",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2024_1": {
+      "value": "549(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 549,
+      "counselling_rank": 549,
+      "ai_rank": 82471,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
+    "cr_2024_2": {
+      "value": "433(1)",
+      "session": "2024",
+      "round": "2",
+      "closing_rank": 433,
+      "counselling_rank": 433,
+      "ai_rank": 79081,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 711456,
     "fee": "₹5,00,000*",

@@ -1,8 +1,8 @@
 {
   "datasetVersion": "1.0.0",
-  "source": "All-India.json",
-  "retrievedAt": "2026-10-01T06:14:07.209Z",
-  "recordCount": 818,
+  "source": "bihar.json",
+  "retrievedAt": "2026-10-26T12:50:41.622Z",
+  "recordCount": 820,
   "historicalYears": [
     2024,
     2025
@@ -14,5 +14,5 @@
     4,
     5
   ],
-  "generatedAt": "2026-10-01T06:14:07.210Z"
+  "generatedAt": "2026-10-26T12:50:41.623Z"
 }

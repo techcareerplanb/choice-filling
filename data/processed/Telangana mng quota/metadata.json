@@ -1,7 +1,7 @@
 {
   "datasetVersion": "1.0.0",
   "source": "Telangana mng quota.json",
-  "retrievedAt": "2026-10-22T08:49:41.057Z",
+  "retrievedAt": "2026-10-26T12:50:41.145Z",
   "recordCount": 750,
   "historicalYears": [
     2024,
@@ -16,5 +16,5 @@
     5,
     6
   ],
-  "generatedAt": "2026-10-22T08:49:41.058Z"
+  "generatedAt": "2026-10-26T12:50:41.146Z"
 }

@@ -20,7 +20,7 @@ export async function renderCollege(container, optionId, params = {}) {
     const content = document.getElementById('college-detail-content');
     
     try {
-        const opt = await engine.getOption(optionId, userRank, params.year, params.round);
+        const opt = await engine.getOption(optionId, userRank, params.year, params.round, params.includeInservice);
         
         let cutoffsHtml = `<p class="text-muted">No historical cutoff data available for this specific opportunity.</p>`;
         let chartHtml = '';

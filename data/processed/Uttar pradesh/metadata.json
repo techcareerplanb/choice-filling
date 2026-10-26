@@ -1,8 +1,8 @@
 {
   "datasetVersion": "1.0.0",
-  "source": "All-India.json",
-  "retrievedAt": "2026-10-01T06:14:06.907Z",
-  "recordCount": 1780,
+  "source": "Uttar pradesh.json",
+  "retrievedAt": "2026-10-26T12:50:41.314Z",
+  "recordCount": 1874,
   "historicalYears": [
     2024,
     2025
@@ -14,5 +14,5 @@
     4,
     5
   ],
-  "generatedAt": "2026-10-01T06:14:06.908Z"
+  "generatedAt": "2026-10-26T12:50:41.318Z"
 }

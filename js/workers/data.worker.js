@@ -80,14 +80,25 @@ self.onmessage = async (e) => {
                         continue;
                     }
                     
+                    // Check in-service quota
+                    const isQuotaInservice = hydrated.quota && (
+                        hydrated.quota.name.toLowerCase().includes('inservice') ||
+                        hydrated.quota.name.toLowerCase().includes('in-service')
+                    );
+                    if (criteria.includeInservice !== 'true' && isQuotaInservice) {
+                        continue;
+                    }
+
                     // B. Analyze Cutoffs
-                    let filteredCutoffs = hydrated.cutoffs;
-                    if (criteria.year || criteria.round) {
-                        filteredCutoffs = hydrated.cutoffs.filter(c => {
-                            const yearMatch = !criteria.year || c.year === criteria.year;
-                            const roundMatch = !criteria.round || c.round === criteria.round;
-                            return yearMatch && roundMatch;
-                        });
+                    let filteredCutoffs = hydrated.cutoffs.filter(c => {
+                        const yearMatch = !criteria.year || c.year === criteria.year;
+                        const roundMatch = !criteria.round || c.round === criteria.round;
+                        const isService = c.candidateFlag === 'inservice_candidate' || c.inserviceCandidate === true;
+                        const inserviceMatch = criteria.includeInservice === 'true' || !isService;
+                        return yearMatch && roundMatch && inserviceMatch;
+                    });
+                    if (filteredCutoffs.length === 0 && hydrated.cutoffs.length > 0) {
+                        continue;
                     }
                     const analyzed = analyzeCutoffs(filteredCutoffs);
                     hydrated._analyzedCutoffs = analyzed;

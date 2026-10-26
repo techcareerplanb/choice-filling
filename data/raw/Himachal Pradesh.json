@@ -15,9 +15,9 @@
       "short_name": "RADIO DIAGNOSIS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -47,7 +47,7 @@
       "counselling_rank": 42,
       "ai_rank": 23006,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1033488,
@@ -269,9 +269,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -323,7 +323,7 @@
       "counselling_rank": 73,
       "ai_rank": 40619,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640639,
@@ -442,9 +442,9 @@
       "short_name": "RADIO DIAGNOSIS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -485,7 +485,7 @@
       "counselling_rank": 83,
       "ai_rank": 48323,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640637,
@@ -812,6 +812,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 830897,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "828",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800000,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 96,
+      "name": "Dr Rajendra Prasad Government Medical College, Tanda",
+      "short_name": "RPG, Tanda",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
     "cr_2025_1": {
       "value": "73(1)",
       "session": "2025",
@@ -831,7 +868,7 @@
       "counselling_rank": 113,
       "ai_rank": 45444,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830897,
@@ -1171,9 +1208,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -1192,7 +1229,7 @@
       "counselling_rank": 182,
       "ai_rank": 26658,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830918,
@@ -1528,9 +1565,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -1560,7 +1597,7 @@
       "counselling_rank": 216,
       "ai_rank": 38425,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830920,
@@ -1587,9 +1624,9 @@
       "short_name": "TBRD"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -1641,7 +1678,7 @@
       "counselling_rank": 250,
       "ai_rank": 51415,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640657,
@@ -1668,9 +1705,9 @@
       "short_name": "OPHTHALMOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -1722,7 +1759,7 @@
       "counselling_rank": 256,
       "ai_rank": 40834,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
@@ -1733,7 +1770,7 @@
       "counselling_rank": 347,
       "ai_rank": 81339,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830899,
@@ -1760,9 +1797,9 @@
       "short_name": "PAEDIATRICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -1825,7 +1862,7 @@
       "counselling_rank": 286,
       "ai_rank": 47025,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830901,
@@ -2130,6 +2167,54 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
+    "cr_2025_3": {
+      "value": "321(1)",
+      "session": "2025",
+      "round": "3",
+      "closing_rank": 321,
+      "counselling_rank": 321,
+      "ai_rank": 41925,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 640635,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "1031",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800001,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 95,
+      "name": "Indira Gandhi Medical College, Shimla",
+      "short_name": "IGMC, Shimla",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
     "cr_2024_1": {
       "value": "449(4)",
       "session": "2024",
@@ -2174,17 +2259,6 @@
       "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
-    "cr_2025_3": {
-      "value": "321(1)",
-      "session": "2025",
-      "round": "3",
-      "closing_rank": 321,
-      "counselling_rank": 321,
-      "ai_rank": 41925,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
-    },
     "fee_id": 640635,
     "fee": "₹24,000*",
     "stipend_year_1": "₹40,000*",
@@ -2209,9 +2283,9 @@
       "short_name": "ENT"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -2252,7 +2326,7 @@
       "counselling_rank": 280,
       "ai_rank": 47025,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -2263,7 +2337,7 @@
       "counselling_rank": 331,
       "ai_rank": 75822,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640633,
@@ -2290,9 +2364,9 @@
       "short_name": "OBG"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -2344,7 +2418,7 @@
       "counselling_rank": 343,
       "ai_rank": 59926,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830902,
@@ -2371,9 +2445,9 @@
       "short_name": "ENT"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -2403,7 +2477,7 @@
       "counselling_rank": 369,
       "ai_rank": 69096,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830923,
@@ -2568,6 +2642,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 640626,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "630",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800002,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 6119,
+      "name": "Dr Radhakrishnan Government Medical College, Hamirpur",
+      "short_name": "Govt Med Coll, Hamirpur",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
     "cr_2025_3": {
       "value": "382(1)",
       "session": "2025",
@@ -2576,7 +2687,7 @@
       "counselling_rank": 382,
       "ai_rank": 82590,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640626,
@@ -2754,9 +2865,9 @@
       "short_name": "GENERAL SURGERY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -2797,7 +2908,7 @@
       "counselling_rank": 458,
       "ai_rank": 72078,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830898,
@@ -2837,17 +2948,6 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
-    "cr_2024_1": {
-      "value": "532(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 532,
-      "counselling_rank": 532,
-      "ai_rank": 54385,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "632(1)",
       "session": "2024",
@@ -2858,6 +2958,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 830905,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "828",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800003,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 96,
+      "name": "Dr Rajendra Prasad Government Medical College, Tanda",
+      "short_name": "RPG, Tanda",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2024_1": {
+      "value": "532(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 532,
+      "counselling_rank": 532,
+      "ai_rank": 54385,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_1": {
       "value": "516(1)",
@@ -2878,7 +3026,7 @@
       "counselling_rank": 572,
       "ai_rank": 94899,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -2889,7 +3037,7 @@
       "counselling_rank": 477,
       "ai_rank": 72876,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830905,
@@ -2948,7 +3096,7 @@
       "counselling_rank": 484,
       "ai_rank": 69517,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830894,
@@ -2975,9 +3123,9 @@
       "short_name": "ANAESTHESIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -3040,7 +3188,7 @@
       "counselling_rank": 454,
       "ai_rank": 69926,
       "allotments_count": 3,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -3051,7 +3199,7 @@
       "counselling_rank": 485,
       "ai_rank": 76086,
       "allotments_count": 2,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830903,
@@ -3483,9 +3631,9 @@
       "short_name": "GENERAL SURGERY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -3548,7 +3696,7 @@
       "counselling_rank": 413,
       "ai_rank": 85703,
       "allotments_count": 2,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -3559,7 +3707,7 @@
       "counselling_rank": 538,
       "ai_rank": 94111,
       "allotments_count": 3,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
@@ -3570,7 +3718,7 @@
       "counselling_rank": 438,
       "ai_rank": 99743,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640619,
@@ -3629,7 +3777,7 @@
       "counselling_rank": 437,
       "ai_rank": 92623,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -3640,7 +3788,7 @@
       "counselling_rank": 550,
       "ai_rank": 112332,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830893,
@@ -3667,9 +3815,9 @@
       "short_name": "ANAESTHESIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -3732,7 +3880,7 @@
       "counselling_rank": 466,
       "ai_rank": 72876,
       "allotments_count": 2,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -3743,7 +3891,7 @@
       "counselling_rank": 562,
       "ai_rank": 84270,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640636,
@@ -3794,17 +3942,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_1": {
-      "value": "461(1)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 461,
-      "counselling_rank": 461,
-      "ai_rank": 70529,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_2": {
       "value": "588(1)",
       "session": "2025",
@@ -3816,6 +3953,54 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 830909,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "828",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800004,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 96,
+      "name": "Dr Rajendra Prasad Government Medical College, Tanda",
+      "short_name": "RPG, Tanda",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 45,
+      "name": "MD Forensic Medicine",
+      "short_name": "FORENSIC MEDICINE"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2025_1": {
+      "value": "461(1)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 461,
+      "counselling_rank": 461,
+      "ai_rank": 70529,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
     "cr_2025_3": {
       "value": "574(1)",
       "session": "2025",
@@ -3824,7 +4009,7 @@
       "counselling_rank": 574,
       "ai_rank": 116343,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830909,
@@ -3851,9 +4036,9 @@
       "short_name": "PATHOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -3916,7 +4101,7 @@
       "counselling_rank": 538,
       "ai_rank": 83377,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -3927,7 +4112,7 @@
       "counselling_rank": 585,
       "ai_rank": 97094,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
@@ -3938,7 +4123,7 @@
       "counselling_rank": 450,
       "ai_rank": 94899,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_5": {
@@ -3949,7 +4134,7 @@
       "counselling_rank": 440,
       "ai_rank": 90260,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640624,
@@ -4008,7 +4193,7 @@
       "counselling_rank": 591,
       "ai_rank": 119426,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
@@ -4019,7 +4204,7 @@
       "counselling_rank": 459,
       "ai_rank": 106824,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830895,
@@ -4409,6 +4594,54 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
+    "cr_2025_2": {
+      "value": "603(1)",
+      "session": "2025",
+      "round": "2",
+      "closing_rank": 603,
+      "counselling_rank": 603,
+      "ai_rank": 86396,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 640640,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "323",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800005,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 3422,
+      "name": "Dr YS Parmar Government Medical College, Nahan",
+      "short_name": "Govt Med Coll, Nahan",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
     "cr_2024_3": {
       "value": "851(1)",
       "session": "2024",
@@ -4442,17 +4675,6 @@
       "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
-    "cr_2025_2": {
-      "value": "603(1)",
-      "session": "2025",
-      "round": "2",
-      "closing_rank": 603,
-      "counselling_rank": 603,
-      "ai_rank": 86396,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
-    },
     "cr_2025_3": {
       "value": "686(1)",
       "session": "2025",
@@ -4461,7 +4683,7 @@
       "counselling_rank": 686,
       "ai_rank": 116155,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640640,
@@ -4560,6 +4782,43 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 640620,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "1031",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800006,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 95,
+      "name": "Indira Gandhi Medical College, Shimla",
+      "short_name": "IGMC, Shimla",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "SC-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
     "cr_2025_3": {
       "value": "705(1)",
       "session": "2025",
@@ -4568,7 +4827,7 @@
       "counselling_rank": 705,
       "ai_rank": 119886,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640620,
@@ -4656,17 +4915,6 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
-    "cr_2024_1": {
-      "value": "748(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 748,
-      "counselling_rank": 748,
-      "ai_rank": 80228,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_2": {
       "value": "900(1)",
       "session": "2024",
@@ -4677,6 +4925,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 640625,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "1031",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800007,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 95,
+      "name": "Indira Gandhi Medical College, Shimla",
+      "short_name": "IGMC, Shimla",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 57,
+      "name": "MD Pharmacology",
+      "short_name": "PHARMACOLOGY"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2024_1": {
+      "value": "748(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 748,
+      "counselling_rank": 748,
+      "ai_rank": 80228,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2024_3": {
       "value": "380(1)",
@@ -4697,7 +4993,7 @@
       "counselling_rank": 715,
       "ai_rank": 107674,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640625,
@@ -5131,17 +5427,6 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
-    "cr_2024_3": {
-      "value": "1103(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 1103,
-      "counselling_rank": 1103,
-      "ai_rank": 107344,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_3": {
       "value": "799(2)",
       "session": "2025",
@@ -5153,6 +5438,54 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 640644,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "500",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800008,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 1333,
+      "name": "Shri Lal Bahadur Shastri Government Medical College, Mandi",
+      "short_name": "LalBahShastri Govt Med, Mandi",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 51,
+      "name": "MD Microbiology",
+      "short_name": "MICROBIOLOGY"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2024_3": {
+      "value": "1103(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 1103,
+      "counselling_rank": 1103,
+      "ai_rank": 107344,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
     "cr_2025_4": {
       "value": "690(1)",
       "session": "2025",
@@ -5161,7 +5494,7 @@
       "counselling_rank": 690,
       "ai_rank": 204988,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640644,
@@ -5514,6 +5847,54 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
+    "cr_2025_3": {
+      "value": "812(1)",
+      "session": "2025",
+      "round": "3",
+      "closing_rank": 812,
+      "counselling_rank": 812,
+      "ai_rank": 132763,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 640622,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "1031",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800009,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 95,
+      "name": "Indira Gandhi Medical College, Shimla",
+      "short_name": "IGMC, Shimla",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 59,
+      "name": "MD Physiology",
+      "short_name": "PHYSIOLOGY"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
     "cr_2024_1": {
       "value": "598(1)",
       "session": "2024",
@@ -5546,17 +5927,6 @@
       "allotments_count": 1,
       "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
-    },
-    "cr_2025_3": {
-      "value": "812(1)",
-      "session": "2025",
-      "round": "3",
-      "closing_rank": 812,
-      "counselling_rank": 812,
-      "ai_rank": 132763,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
     },
     "fee_id": 640622,
     "fee": "₹24,000*",
@@ -6028,9 +6398,9 @@
       "short_name": "DERMATOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -6049,7 +6419,7 @@
       "counselling_rank": 843,
       "ai_rank": 157379,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1033493,
@@ -6108,7 +6478,7 @@
       "counselling_rank": 844,
       "ai_rank": 176772,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830895,
@@ -6135,9 +6505,9 @@
       "short_name": "PHYSIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -6156,7 +6526,7 @@
       "counselling_rank": 845,
       "ai_rank": 174806,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1033494,
@@ -6183,9 +6553,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -6204,7 +6574,7 @@
       "counselling_rank": 849,
       "ai_rank": 160706,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1033495,
@@ -6234,6 +6604,54 @@
       "id": 56,
       "name": "HP State Quota",
       "short_name": "HP Govt Quota",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2025_5": {
+      "value": "620(1)",
+      "session": "2025",
+      "round": "5",
+      "closing_rank": 620,
+      "counselling_rank": 620,
+      "ai_rank": 140359,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 830910,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "828",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800010,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 96,
+      "name": "Dr Rajendra Prasad Government Medical College, Tanda",
+      "short_name": "RPG, Tanda",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 51,
+      "name": "MD Microbiology",
+      "short_name": "MICROBIOLOGY"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -6274,7 +6692,7 @@
       "counselling_rank": 686,
       "ai_rank": 108651,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_3": {
@@ -6285,19 +6703,8 @@
       "counselling_rank": 854,
       "ai_rank": 173683,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
-    },
-    "cr_2025_5": {
-      "value": "620(1)",
-      "session": "2025",
-      "round": "5",
-      "closing_rank": 620,
-      "counselling_rank": 620,
-      "ai_rank": 140359,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
     },
     "fee_id": 830910,
     "fee": "₹24,000*",
@@ -6323,9 +6730,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -6344,7 +6751,7 @@
       "counselling_rank": 864,
       "ai_rank": 180856,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1033490,
@@ -6478,9 +6885,9 @@
       "short_name": "ANATOMY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -6510,7 +6917,7 @@
       "counselling_rank": 878,
       "ai_rank": 195587,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 1033497,
@@ -6642,17 +7049,6 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
-    "cr_2024_4": {
-      "value": "1388(1)",
-      "session": "2024",
-      "round": "4",
-      "closing_rank": 1388,
-      "counselling_rank": 1388,
-      "ai_rank": 158280,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2024_5": {
       "value": "1354(1)",
       "session": "2024",
@@ -6675,6 +7071,54 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 640634,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "1031",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800011,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 95,
+      "name": "Indira Gandhi Medical College, Shimla",
+      "short_name": "IGMC, Shimla",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 34,
+      "name": "MD Anatomy",
+      "short_name": "ANATOMY"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2024_4": {
+      "value": "1388(1)",
+      "session": "2024",
+      "round": "4",
+      "closing_rank": 1388,
+      "counselling_rank": 1388,
+      "ai_rank": 158280,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
     "cr_2025_3": {
       "value": "886(1)",
       "session": "2025",
@@ -6683,7 +7127,7 @@
       "counselling_rank": 886,
       "ai_rank": 194556,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640634,
@@ -6758,9 +7202,9 @@
       "short_name": "PHARMACOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -6779,7 +7223,7 @@
       "counselling_rank": 888,
       "ai_rank": 204625,
       "allotments_count": 2,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "cr_2025_4": {
@@ -6790,7 +7234,7 @@
       "counselling_rank": 647,
       "ai_rank": 153902,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830911,
@@ -7020,9 +7464,9 @@
       "short_name": "DERMATOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -7628,9 +8072,9 @@
       "short_name": "PSYCHIATRY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -7676,9 +8120,9 @@
       "short_name": "RADIATION ONCOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -7816,9 +8260,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -7875,9 +8319,9 @@
       "short_name": "PSYCHIATRY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -7945,9 +8389,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8015,9 +8459,9 @@
       "short_name": "DERMATOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8074,9 +8518,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8310,9 +8754,9 @@
       "short_name": "PAEDIATRICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8380,9 +8824,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8439,9 +8883,9 @@
       "short_name": "OPHTHALMOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8548,17 +8992,6 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
-    "cr_2024_1": {
-      "value": "416(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 416,
-      "counselling_rank": 416,
-      "ai_rank": 53043,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "304(1)",
       "session": "2025",
@@ -8569,6 +9002,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 640639,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "1031",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800012,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 95,
+      "name": "Indira Gandhi Medical College, Shimla",
+      "short_name": "IGMC, Shimla",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "SC-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2024_1": {
+      "value": "416(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 416,
+      "counselling_rank": 416,
+      "ai_rank": 53043,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640639,
     "fee": "₹24,000*",
@@ -8642,9 +9123,9 @@
       "short_name": "PATHOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8690,9 +9171,9 @@
       "short_name": "ENT"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8797,9 +9278,9 @@
       "short_name": "GENERAL SURGERY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8893,9 +9374,9 @@
       "short_name": "PAEDIATRICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -8954,17 +9435,6 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
-    "cr_2024_1": {
-      "value": "475(1)",
-      "session": "2024",
-      "round": "1",
-      "closing_rank": 475,
-      "counselling_rank": 475,
-      "ai_rank": 68246,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "302(1)",
       "session": "2025",
@@ -8976,6 +9446,54 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
+    "fee_id": 830902,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "828",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800013,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 96,
+      "name": "Dr Rajendra Prasad Government Medical College, Tanda",
+      "short_name": "RPG, Tanda",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 70,
+      "name": "MS Obstetrics & Gynaecology",
+      "short_name": "OBG"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "ST-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2024_1": {
+      "value": "475(1)",
+      "session": "2024",
+      "round": "1",
+      "closing_rank": 475,
+      "counselling_rank": 475,
+      "ai_rank": 68246,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
+    },
     "cr_2025_2": {
       "value": "358(1)",
       "session": "2025",
@@ -8984,7 +9502,7 @@
       "counselling_rank": 358,
       "ai_rank": 55658,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830902,
@@ -9214,9 +9732,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9262,9 +9780,9 @@
       "short_name": "GENERAL SURGERY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9310,9 +9828,9 @@
       "short_name": "OBG"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9380,9 +9898,9 @@
       "short_name": "GENERAL SURGERY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9509,9 +10027,9 @@
       "short_name": "OPHTHALMOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9568,9 +10086,9 @@
       "short_name": "OBG"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9611,7 +10129,7 @@
       "counselling_rank": 473,
       "ai_rank": 89026,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830902,
@@ -9670,8 +10188,8 @@
       "counselling_rank": 508,
       "ai_rank": 70383,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830912,
     "fee": "₹1,25,000",
@@ -9745,9 +10263,9 @@
       "short_name": "GENERAL SURGERY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9793,9 +10311,9 @@
       "short_name": "ANAESTHESIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9841,9 +10359,9 @@
       "short_name": "PSYCHIATRY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -9910,8 +10428,8 @@
       "counselling_rank": 501,
       "ai_rank": 70383,
       "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "cr_2025_2": {
       "value": "557(1)",
@@ -9921,7 +10439,7 @@
       "counselling_rank": 557,
       "ai_rank": 88284,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830916,
@@ -9948,9 +10466,9 @@
       "short_name": "ANAESTHESIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -10018,9 +10536,9 @@
       "short_name": "FORENSIC MEDICINE"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -10050,7 +10568,7 @@
       "counselling_rank": 564,
       "ai_rank": 87703,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640632,
@@ -10077,9 +10595,9 @@
       "short_name": "ANAESTHESIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -10197,17 +10715,6 @@
       "name": "Himachal Pradesh - PG Medical",
       "short_name": "HP PG"
     },
-    "cr_2024_3": {
-      "value": "1433(1)",
-      "session": "2024",
-      "round": "3",
-      "closing_rank": 1433,
-      "counselling_rank": 1433,
-      "ai_rank": 174016,
-      "allotments_count": 1,
-      "inservice_candidate": true,
-      "candidate_flag": "inservice_candidate"
-    },
     "cr_2025_1": {
       "value": "597(1)",
       "session": "2025",
@@ -10218,6 +10725,54 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 885497,
+    "fee": "₹26,35,600*",
+    "stipend_year_1": "₹40,000",
+    "bond_years": "1",
+    "bond_penalty": "₹10,00,000",
+    "beds": "720",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800014,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 97,
+      "name": "Maharishi Markandeshwar Medical College & Hospital, Solan",
+      "short_name": "MMU, Solan",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 69,
+      "name": "MS General Surgery",
+      "short_name": "GENERAL SURGERY"
+    },
+    "quota": {
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP Private Seats"
+    },
+    "category": "GEN-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
+    },
+    "cr_2024_3": {
+      "value": "1433(1)",
+      "session": "2024",
+      "round": "3",
+      "closing_rank": 1433,
+      "counselling_rank": 1433,
+      "ai_rank": 174016,
+      "allotments_count": 1,
+      "inservice_candidate": true,
+      "candidate_flag": "inservice_candidate"
     },
     "fee_id": 885497,
     "fee": "₹26,35,600*",
@@ -10324,9 +10879,9 @@
       "short_name": "OBG"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -10453,9 +11008,9 @@
       "short_name": "RADIO DIAGNOSIS"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -10523,9 +11078,9 @@
       "short_name": "OBG"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -10544,7 +11099,7 @@
       "counselling_rank": 629,
       "ai_rank": 118926,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640635,
@@ -10662,7 +11217,7 @@
       "counselling_rank": 637,
       "ai_rank": 99243,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830917,
@@ -10689,9 +11244,9 @@
       "short_name": "PHARMACOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -10732,7 +11287,7 @@
       "counselling_rank": 654,
       "ai_rank": 102681,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 640645,
@@ -10807,9 +11362,9 @@
       "short_name": "PHARMACOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -10855,9 +11410,9 @@
       "short_name": "BIOCHEMISTRY"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -11032,9 +11587,9 @@
       "short_name": "MICROBIOLOGY"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -11650,7 +12205,7 @@
       "counselling_rank": 735,
       "ai_rank": 121661,
       "allotments_count": 1,
-      "inservice_candidate": false,
+      "inservice_candidate": true,
       "candidate_flag": "inservice_candidate"
     },
     "fee_id": 830916,
@@ -12422,9 +12977,9 @@
       "short_name": "RADIO DIAGNOSIS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -12470,9 +13025,9 @@
       "short_name": "ENT"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -12780,9 +13335,9 @@
       "short_name": "RADIO DIAGNOSIS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -12876,9 +13431,9 @@
       "short_name": "PSYCHIATRY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -12972,9 +13527,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -13020,9 +13575,9 @@
       "short_name": "PAEDIATRICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -13068,9 +13623,9 @@
       "short_name": "PSYCHIATRY"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -13282,9 +13837,9 @@
       "short_name": "PATHOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -13330,9 +13885,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -13389,9 +13944,9 @@
       "short_name": "ANAESTHESIOLOGY"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -13460,6 +14015,43 @@
       "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
+    },
+    "fee_id": 640620,
+    "fee": "₹24,000*",
+    "stipend_year_1": "₹40,000*",
+    "bond_years": "2*",
+    "bond_penalty": "₹40,00,000*",
+    "beds": "1031",
+    "choice_list_count": 0
+  },
+  {
+    "id": 800015,
+    "state": "Himachal Pradesh",
+    "institute": {
+      "id": 95,
+      "name": "Indira Gandhi Medical College, Shimla",
+      "short_name": "IGMC, Shimla",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 63,
+      "name": "MD Social & Preventive Medicine",
+      "short_name": "SPM"
+    },
+    "quota": {
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "HP State Quota"
+    },
+    "category": "ST-GDO",
+    "counselling": {
+      "id": 12,
+      "name": "Himachal Pradesh - PG Medical",
+      "short_name": "HP PG"
     },
     "cr_2024_2": {
       "value": "944(1)",
@@ -13566,9 +14158,9 @@
       "short_name": "PAEDIATRICS"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -13614,9 +14206,9 @@
       "short_name": "ENT"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -13769,9 +14361,9 @@
       "short_name": "MICROBIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -13828,9 +14420,9 @@
       "short_name": "MICROBIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -13946,9 +14538,9 @@
       "short_name": "ANATOMY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -14090,9 +14682,9 @@
       "short_name": "ANAESTHESIOLOGY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -14444,9 +15036,9 @@
       "short_name": "BIOCHEMISTRY"
     },
     "quota": {
-      "id": 56,
-      "name": "HP State Quota",
-      "short_name": "HP Govt Quota",
+      "id": 8056,
+      "name": "HP State Quota (In-Service)",
+      "short_name": "HP Govt Quota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP State Quota"
@@ -14492,9 +15084,9 @@
       "short_name": "ORTHOPAEDICS"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -14551,9 +15143,9 @@
       "short_name": "GENERAL MEDICINE"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
@@ -14658,9 +15250,9 @@
       "short_name": "MICROBIOLOGY"
     },
     "quota": {
-      "id": 207,
-      "name": "HP Private Seats - State Quota",
-      "short_name": "HP Private-StateQuota",
+      "id": 8207,
+      "name": "HP Private Seats - State Quota (In-Service)",
+      "short_name": "HP Private-StateQuota (In-Service)",
       "tooltip_content": null,
       "tooltip_content_html": null,
       "master_quota": "HP Private Seats"
