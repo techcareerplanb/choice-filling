@@ -244,16 +244,24 @@ const metadata = {
 };
 
 // Write to files
-fs.writeFileSync(path.join(OUT_DIR, 'metadata.json'), JSON.stringify(metadata, null, 2));
-fs.writeFileSync(path.join(OUT_DIR, 'institutes.json'), JSON.stringify(Object.values(institutes)));
-fs.writeFileSync(path.join(OUT_DIR, 'courses.json'), JSON.stringify(Object.values(courses)));
-fs.writeFileSync(path.join(OUT_DIR, 'quotas.json'), JSON.stringify(Object.values(quotas)));
-fs.writeFileSync(path.join(OUT_DIR, 'counsellings.json'), JSON.stringify(Object.values(counsellings)));
-fs.writeFileSync(path.join(OUT_DIR, 'categories.json'), JSON.stringify(categories));
-fs.writeFileSync(path.join(OUT_DIR, 'options.json'), JSON.stringify(options));
-fs.writeFileSync(path.join(OUT_DIR, 'cutoffs.json'), JSON.stringify(cutoffs));
-fs.writeFileSync(path.join(OUT_DIR, 'financials.json'), JSON.stringify(financials));
-fs.writeFileSync(path.join(OUT_DIR, 'indexes.json'), JSON.stringify(indexes));
+const writeFiles = (targetDir) => {
+    if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, { recursive: true });
+    fs.writeFileSync(path.join(targetDir, 'metadata.json'), JSON.stringify(metadata, null, 2));
+    fs.writeFileSync(path.join(targetDir, 'institutes.json'), JSON.stringify(Object.values(institutes)));
+    fs.writeFileSync(path.join(targetDir, 'courses.json'), JSON.stringify(Object.values(courses)));
+    fs.writeFileSync(path.join(targetDir, 'quotas.json'), JSON.stringify(Object.values(quotas)));
+    fs.writeFileSync(path.join(targetDir, 'counsellings.json'), JSON.stringify(Object.values(counsellings)));
+    fs.writeFileSync(path.join(targetDir, 'categories.json'), JSON.stringify(categories));
+    fs.writeFileSync(path.join(targetDir, 'options.json'), JSON.stringify(options));
+    fs.writeFileSync(path.join(targetDir, 'cutoffs.json'), JSON.stringify(cutoffs));
+    fs.writeFileSync(path.join(targetDir, 'financials.json'), JSON.stringify(financials));
+    fs.writeFileSync(path.join(targetDir, 'indexes.json'), JSON.stringify(indexes));
+};
+
+writeFiles(OUT_DIR);
+if (path.basename(INPUT_PATH).toLowerCase().includes('all-india')) {
+    writeFiles(path.join(OUT_DIR, 'All-India'));
+}
 
 console.log('--- PREPROCESSING STATS ---');
 console.log(`Source Records: ${rawData.length}`);

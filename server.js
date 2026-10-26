@@ -244,25 +244,147 @@ function formatMoney(val, existingStr) {
     return formatted;
 }
 
+// Helper to resolve raw JSON path for any counselling
+function getCounsellingSourcePath(counselling) {
+    if (!counselling || counselling === 'All-India') {
+        const pRaw = path.join(__dirname, 'data', 'raw', 'All-India.json');
+        if (fs.existsSync(pRaw)) return pRaw;
+        return path.join(__dirname, 'data', 'All-India.json');
+    }
+    const p1 = path.join(__dirname, 'data', 'raw', `${counselling}.json`);
+    if (fs.existsSync(p1)) return p1;
+    const p2 = path.join(__dirname, 'data', `${counselling}.json`);
+    if (fs.existsSync(p2)) return p2;
+    return null;
+}
+
+// ---------------------------------------------------------------------------
+// Admin Data Inspection APIs
+// ---------------------------------------------------------------------------
+
+app.get('/api/admin/college-hierarchy', requireAdmin, async (req, res) => {
+    try {
+        const counselling = req.query.counselling || 'All-India';
+        const instituteId = parseInt(req.query.instituteId, 10);
+        if (isNaN(instituteId)) return res.status(400).json({ error: 'Valid instituteId is required' });
+
+        const sourcePath = getCounsellingSourcePath(counselling);
+        if (!sourcePath || !fs.existsSync(sourcePath)) {
+            return res.status(404).json({ error: `Source dataset not found for: ${counselling}` });
+        }
+
+        const raw = await fs.promises.readFile(sourcePath, 'utf8');
+        const records = JSON.parse(raw);
+
+        const instRecords = records.filter(r => r.institute && r.institute.id === instituteId);
+        
+        const courseMap = new Map();
+        const options = [];
+
+        instRecords.forEach(r => {
+            if (r.course && r.course.id) {
+                if (!courseMap.has(r.course.id)) {
+                    courseMap.set(r.course.id, {
+                        id: r.course.id,
+                        name: r.course.name,
+                        short_name: r.course.short_name || r.course.name
+                    });
+                }
+            }
+            options.push({
+                id: r.id,
+                courseId: r.course?.id,
+                courseName: r.course?.name,
+                quotaId: r.quota?.id,
+                quotaName: r.quota?.name,
+                quotaShort: r.quota?.short_name || r.quota?.name,
+                category: r.category
+            });
+        });
+
+        const courses = Array.from(courseMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+        options.sort((a, b) => (a.courseName || '').localeCompare(b.courseName || ''));
+
+        res.json({
+            success: true,
+            totalRecords: instRecords.length,
+            courses,
+            options
+        });
+    } catch (err) {
+        console.error('[Admin College Hierarchy] Error:', err);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.get('/api/admin/record', requireAdmin, async (req, res) => {
+    try {
+        const counselling = req.query.counselling || 'All-India';
+        const optionId = req.query.optionId ? parseInt(req.query.optionId, 10) : null;
+        const sourcePath = getCounsellingSourcePath(counselling);
+        
+        if (!sourcePath || !fs.existsSync(sourcePath)) {
+            return res.status(404).json({ error: `Source dataset not found for counselling: ${counselling}` });
+        }
+
+        const raw = await fs.promises.readFile(sourcePath, 'utf8');
+        const records = JSON.parse(raw);
+
+        if (optionId) {
+            const record = records.find(r => r.id === optionId);
+            if (!record) return res.status(404).json({ error: `Option ID ${optionId} not found in ${counselling}` });
+            return res.json({ success: true, record });
+        }
+
+        const instituteId = req.query.instituteId ? parseInt(req.query.instituteId, 10) : null;
+        const courseId = req.query.courseId ? parseInt(req.query.courseId, 10) : null;
+
+        if (instituteId) {
+            let filtered = records.filter(r => r.institute && r.institute.id === instituteId);
+            if (courseId) {
+                filtered = filtered.filter(r => r.course && r.course.id === courseId);
+            }
+            return res.json({ success: true, count: filtered.length, records: filtered.slice(0, 100) });
+        }
+
+        res.status(400).json({ error: 'Please provide optionId or instituteId' });
+    } catch (err) {
+        console.error('[Admin Record] Error:', err);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// ---------------------------------------------------------------------------
+// Write API — admin-only: Updates every parameter of any data point
+// ---------------------------------------------------------------------------
+
 app.post('/api/update-college', requireAdmin, async (req, res) => {
     if (isWriting) {
         return res.status(409).json({ error: 'Another update is in progress. Please try again in a moment.' });
     }
 
-    const { instituteId, courseId, scope, updates } = req.body;
-    if (!instituteId) return res.status(400).json({ error: 'instituteId is required' });
+    const { counselling = 'All-India', instituteId, courseId, optionId, scope = 'option', updates = {}, rawRecord } = req.body;
+    
+    if (scope === 'option' && !optionId && !rawRecord?.id) {
+        return res.status(400).json({ error: 'optionId is required for option-specific updates' });
+    }
+    if ((scope === 'course' || scope === 'college') && !instituteId) {
+        return res.status(400).json({ error: 'instituteId is required' });
+    }
 
     isWriting = true;
     let backupPath = null;
+    let dataPath = null;
+
     try {
-        const dataPath = path.join(__dirname, 'data', 'All-India.json');
+        dataPath = getCounsellingSourcePath(counselling);
         const backupDir = path.join(__dirname, 'data', 'backups');
 
-        if (!fs.existsSync(dataPath)) {
-            throw new Error('Source data file not found');
+        if (!dataPath || !fs.existsSync(dataPath)) {
+            throw new Error(`Source data file not found for counselling: ${counselling}`);
         }
 
-        // 1. Read existing data asynchronously — avoids blocking the event loop
+        // 1. Read existing data asynchronously
         const rawData = await fs.promises.readFile(dataPath, 'utf8');
         let records;
         try {
@@ -273,113 +395,213 @@ app.post('/api/update-college', requireAdmin, async (req, res) => {
 
         // 2. Identify and update matching records
         let updatedCount = 0;
+        const targetOptionId = optionId ? parseInt(optionId, 10) : (rawRecord?.id ? parseInt(rawRecord.id, 10) : null);
+        const targetInstId = instituteId ? parseInt(instituteId, 10) : null;
+        const targetCourseId = courseId ? parseInt(courseId, 10) : null;
+
         for (let i = 0; i < records.length; i++) {
             const rec = records[i];
 
-            // Match institute
-            if (rec.institute && rec.institute.id === parseInt(instituteId)) {
+            // Match based on scope
+            let matches = false;
+            if (scope === 'option') {
+                matches = (rec.id === targetOptionId);
+            } else if (scope === 'course') {
+                matches = (rec.institute && rec.institute.id === targetInstId && rec.course && rec.course.id === targetCourseId);
+            } else if (scope === 'college') {
+                matches = (rec.institute && rec.institute.id === targetInstId);
+            }
 
-                // If course-specific, only update if course matches
-                if (scope === 'course' && courseId) {
-                    if (rec.course && rec.course.id !== parseInt(courseId)) {
-                        continue;
-                    }
+            if (!matches) continue;
+
+            // Direct Raw Record Replacement (Option Scope only)
+            if (scope === 'option' && rawRecord && typeof rawRecord === 'object') {
+                const preservedId = rec.id;
+                Object.assign(rec, rawRecord);
+                rec.id = preservedId; // ensure ID cannot be corrupted
+            } else {
+                // Apply Granular Field Updates
+                if (updates.state !== undefined) rec.state = updates.state;
+                if (updates.beds !== undefined) rec.beds = String(updates.beds);
+
+                // Institute updates
+                if (updates.institute && typeof updates.institute === 'object') {
+                    if (!rec.institute) rec.institute = {};
+                    if (updates.institute.name !== undefined) rec.institute.name = updates.institute.name;
+                    if (updates.institute.short_name !== undefined) rec.institute.short_name = updates.institute.short_name;
+                    if (updates.institute.district !== undefined) rec.institute.district = updates.institute.district;
                 }
 
-                // Apply Updates (preserving existing formatting where applicable)
+                // Course updates
+                if (updates.course && typeof updates.course === 'object') {
+                    if (!rec.course) rec.course = {};
+                    if (updates.course.name !== undefined) rec.course.name = updates.course.name;
+                    if (updates.course.short_name !== undefined) rec.course.short_name = updates.course.short_name;
+                }
+
+                // Quota updates
+                if (updates.quota && typeof updates.quota === 'object') {
+                    if (!rec.quota) rec.quota = {};
+                    if (updates.quota.name !== undefined) rec.quota.name = updates.quota.name;
+                    if (updates.quota.short_name !== undefined) rec.quota.short_name = updates.quota.short_name;
+                    if (updates.quota.master_quota !== undefined) rec.quota.master_quota = updates.quota.master_quota;
+                }
+
+                // Category updates
+                if (updates.category !== undefined) rec.category = updates.category;
+
+                // Fees
                 if (updates.fees !== undefined) {
-                    if (updates.fees.annualTuition !== undefined) {
+                    if (updates.fees.feeRaw !== undefined) {
+                        rec.fee = updates.fees.feeRaw;
+                    } else if (updates.fees.annualTuition !== undefined) {
                         rec.fee = formatMoney(updates.fees.annualTuition, rec.fee) || rec.fee;
                     }
                     if (updates.fees.totalCourse !== undefined) rec.fee_total = updates.fees.totalCourse;
                     if (updates.fees.hostel !== undefined) rec.fee_hostel = updates.fees.hostel;
                     if (updates.fees.otherMandatory !== undefined) rec.fee_other = updates.fees.otherMandatory;
+                    if (updates.fees.feeId !== undefined) rec.fee_id = updates.fees.feeId;
                 }
 
+                // Stipend
                 if (updates.stipend !== undefined) {
-                    if (updates.stipend.monthly !== undefined) {
+                    if (updates.stipend.stipendRaw !== undefined) {
+                        rec.stipend_year_1 = updates.stipend.stipendRaw;
+                    } else if (updates.stipend.monthly !== undefined) {
                         rec.stipend_year_1 = formatMoney(updates.stipend.monthly, rec.stipend_year_1) || rec.stipend_year_1;
                     }
                 }
 
+                // Duration
                 if (updates.courseDurationMonths !== undefined) {
                     rec.course_duration_months = updates.courseDurationMonths;
                 }
 
+                // Bond
                 if (updates.bond !== undefined) {
-                    if (updates.bond.durationMonths !== undefined) {
+                    if (updates.bond.bondYearsRaw !== undefined) {
+                        rec.bond_years = String(updates.bond.bondYearsRaw);
+                    } else if (updates.bond.durationMonths !== undefined) {
                         const years = updates.bond.durationMonths !== null ? (updates.bond.durationMonths / 12) : null;
                         if (years !== null) {
                             rec.bond_years = String(years) + (rec.bond_years && rec.bond_years.includes('*') ? '*' : '');
                         }
                     }
-                    if (updates.bond.penaltyAmount !== undefined) {
+                    if (updates.bond.penaltyRaw !== undefined) {
+                        rec.bond_penalty = updates.bond.penaltyRaw;
+                    } else if (updates.bond.penaltyAmount !== undefined) {
                         rec.bond_penalty = formatMoney(updates.bond.penaltyAmount, rec.bond_penalty) || rec.bond_penalty;
                     }
                     if (updates.bond.details !== undefined) rec.bond_details = updates.bond.details;
                     if (updates.bond.required !== undefined) rec.bond_required = updates.bond.required;
                 }
 
+                // Cutoffs (cr_<year>_<round>)
+                if (updates.cutoffs && typeof updates.cutoffs === 'object') {
+                    Object.keys(updates.cutoffs).forEach(key => {
+                        const co = updates.cutoffs[key];
+                        if (co === null) {
+                            delete rec[key];
+                        } else if (typeof co === 'object') {
+                            rec[key] = {
+                                ...(rec[key] || {}),
+                                ...co
+                            };
+                            if (rec[key].closing_rank !== undefined && rec[key].allotments_count !== undefined) {
+                                rec[key].value = `${rec[key].closing_rank}(${rec[key].allotments_count})`;
+                            }
+                        }
+                    });
+                }
+
+                // Metadata & Remarks
                 if (updates.remarks !== undefined) rec.remarks = updates.remarks;
                 if (updates.source !== undefined) {
                     if (updates.source.label !== undefined) rec.source_label = updates.source.label;
                     if (updates.source.url !== undefined) rec.source_url = updates.source.url;
                 }
-
-                rec.lastUpdatedAt = new Date().toISOString();
-                rec.lastUpdatedBy = 'admin';
-                updatedCount++;
+                if (updates.choiceListCount !== undefined) rec.choice_list_count = updates.choiceListCount;
             }
+
+            rec.lastUpdatedAt = new Date().toISOString();
+            rec.lastUpdatedBy = 'admin';
+            updatedCount++;
         }
 
         if (updatedCount === 0) {
             throw new Error('No matching records found to update.');
         }
 
-        // 3. Create Backup (before modifying source)
+        // 3. Create Backup
         if (!fs.existsSync(backupDir)) {
             fs.mkdirSync(backupDir, { recursive: true });
         }
         const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-        backupPath = path.join(backupDir, `All-India-${timestamp}.json`);
+        const cleanName = counselling.replace(/[^a-zA-Z0-9_-]/g, '_');
+        backupPath = path.join(backupDir, `${cleanName}-${timestamp}.json`);
         fs.copyFileSync(dataPath, backupPath);
 
-        // Prune old backups (keep last 10)
-        const backups = fs.readdirSync(backupDir).filter(f => f.startsWith('All-India-')).sort();
-        while (backups.length > 10) {
+        // Prune old backups (keep last 15)
+        const backups = fs.readdirSync(backupDir).filter(f => f.startsWith(`${cleanName}-`)).sort();
+        while (backups.length > 15) {
             const oldest = backups.shift();
-            fs.unlinkSync(path.join(backupDir, oldest));
+            try { fs.unlinkSync(path.join(backupDir, oldest)); } catch(_) {}
         }
 
-        // 4. Atomic Write — write tmp then rename to avoid torn reads
-        const tmpPath = path.join(__dirname, 'data', '.All-India.tmp.json');
+        // 4. Atomic Write
+        const tmpPath = path.join(path.dirname(dataPath), `.${path.basename(dataPath)}.tmp`);
         await fs.promises.writeFile(tmpPath, JSON.stringify(records, null, 2), 'utf8');
         fs.renameSync(tmpPath, dataPath);
 
-        // 5. Rebuild Processed Data
+        // Also sync data/All-India.json if counselling is All-India
+        if (counselling === 'All-India') {
+            const altPath = path.join(__dirname, 'data', 'All-India.json');
+            if (dataPath !== altPath) {
+                try { await fs.promises.writeFile(altPath, JSON.stringify(records, null, 2), 'utf8'); } catch(_) {}
+            }
+        }
+
+        // 5. Rebuild Processed Data for this Counselling
+        const outDir = path.join(__dirname, 'data', 'processed', counselling);
         await new Promise((resolve, reject) => {
-            execFile('node', [path.join(__dirname, 'scripts', 'preprocess.js')], { timeout: 60000 }, (error, stdout, stderr) => {
+            execFile('node', [path.join(__dirname, 'scripts', 'preprocess.js')], {
+                timeout: 60000,
+                env: {
+                    ...process.env,
+                    INPUT_PATH: dataPath,
+                    OUT_DIR: outDir
+                }
+            }, (error, stdout, stderr) => {
                 if (error) {
                     console.error('[Update] Preprocess failed:', stderr);
-                    reject(new Error('Failed to rebuild processed data.'));
+                    reject(new Error('Failed to rebuild processed data: ' + stderr));
                 } else {
                     resolve();
                 }
             });
         });
 
+        if (counselling === 'All-India') {
+            await new Promise((resolve) => {
+                execFile('node', [path.join(__dirname, 'scripts', 'preprocess.js')], {
+                    timeout: 60000,
+                    env: {
+                        ...process.env,
+                        INPUT_PATH: dataPath,
+                        OUT_DIR: path.join(__dirname, 'data', 'processed')
+                    }
+                }, () => resolve());
+            });
+        }
+
         // 6. Hot-reload in-memory data layer
-        //    Keep serving old data until the new load succeeds.
-        //    If reload fails, restore the source backup and keep old data active.
         try {
             await initDataLayer();
         } catch (reloadErr) {
-            console.error('[Update] In-memory reload failed after build. Restoring backup.', reloadErr);
-            // Restore source file from backup
+            console.error('[Update] In-memory reload failed. Restoring backup.', reloadErr);
             if (backupPath && fs.existsSync(backupPath)) {
                 fs.copyFileSync(backupPath, dataPath);
-                // Attempt to reload from the restored backup
-                try { await initDataLayer(); } catch (_) { /* original data still in memory */ }
+                try { await initDataLayer(); } catch (_) {}
             }
             throw new Error('Rebuild succeeded but data reload failed. Prior data has been restored.');
         }
@@ -387,14 +609,8 @@ app.post('/api/update-college', requireAdmin, async (req, res) => {
         res.json({ success: true, updatedCount });
     } catch (err) {
         console.error('[Update] Error:', err.message);
-        // If the write already happened but rebuild/reload failed, restore source from backup
-        if (backupPath && fs.existsSync(backupPath)) {
-            const dataPath = path.join(__dirname, 'data', 'All-India.json');
-            try {
-                fs.copyFileSync(backupPath, dataPath);
-            } catch (restoreErr) {
-                console.error('[Update] Failed to restore backup:', restoreErr);
-            }
+        if (backupPath && dataPath && fs.existsSync(backupPath)) {
+            try { fs.copyFileSync(backupPath, dataPath); } catch (_) {}
         }
         res.status(500).json({ error: err.message });
     } finally {
