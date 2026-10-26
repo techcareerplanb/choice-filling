@@ -13,6 +13,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 
+// Load local .env if present (Node 20+)
+if (typeof process.loadEnvFile === 'function') {
+    try {
+        process.loadEnvFile();
+    } catch {
+        // .env file not present; environment variables provided by environment/platform
+    }
+}
+
 // ---------------------------------------------------------------------------
 // Required environment variables — fail fast if not set
 // ---------------------------------------------------------------------------
