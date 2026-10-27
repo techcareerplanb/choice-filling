@@ -52,6 +52,77 @@ const SAFE_STATIC_DIRS = [
 
 const app = express();
 
+// Trust reverse proxy (Render, Cloudflare, etc.) to read the client's real IP via X-Forwarded-For
+app.set('trust proxy', 1);
+
+// ---------------------------------------------------------------------------
+// IP Allowlist Restriction (e.g. Router IP prefix / subnet)
+// ---------------------------------------------------------------------------
+const ALLOWED_IP_PREFIXES = (process.env.ALLOWED_IP_PREFIXES || '')
+    .split(',')
+    .map(p => p.trim().replace(/\*$/, ''))
+    .filter(Boolean);
+
+if (ALLOWED_IP_PREFIXES.length > 0) {
+    console.log(`[SECURITY] IP restriction active. Allowed prefixes: ${ALLOWED_IP_PREFIXES.join(', ')}`);
+}
+
+// Health check endpoint for cloud platforms (e.g. Render)
+app.get('/healthz', (req, res) => res.status(200).send('OK'));
+
+// Enforce IP allowlist across all routes and assets if configured
+app.use((req, res, next) => {
+    if (ALLOWED_IP_PREFIXES.length === 0) {
+        return next();
+    }
+
+    let clientIp = req.ip || req.headers['x-forwarded-for']?.split(',')[0]?.trim() || req.socket.remoteAddress || '';
+    if (clientIp.startsWith('::ffff:')) {
+        clientIp = clientIp.replace('::ffff:', '');
+    }
+
+    // Always allow local loopback
+    if (clientIp === '127.0.0.1' || clientIp === '::1' || clientIp === 'localhost') {
+        return next();
+    }
+
+    const isAllowed = ALLOWED_IP_PREFIXES.some(prefix => {
+        if (clientIp === prefix) return true;
+        const normalizedPrefix = prefix.endsWith('.') ? prefix : prefix + '.';
+        return clientIp.startsWith(normalizedPrefix);
+    });
+
+    if (isAllowed) {
+        return next();
+    }
+
+    console.warn(`[SECURITY] Blocked unauthorized access attempt from IP: ${clientIp} to ${req.originalUrl}`);
+    res.status(403);
+    if (req.accepts('html')) {
+        return res.send(`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>403 Forbidden</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #0f172a; color: #f8fafc; text-align: center; }
+        .box { background: #1e293b; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); max-width: 450px; border: 1px solid #334155; }
+        h1 { color: #ef4444; margin-top: 0; font-size: 24px; }
+        p { color: #94a3b8; font-size: 15px; line-height: 1.5; margin: 12px 0 0; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>403 Forbidden</h1>
+        <p>Access is restricted to authorized router networks only.</p>
+    </div>
+</body>
+</html>`);
+    }
+    return res.json({ error: 'Forbidden: Access is restricted to authorized networks only.' });
+});
+
 app.use(express.json({ limit: '10mb' }));
 app.use(compression());
 app.get('/api/counsellings', (req, res) => {
