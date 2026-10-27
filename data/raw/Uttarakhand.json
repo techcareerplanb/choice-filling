@@ -8295,17 +8295,6 @@
       "inservice_candidate": false,
       "candidate_flag": null
     },
-    "cr_2025_3": {
-      "value": "429(1)",
-      "session": "2025",
-      "round": "3",
-      "closing_rank": 429,
-      "counselling_rank": 429,
-      "ai_rank": 83070,
-      "allotments_count": 1,
-      "inservice_candidate": false,
-      "candidate_flag": null
-    },
     "fee_id": 711462,
     "fee": "₹60,000*",
     "stipend_year_1": "₹71,257*",
@@ -26343,6 +26332,54 @@
     "bond_years": "1",
     "bond_penalty": "₹10,00,000",
     "beds": "1250",
+    "choice_list_count": 0
+  },
+  {
+    "id": 880002,
+    "state": "Uttarakhand",
+    "institute": {
+      "id": 365,
+      "name": "Doon Medical College, Dehradun",
+      "short_name": "Doon Med Coll, Dehradun",
+      "logo_url": "",
+      "district": null
+    },
+    "course": {
+      "id": 72,
+      "name": "MS Orthopaedics",
+      "short_name": "ORTHOPAEDICS"
+    },
+    "quota": {
+      "id": 118,
+      "name": "Uttarakhand Govt Quota",
+      "short_name": "UK-Govt Quota",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Uttarakhand Govt Quota"
+    },
+    "category": "UR-PwD",
+    "counselling": {
+      "id": 33,
+      "name": "Uttarakhand - PG Medical",
+      "short_name": "UK PG"
+    },
+    "cr_2025_3": {
+      "value": "429(1)",
+      "session": "2025",
+      "round": "3",
+      "closing_rank": 429,
+      "counselling_rank": 429,
+      "ai_rank": 83070,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 711462,
+    "fee": "₹60,000*",
+    "stipend_year_1": "₹71,257*",
+    "bond_years": "2*",
+    "bond_penalty": "₹2,50,00,000*",
+    "beds": "750",
     "choice_list_count": 0
   }
 ]

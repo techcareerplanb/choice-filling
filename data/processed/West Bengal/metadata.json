@@ -1,7 +1,7 @@
 {
   "datasetVersion": "1.0.0",
   "source": "West Bengal.json",
-  "retrievedAt": "2026-10-26T12:50:41.528Z",
+  "retrievedAt": "2026-10-27T05:10:51.632Z",
   "recordCount": 1510,
   "historicalYears": [
     2024,
@@ -15,5 +15,5 @@
     4.5,
     5
   ],
-  "generatedAt": "2026-10-26T12:50:41.530Z"
+  "generatedAt": "2026-10-27T05:10:51.633Z"
 }

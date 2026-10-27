@@ -1,7 +1,7 @@
 {
   "datasetVersion": "1.0.0",
   "source": "Himachal Pradesh.json",
-  "retrievedAt": "2026-10-26T12:50:40.328Z",
+  "retrievedAt": "2026-10-27T05:10:50.408Z",
   "recordCount": 243,
   "historicalYears": [
     2024,
@@ -14,5 +14,5 @@
     4,
     5
   ],
-  "generatedAt": "2026-10-26T12:50:40.329Z"
+  "generatedAt": "2026-10-27T05:10:50.409Z"
 }

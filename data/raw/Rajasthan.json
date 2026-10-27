@@ -861,7 +861,7 @@
       "tooltip_content_html": null,
       "master_quota": "Rajasthan Govt Seats"
     },
-    "category": "OBC",
+    "category": "OBC-PwD",
     "counselling": {
       "id": 25,
       "name": "Rajasthan - PG Medical",
@@ -1866,7 +1866,7 @@
       "tooltip_content_html": null,
       "master_quota": "Rajasthan Govt Seats"
     },
-    "category": "OBC",
+    "category": "OBC-PwD",
     "counselling": {
       "id": 25,
       "name": "Rajasthan - PG Medical",
@@ -7183,17 +7183,6 @@
       "id": 25,
       "name": "Rajasthan - PG Medical",
       "short_name": "RJSTHN PG"
-    },
-    "cr_2025_1": {
-      "value": "3196(3)",
-      "session": "2025",
-      "round": "1",
-      "closing_rank": 3196,
-      "counselling_rank": 3196,
-      "ai_rank": 100036,
-      "allotments_count": 3,
-      "inservice_candidate": false,
-      "candidate_flag": null
     },
     "cr_2025_2": {
       "value": "425(3)",
@@ -61310,65 +61299,6 @@
     "choice_list_count": 0
   },
   {
-    "id": 381459,
-    "state": "Rajasthan",
-    "institute": {
-      "id": 283,
-      "name": "Sardar Patel Medical College, Bikaner",
-      "short_name": "SP Med Coll, Bikaner",
-      "logo_url": null,
-      "district": null
-    },
-    "course": {
-      "id": 42,
-      "name": "MD Dermatology, Venereology & Leprosy",
-      "short_name": "DERMATOLOGY"
-    },
-    "quota": {
-      "id": 106,
-      "name": "Rajasthan Govt Seats - Govt Quota",
-      "short_name": "RAJ Govt - Govt Quota",
-      "tooltip_content": null,
-      "tooltip_content_html": null,
-      "master_quota": "Rajasthan Govt Seats"
-    },
-    "category": "OBC",
-    "counselling": {
-      "id": 25,
-      "name": "Rajasthan - PG Medical",
-      "short_name": "RJSTHN PG"
-    },
-    "cr_2025_2": {
-      "value": "3155(2)",
-      "session": "2025",
-      "round": "2",
-      "closing_rank": 3155,
-      "counselling_rank": 3155,
-      "ai_rank": 95271,
-      "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
-    },
-    "cr_2025_3": {
-      "value": "3184(3)",
-      "session": "2025",
-      "round": "3",
-      "closing_rank": 3184,
-      "counselling_rank": 3184,
-      "ai_rank": 95271,
-      "allotments_count": 3,
-      "inservice_candidate": false,
-      "candidate_flag": null
-    },
-    "fee_id": 1071205,
-    "fee": "₹14,093*",
-    "stipend_year_1": "₹87,216*",
-    "bond_years": "2*",
-    "bond_penalty": "₹1,50,00,000*",
-    "beds": "1570",
-    "choice_list_count": 0
-  },
-  {
     "id": 800404,
     "state": "Rajasthan",
     "institute": {
@@ -63295,7 +63225,7 @@
       "tooltip_content_html": null,
       "master_quota": "Rajasthan Govt Seats"
     },
-    "category": "EWS",
+    "category": "EWS-PwD",
     "counselling": {
       "id": 25,
       "name": "Rajasthan - PG Medical",
@@ -69899,7 +69829,7 @@
       "tooltip_content_html": null,
       "master_quota": "Rajasthan Govt Seats"
     },
-    "category": "MBC",
+    "category": "MBC-PwD",
     "counselling": {
       "id": 25,
       "name": "Rajasthan - PG Medical",
@@ -70838,7 +70768,7 @@
       "tooltip_content_html": null,
       "master_quota": "Rajasthan Govt Seats"
     },
-    "category": "OBC",
+    "category": "OBC-PwD",
     "counselling": {
       "id": 25,
       "name": "Rajasthan - PG Medical",
@@ -79958,17 +79888,6 @@
       "counselling_rank": 363,
       "ai_rank": 5811,
       "allotments_count": 2,
-      "inservice_candidate": false,
-      "candidate_flag": null
-    },
-    "cr_2025_3": {
-      "value": "4267(1)",
-      "session": "2025",
-      "round": "3",
-      "closing_rank": 4267,
-      "counselling_rank": 4267,
-      "ai_rank": 150071,
-      "allotments_count": 1,
       "inservice_candidate": false,
       "candidate_flag": null
     },
@@ -120375,7 +120294,7 @@
       "tooltip_content_html": null,
       "master_quota": "Rajasthan Govt Seats"
     },
-    "category": "EWS",
+    "category": "EWS-PwD",
     "counselling": {
       "id": 25,
       "name": "Rajasthan - PG Medical",
@@ -133467,7 +133386,29 @@
     "bond_years": "2*",
     "bond_penalty": "₹1,50,00,000*",
     "beds": "1570",
-    "choice_list_count": 0
+    "choice_list_count": 0,
+    "cr_2025_2": {
+      "value": "3155(2)",
+      "session": "2025",
+      "round": "2",
+      "closing_rank": 3155,
+      "counselling_rank": 3155,
+      "ai_rank": 95271,
+      "allotments_count": 2,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "cr_2025_3": {
+      "value": "3184(3)",
+      "session": "2025",
+      "round": "3",
+      "closing_rank": 3184,
+      "counselling_rank": 3184,
+      "ai_rank": 95271,
+      "allotments_count": 3,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    }
   },
   {
     "id": 502137,
@@ -141614,7 +141555,18 @@
     "bond_years": "2*",
     "bond_penalty": "₹1,00,00,000*",
     "beds": "5702",
-    "choice_list_count": 0
+    "choice_list_count": 0,
+    "cr_2025_3": {
+      "value": "4267(1)",
+      "session": "2025",
+      "round": "3",
+      "closing_rank": 4267,
+      "counselling_rank": 4267,
+      "ai_rank": 150071,
+      "allotments_count": 1,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    }
   },
   {
     "id": 401007,
@@ -150151,6 +150103,54 @@
     "bond_years": "0",
     "bond_penalty": "₹0",
     "beds": "750",
+    "choice_list_count": 0
+  },
+  {
+    "id": 880001,
+    "state": "Rajasthan",
+    "institute": {
+      "id": 284,
+      "name": "SMS Medical College, Jaipur",
+      "short_name": "SMS, Jaipur",
+      "logo_url": null,
+      "district": null
+    },
+    "course": {
+      "id": 46,
+      "name": "MD General Medicine",
+      "short_name": "GENERAL MEDICINE"
+    },
+    "quota": {
+      "id": 106,
+      "name": "Rajasthan Govt Seats - Govt Quota",
+      "short_name": "RAJ Govt - Govt Quota",
+      "tooltip_content": null,
+      "tooltip_content_html": null,
+      "master_quota": "Rajasthan Govt Seats"
+    },
+    "category": "MBC-PwD",
+    "counselling": {
+      "id": 25,
+      "name": "Rajasthan - PG Medical",
+      "short_name": "RJSTHN PG"
+    },
+    "cr_2025_1": {
+      "value": "3196(3)",
+      "session": "2025",
+      "round": "1",
+      "closing_rank": 3196,
+      "counselling_rank": 3196,
+      "ai_rank": 100036,
+      "allotments_count": 3,
+      "inservice_candidate": false,
+      "candidate_flag": null
+    },
+    "fee_id": 1071202,
+    "fee": "₹14,093*",
+    "stipend_year_1": "₹87,216*",
+    "bond_years": "2*",
+    "bond_penalty": "₹1,50,00,000*",
+    "beds": "5702",
     "choice_list_count": 0
   }
 ]
