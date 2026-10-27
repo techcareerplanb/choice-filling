@@ -87,7 +87,11 @@ app.use((req, res, next) => {
     }
 
     const isAllowed = ALLOWED_IP_PREFIXES.some(prefix => {
-        if (clientIp === prefix) return true;
+        if (clientIp.toLowerCase() === prefix.toLowerCase()) return true;
+        if (prefix.includes(':')) {
+            const normalizedPrefix = prefix.endsWith(':') ? prefix : prefix + ':';
+            return clientIp.toLowerCase().startsWith(normalizedPrefix.toLowerCase());
+        }
         const normalizedPrefix = prefix.endsWith('.') ? prefix : prefix + '.';
         return clientIp.startsWith(normalizedPrefix);
     });
