@@ -52,8 +52,8 @@ const SAFE_STATIC_DIRS = [
 
 const app = express();
 
-// Trust reverse proxy (Render, Cloudflare, etc.) to read the client's real IP via X-Forwarded-For
-app.set('trust proxy', 1);
+// Trust reverse proxy (Render, Cloudflare, etc.) across all hops
+app.set('trust proxy', true);
 
 // ---------------------------------------------------------------------------
 // IP Allowlist Restriction (e.g. Router IP prefix / subnet)
@@ -70,13 +70,34 @@ if (ALLOWED_IP_PREFIXES.length > 0) {
 // Health check endpoint for cloud platforms (e.g. Render)
 app.get('/healthz', (req, res) => res.status(200).send('OK'));
 
+// Helper to extract the true client IP across reverse proxies (Cloudflare, Render, etc.)
+function getClientIp(req) {
+    // 1. Cloudflare header
+    const cfIp = req.headers['cf-connecting-ip'];
+    if (cfIp) return String(cfIp).trim();
+
+    // 2. Standard X-Forwarded-For (first entry is always the original client IP)
+    const xForwardedFor = req.headers['x-forwarded-for'];
+    if (xForwardedFor) {
+        const firstIp = String(xForwardedFor).split(',')[0].trim();
+        if (firstIp) return firstIp;
+    }
+
+    // 3. X-Real-IP
+    const xRealIp = req.headers['x-real-ip'];
+    if (xRealIp) return String(xRealIp).trim();
+
+    // 4. Express req.ip or socket remote address
+    return req.ip || req.socket?.remoteAddress || '';
+}
+
 // Enforce IP allowlist across all routes and assets if configured
 app.use((req, res, next) => {
     if (ALLOWED_IP_PREFIXES.length === 0) {
         return next();
     }
 
-    let clientIp = req.ip || req.headers['x-forwarded-for']?.split(',')[0]?.trim() || req.socket.remoteAddress || '';
+    let clientIp = getClientIp(req);
     if (clientIp.startsWith('::ffff:')) {
         clientIp = clientIp.replace('::ffff:', '');
     }
@@ -111,20 +132,31 @@ app.use((req, res, next) => {
     <title>403 Forbidden</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #0f172a; color: #f8fafc; text-align: center; }
-        .box { background: #1e293b; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); max-width: 450px; border: 1px solid #334155; }
+        .box { background: #1e293b; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); max-width: 480px; border: 1px solid #334155; }
         h1 { color: #ef4444; margin-top: 0; font-size: 24px; }
         p { color: #94a3b8; font-size: 15px; line-height: 1.5; margin: 12px 0 0; }
+        .ip-badge { margin-top: 20px; padding: 12px 16px; background: #0f172a; border-radius: 8px; font-family: monospace; font-size: 14px; color: #38bdf8; word-break: break-all; border: 1px solid #1e293b; }
+        .hint { margin-top: 14px; font-size: 13px; color: #64748b; }
     </style>
 </head>
 <body>
     <div class="box">
         <h1>403 Forbidden</h1>
         <p>Access is restricted to authorized router networks only.</p>
+        <div class="ip-badge">
+            Detected IP: <strong>${clientIp || 'Unknown'}</strong>
+        </div>
+        <div class="hint">
+            To grant access, add this IP or its prefix to <code>ALLOWED_IP_PREFIXES</code> in your Render environment settings.
+        </div>
     </div>
 </body>
 </html>`);
     }
-    return res.json({ error: 'Forbidden: Access is restricted to authorized networks only.' });
+    return res.json({ 
+        error: 'Forbidden: Access is restricted to authorized networks only.',
+        detectedIp: clientIp
+    });
 });
 
 app.use(express.json({ limit: '10mb' }));
