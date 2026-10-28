@@ -1,0 +1,750 @@
+state,college,college_type,course,degree_type,quota,category,seats
+Rajasthan,Dr SNMC Jodhpur,Government,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,14
+Rajasthan,GMC Kota,Government,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,11
+Rajasthan,JLN MC Ajmer,Government,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,11
+Rajasthan,RNT MC Udaipur,Government,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,11
+Rajasthan,SMS MC Jaipur,Government,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,39
+Rajasthan,SPMC Bikaner,Government,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,8
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (ANAESTHESIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (ANAESTHESIOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MD (ANAESTHESIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MD (ANAESTHESIOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Pali,Society,MD (ANAESTHESIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Pali,Society,MD (ANAESTHESIOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (ANAESTHESIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,1
+Rajasthan,GMC Kota,Government,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,4
+Rajasthan,JLN MC Ajmer,Government,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,4
+Rajasthan,RNT MC Udaipur,Government,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,4
+Rajasthan,SMS MC Jaipur,Government,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,7
+Rajasthan,SPMC Bikaner,Government,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,3
+Rajasthan,ESIC Alwar,Government,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,2
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD/MS (ANATOMY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD/MS (ANATOMY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Bharatpur,Society,MD/MS (ANATOMY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Pali,Society,MD/MS (ANATOMY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Pali,Society,MD/MS (ANATOMY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD/MS (ANATOMY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD/MS (ANATOMY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,2
+Rajasthan,GMC Kota,Government,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,4
+Rajasthan,JLN MC Ajmer,Government,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,4
+Rajasthan,RNT MC Udaipur,Government,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,3
+Rajasthan,SMS MC Jaipur,Government,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,15
+Rajasthan,SPMC Bikaner,Government,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,3
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (BIOCHEMISTRY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (BIOCHEMISTRY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MD (BIOCHEMISTRY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MD (BIOCHEMISTRY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (BIOCHEMISTRY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,JLN MC Ajmer,Government,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,SMS MC Jaipur,Government,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,GMC Kota,Government,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,JLN MC Ajmer,Government,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,4
+Rajasthan,RNT MC Udaipur,Government,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,3
+Rajasthan,SMS MC Jaipur,Government,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,6
+Rajasthan,SPMC Bikaner,Government,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,3
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (FORENSIC MEDICINE),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (FORENSIC MEDICINE),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (FORENSIC MEDICINE),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (FORENSIC MEDICINE),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,12
+Rajasthan,GMC Kota,Government,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,12
+Rajasthan,JLN MC Ajmer,Government,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,11
+Rajasthan,RNT MC Udaipur,Government,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,12
+Rajasthan,SMS MC Jaipur,Government,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,30
+Rajasthan,SPMC Bikaner,Government,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,12
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (GENERAL MEDICINE),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (GENERAL MEDICINE),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Bharatpur,Society,MD (GENERAL MEDICINE),MD/MS,State Quota (Govt),State Quota,3
+Rajasthan,GMC Bharatpur,Society,MD (GENERAL MEDICINE),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,JMC Jhalawar,Society,MD (GENERAL MEDICINE),MD/MS,State Quota (Govt),State Quota,2
+Rajasthan,JMC Jhalawar,Society,MD (GENERAL MEDICINE),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,Dr SNMC Jodhpur,Government,MD (GERIATRICS/GERIATRIC MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,SMS MC Jaipur,Government,MD (GERIATRICS/GERIATRIC MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,State Quota,State Quota,3
+Rajasthan,GMC Kota,Government,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,JLN MC Ajmer,Government,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,State Quota,State Quota,3
+Rajasthan,RNT MC Udaipur,Government,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,SMS MC Jaipur,Government,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,State Quota,State Quota,6
+Rajasthan,SPMC Bikaner,Government,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,Dr SNMC Jodhpur,Government,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,GMC Kota,Government,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,JLN MC Ajmer,Government,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,RNT MC Udaipur,Government,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,SMS MC Jaipur,Government,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,12
+Rajasthan,SPMC Bikaner,Government,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (MICROBIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bharatpur,Society,MD (MICROBIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MD (MICROBIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MD (MICROBIOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Pali,Society,MD (MICROBIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Pali,Society,MD (MICROBIOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (MICROBIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,JLN MC Ajmer,Government,MD (PALLIATIVE MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,SMS MC Jaipur,Government,MD (PALLIATIVE MEDICINE),MD/MS,State Quota,State Quota,3
+Rajasthan,Dr SNMC Jodhpur,Government,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,13
+Rajasthan,GMC Kota,Government,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,7
+Rajasthan,JLN MC Ajmer,Government,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,9
+Rajasthan,RNT MC Udaipur,Government,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,8
+Rajasthan,SMS MC Jaipur,Government,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,20
+Rajasthan,SPMC Bikaner,Government,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,9
+Rajasthan,ESIC Alwar,Government,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (PAEDIATRICS),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (PAEDIATRICS),MD/MS,State Quota (Govt),State Quota,2
+Rajasthan,JMC Jhalawar,Society,MD (PAEDIATRICS),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,Dr SNMC Jodhpur,Government,MD (PATHOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,GMC Kota,Government,MD (PATHOLOGY),MD/MS,State Quota,State Quota,8
+Rajasthan,JLN MC Ajmer,Government,MD (PATHOLOGY),MD/MS,State Quota,State Quota,9
+Rajasthan,RNT MC Udaipur,Government,MD (PATHOLOGY),MD/MS,State Quota,State Quota,10
+Rajasthan,SMS MC Jaipur,Government,MD (PATHOLOGY),MD/MS,State Quota,State Quota,15
+Rajasthan,SPMC Bikaner,Government,MD (PATHOLOGY),MD/MS,State Quota,State Quota,7
+Rajasthan,ESIC Alwar,Government,MD (PATHOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (PATHOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bharatpur,Society,MD (PATHOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MD (PATHOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MD (PATHOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Churu,Society,MD (PATHOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Churu,Society,MD (PATHOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Pali,Society,MD (PATHOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Pali,Society,MD (PATHOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (PATHOLOGY),MD/MS,State Quota (Govt),State Quota,3
+Rajasthan,JMC Jhalawar,Society,MD (PATHOLOGY),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,Dr SNMC Jodhpur,Government,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,JLN MC Ajmer,Government,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,RNT MC Udaipur,Government,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,SMS MC Jaipur,Government,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,9
+Rajasthan,SPMC Bikaner,Government,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (PHARMACOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (PHARMACOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Dungarpur,Society,MD (PHARMACOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,SMS MC Jaipur,Government,MD (PHYSICAL MED. & REHABILITATION),MD/MS,State Quota,State Quota,5
+Rajasthan,Dr SNMC Jodhpur,Government,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,GMC Kota,Government,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,JLN MC Ajmer,Government,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,RNT MC Udaipur,Government,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,SMS MC Jaipur,Government,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,6
+Rajasthan,SPMC Bikaner,Government,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,ESIC Alwar,Government,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (PHYSIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (PHYSIOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Pali,Society,MD (PHYSIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Pali,Society,MD (PHYSIOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (PHYSIOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (PHYSIOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,GMC Kota,Government,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,3
+Rajasthan,JLN MC Ajmer,Government,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,4
+Rajasthan,RNT MC Udaipur,Government,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,3
+Rajasthan,SMS MC Jaipur,Government,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,10
+Rajasthan,SPMC Bikaner,Government,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,ESIC Alwar,Government,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bharatpur,Society,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota (Govt),State Quota,2
+Rajasthan,GMC Bharatpur,Society,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Churu,Society,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Dungarpur,Society,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,2
+Rajasthan,GMC Kota,Government,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,3
+Rajasthan,JLN MC Ajmer,Government,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,3
+Rajasthan,RNT MC Udaipur,Government,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,2
+Rajasthan,SMS MC Jaipur,Government,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,9
+Rajasthan,SPMC Bikaner,Government,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,2
+Rajasthan,Dr SNMC Jodhpur,Government,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,GMC Kota,Government,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,JLN MC Ajmer,Government,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,RNT MC Udaipur,Government,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,SMS MC Jaipur,Government,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,13
+Rajasthan,SPMC Bikaner,Government,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,Dr SNMC Jodhpur,Government,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,JLN MC Ajmer,Government,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,RNT MC Udaipur,Government,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,SMS MC Jaipur,Government,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,7
+Rajasthan,SPMC Bikaner,Government,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,Dr SNMC Jodhpur,Government,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,3
+Rajasthan,GMC Kota,Government,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,3
+Rajasthan,JLN MC Ajmer,Government,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,4
+Rajasthan,RNT MC Udaipur,Government,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,5
+Rajasthan,SMS MC Jaipur,Government,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,9
+Rajasthan,SPMC Bikaner,Government,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,4
+Rajasthan,ESIC Alwar,Government,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,4
+Rajasthan,GMC Kota,Government,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,2
+Rajasthan,JLN MC Ajmer,Government,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,2
+Rajasthan,RNT MC Udaipur,Government,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,4
+Rajasthan,SMS MC Jaipur,Government,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,6
+Rajasthan,SPMC Bikaner,Government,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,2
+Rajasthan,SMS MC Jaipur,Government,MD (TROPICAL MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,GMC Kota,Government,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,JLN MC Ajmer,Government,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,RNT MC Udaipur,Government,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,SMS MC Jaipur,Government,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,9
+Rajasthan,SPMC Bikaner,Government,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,7
+Rajasthan,GMC Kota,Government,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,8
+Rajasthan,JLN MC Ajmer,Government,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,11
+Rajasthan,RNT MC Udaipur,Government,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,9
+Rajasthan,SMS MC Jaipur,Government,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,22
+Rajasthan,SPMC Bikaner,Government,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,5
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (GENERAL SURGERY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (GENERAL SURGERY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MS (GENERAL SURGERY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Bhilwara,Society,MS (GENERAL SURGERY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Pali,Society,MS (GENERAL SURGERY),MD/MS,State Quota (Govt),State Quota,3
+Rajasthan,GMC Pali,Society,MS (GENERAL SURGERY),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,JMC Jhalawar,Society,MS (GENERAL SURGERY),MD/MS,State Quota (Govt),State Quota,2
+Rajasthan,JMC Jhalawar,Society,MS (GENERAL SURGERY),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,Dr SNMC Jodhpur,Government,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,13
+Rajasthan,GMC Kota,Government,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,10
+Rajasthan,JLN MC Ajmer,Government,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,10
+Rajasthan,RNT MC Udaipur,Government,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,14
+Rajasthan,SMS MC Jaipur,Government,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,35
+Rajasthan,SPMC Bikaner,Government,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,9
+Rajasthan,ESIC Alwar,Government,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Pali,Society,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Pali,Society,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,JMC Jhalawar,Society,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota (Govt),State Quota,3
+Rajasthan,JMC Jhalawar,Society,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,Dr SNMC Jodhpur,Government,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,GMC Kota,Government,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,JLN MC Ajmer,Government,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,RNT MC Udaipur,Government,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,SMS MC Jaipur,Government,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,7
+Rajasthan,SPMC Bikaner,Government,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,6
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (OPHTHALMOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (OPHTHALMOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,GMC Pali,Society,MS (OPHTHALMOLOGY),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,GMC Pali,Society,MS (OPHTHALMOLOGY),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,Dr SNMC Jodhpur,Government,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,8
+Rajasthan,GMC Kota,Government,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,6
+Rajasthan,JLN MC Ajmer,Government,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,5
+Rajasthan,RNT MC Udaipur,Government,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,5
+Rajasthan,SMS MC Jaipur,Government,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,19
+Rajasthan,SPMC Bikaner,Government,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,4
+Rajasthan,ESIC Alwar,Government,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (ORTHOPAEDICS),MD/MS,State Quota (Govt),State Quota,1
+Rajasthan,RUHS CMS Jaipur,RUHS-CMS,MS (ORTHOPAEDICS),MD/MS,State Quota (Management),State Quota,1
+Rajasthan,JMC Jhalawar,Society,MS (ORTHOPAEDICS),MD/MS,State Quota (Govt),State Quota,3
+Rajasthan,JMC Jhalawar,Society,MS (ORTHOPAEDICS),MD/MS,State Quota (Management),State Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,6
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,9
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (ANAESTHESIOLOGY),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (ANAESTHESIOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,10
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,9
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,5
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,15
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,16
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,10
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,10
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,9
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,10
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,All India Nature,Management/AI Nature,10
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (ANAESTHESIOLOGY),MD/MS,State Quota,State Quota,10
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD/MS (ANATOMY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD/MS (ANATOMY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD/MS (ANATOMY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD/MS (ANATOMY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,2
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD/MS (ANATOMY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD/MS (ANATOMY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD/MS (ANATOMY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD/MS (ANATOMY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (BIOCHEMISTRY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (BIOCHEMISTRY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (BIOCHEMISTRY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (BIOCHEMISTRY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (BIOCHEMISTRY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (BIOCHEMISTRY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (BIOCHEMISTRY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (EMERGENCY MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (EMERGENCY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (FORENSIC MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (FORENSIC MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (FORENSIC MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (FORENSIC MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (FORENSIC MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (FORENSIC MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (FORENSIC MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (FORENSIC MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (GENERAL MEDICINE),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,5
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,7
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (GENERAL MEDICINE),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (GENERAL MEDICINE),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,10
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,Management Quota,Management Quota,7
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,5
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (GENERAL MEDICINE),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,8
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,13
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (GENERAL MEDICINE),MD/MS,Management Quota,Management Quota,6
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,14
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,14
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,7
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,11
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,Management Quota,Management Quota,7
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,All India Nature,Management/AI Nature,10
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,State Quota,State Quota,14
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (GENERAL MEDICINE),MD/MS,Management Quota,Management Quota,5
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (IMMUNOHAEMATOLOGY & BLOOD TRANSFUSION/ TRANSFUSION MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (MICROBIOLOGY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (MICROBIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (MICROBIOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (MICROBIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (MICROBIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (MICROBIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (MICROBIOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (MICROBIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PALLIATIVE MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PALLIATIVE MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PAEDIATRICS),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,5
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PAEDIATRICS),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PAEDIATRICS),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,8
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PAEDIATRICS),MD/MS,Management Quota,Management Quota,5
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,4
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PAEDIATRICS),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,6
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PAEDIATRICS),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,9
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,9
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,7
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PAEDIATRICS),MD/MS,Management Quota,Management Quota,4
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PAEDIATRICS),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PAEDIATRICS),MD/MS,State Quota,State Quota,8
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PAEDIATRICS),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,7
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,8
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PATHOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PATHOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PHARMACOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PHARMACOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PHARMACOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PHARMACOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PHARMACOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PHARMACOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PHARMACOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PHARMACOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PHYSICAL MED. & REHABILITATION),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PHYSICAL MED. & REHABILITATION),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PHYSIOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PHYSIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PHYSIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PHYSIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PHYSIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PHYSIOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PHYSIOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PHYSIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PREVENTIVE & SOCIAL MEDICINE (PSM)/ COMMUNITY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PSYCHIATRY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PSYCHIATRY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (PSYCHIATRY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PSYCHIATRY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PSYCHIATRY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PSYCHIATRY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (PSYCHIATRY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PSYCHIATRY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PSYCHIATRY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PSYCHIATRY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PSYCHIATRY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (PSYCHIATRY),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,7
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,Management Quota,Management Quota,6
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,Management Quota,Management Quota,4
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,5
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,10
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,Management Quota,Management Quota,4
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,12
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,12
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,5
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,8
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,Management Quota,Management Quota,8
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,All India Nature,Management/AI Nature,5
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,State Quota,State Quota,9
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (RADIO-DIAGNOSIS/ RADIOLOGY),MD/MS,Management Quota,Management Quota,4
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (RADIOTHERAPY/ RADIATION ONCOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,All India Nature,Management/AI Nature,5
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,5
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,2
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,All India Nature,Management/AI Nature,6
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,8
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,State Quota,State Quota,3
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (RESPIRATORY MEDICINE/T.B. & CHEST/ TUBERCULOSIS & RESPIRATORY DISEASES),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,1
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,Management Quota,Management Quota,4
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,All India Nature,Management/AI Nature,7
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,7
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,6
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,Management Quota,Management Quota,5
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,State Quota,State Quota,5
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MD (SKIN & V.D./DERMATOLOGY VEN. & LEPROSY),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,All India Nature,Management/AI Nature,5
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,6
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (E.N.T./ OTORHINOLARYNGOLOGY),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,4
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (GENERAL SURGERY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,5
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,7
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (GENERAL SURGERY),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,8
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,8
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,5
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (GENERAL SURGERY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,7
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,12
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (GENERAL SURGERY),MD/MS,Management Quota,Management Quota,5
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,14
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,14
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,8
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,10
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (GENERAL SURGERY),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (GENERAL SURGERY),MD/MS,All India Nature,Management/AI Nature,9
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (GENERAL SURGERY),MD/MS,State Quota,State Quota,13
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (GENERAL SURGERY),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,6
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,Management Quota,Management Quota,6
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,7
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,8
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,7
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,Management Quota,Management Quota,4
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (OBSTETRICS & GYNAECOLOGY),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (OPHTHALMOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (OPHTHALMOLOGY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (OPHTHALMOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (OPHTHALMOLOGY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,5
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (OPHTHALMOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (OPHTHALMOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (OPHTHALMOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (OPHTHALMOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (OPHTHALMOLOGY),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,4
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (OPHTHALMOLOGY),MD/MS,All India Nature,Management/AI Nature,6
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,6
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (OPHTHALMOLOGY),MD/MS,All India Nature,Management/AI Nature,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (OPHTHALMOLOGY),MD/MS,State Quota,State Quota,3
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (OPHTHALMOLOGY),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (ORTHOPAEDICS),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,3
+Rajasthan,"American International Institute of Medical Sciences, Bedwas",Private,MS (ORTHOPAEDICS),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (ORTHOPAEDICS),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,4
+Rajasthan,"Ananta Institute of Medical Sciences & Research Centre, Rajsamand",Private,MS (ORTHOPAEDICS),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,1
+Rajasthan,"Dr S S Tantia Medical College Hospital & Research Centre, Sri Ganganagar",Private,MS (ORTHOPAEDICS),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (ORTHOPAEDICS),MD/MS,All India Nature,Management/AI Nature,8
+Rajasthan,"Geetanjali Medical College & Hospital, Udaipur",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,8
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (ORTHOPAEDICS),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,5
+Rajasthan,"Jaipur National University Institute of Medical Sciences and Resarch Centre, Jaipur",Private,MS (ORTHOPAEDICS),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (ORTHOPAEDICS),MD/MS,All India Nature,Management/AI Nature,3
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,6
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (ORTHOPAEDICS),MD/MS,Management Quota,Management Quota,3
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (ORTHOPAEDICS),MD/MS,All India Nature,Management/AI Nature,9
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,9
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (ORTHOPAEDICS),MD/MS,All India Nature,Management/AI Nature,6
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,9
+Rajasthan,"Pacific Institute of Medical Sciences, Umarda, Udaipur",Private,MS (ORTHOPAEDICS),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (ORTHOPAEDICS),MD/MS,All India Nature,Management/AI Nature,4
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (ORTHOPAEDICS),MD/MS,State Quota,State Quota,6
+Rajasthan,"Pacific Medical College & Hospital, Udaipur",Private,MS (ORTHOPAEDICS),MD/MS,Management Quota,Management Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (HOSPITAL ADMINISTRATION),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (HOSPITAL ADMINISTRATION),MD/MS,State Quota,State Quota,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (FAMILY MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (LABORATORY MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (LABORATORY MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (NUCLEAR MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (NUCLEAR MEDICINE),MD/MS,State Quota,State Quota,2
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MD (NUCLEAR MEDICINE),MD/MS,Management Quota,Management Quota,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (NUCLEAR MEDICINE),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,"National Institute of Medical Sciences & Research, (NIMS) Jaipur",Private,MD (NUCLEAR MEDICINE),MD/MS,State Quota,State Quota,1
+Rajasthan,"Mahatma Gandhi Medical College and Hospital, Jaipur",Private,MS (TRAUMATOLOGY & SURGERY),MD/MS,All India Nature,Management/AI Nature,1
+Rajasthan,Rajiv Gandhi Govt. GH Alwar,Government Hospital,Post MBBS Diploma ENT,Diploma,State Quota (In-Service),In-Service,4
+Rajasthan,GH Barmer,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,GH Barmer,Government Hospital,Post MBBS Diploma TB & Chest,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt Amrit Kaur Hosp Beawar Dist Ajmer,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt Amrit Kaur Hosp Beawar Dist Ajmer,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt Amrit Kaur Hosp Beawar Dist Ajmer,Government Hospital,Post MBBS Diploma ENT,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,GMC Bharatpur,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,GMC Bharatpur,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,GMC Bharatpur,Government Hospital,Post MBBS Diploma ENT,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt Mahatma Gandhi DH Banswara,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,Govt Mahatma Gandhi DH Banswara,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,MGH Bhilwara,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,MGH Bhilwara,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,MGH Bhilwara,Government Hospital,Post MBBS Diploma TB & Chest,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt DH Bundi,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,Govt DH Bundi,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,Govt DH Bundi,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,SSG Govt DH Chittorgarh,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,SSG Govt DH Chittorgarh,Government Hospital,Post MBBS Diploma Family Medicine,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt. DB General DH Churu,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,Govt. DB General DH Churu,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,DH Dholpur,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,DH Dholpur,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,DH Dholpur,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,DH Dholpur,Government Hospital,Post MBBS Diploma Family Medicine,Diploma,State Quota (In-Service),In-Service,4
+Rajasthan,GMC & Assoc. Hosp. Dungarpur,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,5
+Rajasthan,GMC & Assoc. Hosp. Dungarpur,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,6
+Rajasthan,GMC & Assoc. Hosp. Dungarpur,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,GMC & Assoc. Hosp. Dungarpur,Government Hospital,Post MBBS Diploma ENT,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt Dist civil Hosp Sri Ganganagar,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,Govt Dist civil Hosp Sri Ganganagar,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,Govt Dist civil Hosp Sri Ganganagar,Government Hospital,Post MBBS Diploma TB & Chest,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,Govt Dist civil Hosp Sri Ganganagar,Government Hospital,Post MBBS Diploma Family Medicine,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,MGH Govt DH Hanumangarh Town,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,MGH Govt DH Hanumangarh Town,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,MGH Govt DH Hanumangarh Town,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,MGH Govt DH Hanumangarh Town,Government Hospital,Post MBBS Diploma TB & Chest,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,"General Hospital, Jalore",Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt BDK Hosp Jhunjhunu,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,Govt BDK Hosp Jhunjhunu,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,Govt BDK Hosp Jhunjhunu,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,Govt BDK Hosp Jhunjhunu,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,Govt BDK Hosp Jhunjhunu,Government Hospital,Post MBBS Diploma ENT,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,Govt BDK Hosp Jhunjhunu,Government Hospital,Post MBBS Diploma Family Medicine,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,GH Karauli,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,JLN Govt Dist. Hosp. Nagaur,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,JLN Govt Dist. Hosp. Nagaur,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,JLN Govt Dist. Hosp. Nagaur,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,JLN Govt Dist. Hosp. Nagaur,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,JLN Govt Dist. Hosp. Nagaur,Government Hospital,Post MBBS Diploma ENT,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,JLN Govt Dist. Hosp. Nagaur,Government Hospital,Post MBBS Diploma TB & Chest,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,DH Pratapgarh,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,RK Govt District Hospital Rajsamand,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,GH Sawai Madhopur,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,5
+Rajasthan,GH Sawai Madhopur,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,GH Sawai Madhopur,Government Hospital,Post MBBS Diploma TB & Chest,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,SK Hospital Sikar,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,5
+Rajasthan,SK Hospital Sikar,Government Hospital,Post MBBS Diploma Ophthalmology,Diploma,State Quota (In-Service),In-Service,4
+Rajasthan,SK Hospital Sikar,Government Hospital,Post MBBS Diploma ENT,Diploma,State Quota (In-Service),In-Service,3
+Rajasthan,GH Sirohi,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,GH Sirohi,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,GH Sirohi,Government Hospital,Post MBBS Diploma Anaesthesia,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,GH Sirohi,Government Hospital,Post MBBS Diploma TB & Chest,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,GH Sirohi,Government Hospital,Post MBBS Diploma Family Medicine,Diploma,State Quota (In-Service),In-Service,4
+Rajasthan,Govt Dist Sadat Hosp. Tonk,Government Hospital,Post MBBS Diploma Obs & Gyne,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,Govt Dist Sadat Hosp. Tonk,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,1
+Rajasthan,Govt DH Kekri,Government Hospital,Post MBBS Diploma Paediatrics,Diploma,State Quota (In-Service),In-Service,2
+Rajasthan,"Govt. RDBP Jaipuria Hospital, Jaipur",Government Hospital,DNB Emergency Medicine,DNB,State Quota (In-Service),In-Service,2

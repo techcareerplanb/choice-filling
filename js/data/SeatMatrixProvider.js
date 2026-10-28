@@ -31,7 +31,13 @@ export class SeatMatrixProvider {
         }
 
         const key = `${instituteId}_${courseId}_${quotaId}_${year}`;
-        const record = this.dataIndex.get(key);
+        let record = this.dataIndex.get(key);
+
+        // Fallback: If not found for requested year, check 2026, then 2025
+        if (!record) {
+            const fallbackYear = (year === 2026) ? 2025 : 2026;
+            record = this.dataIndex.get(`${instituteId}_${courseId}_${quotaId}_${fallbackYear}`);
+        }
 
         if (!record) {
             return {
@@ -48,16 +54,20 @@ export class SeatMatrixProvider {
         if (categoryId === null || categoryId === undefined) {
             catSeats = record.totalSeats; // Fallback to total seats if no category selected
         } else {
-            catSeats = record.categorySeats[String(categoryId)] || 0;
+            catSeats = (record.categorySeats && record.categorySeats[String(categoryId)] !== undefined)
+                ? record.categorySeats[String(categoryId)]
+                : 0;
         }
 
         return {
             status: 'AVAILABLE',
             totalSeats: record.totalSeats,
             categorySeats: catSeats,
-            sourceType: record.sourceType || 'AIQ',
-            source: 'MCC',
-            instituteCode: record.instituteCode,
+            sourceType: record.sourceType || 'State Quota',
+            source: record.source || 'MCC',
+            instituteCode: record.instituteCode || null,
+            year: record.year,
+            round: record.round || 1,
             notes: null
         };
     }

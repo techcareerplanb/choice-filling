@@ -26,11 +26,23 @@ export async function initDataLayer() {
     const files = [
         'metadata', 'institutes', 'courses', 'categories', 'quotas', 'counsellings',
         'options', 'cutoffs', 'financials',
-        'seat-matrix-2025', 'seat-matrix-additional-2025', 'indexes'
+        'seat-matrix-2026', 'seat-matrix-2025', 'seat-matrix-additional-2025', 'indexes'
     ];
     
-    const dirs = await fs.promises.readdir(DATA_DIR, { withFileTypes: true });
     let seatMatrices = [];
+
+    // Load root seat matrices (All-India MCC & combined state 2026)
+    for (const smFile of ['seat-matrix-2026', 'seat-matrix-2025', 'seat-matrix-additional-2025']) {
+        const rootSmPath = path.join(DATA_DIR, `${smFile}.json`);
+        if (fs.existsSync(rootSmPath)) {
+            try {
+                const raw = await fs.promises.readFile(rootSmPath, 'utf8');
+                seatMatrices = seatMatrices.concat(JSON.parse(raw) || []);
+            } catch(e) {}
+        }
+    }
+    
+    const dirs = await fs.promises.readdir(DATA_DIR, { withFileTypes: true });
     
     for (const dir of dirs) {
         if (!dir.isDirectory()) continue;
@@ -52,7 +64,11 @@ export async function initDataLayer() {
         
         dataStores[counselling] = new DataStore(datasets);
         searchIndexes[counselling] = new SearchIndex(datasets.indexes || {});
-        seatMatrices = seatMatrices.concat(datasets['seat-matrix-2025'] || [], datasets['seat-matrix-additional-2025'] || []);
+        seatMatrices = seatMatrices.concat(
+            datasets['seat-matrix-2026'] || [],
+            datasets['seat-matrix-2025'] || [],
+            datasets['seat-matrix-additional-2025'] || []
+        );
     }
     
     SeatMatrixProvider.initialize(seatMatrices);
@@ -119,7 +135,7 @@ function getFilteredAndSortedResults(counselling, query) {
             courseId: hydrated.course.id,
             quotaId: hydrated.quota.id,
             categoryId: hydrated.category.id,
-            year: 2025 // Current year
+            year: query.year ? parseInt(query.year, 10) : 2026
         });
         
         if (!filterOption(hydrated, extraCriteria)) {
@@ -331,7 +347,7 @@ export function getOption(counselling, id, reqYear, reqRound, rank, includeInser
         courseId: opt.course.id,
         quotaId: opt.quota.id,
         categoryId: opt.category.id,
-        year: 2025
+        year: 2026
     });
 
     return opt;

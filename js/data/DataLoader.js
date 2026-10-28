@@ -92,6 +92,7 @@ export class DataLoader {
             'options.json',
             'cutoffs.json',
             'financials.json',
+            'seat-matrix-2026.json',
             'seat-matrix-2025.json',
             'seat-matrix-additional-2025.json',
             'indexes.json'

@@ -27,7 +27,11 @@ self.onmessage = async (e) => {
                 searchIndex = new SearchIndex(datasets.indexes);
                 
                 // Initialize Providers
-                SeatMatrixProvider.initialize([...(datasets['seat-matrix-2025'] || []), ...(datasets['seat-matrix-additional-2025'] || [])]);
+                SeatMatrixProvider.initialize([
+                    ...(datasets['seat-matrix-2026'] || []),
+                    ...(datasets['seat-matrix-2025'] || []),
+                    ...(datasets['seat-matrix-additional-2025'] || [])
+                ]);
                 
                 self.postMessage({ type: 'INIT_SUCCESS', msgId, payload: dataStore.getMetadata() });
                 break;
