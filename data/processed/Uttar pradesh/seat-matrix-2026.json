@@ -323,7 +323,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 524598,
+    "optionId": 525349,
     "instituteId": 5330,
     "courseId": 34,
     "quotaId": 115,
@@ -358,7 +358,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 499678,
+    "optionId": 499679,
     "instituteId": 5330,
     "courseId": 51,
     "quotaId": 115,
@@ -393,7 +393,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 520987,
+    "optionId": 524597,
     "instituteId": 5330,
     "courseId": 57,
     "quotaId": 115,
@@ -412,7 +412,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 499681,
+    "optionId": 499682,
     "instituteId": 5330,
     "courseId": 59,
     "quotaId": 115,
@@ -568,7 +568,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 524680,
+    "optionId": 800653,
     "instituteId": 6141,
     "courseId": 34,
     "quotaId": 115,
@@ -657,7 +657,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 517064,
+    "optionId": 800657,
     "instituteId": 5332,
     "courseId": 70,
     "quotaId": 115,
@@ -711,7 +711,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 524687,
+    "optionId": 800660,
     "instituteId": 5332,
     "courseId": 45,
     "quotaId": 115,
@@ -802,7 +802,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 524607,
+    "optionId": 504986,
     "instituteId": 5332,
     "courseId": 57,
     "quotaId": 115,
@@ -836,7 +836,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 499691,
+    "optionId": 499692,
     "instituteId": 5332,
     "courseId": 63,
     "quotaId": 115,
@@ -854,7 +854,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 517062,
+    "optionId": 800665,
     "instituteId": 5332,
     "courseId": 69,
     "quotaId": 115,
@@ -890,7 +890,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 521015,
+    "optionId": 521016,
     "instituteId": 6410,
     "courseId": 37,
     "quotaId": 115,
@@ -1083,7 +1083,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 517089,
+    "optionId": 800674,
     "instituteId": 6143,
     "courseId": 63,
     "quotaId": 115,
@@ -1540,7 +1540,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408253,
+    "optionId": 366441,
     "instituteId": 380,
     "courseId": 53,
     "quotaId": 115,
@@ -1614,7 +1614,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 428996,
+    "optionId": 366087,
     "instituteId": 380,
     "courseId": 60,
     "quotaId": 115,
@@ -1706,8 +1706,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800692,
-    "instituteId": 381,
+    "optionId": 366106,
+    "instituteId": 400,
     "courseId": 32,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1726,8 +1726,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800696,
-    "instituteId": 381,
+    "optionId": 366438,
+    "instituteId": 400,
     "courseId": 34,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1744,8 +1744,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800698,
-    "instituteId": 381,
+    "optionId": 450699,
+    "instituteId": 400,
     "courseId": 43,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1763,8 +1763,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800700,
-    "instituteId": 381,
+    "optionId": 439413,
+    "instituteId": 400,
     "courseId": 68,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1781,8 +1781,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800701,
-    "instituteId": 381,
+    "optionId": 366262,
+    "instituteId": 400,
     "courseId": 70,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1800,8 +1800,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800704,
-    "instituteId": 381,
+    "optionId": 365852,
+    "instituteId": 400,
     "courseId": 46,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1818,8 +1818,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800706,
-    "instituteId": 381,
+    "optionId": 366330,
+    "instituteId": 400,
     "courseId": 51,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1836,8 +1836,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800708,
-    "instituteId": 381,
+    "optionId": 365854,
+    "instituteId": 400,
     "courseId": 61,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1854,8 +1854,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800710,
-    "instituteId": 381,
+    "optionId": 365930,
+    "instituteId": 400,
     "courseId": 72,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1872,8 +1872,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800712,
-    "instituteId": 381,
+    "optionId": 408287,
+    "instituteId": 400,
     "courseId": 53,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1892,8 +1892,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800716,
-    "instituteId": 381,
+    "optionId": 365798,
+    "instituteId": 400,
     "courseId": 55,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1910,8 +1910,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800718,
-    "instituteId": 381,
+    "optionId": 366000,
+    "instituteId": 400,
     "courseId": 57,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1928,8 +1928,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800720,
-    "instituteId": 381,
+    "optionId": 366090,
+    "instituteId": 400,
     "courseId": 59,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1946,8 +1946,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800722,
-    "instituteId": 381,
+    "optionId": 366361,
+    "instituteId": 400,
     "courseId": 62,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1965,8 +1965,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800725,
-    "instituteId": 381,
+    "optionId": 365858,
+    "instituteId": 400,
     "courseId": 63,
     "quotaId": 115,
     "instituteCode": "013",
@@ -1982,8 +1982,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800726,
-    "instituteId": 381,
+    "optionId": 366046,
+    "instituteId": 400,
     "courseId": 69,
     "quotaId": 115,
     "instituteCode": "013",
@@ -2020,7 +2020,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450657,
+    "optionId": 408296,
     "instituteId": 376,
     "courseId": 34,
     "quotaId": 115,
@@ -2037,7 +2037,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516953,
+    "optionId": 800696,
     "instituteId": 376,
     "courseId": 3,
     "quotaId": 115,
@@ -2054,7 +2054,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 499553,
+    "optionId": 800697,
     "instituteId": 376,
     "courseId": 1,
     "quotaId": 115,
@@ -2090,7 +2090,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366305,
+    "optionId": 366120,
     "instituteId": 376,
     "courseId": 70,
     "quotaId": 115,
@@ -2127,7 +2127,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439501,
+    "optionId": 366543,
     "instituteId": 376,
     "courseId": 46,
     "quotaId": 115,
@@ -2236,7 +2236,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439497,
+    "optionId": 365833,
     "instituteId": 376,
     "courseId": 53,
     "quotaId": 115,
@@ -2315,7 +2315,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516955,
+    "optionId": 800702,
     "instituteId": 376,
     "courseId": 62,
     "quotaId": 115,
@@ -2350,7 +2350,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366478,
+    "optionId": 366149,
     "instituteId": 376,
     "courseId": 69,
     "quotaId": 115,
@@ -2390,7 +2390,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800736,
+    "optionId": 800703,
     "instituteId": 755,
     "courseId": 32,
     "quotaId": 115,
@@ -2409,7 +2409,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800739,
+    "optionId": 800706,
     "instituteId": 755,
     "courseId": 34,
     "quotaId": 115,
@@ -2427,7 +2427,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800741,
+    "optionId": 800708,
     "instituteId": 755,
     "courseId": 68,
     "quotaId": 115,
@@ -2445,7 +2445,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800743,
+    "optionId": 800710,
     "instituteId": 755,
     "courseId": 37,
     "quotaId": 115,
@@ -2463,7 +2463,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800745,
+    "optionId": 800712,
     "instituteId": 755,
     "courseId": 46,
     "quotaId": 115,
@@ -2482,7 +2482,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800747,
+    "optionId": 800714,
     "instituteId": 755,
     "courseId": 51,
     "quotaId": 115,
@@ -2500,7 +2500,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800749,
+    "optionId": 800716,
     "instituteId": 755,
     "courseId": 71,
     "quotaId": 115,
@@ -2517,7 +2517,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800750,
+    "optionId": 800717,
     "instituteId": 755,
     "courseId": 72,
     "quotaId": 115,
@@ -2535,7 +2535,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800752,
+    "optionId": 800719,
     "instituteId": 755,
     "courseId": 53,
     "quotaId": 115,
@@ -2552,7 +2552,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800753,
+    "optionId": 800720,
     "instituteId": 755,
     "courseId": 55,
     "quotaId": 115,
@@ -2571,7 +2571,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800755,
+    "optionId": 800722,
     "instituteId": 755,
     "courseId": 57,
     "quotaId": 115,
@@ -2589,7 +2589,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800757,
+    "optionId": 800724,
     "instituteId": 755,
     "courseId": 59,
     "quotaId": 115,
@@ -2607,7 +2607,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800759,
+    "optionId": 800726,
     "instituteId": 755,
     "courseId": 63,
     "quotaId": 115,
@@ -2625,7 +2625,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800761,
+    "optionId": 800728,
     "instituteId": 755,
     "courseId": 69,
     "quotaId": 115,
@@ -2644,7 +2644,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800764,
+    "optionId": 800731,
     "instituteId": 1476,
     "courseId": 46,
     "quotaId": 115,
@@ -2662,7 +2662,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800766,
+    "optionId": 800733,
     "instituteId": 1476,
     "courseId": 45,
     "quotaId": 115,
@@ -2680,7 +2680,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800768,
+    "optionId": 800735,
     "instituteId": 1476,
     "courseId": 71,
     "quotaId": 115,
@@ -2697,7 +2697,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800769,
+    "optionId": 800736,
     "instituteId": 1476,
     "courseId": 53,
     "quotaId": 115,
@@ -2714,7 +2714,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800770,
+    "optionId": 800737,
     "instituteId": 1476,
     "courseId": 55,
     "quotaId": 115,
@@ -2732,7 +2732,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800772,
+    "optionId": 800739,
     "instituteId": 1476,
     "courseId": 63,
     "quotaId": 115,
@@ -2750,7 +2750,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800774,
+    "optionId": 800741,
     "instituteId": 1476,
     "courseId": 69,
     "quotaId": 115,
@@ -2768,8 +2768,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800776,
-    "instituteId": 383,
+    "optionId": 499600,
+    "instituteId": 1354,
     "courseId": 32,
     "quotaId": 115,
     "instituteCode": "017",
@@ -2786,8 +2786,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800778,
-    "instituteId": 383,
+    "optionId": 366232,
+    "instituteId": 1354,
     "courseId": 34,
     "quotaId": 115,
     "instituteCode": "017",
@@ -2804,8 +2804,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800780,
-    "instituteId": 383,
+    "optionId": 499601,
+    "instituteId": 1354,
     "courseId": 68,
     "quotaId": 115,
     "instituteCode": "017",
@@ -2822,8 +2822,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800782,
-    "instituteId": 383,
+    "optionId": 366189,
+    "instituteId": 1354,
     "courseId": 57,
     "quotaId": 115,
     "instituteCode": "017",
@@ -2840,8 +2840,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800784,
-    "instituteId": 383,
+    "optionId": 439449,
+    "instituteId": 1354,
     "courseId": 63,
     "quotaId": 115,
     "instituteCode": "017",
@@ -2860,7 +2860,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800788,
+    "optionId": 800745,
     "instituteId": 1475,
     "courseId": 34,
     "quotaId": 115,
@@ -2878,7 +2878,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800790,
+    "optionId": 800747,
     "instituteId": 1475,
     "courseId": 63,
     "quotaId": 115,
@@ -2932,7 +2932,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516984,
+    "optionId": 499596,
     "instituteId": 1353,
     "courseId": 68,
     "quotaId": 115,
@@ -2950,7 +2950,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 520969,
+    "optionId": 366536,
     "instituteId": 1353,
     "courseId": 45,
     "quotaId": 115,
@@ -3077,7 +3077,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450646,
+    "optionId": 800754,
     "instituteId": 1944,
     "courseId": 34,
     "quotaId": 115,
@@ -3094,7 +3094,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516996,
+    "optionId": 503713,
     "instituteId": 1944,
     "courseId": 70,
     "quotaId": 115,
@@ -3129,7 +3129,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 524642,
+    "optionId": 800755,
     "instituteId": 1944,
     "courseId": 45,
     "quotaId": 115,
@@ -3163,7 +3163,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516998,
+    "optionId": 800756,
     "instituteId": 1944,
     "courseId": 72,
     "quotaId": 115,
@@ -3290,7 +3290,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 503727,
+    "optionId": 503728,
     "instituteId": 2339,
     "courseId": 68,
     "quotaId": 115,
@@ -3343,7 +3343,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 517000,
+    "optionId": 503719,
     "instituteId": 2339,
     "courseId": 51,
     "quotaId": 115,
@@ -3435,7 +3435,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365957,
+    "optionId": 450625,
     "instituteId": 2339,
     "courseId": 57,
     "quotaId": 115,
@@ -3469,7 +3469,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 503725,
+    "optionId": 503726,
     "instituteId": 2339,
     "courseId": 63,
     "quotaId": 115,
@@ -3541,7 +3541,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516990,
+    "optionId": 439444,
     "instituteId": 1355,
     "courseId": 70,
     "quotaId": 115,
@@ -3595,7 +3595,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516988,
+    "optionId": 800762,
     "instituteId": 1355,
     "courseId": 53,
     "quotaId": 115,
@@ -3631,7 +3631,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 520971,
+    "optionId": 524629,
     "instituteId": 1355,
     "courseId": 57,
     "quotaId": 115,
@@ -3685,7 +3685,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439494,
+    "optionId": 439443,
     "instituteId": 1355,
     "courseId": 69,
     "quotaId": 115,
@@ -3704,8 +3704,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800810,
-    "instituteId": 384,
+    "optionId": 366075,
+    "instituteId": 404,
     "courseId": 60,
     "quotaId": 115,
     "instituteCode": "023",
@@ -3858,7 +3858,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408225,
+    "optionId": 365874,
     "instituteId": 372,
     "courseId": 46,
     "quotaId": 115,
@@ -3997,7 +3997,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366565,
+    "optionId": 366458,
     "instituteId": 372,
     "courseId": 72,
     "quotaId": 115,
@@ -4198,7 +4198,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516934,
+    "optionId": 800777,
     "instituteId": 372,
     "courseId": 64,
     "quotaId": 115,
@@ -4237,7 +4237,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439498,
+    "optionId": 365831,
     "instituteId": 372,
     "courseId": 67,
     "quotaId": 115,
@@ -4313,7 +4313,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800827,
+    "optionId": 800781,
     "instituteId": 373,
     "courseId": 27,
     "quotaId": 115,
@@ -4382,7 +4382,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365837,
+    "optionId": 366324,
     "instituteId": 373,
     "courseId": 70,
     "quotaId": 115,
@@ -4402,7 +4402,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516940,
+    "optionId": 446475,
     "instituteId": 373,
     "courseId": 37,
     "quotaId": 115,
@@ -4495,7 +4495,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516947,
+    "optionId": 365987,
     "instituteId": 373,
     "courseId": 72,
     "quotaId": 115,
@@ -4571,7 +4571,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 429048,
+    "optionId": 429035,
     "instituteId": 373,
     "courseId": 59,
     "quotaId": 115,
@@ -4624,7 +4624,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 429020,
+    "optionId": 439427,
     "instituteId": 373,
     "courseId": 42,
     "quotaId": 115,
@@ -4663,7 +4663,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408268,
+    "optionId": 366175,
     "instituteId": 373,
     "courseId": 69,
     "quotaId": 115,
@@ -4702,8 +4702,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800837,
-    "instituteId": 374,
+    "optionId": 366497,
+    "instituteId": 377,
     "courseId": 32,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4722,8 +4722,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800840,
-    "instituteId": 374,
+    "optionId": 408272,
+    "instituteId": 377,
     "courseId": 68,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4740,8 +4740,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800842,
-    "instituteId": 374,
+    "optionId": 366495,
+    "instituteId": 377,
     "courseId": 70,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4762,8 +4762,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800846,
-    "instituteId": 374,
+    "optionId": 366352,
+    "instituteId": 377,
     "courseId": 46,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4783,8 +4783,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800850,
-    "instituteId": 374,
+    "optionId": 516958,
+    "instituteId": 377,
     "courseId": 61,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4800,8 +4800,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800851,
-    "instituteId": 374,
+    "optionId": 365972,
+    "instituteId": 377,
     "courseId": 71,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4818,8 +4818,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800853,
-    "instituteId": 374,
+    "optionId": 366005,
+    "instituteId": 377,
     "courseId": 72,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4837,8 +4837,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800856,
-    "instituteId": 374,
+    "optionId": 365938,
+    "instituteId": 377,
     "courseId": 53,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4857,8 +4857,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800860,
-    "instituteId": 374,
+    "optionId": 408227,
+    "instituteId": 377,
     "courseId": 55,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4876,8 +4876,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800863,
-    "instituteId": 374,
+    "optionId": 800793,
+    "instituteId": 377,
     "courseId": 57,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4893,8 +4893,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800864,
-    "instituteId": 374,
+    "optionId": 366482,
+    "instituteId": 377,
     "courseId": 62,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4912,8 +4912,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800867,
-    "instituteId": 374,
+    "optionId": 800795,
+    "instituteId": 377,
     "courseId": 63,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4929,8 +4929,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800868,
-    "instituteId": 374,
+    "optionId": 366057,
+    "instituteId": 377,
     "courseId": 69,
     "quotaId": 115,
     "instituteCode": "026",
@@ -4948,8 +4948,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800871,
-    "instituteId": 374,
+    "optionId": 408120,
+    "instituteId": 377,
     "courseId": 67,
     "quotaId": 115,
     "instituteCode": "026",
@@ -5044,7 +5044,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408174,
+    "optionId": 408119,
     "instituteId": 375,
     "courseId": 49,
     "quotaId": 115,
@@ -5062,7 +5062,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366286,
+    "optionId": 366132,
     "instituteId": 375,
     "courseId": 46,
     "quotaId": 115,
@@ -5117,7 +5117,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408369,
+    "optionId": 439418,
     "instituteId": 375,
     "courseId": 61,
     "quotaId": 115,
@@ -5174,7 +5174,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365884,
+    "optionId": 366413,
     "instituteId": 375,
     "courseId": 53,
     "quotaId": 115,
@@ -5214,7 +5214,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516948,
+    "optionId": 366276,
     "instituteId": 375,
     "courseId": 57,
     "quotaId": 115,
@@ -5324,7 +5324,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408232,
+    "optionId": 366123,
     "instituteId": 375,
     "courseId": 69,
     "quotaId": 115,
@@ -5363,7 +5363,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516970,
+    "optionId": 800802,
     "instituteId": 394,
     "courseId": 49,
     "quotaId": 115,
@@ -5515,7 +5515,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 516961,
+    "optionId": 800810,
     "instituteId": 379,
     "courseId": 48,
     "quotaId": 115,
@@ -5739,7 +5739,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 499532,
+    "optionId": 800816,
     "instituteId": 369,
     "courseId": 20,
     "quotaId": 115,
@@ -5756,7 +5756,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366412,
+    "optionId": 800817,
     "instituteId": 369,
     "courseId": 68,
     "quotaId": 115,
@@ -5965,7 +5965,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 520964,
+    "optionId": 366500,
     "instituteId": 369,
     "courseId": 59,
     "quotaId": 115,
@@ -6078,7 +6078,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 429047,
+    "optionId": 800822,
     "instituteId": 369,
     "courseId": 67,
     "quotaId": 115,
@@ -6096,7 +6096,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800901,
+    "optionId": 800824,
     "instituteId": 5308,
     "courseId": 32,
     "quotaId": 115,
@@ -6116,7 +6116,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800904,
+    "optionId": 800827,
     "instituteId": 5308,
     "courseId": 34,
     "quotaId": 115,
@@ -6136,7 +6136,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800908,
+    "optionId": 800831,
     "instituteId": 5308,
     "courseId": 68,
     "quotaId": 115,
@@ -6153,7 +6153,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800909,
+    "optionId": 800832,
     "instituteId": 5308,
     "courseId": 70,
     "quotaId": 115,
@@ -6171,7 +6171,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800911,
+    "optionId": 800834,
     "instituteId": 5308,
     "courseId": 37,
     "quotaId": 115,
@@ -6189,7 +6189,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800913,
+    "optionId": 800836,
     "instituteId": 5308,
     "courseId": 51,
     "quotaId": 115,
@@ -6207,7 +6207,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800915,
+    "optionId": 800838,
     "instituteId": 5308,
     "courseId": 71,
     "quotaId": 115,
@@ -6224,7 +6224,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800916,
+    "optionId": 800839,
     "instituteId": 5308,
     "courseId": 72,
     "quotaId": 115,
@@ -6243,7 +6243,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800919,
+    "optionId": 800842,
     "instituteId": 5308,
     "courseId": 53,
     "quotaId": 115,
@@ -6262,7 +6262,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800922,
+    "optionId": 800845,
     "instituteId": 5308,
     "courseId": 55,
     "quotaId": 115,
@@ -6283,7 +6283,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800926,
+    "optionId": 800849,
     "instituteId": 5308,
     "courseId": 57,
     "quotaId": 115,
@@ -6301,7 +6301,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800928,
+    "optionId": 800851,
     "instituteId": 5308,
     "courseId": 59,
     "quotaId": 115,
@@ -6320,7 +6320,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800931,
+    "optionId": 800854,
     "instituteId": 5308,
     "courseId": 63,
     "quotaId": 115,
@@ -6340,7 +6340,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800935,
+    "optionId": 800858,
     "instituteId": 5308,
     "courseId": 69,
     "quotaId": 115,
@@ -6361,7 +6361,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800939,
+    "optionId": 800862,
     "instituteId": 5308,
     "courseId": 67,
     "quotaId": 115,
@@ -6770,7 +6770,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800941,
+    "optionId": 800864,
     "instituteId": 395,
     "courseId": 37,
     "quotaId": 117,
@@ -6906,7 +6906,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800942,
+    "optionId": 800865,
     "instituteId": 395,
     "courseId": 59,
     "quotaId": 117,
@@ -7025,8 +7025,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365801,
-    "instituteId": 396,
+    "optionId": 366029,
+    "instituteId": 374,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7042,8 +7042,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800943,
-    "instituteId": 396,
+    "optionId": 800866,
+    "instituteId": 374,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7059,8 +7059,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365955,
-    "instituteId": 396,
+    "optionId": 366079,
+    "instituteId": 374,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7076,8 +7076,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365862,
-    "instituteId": 396,
+    "optionId": 366014,
+    "instituteId": 374,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7093,8 +7093,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450677,
-    "instituteId": 396,
+    "optionId": 408327,
+    "instituteId": 374,
     "courseId": 37,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7110,8 +7110,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366556,
-    "instituteId": 396,
+    "optionId": 366036,
+    "instituteId": 374,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7127,8 +7127,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366398,
-    "instituteId": 396,
+    "optionId": 408224,
+    "instituteId": 374,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7144,8 +7144,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366001,
-    "instituteId": 396,
+    "optionId": 366348,
+    "instituteId": 374,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7161,8 +7161,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365885,
-    "instituteId": 396,
+    "optionId": 366063,
+    "instituteId": 374,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7178,8 +7178,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365857,
-    "instituteId": 396,
+    "optionId": 366121,
+    "instituteId": 374,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7195,8 +7195,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408302,
-    "instituteId": 396,
+    "optionId": 366018,
+    "instituteId": 374,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7212,8 +7212,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450694,
-    "instituteId": 396,
+    "optionId": 408226,
+    "instituteId": 374,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7229,8 +7229,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800944,
-    "instituteId": 396,
+    "optionId": 450611,
+    "instituteId": 374,
     "courseId": 59,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7246,8 +7246,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366162,
-    "instituteId": 396,
+    "optionId": 366257,
+    "instituteId": 374,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7263,8 +7263,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366028,
-    "instituteId": 396,
+    "optionId": 366464,
+    "instituteId": 374,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7280,8 +7280,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366032,
-    "instituteId": 396,
+    "optionId": 366265,
+    "instituteId": 374,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7297,8 +7297,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365823,
-    "instituteId": 396,
+    "optionId": 366533,
+    "instituteId": 374,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7314,8 +7314,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366508,
-    "instituteId": 396,
+    "optionId": 366181,
+    "instituteId": 374,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7331,8 +7331,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365958,
-    "instituteId": 396,
+    "optionId": 365812,
+    "instituteId": 374,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "035",
@@ -7348,8 +7348,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800945,
-    "instituteId": 396,
+    "optionId": 366070,
+    "instituteId": 374,
     "courseId": 32,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7365,8 +7365,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800946,
-    "instituteId": 396,
+    "optionId": 800867,
+    "instituteId": 374,
     "courseId": 34,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7382,8 +7382,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800947,
-    "instituteId": 396,
+    "optionId": 365871,
+    "instituteId": 374,
     "courseId": 68,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7399,8 +7399,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800948,
-    "instituteId": 396,
+    "optionId": 365946,
+    "instituteId": 374,
     "courseId": 70,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7416,8 +7416,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800949,
-    "instituteId": 396,
+    "optionId": 365927,
+    "instituteId": 374,
     "courseId": 46,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7433,8 +7433,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800950,
-    "instituteId": 396,
+    "optionId": 450642,
+    "instituteId": 374,
     "courseId": 51,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7450,8 +7450,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800951,
-    "instituteId": 396,
+    "optionId": 366125,
+    "instituteId": 374,
     "courseId": 71,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7467,8 +7467,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800952,
-    "instituteId": 396,
+    "optionId": 366315,
+    "instituteId": 374,
     "courseId": 72,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7484,8 +7484,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800953,
-    "instituteId": 396,
+    "optionId": 365769,
+    "instituteId": 374,
     "courseId": 53,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7501,8 +7501,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800954,
-    "instituteId": 396,
+    "optionId": 366442,
+    "instituteId": 374,
     "courseId": 55,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7518,8 +7518,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800955,
-    "instituteId": 396,
+    "optionId": 800868,
+    "instituteId": 374,
     "courseId": 57,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7535,8 +7535,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800956,
-    "instituteId": 396,
+    "optionId": 800869,
+    "instituteId": 374,
     "courseId": 59,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7552,8 +7552,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800957,
-    "instituteId": 396,
+    "optionId": 365771,
+    "instituteId": 374,
     "courseId": 60,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7569,8 +7569,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800958,
-    "instituteId": 396,
+    "optionId": 365959,
+    "instituteId": 374,
     "courseId": 62,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7586,8 +7586,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800959,
-    "instituteId": 396,
+    "optionId": 366409,
+    "instituteId": 374,
     "courseId": 42,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7603,8 +7603,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800960,
-    "instituteId": 396,
+    "optionId": 408276,
+    "instituteId": 374,
     "courseId": 63,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7620,8 +7620,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800961,
-    "instituteId": 396,
+    "optionId": 366439,
+    "instituteId": 374,
     "courseId": 69,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7637,8 +7637,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800962,
-    "instituteId": 396,
+    "optionId": 366256,
+    "instituteId": 374,
     "courseId": 67,
     "quotaId": 117,
     "instituteCode": "036",
@@ -7977,7 +7977,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800963,
+    "optionId": 800870,
     "instituteId": 389,
     "courseId": 51,
     "quotaId": 117,
@@ -8164,8 +8164,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365896,
-    "instituteId": 1358,
+    "optionId": 366337,
+    "instituteId": 1930,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8181,8 +8181,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800964,
-    "instituteId": 1358,
+    "optionId": 800871,
+    "instituteId": 1930,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8198,8 +8198,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800965,
-    "instituteId": 1358,
+    "optionId": 520972,
+    "instituteId": 1930,
     "courseId": 43,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8215,8 +8215,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366151,
-    "instituteId": 1358,
+    "optionId": 408189,
+    "instituteId": 1930,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8232,8 +8232,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366104,
-    "instituteId": 1358,
+    "optionId": 366397,
+    "instituteId": 1930,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8249,8 +8249,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800966,
-    "instituteId": 1358,
+    "optionId": 524613,
+    "instituteId": 1930,
     "courseId": 37,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8266,8 +8266,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366331,
-    "instituteId": 1358,
+    "optionId": 366073,
+    "instituteId": 1930,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8283,8 +8283,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800967,
-    "instituteId": 1358,
+    "optionId": 520973,
+    "instituteId": 1930,
     "courseId": 45,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8300,8 +8300,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450635,
-    "instituteId": 1358,
+    "optionId": 524656,
+    "instituteId": 1930,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8317,8 +8317,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800968,
-    "instituteId": 1358,
+    "optionId": 524657,
+    "instituteId": 1930,
     "courseId": 61,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8334,8 +8334,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365978,
-    "instituteId": 1358,
+    "optionId": 366174,
+    "instituteId": 1930,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8351,8 +8351,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366561,
-    "instituteId": 1358,
+    "optionId": 365866,
+    "instituteId": 1930,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8368,8 +8368,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366124,
-    "instituteId": 1358,
+    "optionId": 366292,
+    "instituteId": 1930,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8385,8 +8385,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366153,
-    "instituteId": 1358,
+    "optionId": 524671,
+    "instituteId": 1930,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8402,8 +8402,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800969,
-    "instituteId": 1358,
+    "optionId": 524634,
+    "instituteId": 1930,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8419,8 +8419,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800970,
-    "instituteId": 1358,
+    "optionId": 524633,
+    "instituteId": 1930,
     "courseId": 59,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8436,8 +8436,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366147,
-    "instituteId": 1358,
+    "optionId": 408270,
+    "instituteId": 1930,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8453,8 +8453,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366109,
-    "instituteId": 1358,
+    "optionId": 408340,
+    "instituteId": 1930,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8470,8 +8470,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366289,
-    "instituteId": 1358,
+    "optionId": 408192,
+    "instituteId": 1930,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8487,8 +8487,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450632,
-    "instituteId": 1358,
+    "optionId": 524695,
+    "instituteId": 1930,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8504,8 +8504,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366058,
-    "instituteId": 1358,
+    "optionId": 366069,
+    "instituteId": 1930,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8521,8 +8521,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365835,
-    "instituteId": 1358,
+    "optionId": 408322,
+    "instituteId": 1930,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "039",
@@ -8538,8 +8538,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366296,
-    "instituteId": 393,
+    "optionId": 365964,
+    "instituteId": 388,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "040",
@@ -8555,8 +8555,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800971,
-    "instituteId": 393,
+    "optionId": 408230,
+    "instituteId": 388,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "040",
@@ -8572,8 +8572,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408300,
-    "instituteId": 393,
+    "optionId": 524637,
+    "instituteId": 388,
     "courseId": 43,
     "quotaId": 116,
     "instituteCode": "040",
@@ -8589,288 +8589,16 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365863,
-    "instituteId": 393,
-    "courseId": 68,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MS ENT",
-    "totalSeats": 4,
-    "categorySeats": {
-      "1": 4
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 365851,
-    "instituteId": 393,
-    "courseId": 70,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MS OBSTETRICS & GYNAECOLOGY",
-    "totalSeats": 4,
-    "categorySeats": {
-      "1": 4
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 450641,
-    "instituteId": 393,
-    "courseId": 37,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD BIOCHEMISTRY",
-    "totalSeats": 3,
-    "categorySeats": {
-      "1": 3
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 365969,
-    "instituteId": 393,
-    "courseId": 46,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD GENERAL MEDICINE",
-    "totalSeats": 3,
-    "categorySeats": {
-      "1": 3
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 408262,
-    "instituteId": 393,
-    "courseId": 51,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD MICROBIOLOGY",
-    "totalSeats": 1,
-    "categorySeats": {
-      "1": 1
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 366290,
-    "instituteId": 393,
-    "courseId": 71,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MS OPHTHALMOLOGY",
-    "totalSeats": 4,
-    "categorySeats": {
-      "1": 4
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 366391,
-    "instituteId": 393,
-    "courseId": 72,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MS ORTHOPAEDICS",
-    "totalSeats": 4,
-    "categorySeats": {
-      "1": 4
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 366345,
-    "instituteId": 393,
-    "courseId": 53,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD PAEDIATRICS",
-    "totalSeats": 5,
-    "categorySeats": {
-      "1": 5
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 408364,
-    "instituteId": 393,
-    "courseId": 55,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD PATHOLOGY",
-    "totalSeats": 6,
-    "categorySeats": {
-      "1": 6
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 450607,
-    "instituteId": 393,
-    "courseId": 57,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD PHARMACOLOGY",
-    "totalSeats": 2,
-    "categorySeats": {
-      "1": 2
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 365953,
-    "instituteId": 393,
-    "courseId": 62,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD RADIODIAGNOSIS",
-    "totalSeats": 4,
-    "categorySeats": {
-      "1": 4
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 366452,
-    "instituteId": 393,
-    "courseId": 42,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD DERMATOLOGY",
-    "totalSeats": 2,
-    "categorySeats": {
-      "1": 2
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 365821,
-    "instituteId": 393,
-    "courseId": 69,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MS GENERAL SURGERY",
-    "totalSeats": 6,
-    "categorySeats": {
-      "1": 6
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 365933,
-    "instituteId": 393,
-    "courseId": 67,
-    "quotaId": 116,
-    "instituteCode": "040",
-    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
-    "programRaw": "MD RESPIRATORY MEDICINE",
-    "totalSeats": 3,
-    "categorySeats": {
-      "1": 3
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 365964,
-    "instituteId": 388,
-    "courseId": 32,
-    "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
-    "programRaw": "MD ANAESTHESIA",
-    "totalSeats": 7,
-    "categorySeats": {
-      "1": 7
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 408230,
-    "instituteId": 388,
-    "courseId": 34,
-    "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
-    "programRaw": "MS ANATOMY",
-    "totalSeats": 2,
-    "categorySeats": {
-      "1": 2
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
     "optionId": 365903,
     "instituteId": 388,
     "courseId": 68,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MS ENT",
-    "totalSeats": 2,
+    "totalSeats": 4,
     "categorySeats": {
-      "1": 2
+      "1": 4
     },
     "year": 2026,
     "round": 1,
@@ -8882,8 +8610,8 @@
     "instituteId": 388,
     "courseId": 70,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MS OBSTETRICS & GYNAECOLOGY",
     "totalSeats": 4,
     "categorySeats": {
@@ -8895,16 +8623,16 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800972,
+    "optionId": 800872,
     "instituteId": 388,
     "courseId": 37,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MD BIOCHEMISTRY",
-    "totalSeats": 1,
+    "totalSeats": 3,
     "categorySeats": {
-      "1": 1
+      "1": 3
     },
     "year": 2026,
     "round": 1,
@@ -8916,29 +8644,12 @@
     "instituteId": 388,
     "courseId": 46,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MD GENERAL MEDICINE",
-    "totalSeats": 10,
+    "totalSeats": 3,
     "categorySeats": {
-      "1": 10
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 800973,
-    "instituteId": 388,
-    "courseId": 45,
-    "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
-    "programRaw": "MD FORENSIC MEDICINE",
-    "totalSeats": 2,
-    "categorySeats": {
-      "1": 2
+      "1": 3
     },
     "year": 2026,
     "round": 1,
@@ -8950,12 +8661,12 @@
     "instituteId": 388,
     "courseId": 51,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MD MICROBIOLOGY",
-    "totalSeats": 4,
+    "totalSeats": 1,
     "categorySeats": {
-      "1": 4
+      "1": 1
     },
     "year": 2026,
     "round": 1,
@@ -8967,12 +8678,12 @@
     "instituteId": 388,
     "courseId": 71,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MS OPHTHALMOLOGY",
-    "totalSeats": 2,
+    "totalSeats": 4,
     "categorySeats": {
-      "1": 2
+      "1": 4
     },
     "year": 2026,
     "round": 1,
@@ -8984,8 +8695,8 @@
     "instituteId": 388,
     "courseId": 72,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MS ORTHOPAEDICS",
     "totalSeats": 4,
     "categorySeats": {
@@ -9001,12 +8712,12 @@
     "instituteId": 388,
     "courseId": 53,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MD PAEDIATRICS",
-    "totalSeats": 3,
+    "totalSeats": 5,
     "categorySeats": {
-      "1": 3
+      "1": 5
     },
     "year": 2026,
     "round": 1,
@@ -9018,12 +8729,12 @@
     "instituteId": 388,
     "courseId": 55,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MD PATHOLOGY",
-    "totalSeats": 4,
+    "totalSeats": 6,
     "categorySeats": {
-      "1": 4
+      "1": 6
     },
     "year": 2026,
     "round": 1,
@@ -9035,43 +8746,9 @@
     "instituteId": 388,
     "courseId": 57,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MD PHARMACOLOGY",
-    "totalSeats": 4,
-    "categorySeats": {
-      "1": 4
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 800974,
-    "instituteId": 388,
-    "courseId": 59,
-    "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
-    "programRaw": "MD PHYSIOLOGY",
-    "totalSeats": 3,
-    "categorySeats": {
-      "1": 3
-    },
-    "year": 2026,
-    "round": 1,
-    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
-    "source": "UP DGME State Counselling"
-  },
-  {
-    "optionId": 800975,
-    "instituteId": 388,
-    "courseId": 60,
-    "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
-    "programRaw": "MD PSYCHIATRY",
     "totalSeats": 2,
     "categorySeats": {
       "1": 2
@@ -9086,8 +8763,8 @@
     "instituteId": 388,
     "courseId": 62,
     "quotaId": 116,
-    "instituteCode": "041",
-    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
     "programRaw": "MD RADIODIAGNOSIS",
     "totalSeats": 4,
     "categorySeats": {
@@ -9103,6 +8780,329 @@
     "instituteId": 388,
     "courseId": 42,
     "quotaId": 116,
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
+    "programRaw": "MD DERMATOLOGY",
+    "totalSeats": 2,
+    "categorySeats": {
+      "1": 2
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366432,
+    "instituteId": 388,
+    "courseId": 69,
+    "quotaId": 116,
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
+    "programRaw": "MS GENERAL SURGERY",
+    "totalSeats": 6,
+    "categorySeats": {
+      "1": 6
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366095,
+    "instituteId": 388,
+    "courseId": 67,
+    "quotaId": 116,
+    "instituteCode": "040",
+    "instituteName": "HERITAGE MEDICAL COLLEGE, VARANASI",
+    "programRaw": "MD RESPIRATORY MEDICINE",
+    "totalSeats": 3,
+    "categorySeats": {
+      "1": 3
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366105,
+    "instituteId": 398,
+    "courseId": 32,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD ANAESTHESIA",
+    "totalSeats": 7,
+    "categorySeats": {
+      "1": 7
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 408348,
+    "instituteId": 398,
+    "courseId": 34,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MS ANATOMY",
+    "totalSeats": 2,
+    "categorySeats": {
+      "1": 2
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 365960,
+    "instituteId": 398,
+    "courseId": 68,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MS ENT",
+    "totalSeats": 2,
+    "categorySeats": {
+      "1": 2
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 365839,
+    "instituteId": 398,
+    "courseId": 70,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MS OBSTETRICS & GYNAECOLOGY",
+    "totalSeats": 4,
+    "categorySeats": {
+      "1": 4
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 450703,
+    "instituteId": 398,
+    "courseId": 37,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD BIOCHEMISTRY",
+    "totalSeats": 1,
+    "categorySeats": {
+      "1": 1
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366068,
+    "instituteId": 398,
+    "courseId": 46,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD GENERAL MEDICINE",
+    "totalSeats": 10,
+    "categorySeats": {
+      "1": 10
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366528,
+    "instituteId": 398,
+    "courseId": 45,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD FORENSIC MEDICINE",
+    "totalSeats": 2,
+    "categorySeats": {
+      "1": 2
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 450620,
+    "instituteId": 398,
+    "courseId": 51,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD MICROBIOLOGY",
+    "totalSeats": 4,
+    "categorySeats": {
+      "1": 4
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366192,
+    "instituteId": 398,
+    "courseId": 71,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MS OPHTHALMOLOGY",
+    "totalSeats": 2,
+    "categorySeats": {
+      "1": 2
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366205,
+    "instituteId": 398,
+    "courseId": 72,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MS ORTHOPAEDICS",
+    "totalSeats": 4,
+    "categorySeats": {
+      "1": 4
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 365908,
+    "instituteId": 398,
+    "courseId": 53,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD PAEDIATRICS",
+    "totalSeats": 3,
+    "categorySeats": {
+      "1": 3
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366559,
+    "instituteId": 398,
+    "courseId": 55,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD PATHOLOGY",
+    "totalSeats": 4,
+    "categorySeats": {
+      "1": 4
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 450672,
+    "instituteId": 398,
+    "courseId": 57,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD PHARMACOLOGY",
+    "totalSeats": 4,
+    "categorySeats": {
+      "1": 4
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 450691,
+    "instituteId": 398,
+    "courseId": 59,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD PHYSIOLOGY",
+    "totalSeats": 3,
+    "categorySeats": {
+      "1": 3
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366022,
+    "instituteId": 398,
+    "courseId": 60,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD PSYCHIATRY",
+    "totalSeats": 2,
+    "categorySeats": {
+      "1": 2
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 365977,
+    "instituteId": 398,
+    "courseId": 62,
+    "quotaId": 116,
+    "instituteCode": "041",
+    "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
+    "programRaw": "MD RADIODIAGNOSIS",
+    "totalSeats": 4,
+    "categorySeats": {
+      "1": 4
+    },
+    "year": 2026,
+    "round": 1,
+    "sourceType": "Uttar Pradesh Private Seats - Open Quota",
+    "source": "UP DGME State Counselling"
+  },
+  {
+    "optionId": 366249,
+    "instituteId": 398,
+    "courseId": 42,
+    "quotaId": 116,
     "instituteCode": "041",
     "instituteName": "HIND MEDICAL COLLEGE BARABANKI",
     "programRaw": "MD DERMATOLOGY",
@@ -9116,8 +9116,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800976,
-    "instituteId": 388,
+    "optionId": 408140,
+    "instituteId": 398,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "041",
@@ -9133,8 +9133,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366432,
-    "instituteId": 388,
+    "optionId": 365848,
+    "instituteId": 398,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "041",
@@ -9150,8 +9150,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366095,
-    "instituteId": 388,
+    "optionId": 365891,
+    "instituteId": 398,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "041",
@@ -9762,7 +9762,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800977,
+    "optionId": 800873,
     "instituteId": 390,
     "courseId": 51,
     "quotaId": 117,
@@ -9898,7 +9898,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800978,
+    "optionId": 800874,
     "instituteId": 390,
     "courseId": 63,
     "quotaId": 117,
@@ -9949,7 +9949,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800979,
+    "optionId": 800875,
     "instituteId": 1356,
     "courseId": 34,
     "quotaId": 116,
@@ -10017,7 +10017,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800980,
+    "optionId": 800876,
     "instituteId": 1356,
     "courseId": 37,
     "quotaId": 116,
@@ -10051,7 +10051,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800981,
+    "optionId": 800877,
     "instituteId": 1356,
     "courseId": 51,
     "quotaId": 116,
@@ -10153,7 +10153,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800982,
+    "optionId": 800878,
     "instituteId": 1356,
     "courseId": 59,
     "quotaId": 116,
@@ -10493,8 +10493,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800983,
-    "instituteId": 387,
+    "optionId": 366096,
+    "instituteId": 392,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10510,8 +10510,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800984,
-    "instituteId": 387,
+    "optionId": 800879,
+    "instituteId": 392,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10527,8 +10527,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800985,
-    "instituteId": 387,
+    "optionId": 365767,
+    "instituteId": 392,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10544,8 +10544,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800986,
-    "instituteId": 387,
+    "optionId": 365783,
+    "instituteId": 392,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10561,8 +10561,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800987,
-    "instituteId": 387,
+    "optionId": 800880,
+    "instituteId": 392,
     "courseId": 37,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10578,8 +10578,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800988,
-    "instituteId": 387,
+    "optionId": 366071,
+    "instituteId": 392,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10595,8 +10595,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800989,
-    "instituteId": 387,
+    "optionId": 800881,
+    "instituteId": 392,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10612,8 +10612,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800990,
-    "instituteId": 387,
+    "optionId": 365941,
+    "instituteId": 392,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10629,8 +10629,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800991,
-    "instituteId": 387,
+    "optionId": 366223,
+    "instituteId": 392,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10646,8 +10646,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800992,
-    "instituteId": 387,
+    "optionId": 366261,
+    "instituteId": 392,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10663,8 +10663,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800993,
-    "instituteId": 387,
+    "optionId": 408243,
+    "instituteId": 392,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10680,8 +10680,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800994,
-    "instituteId": 387,
+    "optionId": 450617,
+    "instituteId": 392,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10697,8 +10697,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800995,
-    "instituteId": 387,
+    "optionId": 800882,
+    "instituteId": 392,
     "courseId": 59,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10714,8 +10714,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800996,
-    "instituteId": 387,
+    "optionId": 366199,
+    "instituteId": 392,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10731,8 +10731,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800997,
-    "instituteId": 387,
+    "optionId": 366231,
+    "instituteId": 392,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10748,8 +10748,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800998,
-    "instituteId": 387,
+    "optionId": 450665,
+    "instituteId": 392,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10765,8 +10765,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 800999,
-    "instituteId": 387,
+    "optionId": 366492,
+    "instituteId": 392,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10782,8 +10782,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801000,
-    "instituteId": 387,
+    "optionId": 366182,
+    "instituteId": 392,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "047",
@@ -10816,7 +10816,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801001,
+    "optionId": 800883,
     "instituteId": 382,
     "courseId": 34,
     "quotaId": 116,
@@ -11156,7 +11156,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801002,
+    "optionId": 800884,
     "instituteId": 6342,
     "courseId": 34,
     "quotaId": 116,
@@ -11207,7 +11207,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801003,
+    "optionId": 800885,
     "instituteId": 6342,
     "courseId": 37,
     "quotaId": 116,
@@ -11241,7 +11241,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801004,
+    "optionId": 800886,
     "instituteId": 6342,
     "courseId": 51,
     "quotaId": 116,
@@ -11326,7 +11326,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801005,
+    "optionId": 800887,
     "instituteId": 6342,
     "courseId": 57,
     "quotaId": 116,
@@ -11343,7 +11343,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801006,
+    "optionId": 800888,
     "instituteId": 6342,
     "courseId": 59,
     "quotaId": 116,
@@ -11411,7 +11411,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801007,
+    "optionId": 800889,
     "instituteId": 6342,
     "courseId": 63,
     "quotaId": 116,
@@ -11632,7 +11632,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801008,
+    "optionId": 800890,
     "instituteId": 1931,
     "courseId": 57,
     "quotaId": 116,
@@ -11649,7 +11649,7 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801009,
+    "optionId": 800891,
     "instituteId": 1931,
     "courseId": 59,
     "quotaId": 116,
@@ -12159,8 +12159,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801010,
-    "instituteId": 394,
+    "optionId": 366296,
+    "instituteId": 393,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12176,8 +12176,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801011,
-    "instituteId": 394,
+    "optionId": 800892,
+    "instituteId": 393,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12193,8 +12193,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801012,
-    "instituteId": 394,
+    "optionId": 408300,
+    "instituteId": 393,
     "courseId": 43,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12210,8 +12210,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801013,
-    "instituteId": 394,
+    "optionId": 365863,
+    "instituteId": 393,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12227,8 +12227,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801014,
-    "instituteId": 394,
+    "optionId": 365851,
+    "instituteId": 393,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12244,8 +12244,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801015,
-    "instituteId": 394,
+    "optionId": 450641,
+    "instituteId": 393,
     "courseId": 37,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12261,8 +12261,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801016,
-    "instituteId": 394,
+    "optionId": 365969,
+    "instituteId": 393,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12278,8 +12278,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801017,
-    "instituteId": 394,
+    "optionId": 408262,
+    "instituteId": 393,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12295,8 +12295,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801018,
-    "instituteId": 394,
+    "optionId": 366290,
+    "instituteId": 393,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12312,8 +12312,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801019,
-    "instituteId": 394,
+    "optionId": 366391,
+    "instituteId": 393,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12329,8 +12329,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801020,
-    "instituteId": 394,
+    "optionId": 366345,
+    "instituteId": 393,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12346,8 +12346,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801021,
-    "instituteId": 394,
+    "optionId": 408364,
+    "instituteId": 393,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12363,8 +12363,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801022,
-    "instituteId": 394,
+    "optionId": 450607,
+    "instituteId": 393,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12380,8 +12380,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801023,
-    "instituteId": 394,
+    "optionId": 524652,
+    "instituteId": 393,
     "courseId": 59,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12397,8 +12397,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801024,
-    "instituteId": 394,
+    "optionId": 366548,
+    "instituteId": 393,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12414,8 +12414,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801025,
-    "instituteId": 394,
+    "optionId": 365953,
+    "instituteId": 393,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12431,8 +12431,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801026,
-    "instituteId": 394,
+    "optionId": 366452,
+    "instituteId": 393,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12448,8 +12448,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801027,
-    "instituteId": 394,
+    "optionId": 365925,
+    "instituteId": 393,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12465,8 +12465,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801028,
-    "instituteId": 394,
+    "optionId": 365821,
+    "instituteId": 393,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12482,8 +12482,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801029,
-    "instituteId": 394,
+    "optionId": 365933,
+    "instituteId": 393,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "053",
@@ -12499,8 +12499,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365787,
-    "instituteId": 385,
+    "optionId": 366067,
+    "instituteId": 399,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12516,8 +12516,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366353,
-    "instituteId": 385,
+    "optionId": 365882,
+    "instituteId": 399,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12533,8 +12533,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366320,
-    "instituteId": 385,
+    "optionId": 365949,
+    "instituteId": 399,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12550,8 +12550,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366168,
-    "instituteId": 385,
+    "optionId": 365877,
+    "instituteId": 399,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12567,8 +12567,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366170,
-    "instituteId": 385,
+    "optionId": 366287,
+    "instituteId": 399,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12584,8 +12584,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365815,
-    "instituteId": 385,
+    "optionId": 365971,
+    "instituteId": 399,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12601,8 +12601,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366114,
-    "instituteId": 385,
+    "optionId": 366172,
+    "instituteId": 399,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12618,8 +12618,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366122,
-    "instituteId": 385,
+    "optionId": 439539,
+    "instituteId": 399,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12635,8 +12635,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366470,
-    "instituteId": 385,
+    "optionId": 366502,
+    "instituteId": 399,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12652,8 +12652,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365954,
-    "instituteId": 385,
+    "optionId": 366436,
+    "instituteId": 399,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12669,8 +12669,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366019,
-    "instituteId": 385,
+    "optionId": 365788,
+    "instituteId": 399,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12686,8 +12686,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366376,
-    "instituteId": 385,
+    "optionId": 366178,
+    "instituteId": 399,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "054",
@@ -12703,8 +12703,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366040,
-    "instituteId": 382,
+    "optionId": 365801,
+    "instituteId": 396,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12720,8 +12720,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439450,
-    "instituteId": 382,
+    "optionId": 439474,
+    "instituteId": 396,
     "courseId": 43,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12737,8 +12737,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366418,
-    "instituteId": 382,
+    "optionId": 365955,
+    "instituteId": 396,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12754,8 +12754,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366426,
-    "instituteId": 382,
+    "optionId": 365862,
+    "instituteId": 396,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12771,8 +12771,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450654,
-    "instituteId": 382,
+    "optionId": 450677,
+    "instituteId": 396,
     "courseId": 37,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12788,8 +12788,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366469,
-    "instituteId": 382,
+    "optionId": 366556,
+    "instituteId": 396,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12805,8 +12805,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450610,
-    "instituteId": 382,
+    "optionId": 366398,
+    "instituteId": 396,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12822,8 +12822,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365805,
-    "instituteId": 382,
+    "optionId": 366001,
+    "instituteId": 396,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12839,8 +12839,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365966,
-    "instituteId": 382,
+    "optionId": 365885,
+    "instituteId": 396,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12856,8 +12856,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365829,
-    "instituteId": 382,
+    "optionId": 365857,
+    "instituteId": 396,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12873,8 +12873,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366210,
-    "instituteId": 382,
+    "optionId": 408302,
+    "instituteId": 396,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12890,8 +12890,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450669,
-    "instituteId": 382,
+    "optionId": 450694,
+    "instituteId": 396,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12907,8 +12907,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366111,
-    "instituteId": 382,
+    "optionId": 366162,
+    "instituteId": 396,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12924,8 +12924,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365772,
-    "instituteId": 382,
+    "optionId": 366028,
+    "instituteId": 396,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12941,8 +12941,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366107,
-    "instituteId": 382,
+    "optionId": 366032,
+    "instituteId": 396,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12958,8 +12958,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408221,
-    "instituteId": 382,
+    "optionId": 365823,
+    "instituteId": 396,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12975,8 +12975,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365810,
-    "instituteId": 382,
+    "optionId": 366508,
+    "instituteId": 396,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "055",
@@ -12992,8 +12992,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366227,
-    "instituteId": 382,
+    "optionId": 365958,
+    "instituteId": 396,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "055",
@@ -13009,8 +13009,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801030,
-    "instituteId": 377,
+    "optionId": 365886,
+    "instituteId": 383,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13026,8 +13026,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801031,
-    "instituteId": 377,
+    "optionId": 800893,
+    "instituteId": 383,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13043,8 +13043,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801032,
-    "instituteId": 377,
+    "optionId": 439432,
+    "instituteId": 383,
     "courseId": 43,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13060,8 +13060,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801033,
-    "instituteId": 377,
+    "optionId": 366152,
+    "instituteId": 383,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13077,8 +13077,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801034,
-    "instituteId": 377,
+    "optionId": 365923,
+    "instituteId": 383,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13094,8 +13094,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801035,
-    "instituteId": 377,
+    "optionId": 800894,
+    "instituteId": 383,
     "courseId": 37,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13111,8 +13111,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801036,
-    "instituteId": 377,
+    "optionId": 365806,
+    "instituteId": 383,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13128,8 +13128,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801037,
-    "instituteId": 377,
+    "optionId": 408222,
+    "instituteId": 383,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13145,8 +13145,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801038,
-    "instituteId": 377,
+    "optionId": 504948,
+    "instituteId": 383,
     "courseId": 61,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13162,8 +13162,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801039,
-    "instituteId": 377,
+    "optionId": 366137,
+    "instituteId": 383,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13179,8 +13179,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801040,
-    "instituteId": 377,
+    "optionId": 366034,
+    "instituteId": 383,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13196,8 +13196,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801041,
-    "instituteId": 377,
+    "optionId": 365879,
+    "instituteId": 383,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13213,8 +13213,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801042,
-    "instituteId": 377,
+    "optionId": 366059,
+    "instituteId": 383,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13230,8 +13230,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801043,
-    "instituteId": 377,
+    "optionId": 450693,
+    "instituteId": 383,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13247,8 +13247,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801044,
-    "instituteId": 377,
+    "optionId": 800895,
+    "instituteId": 383,
     "courseId": 59,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13264,8 +13264,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801045,
-    "instituteId": 377,
+    "optionId": 366445,
+    "instituteId": 383,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13281,8 +13281,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801046,
-    "instituteId": 377,
+    "optionId": 365878,
+    "instituteId": 383,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13298,8 +13298,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801047,
-    "instituteId": 377,
+    "optionId": 366323,
+    "instituteId": 383,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13315,8 +13315,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801048,
-    "instituteId": 377,
+    "optionId": 366509,
+    "instituteId": 383,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13332,8 +13332,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801049,
-    "instituteId": 377,
+    "optionId": 366547,
+    "instituteId": 383,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13349,8 +13349,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801050,
-    "instituteId": 377,
+    "optionId": 366054,
+    "instituteId": 383,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "056",
@@ -13366,8 +13366,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366215,
-    "instituteId": 378,
+    "optionId": 366336,
+    "instituteId": 384,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13383,8 +13383,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801051,
-    "instituteId": 378,
+    "optionId": 800896,
+    "instituteId": 384,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13400,8 +13400,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366208,
-    "instituteId": 378,
+    "optionId": 365782,
+    "instituteId": 384,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13417,8 +13417,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366165,
-    "instituteId": 378,
+    "optionId": 365937,
+    "instituteId": 384,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13434,8 +13434,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365920,
-    "instituteId": 378,
+    "optionId": 365781,
+    "instituteId": 384,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13451,8 +13451,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366089,
-    "instituteId": 378,
+    "optionId": 524636,
+    "instituteId": 384,
     "courseId": 45,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13468,8 +13468,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450696,
-    "instituteId": 378,
+    "optionId": 450643,
+    "instituteId": 384,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13485,8 +13485,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366430,
-    "instituteId": 378,
+    "optionId": 365827,
+    "instituteId": 384,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13502,8 +13502,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365947,
-    "instituteId": 378,
+    "optionId": 366473,
+    "instituteId": 384,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13519,8 +13519,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366072,
-    "instituteId": 378,
+    "optionId": 365774,
+    "instituteId": 384,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13536,8 +13536,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366266,
-    "instituteId": 378,
+    "optionId": 365911,
+    "instituteId": 384,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13553,8 +13553,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450661,
-    "instituteId": 378,
+    "optionId": 450636,
+    "instituteId": 384,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13570,8 +13570,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801052,
-    "instituteId": 378,
+    "optionId": 800897,
+    "instituteId": 384,
     "courseId": 59,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13587,8 +13587,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366042,
-    "instituteId": 378,
+    "optionId": 366411,
+    "instituteId": 384,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13604,8 +13604,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365825,
-    "instituteId": 378,
+    "optionId": 365824,
+    "instituteId": 384,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13621,8 +13621,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365902,
-    "instituteId": 378,
+    "optionId": 365845,
+    "instituteId": 384,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13638,8 +13638,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366462,
-    "instituteId": 378,
+    "optionId": 408239,
+    "instituteId": 384,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13655,8 +13655,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365934,
-    "instituteId": 378,
+    "optionId": 366446,
+    "instituteId": 384,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "057",
@@ -13672,8 +13672,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366159,
-    "instituteId": 378,
+    "optionId": 366455,
+    "instituteId": 384,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "057",
@@ -14182,8 +14182,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366096,
-    "instituteId": 392,
+    "optionId": 365893,
+    "instituteId": 402,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14199,8 +14199,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801053,
-    "instituteId": 392,
+    "optionId": 800898,
+    "instituteId": 402,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14216,8 +14216,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801054,
-    "instituteId": 392,
+    "optionId": 408333,
+    "instituteId": 402,
     "courseId": 43,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14233,8 +14233,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365767,
-    "instituteId": 392,
+    "optionId": 366308,
+    "instituteId": 402,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14250,8 +14250,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365783,
-    "instituteId": 392,
+    "optionId": 365961,
+    "instituteId": 402,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14267,8 +14267,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801055,
-    "instituteId": 392,
+    "optionId": 365791,
+    "instituteId": 402,
     "courseId": 49,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14284,8 +14284,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801056,
-    "instituteId": 392,
+    "optionId": 450618,
+    "instituteId": 402,
     "courseId": 37,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14301,8 +14301,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366071,
-    "instituteId": 392,
+    "optionId": 366016,
+    "instituteId": 402,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14318,8 +14318,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801057,
-    "instituteId": 392,
+    "optionId": 408163,
+    "instituteId": 402,
     "courseId": 45,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14335,8 +14335,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801058,
-    "instituteId": 392,
+    "optionId": 450675,
+    "instituteId": 402,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14352,8 +14352,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801059,
-    "instituteId": 392,
+    "optionId": 365939,
+    "instituteId": 402,
     "courseId": 61,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14369,8 +14369,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365941,
-    "instituteId": 392,
+    "optionId": 365778,
+    "instituteId": 402,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14386,8 +14386,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366223,
-    "instituteId": 392,
+    "optionId": 366468,
+    "instituteId": 402,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14403,8 +14403,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366261,
-    "instituteId": 392,
+    "optionId": 366102,
+    "instituteId": 402,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14420,8 +14420,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408243,
-    "instituteId": 392,
+    "optionId": 366220,
+    "instituteId": 402,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14437,8 +14437,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450617,
-    "instituteId": 392,
+    "optionId": 450697,
+    "instituteId": 402,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14454,8 +14454,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801060,
-    "instituteId": 392,
+    "optionId": 800899,
+    "instituteId": 402,
     "courseId": 59,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14471,8 +14471,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801061,
-    "instituteId": 392,
+    "optionId": 366437,
+    "instituteId": 402,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14488,8 +14488,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366199,
-    "instituteId": 392,
+    "optionId": 365952,
+    "instituteId": 402,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14505,8 +14505,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366231,
-    "instituteId": 392,
+    "optionId": 366295,
+    "instituteId": 402,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14522,8 +14522,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450665,
-    "instituteId": 392,
+    "optionId": 366354,
+    "instituteId": 402,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14539,8 +14539,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366492,
-    "instituteId": 392,
+    "optionId": 365820,
+    "instituteId": 402,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "059",
@@ -14556,8 +14556,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366182,
-    "instituteId": 392,
+    "optionId": 365785,
+    "instituteId": 402,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "059",
@@ -15440,8 +15440,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366045,
-    "instituteId": 381,
+    "optionId": 366215,
+    "instituteId": 378,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15457,8 +15457,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366363,
-    "instituteId": 381,
+    "optionId": 800900,
+    "instituteId": 378,
     "courseId": 34,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15474,8 +15474,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366081,
-    "instituteId": 381,
+    "optionId": 366208,
+    "instituteId": 378,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15491,8 +15491,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365807,
-    "instituteId": 381,
+    "optionId": 366165,
+    "instituteId": 378,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15508,8 +15508,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408362,
-    "instituteId": 381,
+    "optionId": 450695,
+    "instituteId": 378,
     "courseId": 37,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15525,8 +15525,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366229,
-    "instituteId": 381,
+    "optionId": 365920,
+    "instituteId": 378,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15542,8 +15542,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801062,
-    "instituteId": 381,
+    "optionId": 366089,
+    "instituteId": 378,
     "courseId": 45,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15559,8 +15559,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 408305,
-    "instituteId": 381,
+    "optionId": 450696,
+    "instituteId": 378,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15576,8 +15576,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365889,
-    "instituteId": 381,
+    "optionId": 366430,
+    "instituteId": 378,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15593,8 +15593,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366351,
-    "instituteId": 381,
+    "optionId": 365947,
+    "instituteId": 378,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15610,8 +15610,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366157,
-    "instituteId": 381,
+    "optionId": 366072,
+    "instituteId": 378,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15627,8 +15627,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366217,
-    "instituteId": 381,
+    "optionId": 366266,
+    "instituteId": 378,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15644,8 +15644,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450633,
-    "instituteId": 381,
+    "optionId": 450661,
+    "instituteId": 378,
     "courseId": 57,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15661,8 +15661,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450688,
-    "instituteId": 381,
+    "optionId": 800901,
+    "instituteId": 378,
     "courseId": 59,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15678,8 +15678,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366235,
-    "instituteId": 381,
+    "optionId": 366042,
+    "instituteId": 378,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15695,8 +15695,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365929,
-    "instituteId": 381,
+    "optionId": 365825,
+    "instituteId": 378,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15712,8 +15712,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 365853,
-    "instituteId": 381,
+    "optionId": 365902,
+    "instituteId": 378,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15729,8 +15729,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450698,
-    "instituteId": 381,
+    "optionId": 366462,
+    "instituteId": 378,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15746,8 +15746,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366085,
-    "instituteId": 381,
+    "optionId": 365934,
+    "instituteId": 378,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15763,8 +15763,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366026,
-    "instituteId": 381,
+    "optionId": 366159,
+    "instituteId": 378,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "062",
@@ -15780,8 +15780,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 504942,
-    "instituteId": 381,
+    "optionId": 365980,
+    "instituteId": 378,
     "courseId": 32,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15797,8 +15797,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801063,
-    "instituteId": 381,
+    "optionId": 800902,
+    "instituteId": 378,
     "courseId": 34,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15814,8 +15814,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801064,
-    "instituteId": 381,
+    "optionId": 439490,
+    "instituteId": 378,
     "courseId": 68,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15831,8 +15831,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 504946,
-    "instituteId": 381,
+    "optionId": 366318,
+    "instituteId": 378,
     "courseId": 70,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15848,8 +15848,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801065,
-    "instituteId": 381,
+    "optionId": 800903,
+    "instituteId": 378,
     "courseId": 37,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15865,8 +15865,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 504943,
-    "instituteId": 381,
+    "optionId": 366117,
+    "instituteId": 378,
     "courseId": 46,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15882,8 +15882,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801066,
-    "instituteId": 381,
+    "optionId": 800904,
+    "instituteId": 378,
     "courseId": 45,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15899,8 +15899,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801067,
-    "instituteId": 381,
+    "optionId": 800905,
+    "instituteId": 378,
     "courseId": 51,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15916,8 +15916,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 504947,
-    "instituteId": 381,
+    "optionId": 408135,
+    "instituteId": 378,
     "courseId": 71,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15933,8 +15933,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 499568,
-    "instituteId": 381,
+    "optionId": 365945,
+    "instituteId": 378,
     "courseId": 72,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15950,8 +15950,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 499565,
-    "instituteId": 381,
+    "optionId": 366272,
+    "instituteId": 378,
     "courseId": 53,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15967,8 +15967,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801068,
-    "instituteId": 381,
+    "optionId": 450629,
+    "instituteId": 378,
     "courseId": 55,
     "quotaId": 117,
     "instituteCode": "063",
@@ -15984,8 +15984,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801069,
-    "instituteId": 381,
+    "optionId": 800906,
+    "instituteId": 378,
     "courseId": 57,
     "quotaId": 117,
     "instituteCode": "063",
@@ -16001,8 +16001,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801070,
-    "instituteId": 381,
+    "optionId": 800907,
+    "instituteId": 378,
     "courseId": 59,
     "quotaId": 117,
     "instituteCode": "063",
@@ -16018,8 +16018,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 504944,
-    "instituteId": 381,
+    "optionId": 366402,
+    "instituteId": 378,
     "courseId": 60,
     "quotaId": 117,
     "instituteCode": "063",
@@ -16035,8 +16035,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 499567,
-    "instituteId": 381,
+    "optionId": 365834,
+    "instituteId": 378,
     "courseId": 62,
     "quotaId": 117,
     "instituteCode": "063",
@@ -16052,8 +16052,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 503704,
-    "instituteId": 381,
+    "optionId": 366113,
+    "instituteId": 378,
     "courseId": 42,
     "quotaId": 117,
     "instituteCode": "063",
@@ -16069,8 +16069,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801071,
-    "instituteId": 381,
+    "optionId": 800908,
+    "instituteId": 378,
     "courseId": 63,
     "quotaId": 117,
     "instituteCode": "063",
@@ -16086,8 +16086,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 504945,
-    "instituteId": 381,
+    "optionId": 366043,
+    "instituteId": 378,
     "courseId": 69,
     "quotaId": 117,
     "instituteCode": "063",
@@ -16103,8 +16103,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801072,
-    "instituteId": 381,
+    "optionId": 365828,
+    "instituteId": 378,
     "courseId": 67,
     "quotaId": 117,
     "instituteCode": "063",
@@ -16324,8 +16324,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366551,
-    "instituteId": 1359,
+    "optionId": 365896,
+    "instituteId": 1358,
     "courseId": 32,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16341,8 +16341,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450644,
-    "instituteId": 1359,
+    "optionId": 366151,
+    "instituteId": 1358,
     "courseId": 68,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16358,8 +16358,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439423,
-    "instituteId": 1359,
+    "optionId": 366104,
+    "instituteId": 1358,
     "courseId": 70,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16375,8 +16375,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439505,
-    "instituteId": 1359,
+    "optionId": 366331,
+    "instituteId": 1358,
     "courseId": 46,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16392,8 +16392,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801073,
-    "instituteId": 1359,
+    "optionId": 450635,
+    "instituteId": 1358,
     "courseId": 51,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16409,8 +16409,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 446482,
-    "instituteId": 1359,
+    "optionId": 365978,
+    "instituteId": 1358,
     "courseId": 71,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16426,8 +16426,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439473,
-    "instituteId": 1359,
+    "optionId": 366561,
+    "instituteId": 1358,
     "courseId": 72,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16443,8 +16443,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439525,
-    "instituteId": 1359,
+    "optionId": 366124,
+    "instituteId": 1358,
     "courseId": 53,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16460,8 +16460,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 450634,
-    "instituteId": 1359,
+    "optionId": 366153,
+    "instituteId": 1358,
     "courseId": 55,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16477,8 +16477,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439445,
-    "instituteId": 1359,
+    "optionId": 366147,
+    "instituteId": 1358,
     "courseId": 60,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16494,8 +16494,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439422,
-    "instituteId": 1359,
+    "optionId": 366109,
+    "instituteId": 1358,
     "courseId": 62,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16511,8 +16511,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 366064,
-    "instituteId": 1359,
+    "optionId": 366289,
+    "instituteId": 1358,
     "courseId": 42,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16528,8 +16528,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801074,
-    "instituteId": 1359,
+    "optionId": 450632,
+    "instituteId": 1358,
     "courseId": 63,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16545,8 +16545,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 439522,
-    "instituteId": 1359,
+    "optionId": 366058,
+    "instituteId": 1358,
     "courseId": 69,
     "quotaId": 116,
     "instituteCode": "065",
@@ -16562,8 +16562,8 @@
     "source": "UP DGME State Counselling"
   },
   {
-    "optionId": 801075,
-    "instituteId": 1359,
+    "optionId": 365835,
+    "instituteId": 1358,
     "courseId": 67,
     "quotaId": 116,
     "instituteCode": "065",
