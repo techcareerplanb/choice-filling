@@ -1,11 +1,12 @@
 {
   "datasetVersion": "1.0.0",
   "source": "Uttar pradesh.json",
-  "retrievedAt": "2026-10-30T11:52:23.305Z",
-  "recordCount": 2165,
+  "retrievedAt": "2026-11-13T07:23:19.621Z",
+  "recordCount": 2246,
   "historicalYears": [
     2024,
-    2025
+    2025,
+    2026
   ],
   "availableRounds": [
     1,
@@ -14,5 +15,5 @@
     4,
     5
   ],
-  "generatedAt": "2026-10-30T11:52:23.312Z"
+  "generatedAt": "2026-11-13T07:23:19.623Z"
 }

@@ -1,11 +1,12 @@
 {
   "datasetVersion": "1.0.0",
   "source": "Uttarakhand.json",
-  "retrievedAt": "2026-10-28T07:06:41.553Z",
-  "recordCount": 354,
+  "retrievedAt": "2026-11-13T07:23:19.719Z",
+  "recordCount": 452,
   "historicalYears": [
     2024,
-    2025
+    2025,
+    2026
   ],
   "availableRounds": [
     1,
@@ -14,5 +15,5 @@
     4,
     5
   ],
-  "generatedAt": "2026-10-28T07:06:41.553Z"
+  "generatedAt": "2026-11-13T07:23:19.720Z"
 }
